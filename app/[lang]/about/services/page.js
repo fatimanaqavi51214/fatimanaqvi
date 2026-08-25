@@ -1,5 +1,4 @@
-import { translations } from '../../i18n/translations';
-
+import { translations } from '../../../i18n/translations';
 export default function Services({ params }) {
   const { lang } = params;
   const t = translations[lang];
