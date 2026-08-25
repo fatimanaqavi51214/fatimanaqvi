@@ -1,4 +1,7 @@
 export default function Home() {
+  const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1787489086/SeoraNusratFatimaNaqvi_DefensoradelaHumanidad-ezgif.com-video-to-webm-converter.webm';
+  const videoHeading = '🎥 Video Introductorio';
+
   const highlights = [
     { icon: '🌍', title: 'Negocios globales', desc: 'Actividades comerciales en Dubái, Sharjah, Damasco, Reino Unido y España' },
     { icon: '🤲', title: 'Servicios benéficos', desc: 'Apadrinamiento y ayuda a huérfanos, pobres y necesitados' },
@@ -15,6 +18,16 @@ export default function Home() {
         Este sitio ofrece información completa sobre los servicios, logros y vida de la Sra. Nusrat Fatima Naqvi.
         Pueden revisar sus servicios más destacados a continuación. Para más detalles, elijan del menú superior.
       </p>
+
+      <h2 className="video-heading">{videoHeading}</h2>
+      <div className="about-video-wrapper">
+        <video
+          src={videoLink}
+          controls
+          className="about-video"
+          playsInline
+        />
+      </div>
 
       <h2>Vista rápida de los servicios más importantes</h2>
       <div className="card-grid">

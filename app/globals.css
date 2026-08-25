@@ -70,56 +70,60 @@ header {
   padding: 0 20px;
 }
 
-/* === مینو / Nav Buttons (Beautiful) === */
+/* === مینو / Nav Buttons (Golden Elegant) === */
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   justify-content: center;
   align-items: center;
 }
 
 .nav-link {
   position: relative;
-  color: #ffffff;
+  color: #e6edf3;
   text-decoration: none;
-  padding: 10px 18px;
-  font-size: 0.93rem;
+  padding: 7px 14px;
+  font-size: 0.88rem;
   font-weight: 600;
-  border-radius: 30px;
-  background: linear-gradient(135deg, var(--bg-3) 0%, var(--bg-2) 100%);
-  border: 1.5px solid var(--border);
-  transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-  box-shadow: var(--shadow-sm);
-  letter-spacing: 0.2px;
-  overflow: hidden;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: all 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  letter-spacing: 0.15px;
+  overflow: visible;
 }
 
-.nav-link::before {
+.nav-link::after {
   content: '';
   position: absolute;
-  inset: 0;
-  background: var(--gradient);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: -1;
+  left: 12px;
+  right: 12px;
+  bottom: 2px;
+  height: 2px;
+  background: linear-gradient(90deg, #d4af37 0%, #f1c40f 50%, #d4af37 100%);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.28s ease;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.55);
 }
 
 .nav-link:hover {
-  color: #fff;
-  border-color: var(--primary-light);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-primary), 0 10px 30px rgba(0,184,148,0.2);
+  color: #f5d76e;
+  background: rgba(212, 175, 55, 0.07);
+  border-color: rgba(212, 175, 55, 0.35);
+  transform: translateY(-1px);
 }
 
-.nav-link:hover::before {
-  opacity: 1;
+.nav-link:hover::after {
+  transform: scaleX(1);
 }
 
-/* === Language Buttons === */
+/* === Language Buttons (Glass Pill Style - Different) === */
 .lang-switcher {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -127,36 +131,48 @@ nav {
 .lang-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  color: var(--text);
+  gap: 5px;
+  color: var(--text-muted);
   text-decoration: none;
-  padding: 7px 14px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border-radius: 999px;
-  background: var(--bg-2);
-  border: 1.5px solid var(--border);
-  transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-  box-shadow: var(--shadow-sm);
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 10px;
+  background:
+    linear-gradient(135deg, rgba(88, 166, 255, 0.08) 0%, rgba(157, 78, 221, 0.08) 100%);
+  border: 1px solid rgba(139, 148, 158, 0.4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
 }
 
 .lang-link .flag {
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.35));
 }
 
 .lang-link:hover {
-  color: #fff;
-  border-color: var(--primary-light);
-  background: var(--bg-3);
-  transform: translateY(-1px);
+  color: #ffffff;
+  border-color: rgba(120, 170, 255, 0.6);
+  background:
+    linear-gradient(135deg, rgba(88, 166, 255, 0.18) 0%, rgba(157, 78, 221, 0.18) 100%);
+  transform: translateY(-1px) scale(1.03);
+  box-shadow: 0 4px 16px rgba(88, 166, 255, 0.22);
 }
 
 .lang-link.active {
   color: #fff;
   border-color: transparent;
-  background: var(--gradient);
-  box-shadow: var(--shadow-primary);
+  background: linear-gradient(135deg, #58a6ff 0%, #9d4edd 100%);
+  box-shadow: 0 4px 18px rgba(157, 78, 221, 0.35),
+              inset 0 1px 0 rgba(255,255,255,0.18);
+  font-weight: 600;
+}
+
+.lang-link.active .flag {
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5));
 }
 
 /* === ہیرو بینر / Hero Banner (On every page) === */
@@ -367,77 +383,225 @@ footer {
   font-size: 0.95rem;
 }
 
+/* === ٹیبلٹ / Tablet === */
+@media (max-width: 960px) {
+  .container {
+    max-width: 100%;
+    padding: 20px 16px 32px;
+  }
+
+  .header-inner {
+    padding: 0 16px;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
+
 /* === موبائل / Mobile Responsive === */
 @media (max-width: 760px) {
+  header {
+    padding: 10px 0;
+  }
+
   .header-inner {
     flex-direction: column;
     text-align: center;
     gap: 12px;
+    padding: 0 12px;
+  }
+
+  .container {
+    padding: 16px 14px 28px;
   }
 
   nav {
     justify-content: center;
-    gap: 7px;
+    gap: 4px 6px;
+    width: 100%;
   }
 
   .nav-link {
-    padding: 7px 13px;
-    font-size: 0.8rem;
+    padding: 5px 10px;
+    font-size: 0.76rem;
+    border-radius: 6px;
+  }
+
+  .nav-link::after {
+    left: 8px;
+    right: 8px;
+    bottom: 1px;
+    height: 1.5px;
+  }
+
+  .lang-switcher {
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
   }
 
   .lang-link {
-    padding: 5px 11px;
-    font-size: 0.78rem;
+    padding: 4px 9px;
+    font-size: 0.73rem;
+    border-radius: 8px;
+  }
+
+  .lang-link .flag {
+    font-size: 0.9rem;
+  }
+
+  .hero-banner {
+    padding: 20px 14px 28px;
   }
 
   .hero-banner .banner-title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    line-height: 1.4;
   }
   .hero-banner .banner-subtitle {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
   .hero-banner .banner-description {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    line-height: 1.7;
   }
   .hero-banner .banner-image {
-    max-height: 240px;
+    max-height: 220px;
+  }
+  .hero-banner .banner-image-wrapper {
+    margin-bottom: 20px;
+    border-radius: 14px;
   }
 
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.55rem;
     border-inline-start: 3px solid var(--primary);
     padding-inline-start: 10px;
+    margin: 20px 0 14px;
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin: 18px 0 10px;
   }
   p {
-    font-size: 0.98rem;
+    font-size: 0.95rem;
+    line-height: 1.75;
     text-align: start;
+    margin-bottom: 12px;
   }
 
   .hero-video-wrapper,
   .about-video-wrapper {
     max-width: 100%;
     aspect-ratio: 16 / 9;
+    border-radius: 12px;
+    margin-bottom: 20px;
   }
 
   .video-heading {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
+    margin: 24px 0 12px;
   }
 
   .card-grid {
     grid-template-columns: 1fr;
+    gap: 14px;
+    margin: 18px 0;
+  }
+
+  .card {
+    padding: 18px;
+    border-radius: 12px;
+  }
+
+  .card .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .timeline-item {
+    padding: 14px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .timeline-item .year {
+    font-size: 1rem;
+    min-width: 50px;
+  }
+
+  footer {
+    padding: 20px 14px;
+    font-size: 0.88rem;
+    margin-top: 28px;
   }
 }
 
-/* === Very small phones === */
+/* === بہت چھوٹے فونز / Very small phones === */
 @media (max-width: 380px) {
   .nav-link {
-    padding: 6px 10px;
-    font-size: 0.73rem;
+    padding: 4px 8px;
+    font-size: 0.68rem;
+    border-radius: 5px;
   }
+
+  .nav-link::after {
+    left: 6px;
+    right: 6px;
+    bottom: 1px;
+    height: 1.5px;
+  }
+
+  .lang-link {
+    padding: 3px 7px;
+    font-size: 0.68rem;
+    border-radius: 7px;
+  }
+
+  .lang-link .flag {
+    font-size: 0.82rem;
+  }
+
   .hero-banner .banner-title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .hero-banner .banner-subtitle {
+    font-size: 0.92rem;
+  }
+
+  .hero-banner .banner-description {
+    font-size: 0.88rem;
+  }
+
+  h1 {
+    font-size: 1.35rem;
+  }
+
+  h2 {
+    font-size: 1.08rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+/* === ہورizonٹل موبائل / Landscape Mobile === */
+@media (max-width: 760px) and (orientation: landscape) {
+  .hero-banner .banner-image {
+    max-height: 160px;
+  }
+
+  .hero-video-wrapper,
+  .about-video-wrapper {
+    max-width: 85%;
   }
 }

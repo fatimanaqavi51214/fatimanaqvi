@@ -1,4 +1,7 @@
 export default function Home() {
+  const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1787489928/Arabic.webm';
+  const videoHeading = '🎥 فيديو تعريفي';
+
   const highlights = [
     { icon: '🌍', title: 'الأعمال العالمية', desc: 'النشاطات التجارية في دبي، الشارقة، دمشق، بريطانيا وإسبانيا' },
     { icon: '🤲', title: 'الخدمات الخيرية', desc: 'كفالة ومساعدة الأيتام والمحتاجين والمستحقين' },
@@ -15,6 +18,16 @@ export default function Home() {
         هذا الموقع يقدم معلومات شاملة عن خدمات، إنجازات وحياة السيدة نصرت فاطمة نقوي.
         يمكنكم الاطلاع على أبرز الخدمات أدناه. لمزيد من التفاصيل اختروا من القائمة أعلاه.
       </p>
+
+      <h2 className="video-heading">{videoHeading}</h2>
+      <div className="about-video-wrapper">
+        <video
+          src={videoLink}
+          controls
+          className="about-video"
+          playsInline
+        />
+      </div>
 
       <h2>نظرة سريعة على أهم الخدمات</h2>
       <div className="card-grid">
