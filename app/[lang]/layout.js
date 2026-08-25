@@ -1,4 +1,4 @@
-import { translations } from '../i18n/translations';
+import { translations } from '@/app/i18n/translations';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import '@/app/globals.css';
