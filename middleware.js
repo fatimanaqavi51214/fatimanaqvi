@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 const DEFAULT_LOCALE = 'ur';
-const SUPPORTED_LOCALES = ['ur', 'ar', 'es'];
+const SUPPORTED_LOCALES = ['ur', 'ar', 'es', 'fa'];
 
 export function middleware(request) {
   const { pathname } = request.nextUrl;

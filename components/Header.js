@@ -21,6 +21,9 @@ export default function Header({ t, lang }) {
           <Link href="/ar" className={`lang-link ${lang === 'ar' ? 'active' : ''}`}>
             <span className="flag">🇸🇦</span> العربية
           </Link>
+          <Link href="/fa" className={`lang-link ${lang === 'fa' ? 'active' : ''}`}>
+            <span className="flag">🇮🇷</span> فارسی
+          </Link>
           <Link href="/es" className={`lang-link ${lang === 'es' ? 'active' : ''}`}>
             <span className="flag">🇪🇸</span> Español
           </Link>
