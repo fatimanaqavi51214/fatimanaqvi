@@ -18,8 +18,48 @@ const t = {
 
 const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
 
+const ogImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
+const siteUrl = 'https://fatimanaqvi.vercel.app/es';
+
 export const metadata = {
-  title: t.siteTitle,
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: t.siteTitle,
+    template: `%s | ${t.siteTitle}`,
+  },
+  description: 'Esfuerzo continuo en el servicio a la humanidad, la Sra. Nusrat Fatima Naqvi, Abogada de la Humanidad.',
+  keywords: [
+    'Nusrat Fatima Naqvi', 'Abogada de la Humanidad',
+    'Servicios benéficos', 'Hussainiya', 'Ahlul Bayt',
+    'Dubái', 'Damasco', 'Pakistán'
+  ],
+  alternates: {
+    canonical: '/',
+    languages: {
+      'ur-PK': '/ur',
+      'ar-SA': '/ar',
+      'fa-IR': '/fa',
+      'es-ES': '/es',
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    alternateLocale: ['ur_PK', 'ar_SA', 'fa_IR'],
+    url: siteUrl,
+    siteName: t.siteTitle,
+    title: t.siteTitle,
+    description: 'Sra. Nusrat Fatima Naqvi - Abogada de la Humanidad, servicio continuo a la humanidad.',
+    images: [
+      { url: ogImage, width: 1200, height: 675, alt: 'Nusrat Fatima Naqvi' },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: t.siteTitle,
+    description: 'Esfuerzo continuo en el servicio a la humanidad.',
+    images: [ogImage],
+  },
 };
 
 export default function SpanishLayout({ children }) {

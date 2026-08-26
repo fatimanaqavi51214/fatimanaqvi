@@ -18,8 +18,47 @@ const t = {
 
 const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
 
+const ogImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
+const siteUrl = 'https://fatimanaqvi.vercel.app/ar';
+
 export const metadata = {
-  title: t.siteTitle,
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: t.siteTitle,
+    template: `%s | ${t.siteTitle}`,
+  },
+  description: 'الجهد المتواصل في خدمة الخلق وذات القلب الحنون، السيدة نصرت فاطمة نقوي وكيلة الإنسانية.',
+  keywords: [
+    'نصرت فاطمة نقوي', 'وكيلة الإنسانية', 'الخدمات الخيرية',
+    'الحسينيات', 'أهل البيت', 'دبي', 'دمشق', 'باكستان'
+  ],
+  alternates: {
+    canonical: '/',
+    languages: {
+      'ur-PK': '/ur',
+      'ar-SA': '/ar',
+      'fa-IR': '/fa',
+      'es-ES': '/es',
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'ar_SA',
+    alternateLocale: ['ur_PK', 'fa_IR', 'es_ES'],
+    url: siteUrl,
+    siteName: t.siteTitle,
+    title: t.siteTitle,
+    description: 'السيدة نصرت فاطمة نقوي - وكيلة الإنسانية، الجهد المتواصل في خدمة الخلق.',
+    images: [
+      { url: ogImage, width: 1200, height: 675, alt: 'نصرت فاطمة نقوي' },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: t.siteTitle,
+    description: 'الجهد المتواصل في خدمة الخلق وذات القلب الحنون.',
+    images: [ogImage],
+  },
 };
 
 export default function ArabicLayout({ children }) {

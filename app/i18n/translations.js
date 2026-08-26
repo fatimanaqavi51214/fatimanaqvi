@@ -55,8 +55,8 @@ export const translations = {
     },
     contact: {
       title: 'رابطہ کریں',
-      email: 'ای میل: example@email.com',
-      phone: 'فون: +92-000-0000000',
+      email: 'ای میل: fatimanaqavi51214@gmail.com',
+      phone: 'فون / واٹس ایپ: +447404640052',
       address: 'پتہ: گلبرگ تھری، لاہور، پاکستان'
     },
     footer: 'تمام حقوق محفوظ ہیں | نصرت فاطمہ نقوی'
@@ -117,8 +117,8 @@ export const translations = {
     },
     contact: {
       title: 'اتصل بنا',
-      email: 'البريد الإلكتروني: example@email.com',
-      phone: 'الهاتف: +92-000-0000000',
+      email: 'البريد الإلكتروني: fatimanaqavi51214@gmail.com',
+      phone: 'الهاتف / واتساب: +447404640052',
       address: 'العنوان: گلبرگ تھری، لاهور، باكستان'
     },
     footer: 'جميع الحقوق محفوظة | نصرت فاطمة نقوي'
@@ -179,8 +179,8 @@ export const translations = {
     },
     contact: {
       title: 'Contáctanos',
-      email: 'Correo electrónico: example@email.com',
-      phone: 'Teléfono: +92-000-0000000',
+      email: 'Correo electrónico: fatimanaqavi51214@gmail.com',
+      phone: 'Teléfono / WhatsApp: +447404640052',
       address: 'Dirección: Gulberg Tres, Lahore, Pakistán'
     },
     footer: 'Todos los derechos reservados | Nusrat Fatima Naqvi'
@@ -241,8 +241,8 @@ export const translations = {
     },
     contact: {
       title: 'تماس با ما',
-      email: 'ایمیل: example@email.com',
-      phone: 'تلفن: +92-000-0000000',
+      email: 'ایمیل: fatimanaqavi51214@gmail.com',
+      phone: 'تلفن / واتساپ: +447404640052',
       address: 'آدرس: گلبرگ سه، لاہور، پاکستان'
     },
     footer: 'کلیه حقوق محفوظ است | نصرت فاطمه نقوی'

@@ -18,8 +18,47 @@ const t = {
 
 const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
 
+const ogImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
+const siteUrl = 'https://fatimanaqvi.vercel.app/fa';
+
 export const metadata = {
-  title: t.siteTitle,
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: t.siteTitle,
+    template: `%s | ${t.siteTitle}`,
+  },
+  description: 'تلاش مستمر در خدمت خلق و زنی والا با قلب مهربان، خانم نصرت فاطمه نقوی وکیل بشریت.',
+  keywords: [
+    'نصرت فاطمه نقوی', 'وکیل بشریت', 'خدمات خیریه',
+    'حسینیه‌ها', 'اهل بیت', 'دبی', 'دمشق', 'پاکستان'
+  ],
+  alternates: {
+    canonical: '/',
+    languages: {
+      'ur-PK': '/ur',
+      'ar-SA': '/ar',
+      'fa-IR': '/fa',
+      'es-ES': '/es',
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'fa_IR',
+    alternateLocale: ['ur_PK', 'ar_SA', 'es_ES'],
+    url: siteUrl,
+    siteName: t.siteTitle,
+    title: t.siteTitle,
+    description: 'خانم نصرت فاطمه نقوی - وکیل بشریت، تلاش مستمر در خدمت خلق.',
+    images: [
+      { url: ogImage, width: 1200, height: 675, alt: 'نصرت فاطمه نقوی' },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: t.siteTitle,
+    description: 'تلاش مستمر در خدمت خلق و زنی والا با قلب مهربان.',
+    images: [ogImage],
+  },
 };
 
 export default function FarsiLayout({ children }) {
