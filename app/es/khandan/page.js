@@ -123,6 +123,12 @@ export default function Khandan() {
           </div>
         ))}
       </div>
+
+      <div className="family-bio-section" style={{ marginTop: '50px', padding: '30px', background: 'rgba(255,255,255,0.03)', borderRadius: '15px', border: '1px solid rgba(255,255,255,0.1)' }}>
+        <p style={{ fontSize: '1.15rem', lineHeight: '2.2', textAlign: 'justify', color: '#e0e0e0', margin: 0 }}>
+          La señora Nusrat Fatima Naqvi nació en 1958 en la ciudad de Karachi, Pakistán. El nombre de su padre es Syed Muhammad Naqvi y el de su madre es Mehr Bano. Nacida en una familia educada y practicante, Nusrat Fatima tuvo desde el principio la firme determinación de avanzar en los campos del conocimiento y la acción, y hoy sigue participando activamente con el mismo entusiasmo. Su marido fue el difunto Ghulam Sarwar Chaudhry, que falleció el 31 de octubre de 2005 en Lahore. Sus hijos incluyen a Hajra Khatoon Chaudhry, Jawad Haider Chaudhry y Fawad Haider Chaudhry. Su dirección permanente en Pakistán es Gulberg III, Lahore. Su esposo tenía tanta confianza en sus habilidades administrativas que en 2004 le otorgó plenos poderes legales (Poder Especial) para administrar el negocio, la educación de los niños y los asuntos de viaje.
+        </p>
+      </div>
     </div>
   );
 }
