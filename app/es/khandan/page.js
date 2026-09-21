@@ -10,7 +10,7 @@ export default function Khandan() {
     {
       name: 'Nusrat Fatima Naqvi',
       relation: 'Persona Principal',
-      image: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1789964573/f5bc5866-4ab6-4ad7-b095-dfc4c360bb22.png',
+      image: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1790006330/735c4dd5-46d1-44ba-b9b8-bef1918756a0.png',
       details: [
         { label: 'Nombre del Padre', value: 'Syed Muhammad Naqvi' },
         { label: 'Nombre de la Madre', value: 'Mehr Bano Naqvi' },
@@ -21,7 +21,7 @@ export default function Khandan() {
     {
       name: 'Syed Muhammad Naqvi',
       relation: 'Padre',
-      image: null,
+      image: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1790006303/f2c918f2-375f-42ea-af3a-36edfe28df9d.png',
       details: [
         { label: 'Nombre del Padre', value: '-' },
         { label: 'Nombre de la Madre', value: '-' },
@@ -31,7 +31,7 @@ export default function Khandan() {
     {
       name: 'Mehr Bano',
       relation: 'Madre',
-      image: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1789964634/c8942b45-f72a-4f98-8d74-873befae1982.png',
+      image: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1790006260/3d67c470-f668-42da-b8eb-f9bc018cb334.png',
       details: [
         { label: 'Nombre del Padre', value: '-' },
         { label: 'Nombre de la Madre', value: '-' },
@@ -41,7 +41,7 @@ export default function Khandan() {
     {
       name: 'Ghulam Sarwar Chaudhry',
       relation: 'Esposo',
-      image: null,
+      image: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1790006363/8418d8a8-c052-4ba4-ad4e-e49b4edb2e71.png',
       details: [
         { label: 'Nombre del Padre', value: 'Fazal Karim' },
         { label: 'Nombre de la Madre', value: 'Sardaran Bibi' },
@@ -63,7 +63,7 @@ export default function Khandan() {
     {
       name: 'Jawad Haider Chaudhry',
       relation: 'Hijo',
-      image: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1789964508/e206754b-b65c-4470-aeec-61d7bad9b683.png',
+      image: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1790006237/9683ab32-ab6b-4d15-a658-ebf31a8e737b.png',
       details: [
         { label: 'Nombre del Padre', value: 'Ghulam Sarwar Chaudhry' },
         { label: 'Nombre de la Madre', value: 'Nusrat Fatima Naqvi' },
