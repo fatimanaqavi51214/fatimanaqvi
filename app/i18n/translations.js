@@ -8,6 +8,7 @@ export const translations = {
       works: 'کارکردگی',
       business: 'کاروبار',
       religious: 'دینی خدمات',
+      family: 'خاندان',
       contact: 'رابطہ کریں'
     },
     home: {
@@ -70,6 +71,7 @@ export const translations = {
       works: 'الإنجازات',
       business: 'الأعمال',
       religious: 'الخدمات الدينية',
+      family: 'العائلة',
       contact: 'اتصل بنا'
     },
     home: {
@@ -132,6 +134,7 @@ export const translations = {
       works: 'Logros',
       business: 'Negocios',
       religious: 'Servicios religiosos',
+      family: 'Familia',
       contact: 'Contacto'
     },
     home: {
@@ -194,6 +197,7 @@ export const translations = {
       works: 'دستاوردها',
       business: 'تجارت',
       religious: 'خدمات مذهبی',
+      family: 'خانواده',
       contact: 'تماس با ما'
     },
     home: {
@@ -246,5 +250,68 @@ export const translations = {
       address: 'آدرس: گلبرگ سه، لاہور، پاکستان'
     },
     footer: 'کلیه حقوق محفوظ است | نصرت فاطمه نقوی'
+  },
+  en: {
+    siteTitle: 'Nusrat Fatima Naqvi | Portfolio',
+    nav: {
+      home: 'Home',
+      about: 'About',
+      services: 'Services',
+      works: 'Achievements',
+      business: 'Business',
+      religious: 'Religious Services',
+      family: 'Family',
+      contact: 'Contact'
+    },
+    home: {
+      title: 'Nusrat Fatima Naqvi',
+      subtitle: 'Advocate for Humanity',
+      description: 'A remarkable lady dedicated to continuous service to humanity with deep compassion'
+    },
+    about: {
+      title: 'About',
+      content: [
+        'Madam Nusrat Fatima Naqvi was born in 1958 in Karachi, Pakistan.',
+        'Opening her eyes in an educated and noble family, Nusrat Fatima resolved from the very beginning to advance in the fields of knowledge, virtue, and practical action.',
+        'Her father was Syed Muhammad Naqvi and her mother was Mehr Bano.',
+        'She is a highly dynamic, courageous, and internationally recognized business and philanthropic figure.'
+      ]
+    },
+    services: {
+      title: 'Services',
+      list: [
+        { icon: '🌍', text: 'Global Business (Dubai, Sharjah, Damascus, UK, Spain)' },
+        { icon: '🤲', text: 'Humanitarian & Welfare Services' },
+        { icon: '🕌', text: 'Establishment of Religious Centers & Hussainiyas' },
+        { icon: '👶', text: 'Care and Support for Orphans & the Needy' },
+        { icon: '📖', text: 'Spreading Islamic Knowledge & Ahlul Bayt (a.s.) Teachings' }
+      ]
+    },
+    works: {
+      title: 'Achievements',
+      list: [
+        { year: '1982', text: 'Donated prime land valued at 25M Syrian Pounds to Syrian Govt for welfare' },
+        { year: '1981', text: 'Construction of Hussainiya Zainab Al-Zahra in Damascus' },
+        { year: '1983', text: 'Donated land to Red Crescent for a hospital and orphanage' },
+        { year: '1989', text: 'Built mosque, clinic, and Quran memorization center in the UAE' },
+        { year: '1994', text: 'Donated valuable land to Ahlul Bayt World Assembly for library & center' },
+        { year: '2007', text: 'Donated medical equipment and aid to Al-Zahra Welfare Clinic' }
+      ]
+    },
+    business: {
+      title: 'Business',
+      content: 'Madam Nusrat Fatima Naqvi’s commercial endeavors span multiple countries worldwide, including Dubai, Sharjah, Damascus, the United Kingdom, and Spain.'
+    },
+    religious: {
+      title: 'Religious Services',
+      content: 'Madam Nusrat Fatima Naqvi has been at the forefront of establishing religious seminaries, Hussainiyas, and spiritual centers, dedicating tireless efforts to the propagation of the noble teachings of Ahlul Bayt (a.s.).'
+    },
+    contact: {
+      title: 'Contact Us',
+      email: 'Email: fatimanaqavi51214@gmail.com',
+      phone: 'Phone / WhatsApp: +447404640052',
+      address: 'Address: Gulberg III, Lahore, Pakistan'
+    },
+    footer: 'All rights reserved | Nusrat Fatima Naqvi'
   }
 };

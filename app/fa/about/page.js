@@ -1,6 +1,7 @@
 export default function About() {
-  const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1787761493/farsi.webm';
+  const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1787761493/farsi.mp4';
   const videoHeading = '🎥 ویدیو معرفی';
+
   const content = [
     'نصرت فاطمه نقوی (وکیل بشریت): تلاش مستمر در خدمت خلق و زنی والا با قلب مهربان',
     'نوشته: حاجی شبیر احمد شگری',
@@ -33,7 +34,7 @@ export default function About() {
   return (
     <div className="container">
       <h1>معرفی</h1>
-      
+
       <h2 className="video-heading">{videoHeading}</h2>
 
       <div className="about-video-wrapper">
@@ -42,6 +43,7 @@ export default function About() {
           controls
           className="about-video"
           playsInline
+          preload="metadata"
         />
       </div>
 

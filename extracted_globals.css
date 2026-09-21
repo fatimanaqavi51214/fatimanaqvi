@@ -1,0 +1,605 @@
+  .hero-video-wrapper,
+  .about-video-wrapper {
+    max-width: 85%;
+  }
+}
+
+/* === فاؤنڈیشن ایودا انٹرنیشنل اور صدائےِ خلق پیج کے اسٹائلز === */
+.ayuda-hero-section {
+  text-align: center;
+  padding: 30px 20px 40px;
+  background: linear-gradient(180deg, rgba(212, 175, 55, 0.08) 0%, rgba(13, 17, 23, 0.6) 100%);
+  border-radius: 20px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  margin-bottom: 35px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.ayuda-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: #f5d76e;
+  padding: 6px 18px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.badge-divider {
+  opacity: 0.6;
+}
+
+.ayuda-main-title {
+  font-size: 2.2rem;
+  margin: 12px 0;
+  background: linear-gradient(135deg, #ffffff 0%, #f5d76e 50%, #00b894 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.highlight-text {
+  color: #f1c40f;
+}
+
+.ayuda-author-line {
+  font-size: 1.15rem;
+  color: #55efc4;
+  margin-bottom: 15px;
+}
+
+.ayuda-hero-description {
+  max-width: 850px;
+  margin: 0 auto 28px;
+  font-size: 1.08rem;
+  line-height: 1.9;
+  text-align: center;
+  color: var(--text);
+  opacity: 0.95;
+}
+
+.ayuda-action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.btn-primary-golden {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #d4af37 0%, #f1c40f 100%);
+  color: #0d1117;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.02rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 18px rgba(212, 175, 55, 0.35);
+  transition: all 0.25s ease;
+}
+
+.btn-primary-golden:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
+}
+
+.btn-secondary-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #e6edf3;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.98rem;
+  text-decoration: none;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  transition: all 0.25s ease;
+}
+
+.btn-secondary-outline:hover {
+  background: rgba(212, 175, 55, 0.12);
+  border-color: #d4af37;
+  color: #f5d76e;
+  transform: translateY(-2px);
+}
+
+/* === اقوال و فرمودات === */
+.ayuda-quotes-section {
+  margin: 40px 0;
+}
+
+.section-title {
+  font-size: 1.7rem;
+  color: #f5d76e;
+  margin-bottom: 24px;
+  text-align: center;
+  border: none;
+  padding: 0;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+}
+
+.quote-card {
+  background: linear-gradient(180deg, var(--bg-2) 0%, var(--bg-3) 100%);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  position: relative;
+  transition: all 0.28s ease;
+}
+
+.quote-card:hover {
+  border-color: #d4af37;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.quote-card.highlight-quote {
+  border: 1.5px solid rgba(212, 175, 55, 0.5);
+  background: linear-gradient(145deg, rgba(212,175,55,0.08) 0%, var(--bg-2) 100%);
+}
+
+.quote-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.quote-card blockquote {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.quote-card cite {
+  display: block;
+  font-size: 0.9rem;
+  color: #55efc4;
+  font-style: normal;
+}
+
+/* === خدمات و عطیات کارڈز === */
+.ayuda-milestones-section {
+  margin: 50px 0;
+}
+
+.section-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 26px;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 18px;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  font-size: 1.02rem;
+  margin-top: 6px;
+}
+
+.milestone-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.m-tab-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.m-tab-btn.active,
+.m-tab-btn:hover {
+  background: #d4af37;
+  color: #0d1117;
+  border-color: #d4af37;
+}
+
+.milestone-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 22px;
+}
+
+.milestone-card {
+  background: linear-gradient(180deg, rgba(22, 27, 34, 0.95) 0%, rgba(33, 38, 45, 0.95) 100%);
+  border: 1px solid rgba(139, 148, 158, 0.25);
+  border-radius: 16px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.milestone-card:hover {
+  border-color: #00b894;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 184, 148, 0.18);
+}
+
+.card-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.m-icon {
+  font-size: 2rem;
+}
+
+.m-year-badge {
+  background: rgba(0, 184, 148, 0.15);
+  color: #55efc4;
+  border: 1px solid rgba(0, 184, 148, 0.4);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.m-title {
+  font-size: 1.25rem;
+  color: #f5d76e;
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+.m-amount-tag {
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #ffffff;
+  margin-bottom: 12px;
+  width: fit-content;
+}
+
+.m-amount-tag strong {
+  color: #f1c40f;
+}
+
+.m-desc {
+  font-size: 0.98rem;
+  line-height: 1.8;
+  color: var(--text);
+  flex-grow: 1;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+.card-footer-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* === قبرستان اور وژن سیکشن === */
+.ayuda-cemetery-section {
+  margin: 50px 0;
+}
+
+.cemetery-inner-card {
+  background: linear-gradient(135deg, rgba(13, 17, 23, 0.9) 0%, rgba(33, 38, 45, 0.9) 100%);
+  border: 2px solid rgba(0, 184, 148, 0.4);
+  border-radius: 20px;
+  padding: 35px 30px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5);
+}
+
+.sub-badge {
+  display: inline-block;
+  color: #55efc4;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.cemetery-quote {
+  background: rgba(0, 184, 148, 0.08);
+  border-inline-start: 4px solid #00b894;
+  padding: 16px 20px;
+  border-radius: 10px;
+  margin: 18px 0 26px;
+  font-size: 1.06rem;
+  line-height: 1.9;
+  color: #ffffff;
+}
+
+.cemetery-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 18px;
+}
+
+.c-feature {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.cf-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.c-feature h4 {
+  font-size: 1.15rem;
+  color: #f5d76e;
+  margin-bottom: 8px;
+}
+
+.c-feature p {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* === مکمل کتاب کا ٹیکسٹ کارڈ === */
+.ayuda-fulltext-section {
+  margin: 50px 0;
+}
+
+.text-container-card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 35px;
+}
+
+.book-text-header {
+  text-align: center;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 20px;
+  margin-bottom: 28px;
+}
+
+.author-tag {
+  color: #d4af37;
+  font-size: 1.1rem;
+  margin-top: 6px;
+}
+
+.prose-content h3 {
+  font-size: 1.35rem;
+  color: #55efc4;
+  margin: 28px 0 12px;
+}
+
+.prose-content p {
+  font-size: 1.05rem;
+  line-height: 2;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+/* === کال ٹو ایکشن === */
+.ayuda-cta-section {
+  margin: 50px 0 20px;
+  text-align: center;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(0, 184, 148, 0.12) 100%);
+  border: 1.5px solid rgba(212, 175, 55, 0.4);
+  border-radius: 20px;
+  padding: 35px 25px;
+}
+
+.cta-box h2 {
+  font-size: 1.8rem;
+  color: #f5d76e;
+  margin-bottom: 12px;
+}
+
+.cta-box p {
+  max-width: 700px;
+  margin: 0 auto 24px;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+.cta-contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+.cta-btn.phone {
+  background: #00b894;
+  color: #0d1117;
+}
+
+.cta-btn.email {
+  background: rgba(212, 175, 55, 0.2);
+  border: 1px solid #d4af37;
+  color: #f5d76e;
+}
+
+.cta-btn.contact-page {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border);
+  color: #ffffff;
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* === پی ڈی ایف موڈل === */
+.pdf-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.pdf-modal-content {
+  background: var(--bg-2);
+  border: 2px solid #d4af37;
+  border-radius: 18px;
+  width: 100%;
+  max-width: 680px;
+  padding: 26px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+  animation: modalFadeIn 0.25s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+
+.modal-header h3 {
+  color: #f5d76e;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #ffffff;
+}
+
+.pdf-info-banner {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.book-cover-mockup {
+  background: linear-gradient(135deg, #0b3954 0%, #087e8b 100%);
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  padding: 25px 18px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-symbol {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.book-cover-mockup h4 {
+  font-size: 1.4rem;
+  color: #f5d76e;
+  margin-bottom: 6px;
+}
+
+.book-cover-mockup p {
+  font-size: 0.8rem;
+  color: #e6edf3;
+  margin-bottom: 12px;
+}
+
+.edition-tag {
+  background: #d4af37;
+  color: #0d1117;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.book-details {
+  flex: 1;
+  min-width: 250px;
+}
+
+.book-details h4 {
+  color: #55efc4;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.book-details ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.book-details li {
+  font-size: 0.92rem;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

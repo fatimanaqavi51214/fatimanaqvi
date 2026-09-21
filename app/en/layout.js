@@ -4,23 +4,23 @@ import '@/app/globals.css';
 import FloatingIcons from '@/components/FloatingIcons';
 
 const t = {
-  siteTitle: 'Nusrat Fatima Naqvi | Portafolio',
+  siteTitle: 'Nusrat Fatima Naqvi | Portfolio',
   nav: {
-    home: 'Inicio',
-    about: 'Sobre mí',
-    services: 'Servicios',
-    works: 'Logros',
-    business: 'Negocios',
-    religious: 'Servicios religiosos',
-    contact: 'Contacto'
+    home: 'Home',
+    about: 'About',
+    services: 'Services',
+    works: 'Achievements',
+    business: 'Business',
+    religious: 'Religious Services',
+    contact: 'Contact'
   },
-  footer: 'Todos los derechos reservados | Nusrat Fatima Naqvi'
+  footer: 'All rights reserved | Nusrat Fatima Naqvi'
 };
 
 const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
 
 const ogImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
-const siteUrl = 'https://fatimanaqvi.vercel.app/es';
+const siteUrl = 'https://fatimanaqvi.vercel.app/en';
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -28,11 +28,11 @@ export const metadata = {
     default: t.siteTitle,
     template: `%s | ${t.siteTitle}`,
   },
-  description: 'Esfuerzo continuo en el servicio a la humanidad, la Sra. Nusrat Fatima Naqvi, Abogada de la Humanidad.',
+  description: 'Continuous dedication to humanitarian service, Madam Nusrat Fatima Naqvi, Advocate for Humanity.',
   keywords: [
-    'Nusrat Fatima Naqvi', 'Abogada de la Humanidad',
-    'Servicios benéficos', 'Hussainiya', 'Ahlul Bayt',
-    'Dubái', 'Damasco', 'Pakistán'
+    'Nusrat Fatima Naqvi', 'Advocate for Humanity', 'Maan Jee',
+    'Humanitarian Services', 'Hussainiya', 'Ahlul Bayt',
+    'Dubai', 'Damascus', 'London', 'Lahore', 'Pakistan'
   ],
   alternates: {
     canonical: '/',
@@ -41,16 +41,17 @@ export const metadata = {
       'ar-SA': '/ar',
       'fa-IR': '/fa',
       'es-ES': '/es',
+      'en-US': '/en',
     },
   },
   openGraph: {
     type: 'website',
-    locale: 'es_ES',
-    alternateLocale: ['ur_PK', 'ar_SA', 'fa_IR'],
+    locale: 'en_US',
+    alternateLocale: ['ur_PK', 'ar_SA', 'fa_IR', 'es_ES'],
     url: siteUrl,
     siteName: t.siteTitle,
     title: t.siteTitle,
-    description: 'Sra. Nusrat Fatima Naqvi - Abogada de la Humanidad, servicio continuo a la humanidad.',
+    description: 'Madam Nusrat Fatima Naqvi - Advocate for Humanity, continuous struggle in service to mankind.',
     images: [
       { url: ogImage, width: 1200, height: 675, alt: 'Nusrat Fatima Naqvi' },
     ],
@@ -58,18 +59,18 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: t.siteTitle,
-    description: 'Esfuerzo continuo en el servicio a la humanidad.',
+    description: 'Continuous struggle in service to humanity with compassion.',
     images: [ogImage],
   },
 };
 
-export default function SpanishLayout({ children }) {
+export default function EnglishLayout({ children }) {
   return (
-    <div className="lang-wrapper" lang="es" dir="ltr">
-        <Header t={t} lang="es" />
+    <div className="lang-wrapper" lang="en" dir="ltr">
+        <Header t={t} lang="en" />
 
-        {/* Banner principal visible en todas las páginas */}
-        <section className="hero-banner" aria-label="Banner principal">
+        {/* Hero banner displayed across all pages */}
+        <section className="hero-banner" aria-label="Hero Banner">
           <div className="banner-inner">
             <div className="banner-image-wrapper">
               <img
@@ -77,13 +78,12 @@ export default function SpanishLayout({ children }) {
                 alt="Nusrat Fatima Naqvi"
                 className="banner-image"
                 loading="eager"
-                priority
               />
             </div>
             <h1 className="banner-title">Nusrat Fatima Naqvi</h1>
-            <p className="banner-subtitle">Abogada de la Humanidad</p>
+            <p className="banner-subtitle">Advocate for Humanity</p>
             <p className="banner-description">
-              Esfuerzo continuo en el servicio a la humanidad y una gran dama de corazón compasivo
+              A remarkable lady dedicated to continuous service to humanity with profound compassion
             </p>
           </div>
         </section>

@@ -1,3 +1,5 @@
+import './globals.css';
+
 const ogImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
 const siteUrl = 'https://fatimanaqvi.vercel.app';
 
@@ -62,18 +64,23 @@ export const metadata = {
     apple: [{ url: '/apple-icon.png', sizes: '180x180' }],
   },
   category: 'website',
-}
+};
 
 export const viewport = {
   themeColor: '#0d1117',
   width: 'device-width',
   initialScale: 1,
-}
+};
+
+import FloatingIcons from '@/components/FloatingIcons';
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ur">
-      <body>{children}</body>
+    <html lang="ur" dir="rtl">
+      <body>
+        {children}
+        <FloatingIcons />
+      </body>
     </html>
-  )
+  );
 }

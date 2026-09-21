@@ -1,5 +1,6 @@
 export default function Home() {
-  const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1787490226/urdu.webm';
+  const videoLink =
+    'https://res.cloudinary.com/b7xbeztp/video/upload/v1787490226/urdu.mp4';
   const videoHeading = '🎥 تعارفی ویڈیو';
 
   const highlights = [
@@ -26,6 +27,7 @@ export default function Home() {
           controls
           className="about-video"
           playsInline
+          preload="metadata"
         />
       </div>
 

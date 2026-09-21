@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import '@/app/globals.css';
+import FloatingIcons from '@/components/FloatingIcons';
 
 const t = {
   siteTitle: 'نصرت فاطمه نقوی | نمابر',
@@ -63,8 +64,7 @@ export const metadata = {
 
 export default function FarsiLayout({ children }) {
   return (
-    <html lang="fa" dir="rtl">
-      <body>
+    <div className="lang-wrapper" lang="fa" dir="rtl">
         <Header t={t} lang="fa" />
 
         <section className="hero-banner" aria-label="بنر اصلی">
@@ -88,7 +88,7 @@ export default function FarsiLayout({ children }) {
 
         <main>{children}</main>
         <Footer t={t} />
-      </body>
-    </html>
+        <FloatingIcons />
+    </div>
   );
 }
