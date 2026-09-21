@@ -158,9 +158,9 @@ export default function AyudaPage() {
       {/* --- NEW HEADER AND VIDEOS --- */}
       <section className="hero-modern" style={{ padding: '40px 20px 20px' }}>
         <div className="hero-content">
-          <h1 className="hero-title">نصرت فاطمہ نقوی</h1>
-          <h2 className="hero-subtitle" style={{ marginTop: '10px', color: '#55efc4' }}>( وکیلِ انسانیت )</h2>
-          <p className="hero-desc" style={{ marginTop: '15px', fontSize: '1.2rem' }}>خدمتِ خلق میں جہدِ مسلسل</p>
+          <h1 className="hero-title">Nusrat Fatima Naqvi</h1>
+          <h2 className="hero-subtitle" style={{ marginTop: '10px', color: '#55efc4' }}>(Defensora de la Humanidad)</h2>
+          <p className="hero-desc" style={{ marginTop: '15px', fontSize: '1.2rem' }}>Lucha continua al servicio de la humanidad</p>
         </div>
       </section>
 
@@ -172,10 +172,11 @@ export default function AyudaPage() {
       </section>
 
       <section className="video-section" style={{ padding: '40px 20px', background: 'rgba(255,255,255,0.02)' }}>
-        <h2 className="section-title glow-text text-center" style={{ marginBottom: '30px' }}>ایودا کا ویڈیو تعارف</h2>
+        <h2 className="section-title glow-text text-center" style={{ marginBottom: '30px' }}>Introducción en Video de Ayuda</h2>
         <div className="video-container-modern" style={{ maxWidth: '1000px', margin: '0 auto', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
           <video 
-            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789891305/sada-e-khalq-urdu-webm-.webm" controls autoPlay={false} playsInline 
+            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789896211/sada-e-haq-spanish.webm" 
+            controls autoPlay={false} playsInline 
             preload="metadata" 
             style={{ width: '100%', display: 'block' }} 
           />

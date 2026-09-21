@@ -6,9 +6,11 @@ export const translations = {
       about: 'تعارف',
       services: 'خدمات',
       works: 'کارکردگی',
+      awards: 'ایوارڈز',
+      business: 'کاروبار',
       business: 'کاروبار',
       religious: 'دینی خدمات',
-      family: 'خاندان',
+      family: 'فیملی',
       contact: 'رابطہ کریں'
     },
     home: {
@@ -54,6 +56,11 @@ export const translations = {
       title: 'دینی خدمات',
       content: 'محترمہ نصرت فاطمہ نقوی دینی مدارس، حسینیات، اور مذہبی مراکز کے قیام میں پیش پیش رہی ہیں۔ انہوں نے مکتبِ اہل بیتؑ کی ترویج کے لیے بے شمار خدمات انجام دی ہیں۔'
     },
+    
+    awards: {
+      title: 'اعزازات و اسناد',
+      description: 'مختلف لیٹرز اور سرٹیفکیٹس کی تفصیلات۔'
+    },
     contact: {
       title: 'رابطہ کریں',
       email: 'ای میل: fatimanaqavi51214@gmail.com',
@@ -69,6 +76,10 @@ export const translations = {
       about: 'نبذة',
       services: 'الخدمات',
       works: 'الإنجازات',
+      awards: 'Premios',
+      business: 'Negocios',
+      awards: 'الجوائز',
+      business: 'أعمال',
       business: 'الأعمال',
       religious: 'الخدمات الدينية',
       family: 'العائلة',
@@ -116,6 +127,11 @@ export const translations = {
     religious: {
       title: 'الخدمات الدينية',
       content: 'كانت السيدة نصرت فاطمة نقوي في طليعة إنشاء المدارس الدينية والحسينيات والمراكز الإسلامية. قدمت العديد من الخدمات لنشر مذهب أهل البيت عليهم السلام.'
+    },
+    
+    awards: {
+      title: 'الجوائز والشهادات',
+      description: 'تفاصيل مختلف الرسائل والشهادات.'
     },
     contact: {
       title: 'اتصل بنا',
@@ -195,6 +211,8 @@ export const translations = {
       about: 'معرفی',
       services: 'خدمات',
       works: 'دستاوردها',
+      awards: 'افتخارات',
+      business: 'کسب و کار',
       business: 'تجارت',
       religious: 'خدمات مذهبی',
       family: 'خانواده',
@@ -243,6 +261,11 @@ export const translations = {
       title: 'خدمات مذهبی',
       content: 'خانم نصرت فاطمه نقوی در تأسیس مدارس مذهبی، حسینیه‌ها و مراکز اسلامی پیشگام بوده‌اند. خدمات بی‌شماری برای ترویج مکتب اهل بیت علیهم السلام انجام داده‌اند.'
     },
+    
+    awards: {
+      title: 'افتخارات و گواهینامه ها',
+      description: 'جزئیات نامه ها و گواهینامه های مختلف.'
+    },
     contact: {
       title: 'تماس با ما',
       email: 'ایمیل: fatimanaqavi51214@gmail.com',
@@ -258,6 +281,8 @@ export const translations = {
       about: 'About',
       services: 'Services',
       works: 'Achievements',
+      awards: 'Awards',
+      business: 'Business',
       business: 'Business',
       religious: 'Religious Services',
       family: 'Family',
@@ -305,6 +330,11 @@ export const translations = {
     religious: {
       title: 'Religious Services',
       content: 'Madam Nusrat Fatima Naqvi has been at the forefront of establishing religious seminaries, Hussainiyas, and spiritual centers, dedicating tireless efforts to the propagation of the noble teachings of Ahlul Bayt (a.s.).'
+    },
+    
+    awards: {
+      title: 'Awards & Certificates',
+      description: 'Details of various letters and certificates.'
     },
     contact: {
       title: 'Contact Us',

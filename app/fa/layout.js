@@ -17,7 +17,7 @@ const t = {
   footer: 'کلیه حقوق محفوظ است | نصرت فاطمه نقوی'
 };
 
-const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
+const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1789990290/nusratfatimacover-ezgif.com-optimize_1.gif';
 
 const ogImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png';
 const siteUrl = 'https://fatimanaqvi.vercel.app/fa';
@@ -70,13 +70,15 @@ export default function FarsiLayout({ children }) {
         <section className="hero-banner" aria-label="بنر اصلی">
           <div className="banner-inner">
             <div className="banner-image-wrapper">
-              <img
-                src={heroImage}
-                alt="نصرت فاطمه نقوی"
-                className="banner-image"
-                loading="eager"
-                priority
-              />
+              <video
+            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789991269/cover.webm"
+            className="banner-image"
+            autoPlay
+            loop
+            muted
+            playsInline
+            poster="https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png"
+          />
             </div>
             <h1 className="banner-title">نصرت فاطمه نقوی</h1>
             <p className="banner-subtitle">وکیل بشریت</p>
