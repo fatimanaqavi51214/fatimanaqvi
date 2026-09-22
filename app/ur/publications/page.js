@@ -5,35 +5,35 @@ export default function Publications() {
     <div className="container" style={{ direction: 'rtl', fontFamily: "'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif" }}>
       
       {/* Hero Banner */}
-      <div className="hero-banner" style={{ borderRadius: '15px', marginBottom: '40px' }}>
+      <div className="hero-banner" style={{ borderRadius: '15px', marginBottom: '20px' }}>
         <div className="banner-inner" style={{ textAlign: 'center' }}>
-          <h1 style={{ fontSize: '3rem', color: '#d4af37', textShadow: '0 2px 4px rgba(0,0,0,0.5)', marginBottom: '15px' }}>اشاعت</h1>
-          <p style={{ fontSize: '1.2rem', color: '#b0c4de' }}>محترمہ نصرت فاطمہ نقوی کی شائع شدہ کتابیں، اخبارات، مضامین اور کالمز</p>
+          <h1 style={{ color: '#d4af37', textShadow: '0 2px 4px rgba(0,0,0,0.5)', marginBottom: '10px' }}>اشاعت</h1>
+          <p style={{ fontSize: '1.1rem', color: '#b0c4de' }}>محترمہ نصرت فاطمہ نقوی کی شائع شدہ کتابیں، اخبارات، مضامین اور کالمز</p>
         </div>
       </div>
 
-      <div className="content-section" style={{ padding: '40px 20px', lineHeight: '2.2' }}>
+      <div className="content-section" style={{ padding: '20px', lineHeight: '2.2' }}>
         
         {/* Intro */}
-        <div style={{ marginBottom: '50px', fontSize: '1.2rem', textAlign: 'center', maxWidth: '800px', margin: '0 auto 50px auto' }}>
-          <p>
+        <div style={{ marginBottom: '20px', fontSize: '1.1rem', maxWidth: '800px', margin: '0 auto 30px auto' }}>
+          <p style={{ textAlign: 'justify' }}>
             اس سیکشن میں آپ محترمہ نصرت فاطمہ نقوی کی علمی و ادبی خدمات اور ان کی اشاعت کا جائزہ لے سکتے ہیں۔ ان میں ان کی تصنیف کردہ کتابیں، مختلف اخبارات میں شائع ہونے والے کالمز اور دیگر مضامین شامل ہیں۔
           </p>
         </div>
 
         {/* Books Section */}
-        <div style={{ background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '40px 30px', marginBottom: '50px', textAlign: 'center' }}>
-          <h2 style={{ fontSize: '2.5rem', color: '#d4af37', marginBottom: '20px' }}>کتابیں</h2>
+        <div style={{ background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '20px', marginBottom: '30px', textAlign: 'center' }}>
+          <h2 style={{ color: '#d4af37', marginBottom: '15px' }}>کتابیں</h2>
           
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', flexWrap: 'wrap' }}>
-            <div style={{ background: 'rgba(0,0,0,0.3)', padding: '30px 20px', borderRadius: '10px', border: '1px solid #333', width: '300px' }}>
-              <i className="fa-solid fa-book-open" style={{ fontSize: '4rem', color: '#d4af37', marginBottom: '20px' }}></i>
-              <h3 style={{ fontSize: '1.8rem', color: '#fff', marginBottom: '10px' }}>کتاب: صدائے خلق</h3>
-              <p style={{ color: '#b0c4de', marginBottom: '20px' }}>(اردو)</p>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
+            <div style={{ background: 'rgba(0,0,0,0.3)', padding: '20px 15px', borderRadius: '10px', border: '1px solid #333', width: '280px' }}>
+              <i className="fa-solid fa-book-open" style={{ fontSize: '3rem', color: '#d4af37', marginBottom: '15px' }}></i>
+              <h3 style={{ color: '#fff', marginBottom: '10px' }}>کتاب: صدائے خلق</h3>
+              <p style={{ color: '#b0c4de', marginBottom: '15px', fontSize: '1rem' }}>(اردو)</p>
               <a 
                 href="https://res.cloudinary.com/b7xbeztp/image/upload/v1789916924/%DA%A9%D8%AA%D8%A7%D8%A8_%D8%B5%D8%AF%D8%A7%D8%A6%DB%92_%D8%AE%D9%84%D9%82_compresed.pdf" 
                 target="_blank" rel="noopener noreferrer"
-                style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#d4af37', color: '#000', borderRadius: '5px', textDecoration: 'none', fontWeight: 'bold' }}
+                style={{ display: 'inline-block', padding: '8px 15px', backgroundColor: '#d4af37', color: '#000', borderRadius: '5px', textDecoration: 'none', fontSize: '1rem' }}
               >
                 پڑھیں (PDF)
               </a>
@@ -42,110 +42,110 @@ export default function Publications() {
         </div>
 
         {/* Zamana News Article */}
-        <div style={{ background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '40px 30px', marginBottom: '50px' }}>
-          <div style={{ textAlign: 'center', marginBottom: '30px' }}>
-            <h2 style={{ fontSize: '2.2rem', color: '#d4af37', marginBottom: '10px' }}>محترمہ نصرت فاطمہ نقوی کی خدمات پر مبنی حاجی شبیر احمد شگری کی تحریر</h2>
-            <p style={{ fontSize: '1.2rem', color: '#b0c4de' }}>روزنامہ زمانہ نیوز میں شائع شدہ</p>
+        <div style={{ background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '20px', marginBottom: '30px' }}>
+          <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+            <h2 style={{ color: '#d4af37', marginBottom: '5px' }}>محترمہ نصرت فاطمہ نقوی کی خدمات پر مبنی حاجی شبیر احمد شگری کی تحریر</h2>
+            <p style={{ fontSize: '1rem', color: '#b0c4de' }}>روزنامہ زمانہ نیوز میں شائع شدہ</p>
           </div>
           
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '30px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '20px' }}>
             <img 
               src="https://res.cloudinary.com/b7xbeztp/image/upload/v1790105268/nusrat-naqvi-zamana-news-8-11-2026.jpg" 
               alt="روزنامہ زمانہ نیوز" 
-              style={{ width: '100%', maxWidth: '700px', borderRadius: '10px', boxShadow: '0 4px 15px rgba(0,0,0,0.3)', marginBottom: '30px', border: '2px solid #d4af37' }} 
+              style={{ width: '100%', maxWidth: '700px', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0,0,0,0.3)', marginBottom: '20px', border: '1px solid #d4af37' }} 
             />
           </div>
 
-          <div style={{ fontSize: '1.2rem', textAlign: 'justify', maxWidth: '900px', margin: '0 auto' }}>
-            <h3 style={{ fontSize: '1.8rem', color: '#fff', textAlign: 'center', marginBottom: '10px' }}>نصرت فاطمہ نقوی(وکیل انسانیت): خدمتِ خلق میں جہد مسلسل اور دردِ دل رکھنے والی عظیم خاتون</h3>
-            <p style={{ textAlign: 'center', color: '#d4af37', marginBottom: '30px' }}><strong>تحریر: حاجی شبیر احمد شگری</strong></p>
+          <div style={{ fontSize: '1.1rem', textAlign: 'justify', maxWidth: '900px', margin: '0 auto' }}>
+            <h3 style={{ color: '#fff', textAlign: 'center', marginBottom: '10px' }}>نصرت فاطمہ نقوی(وکیل انسانیت): خدمتِ خلق میں جہد مسلسل اور دردِ دل رکھنے والی عظیم خاتون</h3>
+            <p style={{ textAlign: 'center', color: '#d4af37', marginBottom: '20px' }}>تحریر: حاجی شبیر احمد شگری</p>
             
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '15px' }}>
               انسانی تاریخ میں ایسی شخصیات ہمیشہ انتہائی احترام کی نگاہ سے دیکھی جاتی ہیں جو دنیاوی کامیابیوں کی بلندیوں کو چھونے کے باوجود اپنی روح کا رشتہ خالقِ کائنات اور خدمتِ خلق سے جوڑے رکھتی ہیں۔ محترمہ نصرت فاطمہ نقوی کی زندگی بھی ایک ایسی ہی درخشاں مثال ہے، جو آج بھی ایک کامیاب بین الاقوامی کاروباری اور سماجی شخصیت کے طور پر اپنا لوہا منوا رہی ہیں، اور اپنی دولت کو فلاحی، سماجی اور مذہبی مقاصد کے لیے بے دریغ خرچ کرکے اپنے لیے بہترین 'باقیات الصالحات' کا سامان بھی کر رہی ہیں۔
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '15px' }}>
               محترمہ نصرت فاطمہ نقوی 1958ء میں پاکستان کے شہر کراچی میں پیدا ہوئیں۔ ان کے والد کا نام سید محمد نقوی اور والدہ کا نام مہر بانو ہے۔ ایک پڑھے لکھے اور باعمل گھرانے میں آنکھ کھولنے والی نصرت فاطمہ نے ابتدا ہی سے علم اور عمل کے میدان میں آگے بڑھنے کا پختہ عزم کر رکھا ہے اور وہ آج بھی اسی ولولے کے ساتھ سرگرمِ عمل ہیں۔ ان کے شوہر غلام سرور چوہدری (مرحوم) تھے، جن کا انتقال 31 اکتوبر 2005ء کو لاہور میں ہوا۔ ان کے بچوں میں جواد حیدر، ہاجرہ اور فواد حیدر شامل ہیں۔ ان کا پاکستان میں مستقل پتہ گلبرگ تھری، لاہور کا ہے۔ ان کے شوہر کو ان کی انتظامی صلاحیتوں پر اس قدر اعتماد تھا کہ انہوں نے 2004ء میں انہیں کاروبار چلانے، بچوں کی تعلیم اور سفری معاملات کا مکمل قانونی اختیار (مختار نامہ خاص) تفویض کر رکھا تھا۔
             </p>
 
-            <h4 style={{ fontSize: '1.5rem', color: '#d4af37', marginTop: '30px', marginBottom: '15px' }}>عالمی سطح پر کاروباری کامیابیاں</h4>
-            <p style={{ marginBottom: '20px' }}>
+            <h4 style={{ color: '#d4af37', marginTop: '20px', marginBottom: '10px' }}>عالمی سطح پر کاروباری کامیابیاں</h4>
+            <p style={{ marginBottom: '15px' }}>
               وہ ایک انتہائی فعال، باہمت اور عالمی سطح کی کاروباری اور سماجی شخصیت ہیں۔ ان کی کاروباری سرگرمیوں کا دائرہ دنیا کے بیشتر ممالک تک پھیلا ہوا ہے، اور انہوں نے ثابت کیا ہے کہ ایک باہمت خاتون ہر شعبے میں اپنی کامیابی کے جھنڈے گاڑ سکتی ہے۔
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '15px' }}>
               انہوں نے 1970 کی دہائی سے ہی دبئی اور شارجہ میں مختلف کاروبار شروع کیے۔ ان کی کاروباری ملکیت میں شارجہ کی ایک بلاک فیکٹری، 'الرافدین جنرل ڈیکور' (1977ء)، 'کراج الرافدین' نامی گاڑیوں کی مرمت کا گیراج (1980ء)، اور عجمان میں 'مطعم الطعمہ' (ریستوران) کی شراکت داری شامل رہی ہے۔ علاوہ ازیں، 1997ء میں وہ 'عسلی جنرل ٹریڈنگ' میں بطور سیلز مینیجر اعلیٰ انتظامی امور بھی سنبھالتی رہیں۔
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '15px' }}>
               شام میں ان کے کاروبار کا ایک بہت بڑا حصہ موجود ہے، جہاں دمشق جیسے تاریخی شہر میں ان کا ایک شاندار ہوٹل اور مختلف فلیٹس ہیں۔ 2010ء میں دمشق چیمبر آف کامرس کی دستاویزات کے مطابق، وہ امپورٹ ایکسپورٹ کے ایک بہت بڑے نیٹ ورک کی مالکہ ہیں، جس میں کپڑے، الیکٹرانکس، کتابیں، کمپیوٹرز، طبی و لیزر آلات، اور تعمیراتی مواد کی وسیع تجارت شامل ہے۔ پاکستانی سفارتخانے کی دستاویز (2025ء) کے مطابق، وہ آج کل برطانیہ اور سپین میں مقیم ہیں اور ماشاءاللہ وہیں سے اپنی عالمی کاروباری اور سماجی سرگرمیوں کو بخوبی چلا رہی ہیں۔
             </p>
 
-            <h4 style={{ fontSize: '1.5rem', color: '#d4af37', marginTop: '30px', marginBottom: '15px' }}>ذاتی مشاہدات، دردمندی اور دین داری</h4>
-            <p style={{ marginBottom: '20px' }}>
+            <h4 style={{ color: '#d4af37', marginTop: '20px', marginBottom: '10px' }}>ذاتی مشاہدات، دردمندی اور دین داری</h4>
+            <p style={{ marginBottom: '15px' }}>
               راقم الحروف ذاتی طور پر محترمہ نصرت فاطمہ نقوی صاحبہ کو کئی دہائیوں سے جانتا ہے۔ یہ اس وقت کی بات ہے جب میں سفارت خانے میں اپنی پیشہ ورانہ ذمہ داریاں سرانجام دے رہا تھا۔ وہ اکثر سفارت خانے تشریف لایا کرتی تھیں۔ ایک نہایت علمی، مدبر اور باوقار خاتون ہونے کے ناطے ان کے تعلقات مختلف ممالک کے اعلیٰ سفارتی اور ثقافتی نمائندوں کے ساتھ ایک بلند سطح پر استوار تھے، اور وہ تمام سفارت کار ان کی بے حد عزت و تکریم کرتے تھے۔
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '15px' }}>
               میں نے ہمیشہ انہیں ایک انتہائی دیندار، مخلص، دردِ دل رکھنے والی اور باوقار پردہ دار خاتون پایا۔ خانم نصرت نقوی صاحبہ نے اپنی وسیع کاروباری اور دنیاوی ذمہ داریوں کو احسن طریقے سے نبھانے کے باوجود دین کے راستے میں بھی ہمیشہ صفِ اول کا کردار ادا کیا ہے۔ وہ ایک ایسی دردمند ہستی ہیں جو لوگوں کی تکالیف پر تڑپ اٹھتی ہیں اور ان کی ہر ممکن مدد کے لیے ہمہ وقت تیار رہتی ہیں۔ ان کا اخلاقِ حسنہ بے مثال اور گفتگو اس قدر بامعنی اور اثر انگیز ہوتی ہے کہ سننے والے پر گہرا نقش چھوڑتی ہے۔
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '15px' }}>
               مجھے مختلف تقاریب اور پروگراموں میں ان کے خطابات سننے کا بھی شرف حاصل رہا ہے۔ جب وہ خطاب کرتی ہیں، تو ان کا نقطہ نظر عام ڈگر سے بالکل ہٹ کر، انتہائی چشم کشا اور حقیقت پسندانہ ہوتا ہے۔ ان کی اس سحر انگیز شخصیت، پراثر خطابت اور وسیع النظری کے پیچھے دراصل ان کی زندگی کا وہ نچوڑ اور بے پناہ تجربہ بولتا ہے جو انہوں نے دنیا کے مختلف ممالک کا سفر کر کے، وہاں کے معاشروں اور تہذیبوں کا قریب سے مشاہدہ کر کے حاصل کیا ہے۔
             </p>
 
-            <h4 style={{ fontSize: '1.5rem', color: '#d4af37', marginTop: '30px', marginBottom: '15px' }}>مکتبِ اہلِ بیتؑ سے عشق اور تبلیغِ دین</h4>
-            <p style={{ marginBottom: '20px' }}>
+            <h4 style={{ color: '#d4af37', marginTop: '20px', marginBottom: '10px' }}>مکتبِ اہلِ بیتؑ سے عشق اور تبلیغِ دین</h4>
+            <p style={{ marginBottom: '15px' }}>
               بچپن ہی سے انہیں مذہب سے خاص لگاؤ رہا ہے۔ انہیں آئمہ طاہرین علیہم السلام سے بے پناہ عشق ہے اور وہ ان پاک ہستیوں کے فرمودات پر عملی طور پر کاربند ہیں۔ یہی وجہ ہے کہ ایامِ ولادت و شہادت کے موقع پر وہ انتہائی پرجوش انداز میں سرگرم ہو جاتی ہیں اور مجالس و محافل کے انعقاد میں بھرپور کردار ادا کرتی ہیں۔ ان کی اس بہترین تربیت کا اثر ہے کہ یہی اعلیٰ اقدار ان کے بچوں میں بھی بخوبی منتقل ہوئی ہیں۔
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '15px' }}>
               تبلیغِ دین میں وہ خود بھی ہمہ وقت کوشاں رہتی ہیں اور اولیائے کرام کی بے حد قدر کرتی ہیں؛ اسی عقیدت کے تحت انہوں نے داتا دربار، بی بی پاک دامناں اور ملک کے دیگر مزارات کی تعمیر و ترقی میں بھی بڑھ چڑھ کر حصہ لیا ہے۔
             </p>
-            <p style={{ marginBottom: '20px' }}>
+            <p style={{ marginBottom: '15px' }}>
               محترمہ نصرت نقوی صاحبہ کی دلی خواہش اور مشن ہے کہ آئمہ طاہرین علیہم السلام اور اولیائے دین کی بھرپور تبلیغ کی جائے اور ان ہستیوں کی تعلیمات کا اس قدر پرچار کیا جائے کہ یہ پیغامِ حق عام افراد تک پہنچ سکے۔ ان کا ماننا ہے کہ معاشرے سے جہالت کا خاتمہ محض رسمی تعلیم سے ممکن نہیں، بلکہ اس کے لیے ان پاک ہستیوں کی تعلیمات سے آگاہی انتہائی موثر اور ناگزیر ہے۔ ان کا اصل مقصد افراد کو باشعور بنانا ہے تاکہ وہ دین و دنیا کے تقاضوں کو سمجھ کر صراطِ مستقیم پر چل سکیں اور اپنی دنیا و آخرت دونوں سنوار سکیں۔
             </p>
 
-            <h4 style={{ fontSize: '1.5rem', color: '#d4af37', marginTop: '30px', marginBottom: '15px' }}>بے مثال سخاوت اور کارِ خیر</h4>
-            <p style={{ marginBottom: '15px' }}>
+            <h4 style={{ color: '#d4af37', marginTop: '20px', marginBottom: '10px' }}>بے مثال سخاوت اور کارِ خیر</h4>
+            <p style={{ marginBottom: '10px' }}>
               نصرت فاطمہ نقوی کی زندگی کا سب سے روشن پہلو ان کی سخاوت اور کارِ خیر میں بڑھ چڑھ کر حصہ لینا ہے۔ دنیاوی مال و دولت نے انہیں کبھی ان کے اصل مقصد سے غافل نہیں کیا۔
             </p>
-            <ul style={{ listStyleType: 'disc', paddingRight: '25px', marginBottom: '20px' }}>
-              <li style={{ marginBottom: '10px' }}><strong>عظیم الشان سرکاری عطیہ:</strong> 1982ء میں انہوں نے شامی حکومت کو سیدہ زینب سلام اللہ علیھا کے علاقے میں 2 کروڑ 50 لاکھ (25 ملین) شامی لیرہ مالیت کی زمین فلاحی کاموں کے لیے ہدیہ کی، جس پر وزارتِ اوقاف نے ان کا باقاعدہ شکریہ ادا کیا۔</li>
-              <li style={{ marginBottom: '10px' }}><strong>حسینیہ اور مذہبی مراکز کا قیام:</strong> 1981ء میں انہوں نے دمشق میں 'حسینیہ زینب الزہراء' کی تعمیر کا بیڑا اٹھایا اور اس عظیم منصوبے کے لیے دبئی کی عدالت سے باقاعدہ اجازت حاصل کی۔ جنوری 1994ء میں انہوں نے مجمع جهانی اهل البیت (ع) کو ایک اور قیمتی زمین ہدیہ کی تاکہ وہاں ایک عظیم الشان لائبریری، حسینیہ، مہمان خانہ اور دفتر تعمیر کیا جا سکے۔</li>
-              <li style={{ marginBottom: '10px' }}><strong>طبی اور سماجی امداد:</strong> 1983ء میں انہوں نے ہلال احمر کو ہسپتال اور یتیم خانے کے لیے زمین دی۔ بعد ازاں، 2007ء میں انہوں نے 'مستوصف الزہراء' (فلاحی کلینک) کو مستحقین کے لیے طبی آلات اور ضروری گھریلو سامان کا بھرپور عطیہ دیا۔</li>
-              <li style={{ marginBottom: '10px' }}><strong>متحدہ عرب امارات میں فلاحی منصوبہ:</strong> 1989ء میں انہوں نے یو اے ای کی وزارت اوقاف کو مسجد، کلینک، عملے کی رہائش، اور حفظِ قرآن کے مرکز کی تعمیر کی باقاعدہ پیشکش کی، جو ان کے وسیع فلاحی وژن کا ثبوت ہے۔</li>
+            <ul style={{ listStyleType: 'disc', paddingRight: '20px', marginBottom: '15px' }}>
+              <li style={{ marginBottom: '8px' }}><strong>عظیم الشان سرکاری عطیہ:</strong> 1982ء میں انہوں نے شامی حکومت کو سیدہ زینب سلام اللہ علیھا کے علاقے میں 2 کروڑ 50 لاکھ (25 ملین) شامی لیرہ مالیت کی زمین فلاحی کاموں کے لیے ہدیہ کی، جس پر وزارتِ اوقاف نے ان کا باقاعدہ شکریہ ادا کیا۔</li>
+              <li style={{ marginBottom: '8px' }}><strong>حسینیہ اور مذہبی مراکز کا قیام:</strong> 1981ء میں انہوں نے دمشق میں 'حسینیہ زینب الزہراء' کی تعمیر کا بیڑا اٹھایا اور اس عظیم منصوبے کے لیے دبئی کی عدالت سے باقاعدہ اجازت حاصل کی۔ جنوری 1994ء میں انہوں نے مجمع جهانی اهل البیت (ع) کو ایک اور قیمتی زمین ہدیہ کی تاکہ وہاں ایک عظیم الشان لائبریری، حسینیہ، مہمان خانہ اور دفتر تعمیر کیا جا سکے۔</li>
+              <li style={{ marginBottom: '8px' }}><strong>طبی اور سماجی امداد:</strong> 1983ء میں انہوں نے ہلال احمر کو ہسپتال اور یتیم خانے کے لیے زمین دی۔ بعد ازاں، 2007ء میں انہوں نے 'مستوصف الزہراء' (فلاحی کلینک) کو مستحقین کے لیے طبی آلات اور ضروری گھریلو سامان کا بھرپور عطیہ دیا۔</li>
+              <li style={{ marginBottom: '8px' }}><strong>متحدہ عرب امارات میں فلاحی منصوبہ:</strong> 1989ء میں انہوں نے یو اے ای کی وزارت اوقاف کو مسجد، کلینک، عملے کی رہائش، اور حفظِ قرآن کے مرکز کی تعمیر کی باقاعدہ پیشکش کی، جو ان کے وسیع فلاحی وژن کا ثبوت ہے۔</li>
             </ul>
 
-            <h4 style={{ fontSize: '1.5rem', color: '#d4af37', marginTop: '30px', marginBottom: '15px' }}>فلاحی وژن کی عالمی وسعت (یورپ تک رسائی)</h4>
-            <p style={{ marginBottom: '20px' }}>
+            <h4 style={{ color: '#d4af37', marginTop: '20px', marginBottom: '10px' }}>فلاحی وژن کی عالمی وسعت (یورپ تک رسائی)</h4>
+            <p style={{ marginBottom: '15px' }}>
               نصرت فاطمہ نقوی کی فلاحی سوچ محض مشرقِ وسطیٰ تک محدود نہیں ہے۔ ان کا دل دنیا بھر میں بسنے والے محبانِ اہل بیتؑ کے لیے دھڑکتا ہے۔ اسی عظیم مقصد کے تحت انہوں نے یورپ کا بھی رخ کیا تاکہ وہاں مقیم مذہبی کمیونٹی کی حالت زار کو بہتر بنانے کے لیے حسینیہ اور مدرسہ وغہرہ کی تعمیر کی جا سکے۔ وہ چاہتی ہیں کہ یورپ میں بھی دین اور مکتبِ حقہ کی ترویج کے لیے مضبوط مراکز قائم ہوں۔
             </p>
 
-            <h4 style={{ fontSize: '1.5rem', color: '#d4af37', marginTop: '30px', marginBottom: '15px' }}>حرفِ آخر</h4>
-            <p style={{ marginBottom: '20px' }}>
+            <h4 style={{ color: '#d4af37', marginTop: '20px', marginBottom: '10px' }}>حرفِ آخر</h4>
+            <p style={{ marginBottom: '15px' }}>
               محترمہ نصرت فاطمہ نقوی کی زندگی اس بات کا عملی نمونہ ہے کہ ایک باہمت خاتون کس طرح اپنی صلاحیتوں کے بل بوتے پر دنیا کے مختلف ممالک میں کاروباری کامیابیاں سمیٹ رہی ہیں، اور پھر اسی دولت کو اللہ کی راہ میں، یتیموں کی کفالت، ہسپتالوں کی تعمیر اور دینی مراکز کے قیام اور دیگرفلاحی امور کے لیے خرچ کر رہی ہیں۔ ان کی جانب سے کیے گئے یہ صدقہ جاریہ اور فلاحی کام جاری و ساری ہیں۔ ہم محترمہ نصرت فاطمہ نقوی کی صحت، سلامتی اور درازی عمر کے لیے دعا گو ہیں تاکہ ان کا یہ فیض یونہی جاری رہے۔
             </p>
           </div>
         </div>
 
         {/* Other Newspaper clippings */}
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '30px', marginBottom: '50px' }}>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', marginBottom: '30px' }}>
           
-          <div style={{ flex: '1 1 400px', background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '25px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <h3 style={{ fontSize: '1.8rem', color: '#d4af37', marginBottom: '20px', textAlign: 'center' }}>روزنامہ علمدار (انگریزی)</h3>
+          <div style={{ flex: '1 1 300px', background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '15px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <h3 style={{ color: '#d4af37', marginBottom: '15px', textAlign: 'center' }}>روزنامہ علمدار (انگریزی)</h3>
             <img 
               src="https://res.cloudinary.com/b7xbeztp/image/upload/v1790105268/WhatsApp_Image_2026-08-23_at_4.18.47_AM.jpg" 
               alt="روزنامہ علمدار" 
-              style={{ width: '100%', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0,0,0,0.3)', marginBottom: '15px' }}
+              style={{ width: '100%', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0,0,0,0.3)', marginBottom: '10px' }}
             />
-            <p style={{ fontSize: '1.1rem', textAlign: 'center', color: '#b0c4de' }}>
+            <p style={{ fontSize: '1rem', textAlign: 'center', color: '#b0c4de' }}>
               روزنامہ علمدار (انگریزی) میں چھپنے والی تحریر
             </p>
           </div>
 
-          <div style={{ flex: '1 1 400px', background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '25px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <h3 style={{ fontSize: '1.8rem', color: '#d4af37', marginBottom: '20px', textAlign: 'center' }}>روزنامہ "ہم وطن" سپین</h3>
+          <div style={{ flex: '1 1 300px', background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '15px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <h3 style={{ color: '#d4af37', marginBottom: '15px', textAlign: 'center' }}>روزنامہ "ہم وطن" سپین</h3>
             <img 
               src="https://res.cloudinary.com/b7xbeztp/image/upload/v1790105719/WhatsApp_Image_2026-09-07_at_1.24.10_AM-2.jpg" 
               alt="روزنامہ ہم وطن سپین" 
-              style={{ width: '100%', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0,0,0,0.3)', marginBottom: '15px' }}
+              style={{ width: '100%', borderRadius: '10px', boxShadow: '0 4px 10px rgba(0,0,0,0.3)', marginBottom: '10px' }}
             />
-            <p style={{ fontSize: '1.1rem', textAlign: 'center', color: '#b0c4de' }}>
+            <p style={{ fontSize: '1rem', textAlign: 'center', color: '#b0c4de' }}>
               نصرت فاطمہ نقوی صاحبہ کے اشعار جو روزنامہ "ہم وطن" سپین کی زینت بنے
             </p>
           </div>
