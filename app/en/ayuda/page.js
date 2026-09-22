@@ -8,135 +8,135 @@ export default function AyudaPage() {
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [viewerMode, setViewerMode] = useState('google'); // 'google' | 'native'
 
-  // پی ڈی ایف کے لنکس (کلاؤڈ نری اور لوکل)
+  // PDF Links (Cloudinary and Local)
   const pdfCloudinaryUrl =
-    'https://res.cloudinary.com/b7xbeztp/image/upload/v1789916924/%DA%A9%D8%AA%D8%A7%D8%A8_%D8%B5%D8%AF%D8%A7%D8%A6%DB%92_%D8%AE%D9%84%D9%82_compresed.pdf';
-  const pdfLocalUrl = '/sada-e-khalq.pdf';
+    'https://res.cloudinary.com/b7xbeztp/image/upload/v1789917153/Voice_of_the_Creation.pdf'; // Using English PDF link
+  const pdfLocalUrl = '/Voice_of_the_Creation.pdf';
 
-  // گوگل ڈاکس ایمبیڈڈ ویور لنک (تمام موبائلز اور ڈیسک ٹاپ کے لیے بہترین)
+  // Google Docs Embedded Viewer Link
   const googleViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(
     pdfCloudinaryUrl
   )}&embedded=true`;
 
-  // تاریخی خدمات اور عطیات کا تفصیلی ڈیٹا
+  // Detailed Historical Services and Donations Data
   const milestones = [
     {
       year: '1982',
-      date: '25 جولائی 1982',
-      location: 'دمشق، شام',
-      title: 'اوقاف اہلِ سنت کو تاریخی عطیہ (5 لاکھ ڈالر)',
-      amount: '500,000 ڈالر (کیش و اراضی)',
-      desc: 'وزیر اوقاف دمشق (محمد محمد خطیب) کے سپرد کیش اور زمین کی، جس سے فلسطین، لبنان، افغانستان اور شام کے غریب مہاجرین اور مستحق عوام کے لیے باقاعدہ رہائشی بستیاں تعمیر کی گئیں۔',
+      date: 'July 25, 1982',
+      location: 'Damascus, Syria',
+      title: 'Historic Donation to Sunni Waqf ($500,000)',
+      amount: '$500,000 (Cash & Land)',
+      desc: 'Handed over cash and land to the Minister of Awqaf in Damascus (Muhammad Muhammad Khatib), which was used to build formal residential settlements for poor refugees and deserving people from Palestine, Lebanon, Afghanistan, and Syria.',
       icon: '🏘️',
       category: 'housing'
     },
     {
       year: '1983',
-      date: '1983ء',
-      location: 'دمشق، شام',
-      title: 'مرکز ہلال احمر کو یتیم خانے کے لیے وسیع اراضی',
-      amount: '24,166 مربع میٹر اراضی',
-      desc: 'یتیم خانۂ خیر کے عظیم الشان منصوبے کے لیے 24 ہزار 166 میٹر اراضی ہلال احمر کو ہدیہ کی گئی۔',
+      date: '1983',
+      location: 'Damascus, Syria',
+      title: 'Vast Land to Red Crescent for Orphanage',
+      amount: '24,166 sq. meters of land',
+      desc: 'Donated 24,166 square meters of land to the Red Crescent for a grand orphanage project.',
       icon: '👶',
       category: 'orphan'
     },
     {
       year: '1989',
-      date: '1989ء',
-      location: 'ابوظہبی، متحدہ عرب امارات',
-      title: '40 ہزار مربع میٹر اراضی اور اسلامی فلاحی مرکز',
-      amount: '40,000 مربع میٹر اراضی',
-      desc: 'وزارتِ اوقاف سے ایئرپورٹ کے قریب چالیس ہزار میٹر زمین حاصل کر کے اسلامی مرکز، یتیم خانہ، تفسیرِ قرآن مرکز اور محنت کشوں (پاکستانی، بلوچی، بنگالی، انڈین) کے لیے مردانہ و زنانہ الگ الگ رہائش گاہوں کے لیے وقف کی۔',
+      date: '1989',
+      location: 'Abu Dhabi, UAE',
+      title: '40,000 sq. meters Land and Islamic Welfare Center',
+      amount: '40,000 sq. meters of land',
+      desc: 'Acquired 40,000 meters of land near the airport from the Ministry of Awqaf and dedicated it for an Islamic center, orphanage, Quranic Tafseer center, and separate male/female accommodations for laborers (Pakistani, Baloch, Bengali, Indian).',
       icon: '🕌',
       category: 'welfare'
     },
     {
       year: '1989',
-      date: '1989ء',
-      location: 'لاہور، پاکستان',
-      title: 'مزار بی بی پاک دامنؑ کی تعمیر و تزئین',
-      amount: '4,000 درہم اور 2,000 پاؤنڈ سٹرلنگ',
-      desc: 'لاہور میں بی بی پاک دامن علیہا السلام کے دربارِ اقدس کی تعمیر، رنگ و روغن اور تزئین و آرائش کے لیے کثیر فنڈز ادا کیے۔',
+      date: '1989',
+      location: 'Lahore, Pakistan',
+      title: 'Construction and Decoration of Bibi Pak Daman (a.s.) Shrine',
+      amount: '4,000 Dirhams and 2,000 Pounds Sterling',
+      desc: 'Paid extensive funds for the construction, painting, and decoration of the holy shrine of Bibi Pak Daman (a.s.) in Lahore.',
       icon: '🌸',
       category: 'religious'
     },
     {
       year: '1989',
-      date: '1989ء',
-      location: 'الٰہ آباد، ہندوستان',
-      title: 'یتیم بچوں کی کفالت و مستحق بچیوں کی شادیاں',
-      amount: 'خصوصی فلاحی فنڈز',
-      desc: 'الہ آباد میں غریب بچوں کی باقاعدہ تعلیم، خوراک، نگہداشت اور نادار خاندانوں کی بچیوں کے بیاہ کے اخراجات کی ادائیگی۔',
+      date: '1989',
+      location: 'Allahabad, India',
+      title: 'Sponsorship of Orphans and Marriages of Deserving Girls',
+      amount: 'Special Welfare Funds',
+      desc: 'Paid for the formal education, food, and care of poor children and the marriage expenses of girls from destitute families in Allahabad.',
       icon: '💝',
       category: 'welfare'
     },
     {
       year: '1990',
-      date: '1990ء',
-      location: 'لاہور، پاکستان',
-      title: 'حضرت داتا گنج بخشؒ (داتا دربار) کی تعمیرات',
-      amount: 'خطیر مالی عطیہ',
-      desc: 'لاہور میں حضرت علی ہجویری داتا گنج بخشؒ کے مزار کی تعمیراتی توسیع اور زائرین کی سہولت کے لیے بھاری رقم عطیہ کی۔',
+      date: '1990',
+      location: 'Lahore, Pakistan',
+      title: 'Constructions at Hazrat Data Ganj Bakhsh (Data Darbar)',
+      amount: 'Substantial Financial Donation',
+      desc: 'Donated a large sum for the architectural expansion of the shrine of Hazrat Ali Hujwiri Data Ganj Bakhsh and for the convenience of pilgrims in Lahore.',
       icon: '🕌',
       category: 'religious'
     },
     {
       year: '1994',
-      date: '26 اپریل 1994',
-      location: 'دمشق، شام / ایران',
-      title: 'لائبریری، کلینک اور تفسیرِ قرآن سینٹر',
-      amount: '40 لاکھ سیرین پاؤنڈز (60 لاکھ پاکستانی روپے)',
-      desc: 'ایران کے شیخ بادیانی کو عظیم الشان رقبہ تفویض کیا گیا تاکہ وہاں لائبریری، کلینک، حسینیہ، مہمان خانہ اور قرآن مجید کی تفاسیر کا مرکزی ادارہ قائم ہو۔',
+      date: 'April 26, 1994',
+      location: 'Damascus, Syria / Iran',
+      title: 'Library, Clinic, and Quran Tafseer Center',
+      amount: '4 Million Syrian Pounds',
+      desc: 'Delegated a grand piece of land to Sheikh Badyani of Iran so that a central institution for a library, clinic, Hussainiya, guest house, and Quranic Tafseer could be established there.',
       icon: '📚',
       category: 'religious'
     },
     {
       year: '1995',
-      date: '1995ء',
-      location: 'اسلام آباد، پاکستان',
-      title: 'دربار حضرت بری امام سرکارؒ کی تعمیرات',
-      amount: '2 لاکھ پاکستانی روپے اور 1,800 ڈالر',
-      desc: 'اسلام آباد میں دربارِ عالیہ حضرت سخی شاہ لطیف بری امامؒ کی تعمیراتی سرگرمیوں کے لیے نقدی امداد فراہم کی۔',
+      date: '1995',
+      location: 'Islamabad, Pakistan',
+      title: 'Constructions at Darbar Hazrat Bari Imam Sarkar',
+      amount: '200,000 PKR and $1,800',
+      desc: 'Provided cash assistance for construction activities at the holy shrine of Hazrat Sakhi Shah Latif Bari Imam in Islamabad.',
       icon: '🌟',
       category: 'religious'
     },
     {
       year: '1996',
-      date: '1996ء',
-      location: 'شام',
-      title: 'غریبوں اور بچوں کے لیے مفت ڈسپنسری',
-      amount: 'اراضی کا ہبہ برائے کلینک',
-      desc: 'بچوں اور کم وسائل رکھنے والے نادار طبقات کے علاج معالجے اور مفت طبی سہولیات کے لیے زمین وقف کر کے ڈسپنسری قائم کروائی۔',
+      date: '1996',
+      location: 'Syria',
+      title: 'Free Dispensary for the Poor and Children',
+      amount: 'Donation of Land for Clinic',
+      desc: 'Established a dispensary by dedicating land for the medical treatment and free medical facilities of children and under-resourced destitute classes.',
       icon: '💊',
       category: 'health'
     },
     {
       year: '2007',
-      date: '2007ء',
-      location: 'شام',
-      title: 'مستوصف الزہراء کلینک کو طبی مشینری اور امداد',
-      amount: 'جدید طبی آلات و سازوسامان',
-      desc: 'فلاحی کلینک مستوصف الزہراء کو مستحق مریضوں کے لیے جدید ترین طبی مشینری، لیزر آلات اور اشیائے ضروریہ کا عطیہ پیش کیا۔',
+      date: '2007',
+      location: 'Syria',
+      title: 'Medical Machinery and Aid to Mustawsaf Al-Zahra Clinic',
+      amount: 'Modern Medical Equipment',
+      desc: 'Presented a donation of the latest medical machinery, laser equipment, and essential items for deserving patients to the welfare clinic Mustawsaf Al-Zahra.',
       icon: '🏥',
       category: 'health'
     },
     {
-      year: 'مسلسل',
-      date: 'دہائیوں پر محیط',
-      location: 'دمشق، شام',
-      title: 'مقاماتِ بابِ صغیر میں قبرستان کی تعمیرات',
-      amount: '15 لاکھ سیرین پاؤنڈ',
-      desc: 'تاریخی بابِ صغیر کے احاطے میں قبرستان کی تعمیر و مرمت، چاردیواری اور انتظامات میں بھرپور مالی شرکت کی۔',
+      year: 'Continuous',
+      date: 'Spanning Decades',
+      location: 'Damascus, Syria',
+      title: 'Cemetery Constructions at Bab al-Saghir',
+      amount: '1.5 Million Syrian Pounds',
+      desc: 'Fully participated financially in the construction, repair, boundary walls, and management of the cemetery in the historic Bab al-Saghir premises.',
       icon: '⚰️',
       category: 'welfare'
     },
     {
-      year: 'مستقبل',
-      date: 'جاری منصوبہ',
-      location: 'پاکستان',
-      title: 'مرکزِ انسانیت، فلاحی فیکٹری و رہائشی منصوبہ',
-      amount: 'پاکستان میں وسیع ملکیتی زمین',
-      desc: 'پاکستان میں موجود وسیع ذاتی اراضی کو غریبوں کی رہائش، جامع مسجد، مرکزِ انسانیت اور فلاحی فیکٹری کے لیے مختص کرنے کا وژن، تاکہ غریب افراد کو باعزت روزگار میسر آ سکے۔',
+      year: 'Future',
+      date: 'Ongoing Project',
+      location: 'Pakistan',
+      title: 'Center for Humanity, Welfare Factory & Housing Project',
+      amount: 'Vast Owned Land in Pakistan',
+      desc: 'Vision to allocate vast personal land in Pakistan for housing the poor, a grand mosque, a Center for Humanity, and a welfare factory so that poor people can get dignified employment.',
       icon: '🏭',
       category: 'welfare'
     }
@@ -153,14 +153,12 @@ export default function AyudaPage() {
 
   return (
     <div className="container ayuda-page-wrapper">
-      {/* ہیرو سیکشن */}
-      
-      {/* --- NEW HEADER AND VIDEOS --- */}
+      {/* --- HEADER AND VIDEOS --- */}
       <section className="hero-modern" style={{ padding: '40px 20px 20px' }}>
         <div className="hero-content">
           <h1 className="hero-title">Nusrat Fatima Naqvi</h1>
-          <h2 className="hero-subtitle" style={{ marginTop: '10px', color: '#55efc4' }}>(Advocate of Humanity)</h2>
-          <p className="hero-desc" style={{ marginTop: '15px', fontSize: '1.2rem' }}>Continuous struggle in the service of humanity</p>
+          <h2 className="hero-subtitle" style={{ marginTop: '10px', color: '#55efc4' }}>( Advocate of Humanity )</h2>
+          <p className="hero-desc" style={{ marginTop: '15px', fontSize: '1.2rem' }}>Continuous Struggle in the Service of Humanity</p>
         </div>
       </section>
 
@@ -172,69 +170,60 @@ export default function AyudaPage() {
       </section>
 
       <section className="video-section" style={{ padding: '40px 20px', background: 'rgba(255,255,255,0.02)' }}>
-        <h2 className="section-title glow-text text-center" style={{ marginBottom: '30px' }}>Ayuda Video Introduction</h2>
+        <h2 className="section-title glow-text text-center" style={{ marginBottom: '30px' }}>Video Introduction of Ayuda</h2>
         <div className="video-container-modern" style={{ maxWidth: '1000px', margin: '0 auto', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
           <video 
-            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789896198/saday-e-haq-eng.webm" 
-            controls autoPlay={false} playsInline 
+            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789891305/sada-e-khalq-urdu-webm-.webm" controls autoPlay={false} playsInline 
             preload="metadata" 
             style={{ width: '100%', display: 'block' }} 
           />
         </div>
       </section>
-      {/* --- END NEW HEADER AND VIDEOS --- */}
+      {/* --- END HEADER AND VIDEOS --- */}
 
 
-      {/* پی ڈی ایف کوئیک موڈل (اگر یوزر بٹن دبائے) */}
+      {/* PDF Quick Modal */}
       {showPdfModal && (
         <div className="pdf-modal-overlay" onClick={() => setShowPdfModal(false)}>
           <div className="pdf-modal-content" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
-              <h3>📖 کتاب "صدائےِ خلق" — مصنفہ نصرت فاطمہ نقوی</h3>
+              <h3>📖 Book "Voice of the Creation" — Author: Nusrat Fatima Naqvi</h3>
               <button className="close-btn" onClick={() => setShowPdfModal(false)}>×</button>
             </div>
             <div className="modal-body">
               <div className="pdf-info-banner">
                 <div className="book-cover-mockup">
                   <span className="book-symbol">📜</span>
-                  <h4>صدائےِ خلق</h4>
-                  <p>وکیلِ انسانیت نصرت فاطمہ نقوی</p>
-                  <span className="edition-tag">مکمل 17 صفحات</span>
+                  <h4>Voice of the Creation</h4>
+                  <p>Advocate of Humanity, Nusrat Fatima Naqvi</p>
+                  <span className="edition-tag">Complete 17 Pages</span>
                 </div>
                 <div className="book-details">
-                  <h4>کتاب کے اہم مندرجات:</h4>
+                  <h4>Key Contents of the Book:</h4>
                   <ul>
-                    <li>✓ امتِ مسلمہ کے حالات اور عالمی امن کی پکار</li>
-                    <li>✓ تفرقہ بازی کا خاتمہ اور اتحادِ بین المسلمین</li>
-                    <li>✓ اصل مال کا فلسفہ (بکری کے کندھے کا ایمان افروز واقعہ)</li>
-                    <li>✓ تربیتِ اولاد: بچے کمپیوٹر کی طرح عمل سے سیکھتے ہیں</li>
-                    <li>✓ فاؤنڈیشن ایودا انٹرنیشنل کے 1982ء سے اب تک کے کروڑوں کے عطیات</li>
-                    <li>✓ یورپ میں رجسٹرڈ فاؤنڈیشن (30,000 یورو بینک ڈپازٹ)</li>
+                    <li>✓ Conditions of the Muslim Ummah and the call for global peace</li>
+                    <li>✓ Eradication of sectarianism and unity among Muslims</li>
+                    <li>✓ The philosophy of true wealth (The inspiring incident of the goat's shoulder)</li>
+                    <li>✓ Raising children: Children learn from actions like a computer</li>
+                    <li>✓ Millions in donations by Foundation Ayuda International since 1982</li>
+                    <li>✓ Registered Foundation in Europe (30,000 Euro Bank Deposit)</li>
                   </ul>
                   <div className="modal-actions">
                     <a
                       href={pdfCloudinaryUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      download="کتاب_صدائے_خلق_نصرت_فاطمہ_نقوی.pdf"
+                      download="Voice_of_the_Creation_Nusrat_Fatima_Naqvi.pdf"
                       className="btn-primary-golden"
                     >
-                      📥 اصل PDF ڈاؤن لوڈ کریں
+                      📥 Download Original PDF
                     </a>
                     <a
                       href="#book-reader"
                       onClick={() => setShowPdfModal(false)}
                       className="btn-secondary-outline"
                     >
-                      📖 صفحے پر آن لائن پڑھیں
-                    </a>
-                    <a
-                      href="/sada-e-khalq.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-secondary-outline"
-                    >
-                      🖨️ پرنٹ ایبل نسخہ کھولیں
+                      📖 Read Online on Page
                     </a>
                   </div>
                 </div>
@@ -244,34 +233,34 @@ export default function AyudaPage() {
         </div>
       )}
 
-      {/* آن لائن ڈیجیٹل بک ریڈر سیکشن (Digital Book Reader) */}
+      {/* Online Digital Book Reader Section */}
       <section id="book-reader" className="ayuda-reader-section">
         <div className="reader-container-card">
           <div className="reader-header-bar">
             <div className="reader-title-area">
-              <span className="reader-badge">📖 آن لائن ڈیجیٹل لائبریری</span>
-              <h2 className="reader-title">کتاب: صدائےِ خلق — مکمل آن لائن مطالعہ (17 صفحات)</h2>
+              <span className="reader-badge">📖 Online Digital Library</span>
+              <h2 className="reader-title">Book: Voice of the Creation — Complete Online Reading</h2>
               <p className="reader-subtitle">
-                آپ صفحہ چھوڑے بغیر یہیں نیچے کتاب کے تمام صفحات ورق گردانی (Scroll / Flip) کر کے پڑھ سکتے ہیں۔
+                You can read all the pages of the book right here by scrolling or flipping without leaving the page.
               </p>
             </div>
 
-            {/* ریڈر کے کنٹرولز اور بٹنز */}
+            {/* Reader Controls */}
             <div className="reader-controls-bar">
               <div className="mode-toggle-group">
                 <button
                   className={`reader-mode-btn ${viewerMode === 'google' ? 'active' : ''}`}
                   onClick={() => setViewerMode('google')}
-                  title="موبائل فونز اور تمام براؤزرز کے لیے بہترین موڈ"
+                  title="Best mode for mobile phones and all browsers"
                 >
-                  📱 موبائل فرینڈلی ریڈر
+                  📱 Mobile Friendly Reader
                 </button>
                 <button
                   className={`reader-mode-btn ${viewerMode === 'native' ? 'active' : ''}`}
                   onClick={() => setViewerMode('native')}
-                  title="ڈیسک ٹاپ کے لیے ہائی ریزولوشن براؤزر ریڈر"
+                  title="High resolution browser reader for desktop"
                 >
-                  💻 ڈیسک ٹاپ ریڈر (Native)
+                  💻 Desktop Reader (Native)
                 </button>
               </div>
 
@@ -281,41 +270,31 @@ export default function AyudaPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="reader-icon-link"
-                  title="نئی ونڈو میں فل اسکرین کھولیں"
+                  title="Open full screen in a new window"
                 >
-                  🔍 فل اسکرین کھولیں
+                  🔍 Open Full Screen
                 </a>
 
                 <a
                   href={pdfCloudinaryUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  download="کتاب_صدائے_خلق_نصرت_فاطمہ_نقوی.pdf"
+                  download="Voice_of_the_Creation_Nusrat_Fatima_Naqvi.pdf"
                   className="reader-icon-link download-btn"
-                  title="پی ڈی ایف فائل ڈاؤن لوڈ کریں"
+                  title="Download PDF file"
                 >
-                  📥 ڈاؤن لوڈ PDF (522 KB)
-                </a>
-
-                <a
-                  href="/sada-e-khalq.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="reader-icon-link"
-                  title="پرنٹ فرینڈلی ویب ایڈیشن کھولیں"
-                >
-                  🖨️ پرنٹ فرینڈلی نسخہ
+                  📥 Download PDF
                 </a>
               </div>
             </div>
           </div>
 
-          {/* ریڈر فریم */}
+          {/* Reader Frame */}
           <div className="reader-frame-wrapper">
             {viewerMode === 'google' ? (
               <iframe
                 src={googleViewerUrl}
-                title="صدائے خلق - آن لائن ریڈر"
+                title="Voice of the Creation - Online Reader"
                 className="book-reader-iframe"
                 loading="lazy"
                 allowFullScreen
@@ -323,7 +302,7 @@ export default function AyudaPage() {
             ) : (
               <iframe
                 src={`${pdfLocalUrl}#toolbar=1&navpanes=1&scrollbar=1`}
-                title="صدائے خلق - پی ڈی ایف ریڈر"
+                title="Voice of the Creation - PDF Reader"
                 className="book-reader-iframe"
                 loading="lazy"
               />
@@ -331,80 +310,80 @@ export default function AyudaPage() {
           </div>
 
           <div className="reader-footer-tips">
-            <span className="tip-item">💡 <strong>رہنمائی:</strong> اگلے صفحات پر جانے کے لیے ماؤس یا انگلی سے نیچے اسکرول کریں، یا اوپر نیچے دیے گئے پیج نمبرز پر کلک کریں۔</span>
-            <span className="tip-item">🔍 زوم ان یا زوم آؤٹ کرنے کے لیے ریڈر میں موجود <strong>(+)</strong> اور <strong>(-)</strong> کے بٹن استعمال کریں۔</span>
+            <span className="tip-item">💡 <strong>Tip:</strong> Scroll down with your mouse or finger to go to the next pages, or click the page numbers provided above and below.</span>
+            <span className="tip-item">🔍 Use the <strong>(+)</strong> and <strong>(-)</strong> buttons in the reader to zoom in or zoom out.</span>
           </div>
         </div>
       </section>
 
-      {/* ایمان افروز اقوال و زریں فرمودات */}
+      {/* Inspiring Quotes and Golden Sayings */}
       <section className="ayuda-quotes-section">
-        <h2 className="section-title">✨ صدائےِ خلق کے زریں فرمودات و بصیرت</h2>
+        <h2 className="section-title">✨ Golden Sayings and Insights of "Voice of the Creation"</h2>
         
         <div className="quotes-grid">
           <div className="quote-card">
             <div className="quote-icon">💫</div>
             <blockquote>
-              "کسی قوم کی حالت نہیں بدل سکتی، جب تک خود اس قوم کو اپنی حالت بدلنے کا خیال نہ آئے۔"
+              "The condition of a nation cannot change until the nation itself thinks of changing its condition."
             </blockquote>
-            <cite>— فرمانِ الٰہی (قرآنِ حکیم)</cite>
+            <cite>— Divine Command (Holy Quran)</cite>
           </div>
 
           <div className="quote-card">
             <div className="quote-icon">⚔️</div>
             <blockquote>
-              "عزت کی موت ذلت کی زندگی سے بہتر ہے۔"
+              "Death with dignity is better than a life of humiliation."
             </blockquote>
-            <cite>— فرمانِ امام حسین علیہ السلام</cite>
+            <cite>— Saying of Imam Hussain (peace be upon him)</cite>
           </div>
 
           <div className="quote-card highlight-quote">
             <div className="quote-icon">💝</div>
             <blockquote>
-              "انسان سمجھتا ہے کہ جو اس کے بینک اکاؤنٹ میں ہے وہ اس کا مال ہے۔ لیکن اصل مال وہ ہے جو آپ نے اللہ کی راہ میں دے کر آخرت کے اکاؤنٹ میں ہمیشہ کے لیے محفوظ کر لیا!"
+              "Man thinks that what is in his bank account is his wealth. But true wealth is what you give in the way of Allah and secure forever in the account of the hereafter!"
             </blockquote>
-            <cite>— محترمہ نصرت فاطمہ نقوی (صدائےِ خلق)</cite>
+            <cite>— Madam Nusrat Fatima Naqvi (Voice of the Creation)</cite>
           </div>
 
           <div className="quote-card">
             <div className="quote-icon">🌱</div>
             <blockquote>
-              "اولاد ایک کمپیوٹر کی طرح ہے، جو ماں باپ خود پریکٹیکلی کرتے ہیں بچہ وہی سیکھتا ہے۔ حقیقی چاہت وہ ہے جو کسی مفلس اور پھٹے کپڑوں والے سے بغیر غرض کی جائے۔"
+              "Children are like a computer; they learn exactly what their parents practically do. True affection is that which is shown to a poor and ragged person without any selfish motive."
             </blockquote>
-            <cite>— محترمہ نصرت فاطمہ نقوی</cite>
+            <cite>— Madam Nusrat Fatima Naqvi</cite>
           </div>
         </div>
       </section>
 
-      {/* فاؤنڈیشن ایودا انٹرنیشنل کے تاریخ ساز عطیات و خدمات */}
+      {/* Historic Donations and Services of Foundation Ayuda International */}
       <section id="services-milestones" className="ayuda-milestones-section">
         <div className="section-header-flex">
           <div>
-            <h2 className="section-title">🏛️ فاؤنڈیشن ایودا انٹرنیشنل: تاریخ ساز خدمات</h2>
+            <h2 className="section-title">🏛️ Foundation Ayuda International: Historic Services</h2>
             <p className="section-subtitle">
-              محترمہ نصرت فاطمہ نقوی صاحبہ کے ذاتی کاروبار اور جائیداد سے ادا کردہ ناقابلِ فراموش فلاحی عطیات کا جامع جائزہ
+              A comprehensive overview of unforgettable philanthropic donations paid from the personal business and property of Madam Nusrat Fatima Naqvi
             </p>
           </div>
 
-          {/* فلٹر ٹیبز */}
+          {/* Filter Tabs */}
           <div className="milestone-tabs">
             <button
               className={`m-tab-btn ${activeTab === 'all' ? 'active' : ''}`}
               onClick={() => setActiveTab('all')}
             >
-              تمام خدمات ({milestones.length})
+              All Services ({milestones.length})
             </button>
             <button
               className={`m-tab-btn ${activeTab === 'housing' ? 'active' : ''}`}
               onClick={() => setActiveTab('housing')}
             >
-              رہائش و رفاہِ عامہ
+              Housing & Public Welfare
             </button>
             <button
               className={`m-tab-btn ${activeTab === 'religious' ? 'active' : ''}`}
               onClick={() => setActiveTab('religious')}
             >
-              مذہبی و روحانی مراکز
+              Religious & Spiritual Centers
             </button>
           </div>
         </div>
@@ -418,7 +397,7 @@ export default function AyudaPage() {
               </div>
               <h3 className="m-title">{item.title}</h3>
               <div className="m-amount-tag">
-                <span>💰 عطیہ: </span>
+                <span>💰 Donation: </span>
                 <strong>{item.amount}</strong>
               </div>
               <p className="m-desc">{item.desc}</p>
@@ -431,106 +410,106 @@ export default function AyudaPage() {
         </div>
       </section>
 
-      {/* ماڈل اسلامی قبرستان اور مستقبل کا وژن */}
+      {/* Model Islamic Cemetery and Future Vision */}
       <section id="cemetery-vision" className="ayuda-cemetery-section">
         <div className="cemetery-inner-card">
           <div className="cemetery-text">
-            <span className="sub-badge">⚰️ فکرِ آخرت اور باوقار تدفین کا جامع منصوبہ</span>
-            <h2>ماڈل اسلامی قبرستان اور فلاحی مرکز کا عظیم وژن</h2>
+            <span className="sub-badge">⚰️ Comprehensive Plan for Afterlife Care and Dignified Burial</span>
+            <h2>Grand Vision of Model Islamic Cemetery and Welfare Center</h2>
             <p>
-              محترمہ نصرت فاطمہ نقوی کی تقاریر کا بنیادی محور ہمیشہ فکرِ آخرت اور مرنے کی تیاری رہا ہے:
+              The fundamental focus of Madam Nusrat Fatima Naqvi's speeches has always been the concern for the hereafter and preparation for death:
             </p>
             <blockquote className="cemetery-quote">
-              "بالآخر سبھی کو مر جانا ہے، کون زندہ رہے گا؟ عقلمندی یہ ہے کہ ہم غفلت میں نہ مریں۔ ہمیں یہ فکر ہونی چاہیے کہ ابھی اگر موت آ جائے تو ہمارا جنازہ کہاں جائے گا، کفن پاکیزہ اور حلال ہے یا نہیں؟ غریبوں اور بے سہارا مسافروں کے لیے تدفین کی جگہ کا انتظام ہونا کتنا بڑا کارِ خیر ہے!"
+              "Ultimately everyone has to die, who will live forever? Wisdom dictates that we do not die in negligence. We should be concerned that if death comes right now, where will our funeral go, is the shroud pure and halal or not? What a great act of charity it is to arrange a burial place for the poor and destitute travelers!"
             </blockquote>
             
             <div className="cemetery-features-grid">
               <div className="c-feature">
                 <span className="cf-icon">🕌</span>
-                <h4>مفت کفن، غسل و نمازِ جنازہ</h4>
-                <p>نادار، بے سہارا اور ناگہانی موت کا شکار مسافروں کے لیے باوقار اور شرعی انتظام</p>
+                <h4>Free Shroud, Bathing & Funeral Prayer</h4>
+                <p>Dignified and Islamic arrangements for the destitute, helpless, and travelers suffering sudden death</p>
               </div>
 
               <div className="c-feature">
                 <span className="cf-icon">📖</span>
-                <h4>قرآن خوانی و مجالس ہال</h4>
-                <p>ایصالِ ثواب اور تسکینِ روح کے لیے مجالس اور عبادات کی مخصوص جگہ</p>
+                <h4>Quran Recitation and Majalis Hall</h4>
+                <p>A dedicated place for gatherings and prayers for the conveying of rewards and peace of the soul</p>
               </div>
 
               <div className="c-feature">
                 <span className="cf-icon">🏛️</span>
-                <h4>یورپ میں قانونی منظوری</h4>
-                <p>30,000 یورو کے بینک ڈپازٹ کے ساتھ باقاعدہ رجسٹرڈ فاؤنڈیشن</p>
+                <h4>Legal Approval in Europe</h4>
+                <p>Formally registered foundation with a bank deposit of 30,000 Euros</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* کتاب کا تفصیلی خلاصہ و مکمل متن */}
+      {/* Detailed Summary and Full Text of the Book */}
       <section id="book-full-text" className="ayuda-fulltext-section">
         <div className="text-container-card">
           <div className="book-text-header">
-            <h2>📜 کتاب "صدائےِ خلق" — مصنفہ نصرت فاطمہ نقوی (خلاصہ و مضامین)</h2>
-            <p className="author-tag">چیئر پرسن فاؤنڈیشن ایودا انٹرنیشنل (وکیلِ انسانیت)</p>
+            <h2>📜 Book "Voice of the Creation" — Author: Nusrat Fatima Naqvi (Summary & Articles)</h2>
+            <p className="author-tag">Chairperson Foundation Ayuda International (Advocate of Humanity)</p>
           </div>
 
           <div className="prose-content">
-            <h3>دنیا میں بے چینی، ظلم اور بے حسی کے اسباب</h3>
+            <h3>Causes of Restlessness, Oppression, and Apathy in the World</h3>
             <p>
-              آخر ایسا کیوں ہے کہ دنیا میں اکثر ممالک جنگ و جدل اور بدامنی کا شکار ہیں؟ ہر سمت نفسا نفسی کا دور ہے۔ دنیاوی چمک دمک انسان پر چھائی ہوئی ہے، دولت کی ہوس نے انسان کو ظالم اور بے رحم بنا رکھا ہے۔ قتل و غارت گری کا راج ہے۔ حلال کو حرام اور حرام کو حلال قرار دیا جا رہا ہے۔ مسلمانوں کو ذلیل و خوار کرنے کے لیے نئے نئے طریقے ایجاد کیے جا رہے ہیں۔ کبھی مسجد مسمار کی جاتی ہے، کبھی چادر اُچھالی جاتی ہے، اور کبھی توہین آمیز خاکوں سے بھڑکایا جاتا ہے۔ کوئی نہ کوئی بہانہ بنا کر لاشوں کے انبار لگا دیے جاتے ہیں۔ انسان، اشرف المخلوقات ہونے کے باوجود، اپنی اہمیت کو نہیں سمجھا۔
+              Why is it that most countries in the world are victims of war and unrest? Selfishness prevails everywhere. Worldly glitter has overshadowed humanity; the lust for wealth has made humans cruel and ruthless. Massacres rule. The permissible (Halal) is being declared impermissible (Haram) and vice versa. New methods are being invented to humiliate Muslims. Sometimes a mosque is demolished, sometimes the veil is disrespected, and sometimes provocations are made through blasphemous caricatures. Under some pretext or another, heaps of corpses are piled up. Humans, despite being the crown of creation, have not understood their true value.
             </p>
             <p>
-              خدائے واحد سے دوری اور آسمانی کتابوں کی حکم عدولی ہمیں روز بروز بدتر بناتی جا رہی ہے۔ یہ کیفیت ہمیں کہاں لے جائے گی، کب ہم اس فتور کا حصہ بنے رہیں گے؟ فرمانِ الہی ہے کہ:
-              <strong> "کسی قوم کی حالت نہیں بدل سکتی، جب تک خود اس قوم کو اپنی حالت بدلنے کا خیال نہ آئے۔"</strong>
-            </p>
-
-            <h3>اسلام امن کا گہوارہ اور عورت کا اعلیٰ مقام</h3>
-            <p>
-              آؤ مل کر اپنے ضمیر کو جگائیں اور دنیا کو بتائیں کہ اسلام تو امن اور سلامتی کا مذہب ہے، اور عورت کا اعلیٰ مقام ہے۔ مولا کا فرمان ہے کہ: <em>"نیکی کر لو جب تک تمہارے قدم زمین کے اوپر ہیں، جب زمین کے اندر چلے گئے تو تم خود محتاجِ دعا و فاتحہ ہو جاؤ گے۔"</em> جہاد کو انتہا پسندی کہا جا رہا ہے اور مسلمان قوم کو غاصب اور دہشت گرد کے القابات سے نوازا جا رہا ہے۔ آؤ مل کر خاتم المرسلینﷺ اور اہل بیت علیہم السلام کے احکامات کی پیروی کرتے ہوئے ظالم کو جواب دیں۔ ہر ظالم بذات خود ڈرپوک اور کھوکھلا ہوتا ہے۔ ڈریں نہ، اپنا تعارف جوانمردی سے کرائیں۔ سب ایک ہو کر انسانیت کا سبق پڑھائیں تاکہ دنیا کا ہر انسان، خواہ وہ کسی بھی ملک، مذہب یا خطے کا باشندہ ہو، خوشحال اور پرامن زندگی گزار سکے۔
+              Distance from the One God and disobedience to heavenly books are making us worse day by day. Where will this condition take us, how long will we remain part of this corruption? The Divine Command is:
+              <strong> "The condition of a nation cannot change until the nation itself thinks of changing its condition."</strong>
             </p>
 
-            <h3>تفرقہ بازی کا خاتمہ اور اتحادِ بین المسلمین</h3>
+            <h3>Islam: The Cradle of Peace and the High Status of Women</h3>
             <p>
-              رسول اللہ ﷺ نے بار بار ارشاد فرمایا:
-              <em> "اللہ کی رسی کو مضبوطی سے تھامے رکھو جب تک حوض کوثر پر مجھ سے نہ آ ملو۔ قرآن اور عترت کا دامن کبھی مت چھوڑو، اگر قرآن اور عترت (یعنی اہل بیت علیہم السلام) کا دامن چھوڑ دیا تو تفرقے میں پڑ جاؤ گے۔"</em>
-            </p>
-            <p>
-              امام حسین علیہ السلام کا ابدی فرمان ہے: <strong>"عزت کی موت ذلت کی زندگی سے بہتر ہے۔"</strong> اب دنیا کے حالات دیکھتے ہوئے سب کو ہوش آ جانا چاہیے۔ خدا کے لیے سب متحد ہو جائیں، پرانے اختلافات بھلا کر ایک آواز بن جائیں اور اسلام کے دامن سے فرقہ واریت اور دہشت گردی کے جھوٹے داغ دھو ڈالیں تاکہ اسلام کا نورانی چہرہ دنیا پر واضح ہو سکے۔
+              Let us together awaken our conscience and tell the world that Islam is indeed a religion of peace and security, and women hold a high status in it. The Master's saying is: <em>"Do good deeds as long as your feet are above the ground, for once you go beneath the earth, you yourself will be in need of prayers and Fatiha."</em> Jihad is being termed extremism and the Muslim nation is being branded with titles of usurpers and terrorists. Let us unite to answer the oppressor by following the commands of the Last Prophet (PBUH) and the Ahlul Bayt (a.s.). Every oppressor is inherently cowardly and hollow. Do not fear, introduce yourselves with bravery. Unite to teach the lesson of humanity so that every person in the world, regardless of their country, religion, or region, can live a prosperous and peaceful life.
             </p>
 
-            <h3>اصل مال کیا ہے؟ (ایک ایمان افروز واقعہ)</h3>
+            <h3>Eradication of Sectarianism and Unity Among Muslims</h3>
             <p>
-              ایک مرتبہ نبی کریم ﷺ کے گھر والوں نے ایک بکری ذبح کی (یا گوشت آیا)۔ نبی کریم ﷺ نے دریافت فرمایا: <em>"اس میں سے کیا باقی بچا ہے؟"</em> بتایا گیا کہ اس میں سے صرف ایک دست (کندھے کا گوشت) باقی بچا ہے، باقی سب غریبوں میں تقسیم کر دیا گیا ہے۔ اس پر رسول اللہ ﷺ نے ایک نہایت بصیرت افروز بات ارشاد فرمائی: <strong>"اس دست کے سوا وہ ساری کی ساری بکری باقی بچ گئی ہے!"</strong>
+              The Messenger of Allah (PBUH) repeatedly stated:
+              <em> "Hold firmly to the rope of Allah until you meet me at the Fountain of Kauthar. Never let go of the Quran and the Progeny (Ahlul Bayt), if you leave the Quran and the Progeny (Ahlul Bayt a.s.), you will fall into sectarianism."</em>
             </p>
             <p>
-              اس واقعے سے ہمیں یہ عظیم سبق ملتا ہے کہ صدقہ و خیرات مال کو کم نہیں کرتے، بلکہ اسے دائمی بنا دیتے ہیں۔ جو ہم نے دنیا میں استعمال کر لیا وہ ختم ہو گیا، اور جو اللہ کے نام پر دے دیا، وہ قیامت تک کے لیے ہمارا ہو گیا اور آخرت کے اکاؤنٹ میں ہمیشہ کے لیے محفوظ ہو گیا۔
+              The eternal saying of Imam Hussain (a.s.) is: <strong>"Death with dignity is better than a life of humiliation."</strong> Now, looking at the state of the world, everyone should come to their senses. For God's sake, everyone should unite, forget old differences and become one voice, washing away the false stains of sectarianism and terrorism from the garment of Islam so that its radiant face becomes clear to the world.
             </p>
 
-            <h3>میڈیا کی اشد ضرورت اور عالمی نمائندگی</h3>
+            <h3>What is True Wealth? (An Inspiring Incident)</h3>
             <p>
-              آج میڈیا کا دور ہے۔ ہماری کوشش ہے کہ ہم اپنا تعارف بین الاقوامی معیار کے مطابق کروا سکیں۔ جس کے لیے اپنا چینل، اخبار، ریڈیو اسٹیشن اور میگزین کا قیام انتہائی ضروری ہے۔ دنیا کے ہر خطے میں ہماری فاؤنڈیشن "ایودا انٹرنیشنل" کے ساتھ چلیں، کیونکہ آپ کے تعاون سے کروڑوں انسانوں کو تسکین اور فلاح نصیب ہو سکتی ہے۔
+              Once, the family of the Holy Prophet (PBUH) slaughtered a goat (or meat arrived). The Holy Prophet (PBUH) asked: <em>"What is left of it?"</em> He was told that only one shoulder is left; the rest has been distributed among the poor. Upon this, the Messenger of Allah (PBUH) made a deeply insightful remark: <strong>"Except for this shoulder, the entire goat is what is left!"</strong>
+            </p>
+            <p>
+              This incident gives us a great lesson that charity and alms do not decrease wealth; rather, they make it eternal. What we have used in the world is finished, and what we have given in the name of Allah becomes ours until the Day of Judgment and is secured forever in the account of the hereafter.
+            </p>
+
+            <h3>The Urgent Need for Media and Global Representation</h3>
+            <p>
+              Today is the era of media. Our endeavor is to introduce ourselves according to international standards. For this, the establishment of our own channel, newspaper, radio station, and magazine is absolutely essential. Walk with our foundation "Ayuda International" in every region of the world, because with your cooperation, millions of humans can attain comfort and salvation.
             </p>
           </div>
         </div>
       </section>
 
-      {/* رابطہ و شمولیت کی دعوت */}
+      {/* Contact and Invitation to Join */}
       <section className="ayuda-cta-section">
         <div className="cta-box">
-          <h2>🤝 فاؤنڈیشن ایودا انٹرنیشنل کا حصہ بنیں</h2>
+          <h2>🤝 Become a Part of Foundation Ayuda International</h2>
           <p>
-            ہماری فاؤنڈیشن میں دنیا کے ہر خطے سے دردِ دل رکھنے والا کوئی بھی انسان ممبر بن سکتا ہے۔ آئیے مل کر نیکی کا ہاتھ بڑھائیں قبل اس کے کہ سانسوں کی ڈوری ٹوٹ جائے۔
+            Any compassionate human being from any region of the world can become a member of our foundation. Let us join hands in doing good before the thread of breaths breaks.
           </p>
           <div className="cta-contact-links">
             <a href="tel:+447404640052" className="cta-btn phone">
-              📞 +447404640052 (فون / واٹس ایپ)
+              📞 +447404640052 (Phone / WhatsApp)
             </a>
             <a href="mailto:fatimanaqavi51214@gmail.com" className="cta-btn email">
               ✉️ fatimanaqavi51214@gmail.com
             </a>
-            <Link href="/ur/contact" className="cta-btn contact-page">
-              📍 تفصیلی رابطے کا صفحہ
+            <Link href="/en/contact" className="cta-btn contact-page">
+              📍 Detailed Contact Page
             </Link>
           </div>
         </div>
