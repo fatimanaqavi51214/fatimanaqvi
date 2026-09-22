@@ -1,7 +1,7 @@
 export default function About() {
   const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1787489086/SeoraNusratFatimaNaqvi_DefensoradelaHumanidad-ezgif.com-video-to-webm-converter.mp4';
   const videoHeading = '🎥 Video Introductorio';
-
+ 
   const content = [
     'Nusrat Fatima Naqvi es una personalidad destacada por su servicio humano y su compromiso con la dignidad y la justicia social.',
     'Escritor: Haji Shabbir Ahmed Shakri',

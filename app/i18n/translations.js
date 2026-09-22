@@ -8,15 +8,10 @@ export const translations = {
       works: 'کارکردگی',
       awards: 'ایوارڈز',
       business: 'کاروبار',
-      business: 'کاروبار',
       religious: 'دینی خدمات',
       family: 'فیملی',
-      contact: 'رابطہ کریں'
-    },
-    home: {
-      title: 'نصرت فاطمہ نقوی',
-      subtitle: 'وکیل انسانیت',
-      description: 'خدمتِ خلق میں جہد مسلسل اور دردِ دل رکھنے والی عظیم خاتون'
+      contact: 'رابطہ کریں',
+      publications: 'اشاعت'
     },
     about: {
       title: 'تعارف',

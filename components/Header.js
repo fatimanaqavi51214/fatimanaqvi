@@ -58,6 +58,10 @@ export default function Header({ t, lang }) {
               <i className="fa-solid fa-chart-line nav-icon"></i>
               <span className="btn-text">{t.nav.works}</span>
             </Link>
+            <Link href={`/${lang}/publications`} className="nav-btn">
+              <i className="fa-solid fa-book-open nav-icon"></i>
+              <span className="btn-text">{t.nav.publications || (lang === 'ur' ? 'اشاعت' : 'Publications')}</span>
+            </Link>
             <Link href={`/${lang}/awards`} className="nav-btn">
               <i className="fa-solid fa-medal nav-icon"></i>
               <span className="btn-text">{t.nav.awards || (lang === 'ur' ? 'ایوارڈز' : 'Awards')}</span>
