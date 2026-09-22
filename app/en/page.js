@@ -36,7 +36,7 @@ export default function Home() {
         {highlights.map((item, idx) => (
           <div className="card" key={idx}>
             <span className="icon">{item.icon}</span>
-            <h2 style={{ margin: '8px 0 6px', fontSize: '1.2rem', color: '#00b894' }}>
+            <h2 style={{ margin: '8px 0 6px', color: '#00b894' }}>
               {item.title}
             </h2>
             <p style={{ marginBottom: 0, opacity: 0.92 }}>{item.desc}</p>

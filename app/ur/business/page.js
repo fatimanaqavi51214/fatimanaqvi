@@ -7,7 +7,7 @@ export default function Business() {
       {/* Hero Banner */}
       <div className="hero-banner" style={{ borderRadius: '15px', marginBottom: '40px' }}>
         <div className="banner-inner" style={{ textAlign: 'center' }}>
-          <h1 style={{ fontSize: '3rem', color: '#d4af37', textShadow: '0 2px 4px rgba(0,0,0,0.5)', marginBottom: '15px' }}>کاروبار</h1>
+          <h1 style={{ color: '#d4af37', textShadow: '0 2px 4px rgba(0,0,0,0.5)', marginBottom: '15px' }}>کاروبار</h1>
           <p style={{ fontSize: '1.2rem', color: '#b0c4de' }}>محترمہ نصرت فاطمہ نقوی کی عالمی سطح کی کاروباری اور سماجی سرگرمیاں</p>
         </div>
       </div>
@@ -38,14 +38,14 @@ export default function Business() {
 
         {/* Hotel Section */}
         <div style={{ background: 'rgba(212, 175, 55, 0.05)', border: '1px solid rgba(212, 175, 55, 0.2)', borderRadius: '15px', padding: '40px 30px', marginBottom: '50px' }}>
-          <h2 style={{ fontSize: '2.5rem', color: '#d4af37', marginBottom: '20px', textAlign: 'center' }}>فندق ضیوف الرحمٰن</h2>
+          <h2 style={{ color: '#d4af37', marginBottom: '20px', textAlign: 'center' }}>فندق ضیوف الرحمٰن</h2>
           <p style={{ fontSize: '1.2rem', marginBottom: '30px', textAlign: 'center', maxWidth: '900px', margin: '0 auto 30px auto' }}>
             سیدہ زینب سلام اللہ علیھا علاقے کے قلب میں کام اور آرام کے لیے آپ کی بہترین منزل! چاہے آپ زیارات کے لئے آئے ہوں، سیاحت یا کسی مختصر کاروباری دورے پر ہوں یا شہر گھومنے کے لیے کوئی بہترین مقام تلاش کر رہے ہوں، <strong>(ضیوف الرحمن)</strong> ہوٹل آپ کو بہترین سہولیات اور آرام کا شاندار خیال رکھتا ہے۔
           </p>
 
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '40px', alignItems: 'center' }}>
             <div style={{ flex: '1 1 400px' }}>
-              <h3 style={{ fontSize: '1.5rem', color: '#b0c4de', marginBottom: '20px' }}>ہوٹل کی خصوصیات:</h3>
+              <h3 style={{ color: '#b0c4de', marginBottom: '20px' }}>ہوٹل کی خصوصیات:</h3>
               <ul style={{ listStyleType: 'disc', paddingRight: '25px', fontSize: '1.1rem', lineHeight: '2' }}>
                 <li><strong>بہترین محلِ وقوع:</strong> حرم مبارک سیدہ زینب سلام اللہ علیھا کے بالکل نزدیک واقع ہے۔</li>
                 <li><strong>ایگزیبیشن سینٹر</strong> (نمائشی مرکز) اور اہم تجارتی علاقوں سے صرف چند منٹ کی دوری پر۔</li>

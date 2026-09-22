@@ -3,7 +3,7 @@ export default function Awards() {
     <div className="container">
       <div className="hero-banner" style={{ borderRadius: '15px', marginBottom: '40px' }}>
         <div className="banner-inner" style={{ textAlign: 'center' }}>
-          <h1 style={{ fontSize: '3rem', color: '#d4af37', textShadow: '0 2px 4px rgba(0,0,0,0.5)', marginBottom: '15px' }}>افتخارات و گواهینامه ها</h1>
+          <h1 style={{ color: '#d4af37', textShadow: '0 2px 4px rgba(0,0,0,0.5)', marginBottom: '15px' }}>افتخارات و گواهینامه ها</h1>
           <p style={{ fontSize: '1.2rem', color: '#b0c4de' }}>نامه ها و گواهینامه های مختلف را می توان در این بخش اضافه کرد.</p>
         </div>
       </div>

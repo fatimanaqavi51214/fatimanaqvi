@@ -49,12 +49,12 @@ export default function Contact() {
             {c.href ? (
               <a className="cc-value" href={c.href}>
                 <span>🔗</span>
-                <span>{c.value}</span>
+                <span dir="ltr" style={{ display: "inline-block", unicodeBidi: "embed" }}>{c.value}</span>
               </a>
             ) : (
               <div className="cc-value">
                 <span>🏠</span>
-                <span>{c.value}</span>
+                <span dir="ltr" style={{ display: "inline-block", unicodeBidi: "embed" }}>{c.value}</span>
               </div>
             )}
             <span className="cc-note">{c.note}</span>
