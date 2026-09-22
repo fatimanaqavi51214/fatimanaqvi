@@ -67,26 +67,7 @@ export default function FarsiLayout({ children }) {
     <div className="lang-wrapper" lang="fa" dir="rtl">
         <Header t={t} lang="fa" />
 
-        <section className="hero-banner" aria-label="بنر اصلی">
-          <div className="banner-inner">
-            <div className="banner-image-wrapper">
-              <video
-            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789991269/cover.webm"
-            className="banner-image"
-            autoPlay
-            loop
-            muted
-            playsInline
-            poster="https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png"
-          />
-            </div>
-            <h1 className="banner-title">نصرت فاطمه نقوی</h1>
-            <p className="banner-subtitle">وکیل بشریت</p>
-            <p className="banner-description">
-              تلاش مستمر در خدمت خلق و زنی والا با قلب مهربان
-            </p>
-          </div>
-        </section>
+        
 
         <main>{children}</main>
         <Footer t={t} />

@@ -69,26 +69,7 @@ export default function SpanishLayout({ children }) {
         <Header t={t} lang="es" />
 
         {/* Banner principal visible en todas las páginas */}
-        <section className="hero-banner" aria-label="Banner principal">
-          <div className="banner-inner">
-            <div className="banner-image-wrapper">
-              <video
-            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789991269/cover.webm"
-            className="banner-image"
-            autoPlay
-            loop
-            muted
-            playsInline
-            poster="https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png"
-          />
-            </div>
-            <h1 className="banner-title">Nusrat Fatima Naqvi</h1>
-            <p className="banner-subtitle">Abogada de la Humanidad</p>
-            <p className="banner-description">
-              Esfuerzo continuo en el servicio a la humanidad y una gran dama de corazón compasivo
-            </p>
-          </div>
-        </section>
+        
 
         <main>{children}</main>
         <Footer t={t} />

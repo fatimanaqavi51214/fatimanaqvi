@@ -70,26 +70,7 @@ export default function EnglishLayout({ children }) {
         <Header t={t} lang="en" />
 
         {/* Hero banner displayed across all pages */}
-        <section className="hero-banner" aria-label="Hero Banner">
-          <div className="banner-inner">
-            <div className="banner-image-wrapper">
-              <video
-            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789991269/cover.webm"
-            className="banner-image"
-            autoPlay
-            loop
-            muted
-            playsInline
-            poster="https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png"
-          />
-            </div>
-            <h1 className="banner-title">Nusrat Fatima Naqvi</h1>
-            <p className="banner-subtitle">Advocate for Humanity</p>
-            <p className="banner-description">
-              A remarkable lady dedicated to continuous service to humanity with profound compassion
-            </p>
-          </div>
-        </section>
+        
 
         <main>{children}</main>
         <Footer t={t} />

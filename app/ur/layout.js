@@ -67,26 +67,7 @@ export default function UrduLayout({ children }) {
       <Header t={t} lang="ur" />
 
       {/* ہر صفحہ پر دکھائی دینے والا ہیرو بینر */}
-      <section className="hero-banner" aria-label="ہیرو بینر">
-        <div className="banner-inner">
-          <div className="banner-image-wrapper">
-            <video
-            src="https://res.cloudinary.com/b7xbeztp/video/upload/v1789991269/cover.webm"
-            className="banner-image"
-            autoPlay
-            loop
-            muted
-            playsInline
-            poster="https://res.cloudinary.com/b7xbeztp/image/upload/v1787485385/header1.png"
-          />
-          </div>
-          <h1 className="banner-title">نصرت فاطمہ نقوی</h1>
-          <p className="banner-subtitle">وکیل انسانیت</p>
-          <p className="banner-description">
-            خدمتِ خلق میں جہد مسلسل اور دردِ دل رکھنے والی عظیم خاتون
-          </p>
-        </div>
-      </section>
+      
 
       <main>{children}</main>
       <Footer t={t} />
