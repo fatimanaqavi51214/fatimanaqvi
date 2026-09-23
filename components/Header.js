@@ -83,6 +83,10 @@ export default function Header({ t, lang }) {
               <i className="fa-solid fa-user nav-icon" style={{ fontSize: '0.8rem' }}></i>
               <span className="btn-text">{t.nav.about}</span>
             </Link>
+            <Link href={`/${lang}/diary`} className="nav-btn" style={{ fontSize: '0.8rem', padding: '4px 8px' }}>
+              <i className="fa-solid fa-book nav-icon" style={{ fontSize: '0.8rem' }}></i>
+              <span className="btn-text">{t.nav.diary || (lang === 'ur' ? 'ڈائری' : 'Diary')}</span>
+            </Link>
             <Link href={`/${lang}/ayuda`} className="nav-btn" style={{ fontSize: '0.8rem', padding: '4px 8px' }}>
               <i className="fa-solid fa-hand-holding-heart nav-icon" style={{ fontSize: '0.8rem' }}></i>
               <span className="btn-text">{t.nav.ayuda || (lang === 'ur' ? 'ایودا انٹرنیشنل' : 'Ayuda')}</span>

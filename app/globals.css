@@ -2332,3 +2332,4 @@ footer {
     font-size: 1.05rem;
   }
 }
+.share-widget a:hover, .share-widget button:hover { opacity: 0.8; transform: scale(1.1); transition: all 0.2s ease-in-out; }
