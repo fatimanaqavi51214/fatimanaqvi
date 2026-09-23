@@ -25,7 +25,7 @@ export default function Diary() {
         {
           title: 'Tolerancia religiosa y respeto a la humanidad',
           icon: '🕊️',
-          text: 'El propósito fundamental de los cuatro libros revelados por la divinidad es la guía y salvación de la humanidad. Estas enseñanzas exigen que toda religión sea respetada con suma sinceridad.\n\nAllah Todopoderoso dice en la Sura Al-An'am: "Y (¡Oh musulmanes!) no insulten a esos (falsos dioses) que ellos invocan en lugar de Allah, no sea que insulten a Allah por enemistad y sin conocimiento."\n\nPor lo tanto, no hables mal de la religión de nadie, para que a cambio, nadie hable mal de la tuya. Este respeto y tolerancia mutuos son la base de una humanidad pacífica y unida.'
+          text: `El propósito fundamental de los cuatro libros revelados por la divinidad es la guía y salvación de la humanidad. Estas enseñanzas exigen que toda religión sea respetada con suma sinceridad.\n\nAllah Todopoderoso dice en la Sura Al-An'am: "Y (¡Oh musulmanes!) no insulten a esos (falsos dioses) que ellos invocan en lugar de Allah, no sea que insulten a Allah por enemistad y sin conocimiento."\n\nPor lo tanto, no hables mal de la religión de nadie, para que a cambio, nadie hable mal de la tuya. Este respeto y tolerancia mutuos son la base de una humanidad pacífica y unida.`
         },
         {
           title: 'El espíritu desinteresado de servicio de Ahlul Bayt (p)',

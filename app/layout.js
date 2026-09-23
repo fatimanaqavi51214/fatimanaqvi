@@ -6,8 +6,7 @@ const siteUrl = 'https://fatimanaqvi.vercel.app';
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'نصرت فاطمہ نقوی | Nusrat Fatima Naqvi',
-    template: '%s | نصرت فاطمہ نقوی',
+    default: 'نصرت فاطمہ نقوی | Nusrat Fatima Naqvi'
   },
   description: 'خدمتِ خلق میں جہد مسلسل اور دردِ دل رکھنے والی عظیم خاتون، وکیل انسانیت محترمہ نصرت فاطمہ نقوی کی رسمی ویب سائٹ۔',
   keywords: [

@@ -1,12 +1,25 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { FaWhatsapp, FaArrowUp, FaArrowLeft } from 'react-icons/fa';
 
 export default function FloatingIcons() {
   const router = useRouter();
+  const pathname = usePathname();
   const [showTopBtn, setShowTopBtn] = useState(false);
+
+  const lang = pathname?.split('/')[1] || 'ur';
+  
+  const translations = {
+    ur: { whatsapp: 'WhatsApp پر رابطہ کریں', top: 'اوپر جائیں', back: 'پچھلے صفحے پر جائیں' },
+    en: { whatsapp: 'Contact on WhatsApp', top: 'Scroll to Top', back: 'Go Back' },
+    fa: { whatsapp: 'تماس در واتساپ', top: 'برو به بالا', back: 'بازگشت' },
+    ar: { whatsapp: 'تواصل عبر واتساب', top: 'الذهاب للأعلى', back: 'رجوع' },
+    es: { whatsapp: 'Contactar por WhatsApp', top: 'Ir arriba', back: 'Volver' }
+  };
+
+  const t = translations[lang] || translations.ur;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,7 +53,7 @@ export default function FloatingIcons() {
         target="_blank"
         rel="noopener noreferrer"
         className="floating-whatsapp"
-        title="WhatsApp پر رابطہ کریں"
+        title={t.whatsapp}
       >
         <FaWhatsapp size={32} />
       </a>
@@ -48,11 +61,11 @@ export default function FloatingIcons() {
       {/* Navigation Floating Buttons (Top & Back) */}
       <div className="floating-nav-buttons">
         {showTopBtn && (
-          <button onClick={scrollToTop} className="floating-btn top-btn" title="اوپر جائیں">
+          <button onClick={scrollToTop} className="floating-btn top-btn" title={t.top}>
             <FaArrowUp size={20} />
           </button>
         )}
-        <button onClick={goBack} className="floating-btn back-btn" title="پچھلے صفحے پر جائیں">
+        <button onClick={goBack} className="floating-btn back-btn" title={t.back}>
           <FaArrowLeft size={20} />
         </button>
       </div>

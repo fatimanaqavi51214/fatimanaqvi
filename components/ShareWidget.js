@@ -1,9 +1,21 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { FaWhatsapp, FaFacebook, FaShareAlt } from 'react-icons/fa';
 
 export default function ShareWidget({ url, title, text, label, useDocumentTitle }) {
+  const pathname = usePathname();
+  const lang = pathname?.split('/')[1] || 'ur';
+  const defaultLabels = {
+    ur: 'شیئر کریں:',
+    en: 'Share:',
+    fa: 'اشتراک گذاری:',
+    ar: 'مشاركة:',
+    es: 'Compartir:'
+  };
+  const finalLabel = label || defaultLabels[lang] || defaultLabels.ur;
+
   const [currentUrl, setCurrentUrl] = useState('');
   const [canShare, setCanShare] = useState(false);
   const [dynamicTitle, setDynamicTitle] = useState(title || '');
@@ -47,7 +59,7 @@ export default function ShareWidget({ url, title, text, label, useDocumentTitle 
 
   return (
     <div className="share-widget" style={{ display: 'flex', gap: '10px', alignItems: 'center', marginTop: '15px' }}>
-      <span style={{ fontSize: '0.9rem', color: '#b0c4de' }}>{label || 'شیئر کریں:'}</span>
+      <span style={{ fontSize: '0.9rem', color: '#b0c4de' }}>{finalLabel}</span>
       <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" style={{ color: '#25D366', fontSize: '1.2rem' }}>
         <FaWhatsapp />
       </a>
