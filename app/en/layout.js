@@ -73,7 +73,7 @@ export default function EnglishLayout({ children }) {
         
 
         <main>{children}</main>
-        <Footer t={t} />
+        <Footer t={t} lang="en" />
         <FloatingIcons />
     </div>
   );

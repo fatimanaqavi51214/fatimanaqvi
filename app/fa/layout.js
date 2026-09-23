@@ -70,7 +70,7 @@ export default function FarsiLayout({ children }) {
         
 
         <main>{children}</main>
-        <Footer t={t} />
+        <Footer t={t} lang="fa" />
         <FloatingIcons />
     </div>
   );

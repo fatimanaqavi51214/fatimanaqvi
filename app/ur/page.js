@@ -131,6 +131,9 @@ export default function Home() {
               </div>
             ))}
           </div>
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+            <ShareWidget title="عالمی سطح پر کاروباری کامیابیاں" />
+          </div>
         </div>
       </section>
 
@@ -149,6 +152,9 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+            <ShareWidget title="عظیم الشان فلاحی و سماجی خدمات" />
           </div>
         </div>
       </section>
@@ -174,6 +180,9 @@ export default function Home() {
               جب زمین کے اندر چلے گئے تو تم خود محتاجِ دعا و فاتحہ ہو جاؤ گے۔
             </p>
             <span className="quote-author">نصرت فاطمہ نقوی</span>
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
+              <ShareWidget title="نظریات و خیالات (صدائے خلق)" />
+            </div>
           </div>
         </div>
       </section>

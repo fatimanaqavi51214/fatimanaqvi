@@ -70,7 +70,7 @@ export default function UrduLayout({ children }) {
       
 
       <main>{children}</main>
-      <Footer t={t} />
+      <Footer t={t} lang="ur" />
       <FloatingIcons />
     </div>
   );

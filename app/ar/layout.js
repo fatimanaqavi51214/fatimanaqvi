@@ -71,7 +71,7 @@ export default function ArabicLayout({ children }) {
         
 
         <main>{children}</main>
-        <Footer t={t} />
+        <Footer t={t} lang="ar" />
         <FloatingIcons />
     </div>
   );

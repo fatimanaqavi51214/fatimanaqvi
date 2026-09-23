@@ -72,7 +72,7 @@ export default function SpanishLayout({ children }) {
         
 
         <main>{children}</main>
-        <Footer t={t} />
+        <Footer t={t} lang="es" />
         <FloatingIcons />
     </div>
   );
