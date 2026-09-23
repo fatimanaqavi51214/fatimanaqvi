@@ -1,34 +1,9 @@
+import ShareWidget from '@/components/ShareWidget';
 export default function Home() {
   const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1789978085/Nusrat_Fatima_Naqvi.webm';
   const videoHeading = '🎥 An Introductory Glimpse';
 
-  const todaysMessage = [
-    {
-      title: 'Wealth, Trial, and the Rights of People',
-      icon: '⚖️',
-      text: 'The wealth bestowed by nature is not merely a blessing, but a severe trial. The wealth held by the affluent is actually a trust for the poor, of which they are merely custodians. On the Day of Judgment, these people of authority and the wealthy will be strictly questioned as to why, when they had the resources, they did not fulfill the rights of the deserving?'
-    },
-    {
-      title: 'Religious Tolerance and Respect for Humanity',
-      icon: '🕊️',
-      text: 'The fundamental purpose of all four divinely revealed books is the guidance and salvation of mankind. These teachings demand that every religion be respected with utmost sincerity.\n\nAllah Almighty says in Surah Al-An\'am: "And (O Muslims!) do not insult those (false gods) whom they invoke other than Allah, lest they insult Allah in enmity without knowledge."\n\nTherefore, do not speak ill of anyone\'s religion, so that in return, no one speaks ill of yours. This mutual respect and tolerance is the foundation of a peaceful and united humanity.'
-    },
-    {
-      title: 'The Selfless Spirit of Service of the Ahlul Bayt (a.s.)',
-      icon: '🕋',
-      text: 'The greatest and brightest examples of humanity are found in the lives of the Holy Prophet (PBUH), Hazrat Ali Al-Murtaza, and Imam Zain-ul-Abideen (a.s.). History bears witness that when these pure personalities were bathed after their passing, there were deep scars on their backs and shoulders.\n\nThese marks were not from swords, but were caused by carrying heavy sacks of rations and supplies to the homes of the poor in the darkness of the night for years. Their greatness lay in the fact that while distributing these rations, they never asked about anyone\'s neighborhood, caste, sect, or religion. Whether someone was Jewish, Christian, a disbeliever, or belonged to any other religion, in their eyes, he was first and foremost a "servant of God," and based on this, they selflessly helped everyone.'
-    },
-    {
-      title: 'The Incident of Hazrat Ibrahim (a.s.) and the Vastness of the Lord\'s Mercy',
-      icon: '📖',
-      text: 'A beautiful glimpse of this love without discrimination is described in Sheikh Saadi\'s book "Bustan." It was the blessed habit of Hazrat Ibrahim (a.s.) that he would never eat without a guest. Once it happened that a whole week passed and no guest arrived. He went out in search of a guest. He saw a very old man, and Hazrat Ibrahim (a.s.) invited him to his house for a meal with great respect.\n\nWhen the food was served, the old man started eating silently. Hazrat Ibrahim (a.s.) asked in surprise: "O respected elder! Is it not better to thank the Lord who provides sustenance?" The frail man replied: "I am a worshipper of fire." Hazrat Ibrahim (a.s.) angrily asked him to leave the table.\n\nAt that very moment, a revelation came from Allah: "O Ibrahim! I gave this person life for a hundred years, provided him sustenance, and despite his disbelief, never stopped his food and water. And you, my servant, could not tolerate him for even a single meal?"\n\nHazrat Ibrahim (a.s.) was overcome with intense remorse. He immediately ran barefoot in search of the old man. He apologized and brought him back with great respect and seated him at the table. The old man was very surprised at this behavior and asked the reason. Hazrat Ibrahim (a.s.) weeping said how the Lord of the Universe had reprimanded His friend for the sake of this old man.\n\nUpon hearing this, the old man was stunned, tears welled up in his eyes, and he cried out: "How Generous, Merciful, and Kind is that Lord who is scolding His beloved Prophet for a disobedient person like me!" He immediately repented with a sincere heart and embraced faith in the Oneness of Allah.'
-    },
-    {
-      title: 'Message of Humanity',
-      icon: '🌟',
-      text: 'In today\'s world, when society is engulfed in jealousy, malice, and religious and sectarian prejudices, we need to remember that the greatest act of worship in the sight of God is "Humanity." Those who outwardly claim sympathy but inwardly suffer from malice and discrimination should learn from the character of these great personalities that true religion means spreading love, respecting without discrimination, and embracing every human being.'
-    }
-  ];
+  
 
   const ideology = [
     { icon: '🕊️', title: 'Humanity and Peace', desc: 'Islam is a religion of peace and security. Supporting every poor, distressed, and needy person is our primary duty.' },
@@ -95,45 +70,37 @@ export default function Home() {
 
   return (
     <div className="home-wrapper">
+      {/* Hero Section */}
+      <section className="hero-modern">
+        <div className="hero-content">
+          <p className="hero-desc">
+            A great woman with constant struggle and a heart for humanity.
+            Despite worldly successes, she kept her soul connected to the Creator of the Universe and the service of humanity.
+          </p>
+          <div className="hero-quote">
+            "The fundamental purpose of all four divinely revealed books is the guidance and salvation of mankind. These teachings demand that every religion be respected from the heart."
+            <span style={{ fontSize: '1rem', color: '#55efc4', display: 'block', marginTop: '10px' }}>Nusrat Fatima Naqvi</span>
+            <ShareWidget title="Quote by Nusrat Fatima Naqvi" text="The fundamental purpose of all four divinely revealed books is the guidance and salvation of mankind." />
+            <div style={{ marginTop: '30px', lineHeight: '2', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', flexWrap: 'wrap' }}>
+                <span>May you never show me the day, my Lord</span>
+                <span>That I become proud of myself</span>
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: '30px', flexWrap: 'wrap' }}>
+                <span>Keep me in the hearts of everyone in such a way</span>
+                <span>That everyone is compelled to pray for me</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Video Section */}
       <section className="video-section">
         <h2 className="section-title glow-text text-center">{videoHeading}</h2>
         <div className="video-container-modern">
           <video src={videoLink} controls playsInline preload="metadata" className="promo-video" />
-        </div>
-      </section>
-
-      {/* Today's Message Section */}
-      <section className="message-section">
-        <div className="container">
-          <div className="message-paper">
-            <div className="message-header">
-              <h2 className="message-main-title">Today's Message from Madam Nusrat Fatima Naqvi</h2>
-              <div className="message-divider"></div>
-            </div>
-            
-            <div className="message-content-wrapper">
-              {todaysMessage.map((msg, idx) => (
-                <div className="message-block" key={idx}>
-                  <h3 className="message-block-title">
-                    <span className="msg-icon">{msg.icon}</span>
-                    {msg.title}
-                  </h3>
-                  {msg.text.split('\n\n').map((paragraph, pIdx) => (
-                    <p className="message-block-text" key={pIdx}>{paragraph}</p>
-                  ))}
-                </div>
-              ))}
-            </div>
-
-            <div className="message-footer">
-              <div className="signature-box">
-                <span className="sig-name">Nusrat Fatima Naqvi</span>
-                <span className="sig-title">(Advocate of Humanity)</span>
-                <span className="sig-date">September 20, 2026</span>
-              </div>
-            </div>
-          </div>
+          <ShareWidget title="An Introductory Glimpse of Madam Nusrat Fatima Naqvi" />
         </div>
       </section>
 
@@ -159,6 +126,9 @@ export default function Home() {
               </div>
             ))}
           </div>
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+            <ShareWidget title="Global Business Achievements" />
+          </div>
         </div>
       </section>
 
@@ -177,6 +147,9 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+            <ShareWidget title="Grand Philanthropic and Social Services" />
           </div>
         </div>
       </section>
@@ -202,6 +175,9 @@ export default function Home() {
               for once you go beneath the earth, you yourself will be in need of prayers and Fatiha.
             </p>
             <span className="quote-author">Nusrat Fatima Naqvi</span>
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
+              <ShareWidget title="Ideology and Thoughts (Voice of the People)" />
+            </div>
           </div>
         </div>
       </section>
