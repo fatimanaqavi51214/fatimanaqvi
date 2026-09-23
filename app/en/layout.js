@@ -2,20 +2,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import '@/app/globals.css';
 import FloatingIcons from '@/components/FloatingIcons';
+import { translations } from '@/app/i18n/translations';
 
-const t = {
-  siteTitle: 'Nusrat Fatima Naqvi | Portfolio',
-  nav: {
-    home: 'Home',
-    about: 'About',
-    services: 'Services',
-    works: 'Achievements',
-    business: 'Business',
-    religious: 'Religious Services',
-    contact: 'Contact'
-  },
-  footer: 'All rights reserved | Nusrat Fatima Naqvi'
-};
+const t = translations.en;
 
 const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1789990290/nusratfatimacover-ezgif.com-optimize_1.gif';
 

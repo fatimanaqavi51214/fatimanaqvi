@@ -1,4 +1,6 @@
-import ShareWidget from '@/components/ShareWidget';
+const fs = require('fs');
+
+const faPageContent = `import ShareWidget from '@/components/ShareWidget';
 
 export default function Home() {
   const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1787761493/farsi.mp4';
@@ -182,3 +184,7 @@ export default function Home() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync('app/fa/page.js', faPageContent);
+console.log('Created fa page.');

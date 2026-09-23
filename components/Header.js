@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 
 export default function Header({ t, lang }) {
   const pathname = usePathname();
+  console.log('Header t.home for lang', lang, 'is:', t.home);
 
   const getLangLink = (targetLang) => {
     if (!pathname) return `/${targetLang}`;
@@ -42,10 +43,10 @@ export default function Header({ t, lang }) {
           
           {/* Header Texts */}
           <div style={{ textAlign: 'center' }}>
-            <h1 style={{ fontSize: '1.8rem', margin: '0 auto 5px auto', color: '#d4af37', padding: 0, border: 'none', textAlign: 'center', width: '100%' }}>نصرت فاطمہ نقوی</h1>
-            <p style={{ fontSize: '1rem', color: '#55efc4', margin: '0 auto 5px auto', textAlign: 'center', width: '100%' }}>وکیل انسانیت</p>
+            <h1 style={{ fontSize: '1.8rem', margin: '0 auto 5px auto', color: '#d4af37', padding: 0, border: 'none', textAlign: 'center', width: '100%' }}>{t.home?.title || 'نصرت فاطمہ نقوی'}</h1>
+            <p style={{ fontSize: '1rem', color: '#55efc4', margin: '0 auto 5px auto', textAlign: 'center', width: '100%' }}>{t.home?.subtitle || 'وکیل انسانیت'}</p>
             <p style={{ fontSize: '0.9rem', color: '#b0c4de', margin: '0 auto', maxWidth: '600px', textAlign: 'center' }}>
-              خدمتِ خلق میں جہد مسلسل اور دردِ دل رکھنے والی عظیم خاتون
+              {t.home?.description || 'خدمتِ خلق میں جہد مسلسل اور دردِ دل رکھنے والی عظیم خاتون'}
             </p>
           </div>
 

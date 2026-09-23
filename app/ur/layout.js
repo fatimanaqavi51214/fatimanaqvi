@@ -2,19 +2,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import '@/app/globals.css';
 import FloatingIcons from '@/components/FloatingIcons';
+import { translations } from '@/app/i18n/translations';
 
-const t = {
-  siteTitle: 'نصرت فاطمہ نقوی | پورٹ فولیو',
-  nav: {
-    home: 'ہوم',
-    about: 'تعارف',
-    ayuda: 'ایودا انٹرنیشنل',
-    services: 'خدمات',
-    works: 'کارکردگی',
-    contact: 'رابطہ کریں'
-  },
-  footer: 'تمام حقوق محفوظ ہیں | نصرت فاطمہ نقوی'
-};
+const t = translations.ur;
 
 const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1789990290/nusratfatimacover-ezgif.com-optimize_1.gif';
 

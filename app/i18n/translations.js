@@ -11,7 +11,13 @@ export const translations = {
       religious: 'دینی خدمات',
       family: 'فیملی',
       contact: 'رابطہ کریں',
-      publications: 'اشاعت'
+      publications: 'اشاعت',
+      diary: 'ڈائری'
+    },
+    home: {
+      title: 'نصرت فاطمہ نقوی',
+      subtitle: 'وکیل انسانیت',
+      description: 'خدمتِ خلق میں جہد مسلسل اور دردِ دل رکھنے والی عظیم خاتون'
     },
     about: {
       title: 'تعارف',
@@ -78,7 +84,8 @@ export const translations = {
       business: 'الأعمال',
       religious: 'الخدمات الدينية',
       family: 'العائلة',
-      contact: 'اتصل بنا'
+      contact: 'اتصل بنا',
+      diary: 'يوميات'
     },
     home: {
       title: 'نصرت فاطمة نقوي',
@@ -146,7 +153,8 @@ export const translations = {
       business: 'Negocios',
       religious: 'Servicios religiosos',
       family: 'Familia',
-      contact: 'Contacto'
+      contact: 'Contacto',
+      diary: 'Diario'
     },
     home: {
       title: 'Nusrat Fatima Naqvi',
@@ -211,7 +219,8 @@ export const translations = {
       business: 'تجارت',
       religious: 'خدمات مذهبی',
       family: 'خانواده',
-      contact: 'تماس با ما'
+      contact: 'تماس با ما',
+      diary: 'خاطرات'
     },
     home: {
       title: 'نصرت فاطمه نقوی',
@@ -281,7 +290,8 @@ export const translations = {
       business: 'Business',
       religious: 'Religious Services',
       family: 'Family',
-      contact: 'Contact'
+      contact: 'Contact',
+      diary: 'Diary'
     },
     home: {
       title: 'Nusrat Fatima Naqvi',

@@ -2,20 +2,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import '@/app/globals.css';
 import FloatingIcons from '@/components/FloatingIcons';
+import { translations } from '@/app/i18n/translations';
 
-const t = {
-  siteTitle: 'نصرت فاطمه نقوی | نمابر',
-  nav: {
-    home: 'خانه',
-    about: 'معرفی',
-    services: 'خدمات',
-    works: 'دستاوردها',
-    business: 'تجارت',
-    religious: 'خدمات مذهبی',
-    contact: 'تماس با ما'
-  },
-  footer: 'کلیه حقوق محفوظ است | نصرت فاطمه نقوی'
-};
+const t = translations.fa;
 
 const heroImage = 'https://res.cloudinary.com/b7xbeztp/image/upload/v1789990290/nusratfatimacover-ezgif.com-optimize_1.gif';
 
