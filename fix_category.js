@@ -1,4 +1,6 @@
-import fs from 'fs';
+﻿const fs = require('fs');
+
+const content = \import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 
@@ -30,7 +32,7 @@ export default function CategoryPage({ params }) {
 
   return (
     <>
-      <style dangerouslySetInnerHTML={{__html: `
+      <style dangerouslySetInnerHTML={{__html: \\\
         .cat-container { background-color: #09090b; min-height: 100vh; padding: 40px 20px; font-family: system-ui, sans-serif; color: white; }
         .cat-header { text-align: center; margin-bottom: 50px; }
         .cat-title { font-size: 3rem; font-weight: 900; background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 15px; }
@@ -75,7 +77,7 @@ export default function CategoryPage({ params }) {
         .cat-container[dir="rtl"] .floating-btn { left: 30px; }
         .cat-container[dir="ltr"] .floating-btn { right: 30px; }
         .floating-btn:hover { transform: translateY(-5px) scale(1.05); background: #059669; }
-      `}} />
+      \\\}} />
 
       <div className="cat-container" dir={isRtl ? 'rtl' : 'ltr'}>
         <div className="cat-header">
@@ -87,9 +89,9 @@ export default function CategoryPage({ params }) {
         
         <div className="grid-layout">
           {categoryDocs.length > 0 ? categoryDocs.map(doc => {
-            const docName = doc.translations?.[lang]?.docName || doc.translations?.en?.docName || doc.translations?.ur?.docName || `Document ${doc.id}`;
+            const docName = doc.translations?.[lang]?.docName || doc.translations?.en?.docName || doc.translations?.ur?.docName || \Document \\;
             return (
-              <Link href={`/${lang}/document/${doc.id}`} key={doc.id} style={{ textDecoration: 'none' }}>
+              <Link href={\/\/document/\\} key={doc.id} style={{ textDecoration: 'none' }}>
                 <div className="doc-card">
                   <span className="badge">{doc.id}</span>
                   <div className="doc-img-wrap">
@@ -111,7 +113,7 @@ export default function CategoryPage({ params }) {
           )}
         </div>
         
-        <Link href={`/${lang}/vault`} className="floating-btn">
+        <Link href={\/\/vault\} className="floating-btn">
           <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clipRule="evenodd" fillRule="evenodd"></path></svg>
           {isRtl ? 'مین فولڈرز' : 'Main Folders'}
         </Link>
@@ -119,3 +121,6 @@ export default function CategoryPage({ params }) {
     </>
   );
 }
+\;
+
+fs.writeFileSync('E:/2.maan-jee-website/app/[lang]/category/[slug]/page.js', content, 'utf8');
