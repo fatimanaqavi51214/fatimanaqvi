@@ -1,2 +1,6 @@
 node_modules/
 .next/
+.node/
+*.bak
+HANDOFF.md
+server.js
