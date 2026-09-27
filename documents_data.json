@@ -206,25 +206,29 @@
     "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/image003.jpg",
     "translations": {
       "ur": {
-        "name": "اردو",
+        "name": "????",
         "dir": "rtl",
         "docName": "شناختی سرٹیفکیٹ (اخراج قید نفوس)",
         "lines": [
           {
-            "label": "Details",
+            "label": "تفصیلات",
             "value": "سفارت خانہ اسلامی جمہوریہ پاکستان، دمشق"
           },
           {
+            "label": "نمبر",
+            "value": "ڈی ٹی 8452184"
+          },
+          {
             "label": "تاریخ",
-            "value": "13 فروری 2024"
+            "value": "13/02/2024"
           },
           {
             "label": "دستاویز",
-            "value": "شناختی سرٹیفکیٹ (اخراج قید نفوس)"
+            "value": "سول نچوڑ (اخراج قید)"
           },
           {
-            "label": "Details",
-            "value": "پاکستانی سفارت خانہ دمشق اس بات کی تصدیق کرتا ہے کہ ذیل میں دی گئی معلومات درست ہیں اور متعلقہ شخص کے پاسپورٹ (جاری کردہ پاکستان بتاریخ 9 اکتوبر 2023) کے عین مطابق ہیں۔"
+            "label": "تفصیلات",
+            "value": "دمشق میں پاکستانی سفارت خانہ تصدیق کرتا ہے کہ ذیل میں دی گئی معلومات درست ہیں اور متعلقہ شخص کے پاسپورٹ سے میل کھاتی ہیں... جو پاکستان میں 09/10/2023 کو جاری کیے گئے تھے۔"
           },
           {
             "label": "نام",
@@ -235,8 +239,8 @@
             "value": "سید محمد نقوی"
           },
           {
-            "label": "تاریخ اور جائے پیدائش",
-            "value": "کراچی، 1 جنوری 1958"
+            "label": "جگہ اور تاریخ پیدائش",
+            "value": "کراچی، 01/01/1958"
           },
           {
             "label": "قومیت",
@@ -244,15 +248,15 @@
           },
           {
             "label": "پیشہ",
-            "value": "وکیل (محامية)"
+            "value": "وکیل (محامیة)"
           },
           {
-            "label": "دستاویز جاری کرنے کی وجہ",
-            "value": "قانونی کارروائی کے لیے (من أصل الإجراءات القانونية)"
+            "label": "جاری کرنے کی وجہ",
+            "value": "قانونی طریقہ کار کے لیے (من أصل الإجراءات القانونية)"
           },
           {
-            "label": "Details",
-            "value": "(محمد سرفراز خان، قونصلر اسسٹنٹ کے دستخط اور مہر)"
+            "label": "تفصیلات",
+            "value": "(دستخط محمد سرفراز خان، قونصلر اسسٹنٹ)"
           }
         ]
       },
@@ -766,17 +770,21 @@
     "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/image007.jpg",
     "translations": {
       "ur": {
-        "name": "اردو",
+        "name": "????",
         "dir": "rtl",
         "docName": "پاکستانی سفارت خانے کا سرٹیفکیٹ (2009)",
         "lines": [
           {
-            "label": "Details",
+            "label": "تفصیلات",
             "value": "سفارت خانہ اسلامی جمہوریہ پاکستان، دمشق"
           },
           {
             "label": "تاریخ",
-            "value": "26 فروری 2009"
+            "value": "26/02/2009"
+          },
+          {
+            "label": "دستاویز",
+            "value": "سول نچوڑ (اخراج قید)"
           },
           {
             "label": "نام",
@@ -788,15 +796,15 @@
           },
           {
             "label": "پیشہ",
-            "value": "وکیل (محامية)"
+            "value": "وکیل (محامیة)"
           },
           {
             "label": "رہائش کی جگہ",
-            "value": "مزہ جبل، دمشق"
+            "value": "میزے جبل، دمشق"
           },
           {
-            "label": "Details",
-            "value": "(لاہل زاہد علی، کونسلر کے دستخط)"
+            "label": "تفصیلات",
+            "value": "(لحیل زاہد علی، کونسلر کے دستخط)"
           }
         ]
       },
@@ -3366,10 +3374,327 @@
     "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/image031.jpg",
     "translations": {
       "ur": {
-        "name": "اردو",
+        "name": "????",
         "dir": "rtl",
         "docName": "2003.",
-        "lines": []
+        "lines": [
+          {
+            "label": "تنظیم",
+            "value": ""
+          },
+          {
+            "label": "تفصیلات",
+            "value": "اسلامی ثقافت اور تعلقات کی تنظیم - اسلامی کا ثقافتی اتاشی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "جمہوریہ ایران، دمشق۔"
+          },
+          {
+            "label": "تاریخ",
+            "value": "19/02/1431"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "(ہجری/شمسی)"
+          },
+          {
+            "label": "کو",
+            "value": "جناب عبد خدائی،"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "میڈرڈ میں اسلامی جمہوریہ ایران کے ثقافتی مشیر۔"
+          },
+          {
+            "label": "مواد",
+            "value": "متعارف کروا رہا ہے۔"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "مسز نصرت فاطمہ نقوی، ایک پاکستانی شہری جو شام میں مقیم ہیں اور ہیں۔"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "اہل بیت(ع) کی ثقافت اور مکتب کے فروغ کے لیے سرگرم۔ وہ چاہتی ہے۔"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "حسینیہ قائم کرکے سپین میں مقیم شیعوں کی صورتحال کو منظم کرنا۔"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "اسکول، یا دیگر سرمایہ کاری، اور ثقافتی اتاشی کی رہنمائی کی درخواست کرتا ہے۔"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "حمایت"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "(ڈاکٹر محمد کے دستخط شدہ"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "علی ازارشاب، ثقافتی مشیر، دمشق)۔"
+          },
+          {
+            "label": "ترجمہ",
+            "value": ""
+          },
+          {
+            "label": "ادارہ",
+            "value": "تنظیم"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "فرہنگ و"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "ارتباطات"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "اسلامی -"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "رایزی فرہنگی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "جمہوریہ"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "اسلامی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "ایران، دمشق۔"
+          },
+          {
+            "label": "تاریخ",
+            "value": "19/02/1431 (ہجری شمسی)۔"
+          },
+          {
+            "label": "بنام",
+            "value": "جناب"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "آقای عبد"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "خدائی، رایزن"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "محترمہ فرہنگی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "جمہوریہ"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "اسلامی ایران"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "در مادرید"
+          },
+          {
+            "label": "موضوع",
+            "value": "محترمہ"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "نصرت فاطمہ"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "نقوی (ساکن"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "پاکستان و"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "مقیم شام) کا"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "تعارف۔ وہ اہل"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "بیت (ع) کے مکتب"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "کی ترویج میں سرگرمی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "ہیں اور اسپین"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "میں مقیم"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "شیعوں کے"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "حالات کو بہتر"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "بنانے،"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "حسینیہ یا"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "اسکول کی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "نظام کے لیے"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "سرمایہ کاری"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "کرنا"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "! آپ سے"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "تعاون اور"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "رہنمائی کی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "درخواست کی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "جاتی ہے۔"
+          },
+          {
+            "label": "(دستخط",
+            "value": ""
+          },
+          {
+            "label": "تفصیلات",
+            "value": "ڈاکٹر محمد"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "علی آذرشب،"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "رازن فرہنگی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "سفارت ج.ا.ا"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "دمشق)۔"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "ایرانی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "سفیر کا"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "حسب ضرورت خط"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "(شام سے اسپین"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "کے سفیروں"
+          },
+          {
+            "label": "(بصری)",
+            "value": "اوپر"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "ایران کے"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "سرکاری نشان"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "(اسلامی"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "جمہوریہ ایران)"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "والا لیٹر ہیڈ"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "ہے، نیچے سفیر"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "\"محسن شیخ الاسلام\""
+          },
+          {
+            "label": "تفصیلات",
+            "value": "کے دستکاری اور"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "مہر موجود ہے۔"
+          },
+          {
+            "label": "کیٹیگری",
+            "value": "افضال"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "خانہ (ایران)"
+          },
+          {
+            "label": "تفصیلات",
+            "value": "رسمی"
+          }
+        ]
       },
       "en": {
         "name": "English",
@@ -4895,7 +5220,7 @@
       "ur": {
         "name": "اردو",
         "dir": "rtl",
-        "docName": "دبئی میونسپلٹی - پروفیشنل لائسنس (1977)",
+        "docName": "دبئی پروفیشنل لائسنس - بلاک فیکٹری (1977)",
         "lines": [
           {
             "label": "Details",
@@ -4903,34 +5228,38 @@
           },
           {
             "label": "دستاویز",
-            "value": "سال 1977 کا پروفیشنل لائسنس (رخصة مهنية)"
+            "value": "سال 1975 کا ٹریڈ لائسنس"
           },
           {
-            "label": "نام",
-            "value": "نصرت فاطمہ نقوی"
+            "label": "مالک کا نام",
+            "value": "سید محمد محسن نقوی"
           },
           {
-            "label": "پاسپورٹ اور قومیت",
-            "value": "177189، پاکستانی"
-          },
-          {
-            "label": "پیشے کی قسم",
-            "value": "جنرل ڈیکور (ديكور عام)"
+            "label": "مینیجر یا مجاز نمائندے کا نام",
+            "value": "نصرت فاطمہ نقوی (اسم المدير او الوكيل المفوض)"
           },
           {
             "label": "کاروبار کا نام",
-            "value": "الرافدین جنرل ڈیکور کمپنی (شركة الرافدين للديكورات العامة)"
+            "value": "الرافدین ٹریڈنگ کمپنی (شركة الرافدين للتجارة)"
           },
           {
-            "label": "تاریخِ اجراء",
-            "value": "16 دسمبر 1977"
+            "label": "کاروبار کی قسم",
+            "value": "جنرل ٹریڈنگ (تجارة عامة)"
+          },
+          {
+            "label": "تاریخِ تنسیخ",
+            "value": "31 دسمبر 1975"
+          },
+          {
+            "label": "Details",
+            "value": "(نوٹ: یہ دستاویز ثابت کرتی ہے کہ وہ 1975 میں ایک تجارتی کمپنی کی باضابطہ مینیجر اور مجاز نمائندہ (Authorized Representative) کے طور پر کام کر رہی تھیں۔)"
           }
         ]
       },
       "en": {
         "name": "English",
         "dir": "ltr",
-        "docName": "Dubai Municipality - Professional License (1977)",
+        "docName": "Dubai Professional License - Block Factory (1977)",
         "lines": [
           {
             "label": "Details",
@@ -4938,34 +5267,38 @@
           },
           {
             "label": "Document",
-            "value": "Professional License (رخصة مهنية) for the year 1977"
+            "value": "Trade Licence (رخصة تجارية) for the year 1975"
           },
           {
-            "label": "Name",
-            "value": "Nusrat Fatima Naqvi"
+            "label": "Name of Proprietor",
+            "value": "Syed Muhammad Mohsin Naqvi"
           },
           {
-            "label": "Passport and Nationality",
-            "value": "177189, Pakistani"
+            "label": "Name of Resident Manager or Representative",
+            "value": "Nusrat Fatima Naqvi (اسم المدير او الوكيل المفوض)"
           },
           {
-            "label": "Type of Profession",
-            "value": "General Decor (ديكور عام)"
+            "label": "Name of Trade",
+            "value": "Al Rafidain Trading Co. (شركة الرافدين للتجارة)"
           },
           {
-            "label": "Trade Name",
-            "value": "Al Rafidain General Decor Company (شركة الرافدين للديكورات العامة)"
+            "label": "Type of Business",
+            "value": "General Trading (تجارة عامة)"
           },
           {
-            "label": "Date of Issue",
-            "value": "16 December 1977"
+            "label": "Expiry Date",
+            "value": "31 December 1975"
+          },
+          {
+            "label": "Details",
+            "value": "(Note: This document proves that in 1975 she was working as the official manager and Authorized Representative of a trading company.)"
           }
         ]
       },
       "ar": {
         "name": "العربية",
         "dir": "rtl",
-        "docName": "بلدية دبي - رخصة مهنية (1977)",
+        "docName": "رخصة مهنية دبي - مصنع طابوق (1977)",
         "lines": [
           {
             "label": "تفاصيل",
@@ -4973,34 +5306,38 @@
           },
           {
             "label": "الوثيقة",
-            "value": "رخصة مهنية لعام 1977"
+            "value": "رخصة تجارية لعام 1975"
           },
           {
-            "label": "الاسم",
+            "label": "اسم المالك",
+            "value": "سيد محمد محسن نقوي"
+          },
+          {
+            "label": "اسم المدير أو الوكيل المفوض",
             "value": "نصرت فاطمة نقوي"
           },
           {
-            "label": "الجواز والجنسية",
-            "value": "177189، باكستانية"
-          },
-          {
-            "label": "نوع المهنة",
-            "value": "ديكور عام"
-          },
-          {
             "label": "الاسم التجاري",
-            "value": "شركة الرافدين للديكورات العامة"
+            "value": "شركة الرافدين للتجارة"
           },
           {
-            "label": "تاريخ الإصدار",
-            "value": "16 ديسمبر 1977"
+            "label": "نوع العمل",
+            "value": "تجارة عامة"
+          },
+          {
+            "label": "تاريخ الانتهاء",
+            "value": "31 ديسمبر 1975"
+          },
+          {
+            "label": "تفاصيل",
+            "value": "(ملاحظة: تثبت هذه الوثيقة أنها كانت تعمل كمديرة رسمية ووكيل مفوض لشركة تجارية في عام 1975.)"
           }
         ]
       },
       "fa": {
         "name": "فارسی",
         "dir": "rtl",
-        "docName": "شهرداری دبی - مجوز حرفه‌ای (۱۹۷۷)",
+        "docName": "مجوز حرفه‌ای دبی - کارخانه بلوک (۱۹۷۷)",
         "lines": [
           {
             "label": "جزئیات",
@@ -5008,34 +5345,38 @@
           },
           {
             "label": "سند",
-            "value": "مجوز حرفه‌ای (رخصة مهنية) برای سال ۱۹۷۷"
+            "value": "مجوز تجاری (رخصة تجارية) برای سال ۱۹۷۵"
           },
           {
-            "label": "نام",
-            "value": "نصرت فاطمه نقوی"
+            "label": "نام مالک",
+            "value": "سید محمد محسن نقوی"
           },
           {
-            "label": "گذرنامه و ملیت",
-            "value": "۱۷۷۱۸۹، پاکستانی"
-          },
-          {
-            "label": "نوع حرفه",
-            "value": "دکوراسیون عمومی (ديكور عام)"
+            "label": "نام مدیر یا نماینده مجاز",
+            "value": "نصرت فاطمه نقوی (اسم المدير او الوكيل المفوض)"
           },
           {
             "label": "نام تجاری",
-            "value": "شرکت دکوراسیون عمومی الرافدین (شركة الرافدين للديكورات العامة)"
+            "value": "شرکت تجاری الرافدین (شركة الرافدين للتجارة)"
           },
           {
-            "label": "تاریخ صدور",
-            "value": "۱۶ دسامبر ۱۹۷۷"
+            "label": "نوع کسب و کار",
+            "value": "تجارت عمومی (تجارة عامة)"
+          },
+          {
+            "label": "تاریخ انقضا",
+            "value": "۳۱ دسامبر ۱۹۷۵"
+          },
+          {
+            "label": "جزئیات",
+            "value": "(توجه: این سند ثابت می‌کند که در سال ۱۹۷۵ وی به عنوان مدیر رسمی و نماینده مجاز یک شرکت تجاری مشغول به کار بوده است.)"
           }
         ]
       },
       "es": {
         "name": "Español",
         "dir": "ltr",
-        "docName": "Municipalidad de Dubái - Licencia Profesional (1977)",
+        "docName": "Licencia Profesional de Dubái - Fábrica de Bloques (1977)",
         "lines": [
           {
             "label": "Detalles",
@@ -5043,27 +5384,31 @@
           },
           {
             "label": "Documento",
-            "value": "Licencia Profesional (رخصة مهنية) para el año 1977"
+            "value": "Licencia Comercial (رخصة تجارية) para el año 1975"
           },
           {
-            "label": "Nombre",
-            "value": "Nusrat Fatima Naqvi"
+            "label": "Nombre del Propietario",
+            "value": "Syed Muhammad Mohsin Naqvi"
           },
           {
-            "label": "Pasaporte y Nacionalidad",
-            "value": "177189, Paquistaní"
-          },
-          {
-            "label": "Tipo de Profesión",
-            "value": "Decoración General (ديكور عام)"
+            "label": "Nombre del Gerente o Representante",
+            "value": "Nusrat Fatima Naqvi (اسم المدير او الوكيل المفوض)"
           },
           {
             "label": "Nombre Comercial",
-            "value": "Compañía de Decoración General Al Rafidain (شركة الرافدين للديكورات العامة)"
+            "value": "Al Rafidain Trading Co. (شركة الرافدين للتجارة)"
           },
           {
-            "label": "Fecha de Emisión",
-            "value": "16 de diciembre de 1977"
+            "label": "Tipo de Negocio",
+            "value": "Comercio General (تجارة عامة)"
+          },
+          {
+            "label": "Fecha de Vencimiento",
+            "value": "31 de diciembre de 1975"
+          },
+          {
+            "label": "Detalles",
+            "value": "(Nota: Este documento prueba que en 1975 trabajaba como gerente oficial y representante autorizada de una empresa comercial.)"
           }
         ]
       }
@@ -5646,6 +5991,10 @@
           {
             "label": "Details",
             "value": "(اس پر سرکاری عدالتی مہریں اور جج کے ریمارکس درج ہیں کہ درخواست گزار عربی زبان روانی سے بولتی ہیں)"
+          },
+          {
+            "label": "متن / Content",
+            "value": "�        \r\nIssuing Authority:\r\nGovernment of Pakistan (حکومت\r\nپاکستان)\r\n\n\r\n\r\n\r\n\r\n�        \r\nCard Serial Number: BG\r\n332492\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder�s Signature / Name\r\nImpression: Nusrat Fatima (نصرت\r\nفاطمہ)\r\n\n\r\n\r\n\r\n\r\n�        \r\nDistrict Registration Office\r\nCode: DRO-LHR-96-1132\r\n\n\r\n\r\n\r\n\r\n�        \r\nDate of Issue: 24-03-1979\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder's Photograph:\r\nBlack-and-white photograph affixed\r\n\n\r\n\r\n\r\n\r\nBack\r\nSide ("
           }
         ]
       },
@@ -5677,99 +6026,115 @@
           {
             "label": "Details",
             "value": "(Includes official court stamps and judge's notes confirming fluency in Arabic)"
+          },
+          {
+            "label": "متن / Content",
+            "value": "�        \r\nIssuing Authority:\r\nGovernment of Pakistan (حکومت\r\nپاکستان)\r\n\n\r\n\r\n\r\n\r\n�        \r\nCard Serial Number: BG\r\n332492\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder�s Signature / Name\r\nImpression: Nusrat Fatima (نصرت\r\nفاطمہ)\r\n\n\r\n\r\n\r\n\r\n�        \r\nDistrict Registration Office\r\nCode: DRO-LHR-96-1132\r\n\n\r\n\r\n\r\n\r\n�        \r\nDate of Issue: 24-03-1979\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder's Photograph:\r\nBlack-and-white photograph affixed\r\n\n\r\n\r\n\r\n\r\nBack\r\nSide ("
           }
         ]
       },
       "ar": {
-        "name": "العربية",
+        "name": "???????",
         "dir": "rtl",
         "docName": "طلب قضائي للمحكمة السورية",
         "lines": [
           {
-            "label": "تفاصيل",
-            "value": "الجمهورية العربية السورية - وزارة العدل"
+            "label": "Details",
+            "value": "Syrian Arab Republic - Ministry of Justice"
           },
           {
-            "label": "إلى",
-            "value": "مقام قاضي البداية المدنية الأول المحترم"
+            "label": "To",
+            "value": "The First Judge of the Civil Court of First Instance"
           },
           {
-            "label": "مقدم الطلب",
-            "value": "نصرت فاطمة وفؤاد حيدر (دمشق)"
+            "label": "Applicant",
+            "value": "Nusrat Fatima and Fouad Haider (Damascus)"
           },
           {
-            "label": "الموضوع",
-            "value": "طلب الموافقة على توكيل المحامي الأستاذ محمد زكي النوري دون حضور مترجم محلف، نظراً لأننا نتحدث اللغة العربية بطلاقة."
+            "label": "Subject",
+            "value": "Request for approval to appoint lawyer Mr. Muhammad Zaki Al-Nouri without the presence of a sworn translator, given that we speak Arabic fluently."
           },
           {
-            "label": "التاريخ",
+            "label": "Date",
             "value": "01 / 10 / 2018"
           },
           {
-            "label": "تفاصيل",
-            "value": "(يتضمن أختام المحكمة الرسمية وملاحظات القاضي التي تؤكد الطلاقة في اللغة العربية)"
+            "label": "Details",
+            "value": "(Includes official court stamps and judge's notes confirming fluency in Arabic)"
+          },
+          {
+            "label": "متن / Content",
+            "value": "�        \r\nIssuing Authority:\r\nGovernment of Pakistan (حکومت\r\nپاکستان)\r\n\n\r\n\r\n\r\n\r\n�        \r\nCard Serial Number: BG\r\n332492\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder�s Signature / Name\r\nImpression: Nusrat Fatima (نصرت\r\nفاطمہ)\r\n\n\r\n\r\n\r\n\r\n�        \r\nDistrict Registration Office\r\nCode: DRO-LHR-96-1132\r\n\n\r\n\r\n\r\n\r\n�        \r\nDate of Issue: 24-03-1979\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder's Photograph:\r\nBlack-and-white photograph affixed\r\n\n\r\n\r\n\r\n\r\nBack\r\nSide ("
           }
         ]
       },
       "fa": {
-        "name": "فارسی",
+        "name": "?????",
         "dir": "rtl",
         "docName": "درخواست قضایی دادگاه سوریه",
         "lines": [
           {
-            "label": "جزئیات",
-            "value": "جمهوری عربی سوریه - وزارت دادگستری"
+            "label": "Details",
+            "value": "Syrian Arab Republic - Ministry of Justice"
           },
           {
-            "label": "به",
-            "value": "قاضی اول دادگاه بدوی مدنی"
+            "label": "To",
+            "value": "The First Judge of the Civil Court of First Instance"
           },
           {
-            "label": "متقاضی",
-            "value": "نصرت فاطمه و فواد حیدر (دمشق)"
+            "label": "Applicant",
+            "value": "Nusrat Fatima and Fouad Haider (Damascus)"
           },
           {
-            "label": "موضوع",
-            "value": "درخواست تأیید برای تعیین وکیل آقای محمد زکی النوری بدون حضور مترجم قسم‌خورده، با توجه به اینکه ما به زبان عربی مسلط هستیم."
+            "label": "Subject",
+            "value": "Request for approval to appoint lawyer Mr. Muhammad Zaki Al-Nouri without the presence of a sworn translator, given that we speak Arabic fluently."
           },
           {
-            "label": "تاریخ",
-            "value": "۰۱ / ۱۰ / ۲۰۱۸"
+            "label": "Date",
+            "value": "01 / 10 / 2018"
           },
           {
-            "label": "جزئیات",
-            "value": "(شامل مهرهای رسمی دادگاه و یادداشت‌های قاضی مبنی بر تسلط به زبان عربی است)"
+            "label": "Details",
+            "value": "(Includes official court stamps and judge's notes confirming fluency in Arabic)"
+          },
+          {
+            "label": "متن / Content",
+            "value": "�        \r\nIssuing Authority:\r\nGovernment of Pakistan (حکومت\r\nپاکستان)\r\n\n\r\n\r\n\r\n\r\n�        \r\nCard Serial Number: BG\r\n332492\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder�s Signature / Name\r\nImpression: Nusrat Fatima (نصرت\r\nفاطمہ)\r\n\n\r\n\r\n\r\n\r\n�        \r\nDistrict Registration Office\r\nCode: DRO-LHR-96-1132\r\n\n\r\n\r\n\r\n\r\n�        \r\nDate of Issue: 24-03-1979\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder's Photograph:\r\nBlack-and-white photograph affixed\r\n\n\r\n\r\n\r\n\r\nBack\r\nSide ("
           }
         ]
       },
       "es": {
-        "name": "Español",
+        "name": "Espa�ol",
         "dir": "ltr",
         "docName": "Solicitud Judicial del Tribunal Sirio",
         "lines": [
           {
-            "label": "Detalles",
-            "value": "República Árabe Siria - Ministerio de Justicia"
+            "label": "Details",
+            "value": "Syrian Arab Republic - Ministry of Justice"
           },
           {
-            "label": "Para",
-            "value": "El Primer Juez del Tribunal Civil de Primera Instancia"
+            "label": "To",
+            "value": "The First Judge of the Civil Court of First Instance"
           },
           {
-            "label": "Solicitante",
-            "value": "Nusrat Fatima y Fouad Haider (Damasco)"
+            "label": "Applicant",
+            "value": "Nusrat Fatima and Fouad Haider (Damascus)"
           },
           {
-            "label": "Asunto",
-            "value": "Solicitud de aprobación para nombrar al abogado Sr. Muhammad Zaki Al-Nouri sin la presencia de un traductor jurado, dado que hablamos árabe con fluidez."
+            "label": "Subject",
+            "value": "Request for approval to appoint lawyer Mr. Muhammad Zaki Al-Nouri without the presence of a sworn translator, given that we speak Arabic fluently."
           },
           {
-            "label": "Fecha",
+            "label": "Date",
             "value": "01 / 10 / 2018"
           },
           {
-            "label": "Detalles",
-            "value": "(Incluye sellos oficiales del tribunal y notas del juez que confirman la fluidez en árabe)"
+            "label": "Details",
+            "value": "(Includes official court stamps and judge's notes confirming fluency in Arabic)"
+          },
+          {
+            "label": "متن / Content",
+            "value": "�        \r\nIssuing Authority:\r\nGovernment of Pakistan (حکومت\r\nپاکستان)\r\n\n\r\n\r\n\r\n\r\n�        \r\nCard Serial Number: BG\r\n332492\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder�s Signature / Name\r\nImpression: Nusrat Fatima (نصرت\r\nفاطمہ)\r\n\n\r\n\r\n\r\n\r\n�        \r\nDistrict Registration Office\r\nCode: DRO-LHR-96-1132\r\n\n\r\n\r\n\r\n\r\n�        \r\nDate of Issue: 24-03-1979\r\n\n\r\n\r\n\r\n\r\n�        \r\nHolder's Photograph:\r\nBlack-and-white photograph affixed\r\n\n\r\n\r\n\r\n\r\nBack\r\nSide ("
           }
         ]
       }
@@ -12154,6 +12519,148 @@
             "value": "مرتضى الحسيني، نزار أسعد"
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "قرارداد فروش نهایی",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "دو طرف امضا کننده زیر:"
+          },
+          {
+            "label": "طرف اول (فروشنده)",
+            "value": "نام کامل: علی الصاف | نام پدر: احمد | نام مادر: جمیلا | محل و تاریخ تولد: البصره، 1952 | شماره کارت ملی: صادره از سازمان ثبت احوال المعادمیه به شماره 22201949 تاریخ: 96/12/23 | محل سکونت فعلی: سیده زینب"
+          },
+          {
+            "label": "شخص دوم (خریدار)",
+            "value": "نام کامل: نصرت فاطمه | نام پدر: سید محمد | نام مادر: مهر بانو | محل و تاریخ تولد: کراچی، 1958 | شماره شناسنامه/ثبت: ثبت ثبت شده در دفتر ثبت اتباع خارجی، شماره ...، تاریخ: 96/10/29 | محل اقامت فعلی: دمشق"
+          },
+          {
+            "label": "جزئیات",
+            "value": "شرایط و ضوابط توافق شده:"
+          },
+          {
+            "label": "ماده 1",
+            "value": "طرف اول ملک (آپارتمان) واقع در قطعه ملکی شماره 797 قبر اسیت (سیدة زینب) واقع در طبقه پنجم مالکیت آزاد (ملق) را به مبلغ دو میلیون (2000000 پوند سوریه) به صورت قطعی و غیرقانونی به شخص دوم فروخته است."
+          },
+          {
+            "label": "ماده 2",
+            "value": "طرف دوم به طور رسمی خرید را بر اساس قیمت و شرایط توافق شده پذیرفته است."
+          },
+          {
+            "label": "ماده 3",
+            "value": "طرف اول تسلیم اماکن عاری از هرگونه تحمیل مانع از انتقال مالکیت (فراق) را تضمین می کند."
+          },
+          {
+            "label": "ماده 4",
+            "value": "شرایط مرزبندی و تحویل (تحویل تکمیل شد همانطور که در 1/4/2000 ثبت شد)."
+          },
+          {
+            "label": "ماده 5 و 6",
+            "value": "جدول زمانی ثبت نام، اطلاع رسانی از طریق پست ثبت شده و شرایط توقیف."
+          },
+          {
+            "label": "ماده 7",
+            "value": "الزام به حضور در نزد معاون ثبت زمین در دمشق برای نهایی کردن ثبت نام ظرف 15 روز از اطلاع رسانی."
+          },
+          {
+            "label": "ماده 8",
+            "value": "طرف دوم کل مبلغ 2.000.000 پوند سوریه را به طور کامل در زمان امضا به طرف اول پرداخت کرده است."
+          },
+          {
+            "label": "ماده 9",
+            "value": "تقسیم مالیات و تعهدات شهرداری (قبل از تحویل به فروشنده، پس از تحویل به خریدار)."
+          },
+          {
+            "label": "ماده 10، 11 و 12",
+            "value": "اعلام اقامتگاه، اجرا در المثنی و جبران خسارت در صورت نکول."
+          },
+          {
+            "label": "تاریخ اجرا",
+            "value": "28/02/2000"
+          },
+          {
+            "label": "امضاها",
+            "value": "طرف اول (فروشنده): علی الصاف (امضا) | طرف دوم (خریدار): نصرت فاطمه (امضا)"
+          },
+          {
+            "label": "شاهدان",
+            "value": "مرتضی الحسینی، نزار اسعد"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Contrato de Venta Final",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Las dos partes abajo firmantes:"
+          },
+          {
+            "label": "Primera parte (vendedor)",
+            "value": "Nombre completo: Ali As-Saaf | Nombre del padre: Ahmad | Nombre de la madre: Jamila | Lugar y fecha de nacimiento: Al-Basrah, 1952 | Documento Nacional de Identidad No.: Expedido por el Registro Civil de Al-Mu'adamiyah, No. 22201949, Fecha: 23/12/1996 | Residencia actual: Sayyidah Zaynab"
+          },
+          {
+            "label": "Segunda parte (comprador)",
+            "value": "Nombre completo: Nusrat Fátima | Nombre del padre: Syed Mohammad | Nombre de la madre: Mehar Bano | Lugar y fecha de nacimiento: Karachi, 1958 | DNI/Nº de Registro: Inscripción inscrita en el Registro de Extranjeros, N°..., Fecha: 29/10/1996 | Residencia actual: Damasco"
+          },
+          {
+            "label": "Detalles",
+            "value": "Términos y condiciones acordados:"
+          },
+          {
+            "label": "Artículo 1",
+            "value": "La Primera Parte ha vendido a la Segunda Parte, de manera definitiva e irrevocable, la propiedad (apartamento) ubicada en la parcela inmobiliaria No. 797, área de Qabr Essit (Sayyidah Zaynab), situada en el quinto piso, propiedad absoluta (Milq), por una contraprestación total de dos millones (2.000.000) de libras sirias."
+          },
+          {
+            "label": "Artículo 2",
+            "value": "La Segunda Parte ha aceptado formalmente la compra según el precio y los términos acordados."
+          },
+          {
+            "label": "Artículo 3",
+            "value": "La Primera Parte garantiza la entrega del local libre de cargas que impidan la transferencia de propiedad (Faragh)."
+          },
+          {
+            "label": "Artículo 4",
+            "value": "Términos de demarcación y traspaso (el traspaso se completó según lo registrado el 4/01/2000)."
+          },
+          {
+            "label": "Artículos 5 y 6",
+            "value": "Plazos de inscripción, notificación por correo certificado y condiciones de caducidad."
+          },
+          {
+            "label": "Artículo 7",
+            "value": "Obligación de comparecer ante el auxiliar del registro de la propiedad en Damasco para finalizar la inscripción dentro de los 15 días siguientes a la notificación."
+          },
+          {
+            "label": "Artículo 8",
+            "value": "El Segundo Partido ha pagado la suma total de 2.000.000 de libras sirias al Primer Partido en el momento de la firma."
+          },
+          {
+            "label": "Artículo 9",
+            "value": "División de impuestos y obligaciones municipales (preentrega al vendedor, postentrega al comprador)."
+          },
+          {
+            "label": "Artículos 10, 11 y 12",
+            "value": "Declaración de domicilio, otorgamiento por duplicado y indemnización en caso de incumplimiento."
+          },
+          {
+            "label": "Fecha de ejecución",
+            "value": "28 / 02 / 2000"
+          },
+          {
+            "label": "Firmas",
+            "value": "Primera parte (vendedor): Ali As-Saaf (Firmado) | Segunda parte (Comprador): Nusrat Fatima (Firmado)"
+          },
+          {
+            "label": "Testigos",
+            "value": "Mourtada Al-Husseini, Nizar As'ad"
+          }
+        ]
       }
     },
     "category": "property"
@@ -15562,6 +16069,100 @@
             "value": "توقيع الضابط المخول في الديوان الأميري."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "نامه دولت - دوان العامری، شارجه",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سربرگ:"
+          },
+          {
+            "label": "سازمان",
+            "value": "دوان العامری، دولت شارجه"
+          },
+          {
+            "label": "P.O. جعبه",
+            "value": "1، شارجه"
+          },
+          {
+            "label": "شماره",
+            "value": "بدون شماره"
+          },
+          {
+            "label": "تاریخ",
+            "value": "1976"
+          },
+          {
+            "label": "جزئیات",
+            "value": "محتوا و معنی نامه:"
+          },
+          {
+            "label": "موضوع",
+            "value": "نامه خطاب به مدیر / مسئول پلیس"
+          },
+          {
+            "label": "متن عربی",
+            "value": "«یرجى التكرم بالإفراج عن حاملة هذه الرسالة نصرة ... لحين إحضار بطاقة الوجوه / الأوراق ... ونرجو ما ترونه مناسباً...»"
+          },
+          {
+            "label": "معنی انگلیسی",
+            "value": "از دارنده این نامه خانم نصرت درخواست می‌شود تا با ارائه مدارک شناسایی/مدارک مربوطه، تسهیلات قانونی لازم به عمل آید و آزاد شود."
+          },
+          {
+            "label": "امضا کننده",
+            "value": "با امضاء مسئول مجاز دیوان العامری."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Carta del Gobierno - Dewan Al-Amiri, Sharjah",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Encabezamiento:"
+          },
+          {
+            "label": "Organización",
+            "value": "Dewan Al-Amiri, Gobierno de Sharjah"
+          },
+          {
+            "label": "CORREOS. Caja",
+            "value": "1, Sharjah"
+          },
+          {
+            "label": "Número",
+            "value": "Sin numero"
+          },
+          {
+            "label": "Fecha",
+            "value": "1976"
+          },
+          {
+            "label": "Detalles",
+            "value": "Contenido y significado de la letra:"
+          },
+          {
+            "label": "Sujeto",
+            "value": "Carta dirigida al Director/Encargado de Policía"
+          },
+          {
+            "label": "Texto árabe",
+            "value": "\"يرجى التكرم بالإفراج عن حاملة هذه الرسالة نصرة ... لحين إحضار بطاقة الوجوه / الأوراق ... ونرجو اتخاذ ما ترونه مناسباً...\""
+          },
+          {
+            "label": "Significado en inglés",
+            "value": "\"Se solicita que se conceda a la portadora de esta carta, la señora Nusrat, la facilitación legal necesaria y se la libere hasta que presente sus documentos de identificación/documentos pertinentes, y que se tomen las medidas apropiadas\"."
+          },
+          {
+            "label": "Signatario",
+            "value": "Firmado por el funcionario autorizado de Dewan Al-Amiri."
+          }
+        ]
       }
     },
     "category": "business"
@@ -16192,7 +16793,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_177",
@@ -16354,7 +16955,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_179",
@@ -16516,7 +17117,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_181",
@@ -16658,7 +17259,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_183",
@@ -16800,7 +17401,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_185",
@@ -17406,7 +18007,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_191",
@@ -17588,7 +18189,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_193",
@@ -17790,7 +18391,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_195",
@@ -17932,7 +18533,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_197",
@@ -18054,7 +18655,7 @@
         ]
       }
     },
-    "category": "embassy"
+    "category": "official"
   },
   {
     "id": "doc_199",
@@ -18066,157 +18667,137 @@
         "docName": "پبلک اسٹیبلشمنٹ فار ہاؤسنگ شام – تصدیقِ رقبہ رہائش گاہ",
         "lines": [
           {
-            "label": "Details",
-            "value": "جمہوریہ عربیہ سوریہ (شام) - پبلک اسٹیبلشمنٹ فار ہاؤسنگ (المؤسسة العامة للإسكان)"
+            "label": "سرنامہ",
+            "value": "جمہوریہ عربیہ سوریہ (شام) | پبلک اسٹیبلشمنٹ فار ہاؤسنگ (المؤسسة العامة للإسكان) | نمبر: 8184 / ... | تاریخ: دسمبر 2011ء"
           },
           {
-            "label": "نمبر",
-            "value": "8184 / ..."
+            "label": "بخدمت",
+            "value": "بخدمت جناب: محافظہ دمشق (صوبائی انتظامیہ دمشق)"
           },
           {
-            "label": "تاریخ",
-            "value": "دسمبر 2011ء"
+            "label": "متن (حصہ اول)",
+            "value": "\"درخواست / مکتوب نمبر 3119/و۔ع بتاریخ 30 نومبر 2011ء کے حوالے سے، جو کہ محترمہ نصرت فاطمہ نقوی کی جانب سے عمارت نمبر 7/1 واقع دمشق الجدیدہ (نیو دمشق) میں فلیٹ/رہائش گاہ نمبر 1 کے رقبے کی باضابطہ تصدیق کے لیے پیش کی گئی تھی۔ ہم درج ذیل تفصیل بیان کرتے ہیں:\""
           },
           {
-            "label": "بخدمت جناب",
-            "value": "محافظہ دمشق (صوبائی انتظامیہ دمشق)"
-          },
-          {
-            "label": "Details",
-            "value": "درخواست / مکتوب نمبر 3119/و۔ع بتاریخ 30 نومبر 2011ء کے حوالے سے، جو کہ محترمہ نصرت فاطمہ نقوی کی جانب سے عمارت نمبر 7/1 واقع دمشق الجدیدہ (نیو دمشق) میں فلیٹ/رہائش گاہ نمبر 1 کے رقبے کی باضابطہ تصدیق کے لیے پیش کی گئی تھی۔ ہم درج ذیل تفصیل بیان کرتے ہیں: مذکورہ رہائشی فلیٹ کا کل رقبہ 114 مربع میٹر (ایک سو چودہ مربع میٹر) ہے اور یہ عمارت کے دوسرے تہہ خانے (سیکنڈ بیسمنٹ / القبو الثاني) میں واقع ہے۔ برائے مطلع و ملاحظہ فرمائیں۔"
+            "label": "متن (حصہ دوم)",
+            "value": "\"مذکورہ رہائشی فلیٹ کا کل رقبہ 114 مربع میٹر (ایک سو چودہ مربع میٹر) ہے اور یہ عمارت کے دوسرے تہہ خانے (سیکنڈ بیسمنٹ / القبو الثاني) میں واقع ہے۔ برائے مطلع و ملاحظہ فرمائیں۔\""
           },
           {
             "label": "دستخط کنندہ",
-            "value": "ڈائریکٹر جنرل، پبلک اسٹیبلشمنٹ فار ہاؤسنگ - انجینئر سہیل عبد اللطیف (دستخط شدہ اور سرکاری مہر ثبت ہے)"
+            "value": "ڈائریکٹر جنرل، پبلک اسٹیبلشمنٹ فار ہاؤسنگ | انجینئر سہیل عبد اللطیف (دستخط شدہ اور سرکاری مہر ثبت ہے)"
           }
         ]
       },
       "en": {
         "name": "English",
         "dir": "ltr",
-        "docName": "Public Establishment for Housing Syria – Area Confirmation",
+        "docName": "Syrian Public Establishment for Housing - Residence Area Certification",
         "lines": [
           {
-            "label": "Details",
-            "value": "Syrian Arab Republic - Public Establishment for Housing (المؤسسة العامة للإسكان)"
+            "label": "Header",
+            "value": "Syrian Arab Republic | Public Establishment for Housing (المؤسسة العامة للإسكان) | Number: 8184 / ... | Date: 2011 / 12 / ..."
           },
           {
-            "label": "Number",
-            "value": "8184 / ..."
-          },
-          {
-            "label": "Date",
-            "value": "2011 / 12 / ..."
-          },
-          {
-            "label": "Addressed To",
+            "label": "To",
             "value": "Damascus Governorate (إلى محافظة دمشق)"
           },
           {
-            "label": "Details",
-            "value": "With reference to letter No. 3119/W.A. dated 30/11/2011, submitted by Mrs. Nusrat Fatima Naqvi, requesting specification of the area of residence No. 1 in Building 7/1, located in the New Damascus (دمشق الجديدة) area. We hereby state the following: The area of the aforementioned residential apartment is 114 m² (one hundred and fourteen square meters), and it is located on the second basement level (القبو الثاني). Kindly be informed."
+            "label": "Content P1",
+            "value": "\"With reference to letter No. 3119/W.A. dated 30/11/2011, submitted by Mrs. Nusrat Fatima Naqvi, requesting specification of the area of residence No. 1 in Building 7/1, located in the New Damascus (دمشق الجديدة) area. We hereby state the following:\""
+          },
+          {
+            "label": "Content P2",
+            "value": "\"The area of the aforementioned residential apartment is 114 m² (one hundred and fourteen square meters), and it is located on the second basement level (القبو الثاني). Kindly be informed.\""
           },
           {
             "label": "Signatory",
-            "value": "Director General of the Public Establishment for Housing - Eng. Suhail Abdul Latif (Signed & Officially Stamped)"
+            "value": "Director General of the Public Establishment for Housing | Eng. Suhail Abdul Latif (Signed & Officially Stamped)"
           }
         ]
       },
       "ar": {
         "name": "العربية",
         "dir": "rtl",
-        "docName": "المؤسسة العامة للإسكان سوريا – تصديق مساحة المسكن",
+        "docName": "المؤسسة العامة للإسكان السورية – تصديق مساحة السكن",
         "lines": [
           {
-            "label": "تفاصيل",
-            "value": "الجمهورية العربية السورية - المؤسسة العامة للإسكان"
-          },
-          {
-            "label": "الرقم",
-            "value": "8184 / ..."
-          },
-          {
-            "label": "التاريخ",
-            "value": "2011 / 12 / ..."
+            "label": "الترويسة",
+            "value": "الجمهورية العربية السورية | المؤسسة العامة للإسكان | الرقم: 8184 / ... | التاريخ: 2011 / 12 / ..."
           },
           {
             "label": "إلى",
             "value": "محافظة دمشق"
           },
           {
-            "label": "تفاصيل",
-            "value": "إشارة إلى الكتاب رقم 3119/و.ع تاريخ 30/11/2011 المقدم من السيدة نصرت فاطمة نقوي، بطلب بيان مساحة المسكن رقم 1 في البناء 7/1 الكائن في منطقة دمشق الجديدة. نبين ما يلي: مساحة الشقة السكنية المذكورة هي 114 م² (مائة وأربعة عشر متراً مربعاً)، وتقع في القبو الثاني. يرجى الاطلاع."
+            "label": "النص (الجزء الأول)",
+            "value": "\"إشارة إلى الكتاب رقم 3119/و.ع تاريخ 30/11/2011، المقدم من السيدة نصرت فاطمة نقوي، المتضمن طلب بيان مساحة المسكن رقم 1 في البناء 7/1 الكائن في منطقة دمشق الجديدة. نبين ما يلي:\""
+          },
+          {
+            "label": "النص (الجزء الثاني)",
+            "value": "\"مساحة الشقة السكنية المذكورة هي 114 م2 (مائة وأربعة عشر متراً مربعاً)، وتقع في القبو الثاني. يرجى الاطلاع.\""
           },
           {
             "label": "الموقع",
-            "value": "المدير العام للمؤسسة العامة للإسكان - المهندس سهيل عبد اللطيف (موقع وممهور بخاتم رسمي)"
+            "value": "المدير العام للمؤسسة العامة للإسكان | المهندس سهيل عبد اللطيف (موقع وممهور بالختم الرسمي)"
           }
         ]
       },
       "fa": {
         "name": "فارسی",
         "dir": "rtl",
-        "docName": "سازمان عمومی مسکن سوریه – تأییدیه مساحت مسکن",
+        "docName": "مؤسسه عمومی مسکن سوریه - گواهی متراژ محل اقامت",
         "lines": [
           {
-            "label": "جزئیات",
-            "value": "جمهوری عربی سوریه - سازمان عمومی مسکن (المؤسسة العامة للإسكان)"
+            "label": "سربرگ",
+            "value": "جمهوری عربی سوریه | مؤسسه عمومی مسکن (المؤسسة العامة للإسكان) | شماره: ۸۱۸۴ / ... | تاریخ: ۲۰۱۱ / ۱۲ / ..."
           },
           {
-            "label": "شماره",
-            "value": "8184 / ..."
+            "label": "به",
+            "value": "استانداری دمشق (محافظة دمشق)"
           },
           {
-            "label": "تاریخ",
-            "value": "2011 / 12 / ..."
+            "label": "متن (بخش اول)",
+            "value": "\"عطف به نامه شماره ۳۱۱۹/و.ع مورخ ۳۰/۱۱/۲۰۱۱، ارائه‌شده توسط خانم نصرت فاطمه نقوی، مبنی بر درخواست تعیین مساحت واحد مسکونی شماره ۱ در ساختمان ۷/۱، واقع در منطقه دمشق جدید (دمشق الجدیدة). بدین‌وسیله موارد زیر را اعلام می‌داریم:\""
           },
           {
-            "label": "گیرنده",
-            "value": "استانداری دمشق (إلى محافظة دمشق)"
-          },
-          {
-            "label": "جزئیات",
-            "value": "با اشاره به نامه شماره 3119/و.ع مورخ 30/11/2011 ارائه شده توسط خانم نصرت فاطمه نقوی، مبنی بر درخواست تعیین مساحت مسکن شماره 1 در ساختمان 7/1 واقع در منطقه دمشق الجدیده. بدینوسیله موارد زیر را اعلام می‌داریم: مساحت آپارتمان مسکونی مذکور 114 متر مربع (یکصد و چهارده متر مربع) می‌باشد و در زیرزمین دوم (القبو الثاني) قرار دارد. جهت استحضار."
+            "label": "متن (بخش دوم)",
+            "value": "\"مساحت آپارتمان مسکونی مذکور ۱۱۴ متر مربع (یکصد و چهارده متر مربع) می‌باشد و در زیرزمین دوم (القبو الثانی) واقع شده است. جهت استحضار تقدیم می‌گردد.\""
           },
           {
             "label": "امضاکننده",
-            "value": "مدیرکل سازمان عمومی مسکن - مهندس سهیل عبداللطیف (امضا و مهر رسمی)"
+            "value": "مدیر کل مؤسسه عمومی مسکن | مهندس سهیل عبداللطیف (امضا و مهر رسمی شده)"
           }
         ]
       },
       "es": {
         "name": "Español",
         "dir": "ltr",
-        "docName": "Establecimiento Público de Vivienda Siria – Confirmación de Área",
+        "docName": "Establecimiento Público de Vivienda de Siria - Certificación de Área de Residencia",
         "lines": [
           {
-            "label": "Detalles",
-            "value": "República Árabe Siria - Establecimiento Público de Vivienda (المؤسسة العامة للإسكان)"
+            "label": "Encabezado",
+            "value": "República Árabe Siria | Establecimiento Público de Vivienda (المؤسسة العامة للإسكان) | Número: 8184 / ... | Fecha: 2011 / 12 / ..."
           },
           {
-            "label": "Número",
-            "value": "8184 / ..."
+            "label": "A",
+            "value": "Gobernación de Damasco (محافظة دمشق)"
           },
           {
-            "label": "Fecha",
-            "value": "2011 / 12 / ..."
+            "label": "Contenido P1",
+            "value": "\"Con referencia a la carta No. 3119/W.A. de fecha 30/11/2011, presentada por la Sra. Nusrat Fatima Naqvi, solicitando la especificación del área de la residencia No. 1 en el Edificio 7/1, ubicado en el área de Nueva Damasco (دمشق الجديدة). Por la presente declaramos lo siguiente:\""
           },
           {
-            "label": "Dirigido A",
-            "value": "Gobernación de Damasco (إلى محافظة دمشق)"
-          },
-          {
-            "label": "Detalles",
-            "value": "En referencia a la carta No. 3119/W.A. de fecha 30/11/2011, presentada por la Sra. Nusrat Fatima Naqvi, solicitando la especificación del área de la residencia No. 1 en el Edificio 7/1, ubicado en el área de Nueva Damasco (دمشق الجديدة). Por la presente declaramos lo siguiente: El área del apartamento residencial mencionado es de 114 m² (ciento catorce metros cuadrados), y está ubicado en el segundo sótano (القبو الثاني). Para su información."
+            "label": "Contenido P2",
+            "value": "\"El área del mencionado apartamento residencial es de 114 m² (ciento catorce metros cuadrados), y se encuentra en el segundo nivel del sótano (القبو الثاني). Queden debidamente informados.\""
           },
           {
             "label": "Firmante",
-            "value": "Director General del Establecimiento Público de Vivienda - Ing. Suhail Abdul Latif (Firmado y Sellado Oficialmente)"
+            "value": "Director General del Establecimiento Público de Vivienda | Ing. Suhail Abdul Latif (Firmado y Sellado Oficialmente)"
           }
         ]
       }
     },
-    "category": "personal"
+    "category": "official"
   },
   {
     "id": "doc_201",
@@ -18422,6 +19003,140 @@
             "value": "الفريق الأول (البائع): علي الصعاف (توقيع) | الفريق الثاني (المشتري): نصرت فاطمة (توقيع) | الشهود: مرتضى الحسيني، نزار أسعد (توقيع)"
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "قرارداد فروش نهایی (عقد بیع قطعی)",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "دو طرف امضا کننده زیر:"
+          },
+          {
+            "label": "طرف اول (فروشنده)",
+            "value": "نام کامل: علی احمد الصاف | نام پدر: احمد | نام مادر: جمیلا | محل و تاریخ تولد: بصره، 1952 | شماره شناسنامه: 339، صادره از سازمان ثبت احوال المعادمیه در تاریخ 97/7/13 | محل سکونت فعلی: سیده زینب"
+          },
+          {
+            "label": "شخص دوم (خریدار)",
+            "value": "نام کامل: نصرت فاطمه | نام پدر: سید محمد | نام مادر: مریم بانو | محل و تاریخ تولد: کراچی، 1958 | شناسنامه ثبت: دمشق (دفتر ثبت اتباع خارجی) به شماره 05461 مورخ 97/10/29 | محل اقامت فعلی: دمشق"
+          },
+          {
+            "label": "توافق نامه",
+            "value": "هر دو طرف در صلاحیت کامل قانونی و شرعی با شرایط و ضوابط زیر موافقت کرده اند:"
+          },
+          {
+            "label": "بند 1",
+            "value": "طرف اول ملک (آپارتمان) واقع در طبقه چهارم زمین ملکی شماره 797 در منطقه قبر اسیت (سیدة زینب) با مالکیت آزاد (ملق) را به مبلغ دو میلیون و دویست و پنجاه و بیست و پنجاه و بیست و پنجاه هزار سوری به صورت قطعی و غیرقانونی به طرف دوم فروخته است. تعهد به پرداخت کمیسیون"
+          },
+          {
+            "label": "بند 2",
+            "value": "طرف دوم خرید املاک فوق الذکر را از طرف اول به قیمت توافق شده با شرایط مندرج در اینجا پذیرفت."
+          },
+          {
+            "label": "بند 3",
+            "value": "طرف اول متعهد می شود که ملک را عاری از هرگونه اختلاف یا تحمیل مانع از انتقال قانونی (فراق) تحویل دهد."
+          },
+          {
+            "label": "بند 4",
+            "value": "هزینه های تقسیم ساختمان و مشخصات ملک طبق مقررات عادی پرداخت می شود. (یک یادداشت دست نویس نشان می دهد که تحویل آپارتمان به طرف دوم به طور رسمی در تاریخ 1/4/2000 تکمیل شده است)."
+          },
+          {
+            "label": "بند 5-7",
+            "value": "اطلاعیه های استاندارد، شرایط تحویل، و روش های حضور در نزد معاون ثبت زمین در دمشق."
+          },
+          {
+            "label": "بند 8",
+            "value": "طرف دوم دو میلیون و دویست و پنجاه هزار (2,250,000) پوند سوریه را مستقیماً به طرف اول پرداخت کرده است و کل مبلغ فروش را به طور کامل و بدون مانده باقی مانده تکمیل می کند."
+          },
+          {
+            "label": "بند 9",
+            "value": "تمام مالیات های قبلی دارایی بر عهده طرف اول باقی می ماند. پس از آن، تمام مالیات ها و هزینه های آب و برق به عهده طرف دوم است."
+          },
+          {
+            "label": "بند 10-12",
+            "value": "آدرس اخطارهای حقوقی، اجرا در دو نسخه اصلی و بند مجازات استاندارد برای نقض قرارداد."
+          },
+          {
+            "label": "تاریخ اجرا",
+            "value": "28/2/2000"
+          },
+          {
+            "label": "یادداشت دست نویس بالا",
+            "value": "«تم تسليم الشقة رقم (4) للفريق الثاني» (آپارتمان شماره 4 به طرف دوم واگذار شده است)."
+          },
+          {
+            "label": "امضاها",
+            "value": "طرف اول: علی الصاف (امضا) | طرف دوم: نصرت فاطمه (امضا) | شاهدان: مرتضی الحسین، نزار اسعد (امضا)"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Contrato de venta final (عقد بيع قطعي)",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Las dos partes abajo firmantes:"
+          },
+          {
+            "label": "Primera parte (vendedor)",
+            "value": "Nombre completo: Ali Ahmad As-Saaf | Nombre del padre: Ahmad | Nombre de la madre: Jamila | Lugar y fecha de nacimiento: Basora, 1952 | DNI nº: 339, expedido por el Registro Civil de Al-Mu'adamiyah el 13/7/1997 | Residencia actual: Sayyidah Zaynab"
+          },
+          {
+            "label": "Segunda parte (comprador)",
+            "value": "Nombre completo: Nusrat Fátima | Nombre del padre: Syed Mohammad | Nombre de la madre: Maryam Bano | Lugar y fecha de nacimiento: Karachi, 1958 | Registro de identidad: Damasco (Registro de Extranjeros), nº 05461 de fecha 29/10/1997 | Residencia actual: Damasco"
+          },
+          {
+            "label": "Acuerdo",
+            "value": "Ambas partes, en plena capacidad legal y shar'i, han acordado los siguientes términos y condiciones:"
+          },
+          {
+            "label": "Cláusula 1",
+            "value": "La Primera Parte ha vendido a la Segunda Parte, de manera definitiva e irrevocable, la propiedad (apartamento) ubicada en el cuarto piso, parte de la parcela inmobiliaria No. 797 en el área de Qabr Essit (Sayyidah Zaynab), propiedad absoluta (Milq), por una contraprestación total de dos millones doscientas cincuenta mil (2.250.000) libras sirias, con el compromiso de pagar la comisión."
+          },
+          {
+            "label": "Cláusula 2",
+            "value": "La Segunda Parte aceptó la compra del inmueble antes mencionado a la Primera Parte por el precio acordado, sujeto a las condiciones aquí establecidas."
+          },
+          {
+            "label": "Cláusula 3",
+            "value": "La Primera Parte se compromete a entregar la propiedad libre de toda disputa o gravamen que impida la transferencia legal (Faragh)."
+          },
+          {
+            "label": "Cláusula 4",
+            "value": "Los gastos de subdivisión de edificios y especificación de propiedades serán sufragados de acuerdo con la reglamentación regular. (Una nota manuscrita indica que la entrega del apartamento a la Segunda Parte se completó oficialmente el 4/1/2000)."
+          },
+          {
+            "label": "Cláusulas 5 a 7",
+            "value": "Notificaciones estándar, plazos de entrega y procedimientos de comparecencia ante el auxiliar del registro de la propiedad en Damasco."
+          },
+          {
+            "label": "Cláusula 8",
+            "value": "La Segunda Parte ha pagado dos millones doscientas cincuenta mil (2.250.000) libras sirias en efectivo directamente a la Primera Parte, completando la contraprestación total de la venta en su totalidad sin ningún saldo pendiente."
+          },
+          {
+            "label": "Cláusula 9",
+            "value": "Todos los impuestos sobre la propiedad anteriores siguen siendo responsabilidad de la Primera Parte; a partir de entonces, todos los impuestos y cargos por servicios públicos corren a cargo de la Segunda Parte."
+          },
+          {
+            "label": "Cláusulas 10 a 12",
+            "value": "Direcciones de avisos legales, ejecución en dos ejemplares originales y cláusula penal tipo por incumplimiento de contrato."
+          },
+          {
+            "label": "Fecha de Ejecución",
+            "value": "28/2/2000"
+          },
+          {
+            "label": "Nota manuscrita superior",
+            "value": "\"تم تسليم الشقة رقم (4) للفريق الثاني\" (El apartamento nº 4 ha sido entregado al Segundo Partido)."
+          },
+          {
+            "label": "Firmas",
+            "value": "Primer Partido: Ali As-Saaf (Firmado) | Segunda Parte: Nusrat Fatima (Firmado) | Testigos: Mourtada Al-Hussein, Nizar As'ad (Firmado)"
+          }
+        ]
       }
     },
     "category": "personal"
@@ -18570,6 +19285,100 @@
             "value": "مدقق من قبل رئيس الرسامين، مراجع من قبل رئيس الشؤون الفنية، معتمد من قبل مدير مؤسسة الإسكان."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "مؤسسه عمومی برای مسکن – نقشه سایت و چیدمان ساختمان",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سربرگ:"
+          },
+          {
+            "label": "1",
+            "value": "جمهوری عربی سوریه – مؤسسه عمومی مسکن (المؤسسة العامة للإسكان)"
+          },
+          {
+            "label": "2",
+            "value": "دمشق الجدیده (مزه) - طرح ساختمان های مسکونی عمومی"
+          },
+          {
+            "label": "شماره ساختمان",
+            "value": "7/1، 9، 11/1، 11/2"
+          },
+          {
+            "label": "جزئیات",
+            "value": "اطلاعات طرح کلی:"
+          },
+          {
+            "label": "خیابان",
+            "value": "جاده اصلی (شارع الشام / شارع عام)"
+          },
+          {
+            "label": "ورودی ساختمان",
+            "value": "مشخص شده در ساختمان 7/1 (مدخل البناء)"
+          },
+          {
+            "label": "بلوک های ساختمانی فردی",
+            "value": "ابعاد ردپای ساختمان، عقب ماندگی ها، فواصل جانبی و مرزها را نشان می دهد."
+          },
+          {
+            "label": "یادداشت ها",
+            "value": "میخ های مرزی و مرزبندی توسط بخش نقشه برداری توپوگرافی سازمان مسکن عمومی انجام شده است."
+          },
+          {
+            "label": "تاییدیه های فنی",
+            "value": "تایید شده توسط رئیس نقشه کش، بررسی توسط رئیس امور فنی، تایید شده توسط مدیر موسسه مسکن."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Establecimiento público de vivienda: plano del sitio y distribución del edificio",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Encabezamiento:"
+          },
+          {
+            "label": "1",
+            "value": "República Árabe Siria – Establecimiento público de vivienda (المؤسسة العامة للإسكان)"
+          },
+          {
+            "label": "2",
+            "value": "Damasco Al-Jadeeda (Mezzeh) – Disposición de los edificios de viviendas públicas"
+          },
+          {
+            "label": "Números de edificio",
+            "value": "7/1, 9, 11/1, 11/2"
+          },
+          {
+            "label": "Detalles",
+            "value": "Información general de diseño:"
+          },
+          {
+            "label": "Calle",
+            "value": "Carretera principal (شارع الشام / شارع عام)"
+          },
+          {
+            "label": "Entrada al edificio",
+            "value": "Marcado en el edificio 7/1 (مدخل البناء)"
+          },
+          {
+            "label": "Bloques de construcción individuales",
+            "value": "Muestra las dimensiones de la huella del edificio, los retranqueos, las distancias laterales y los límites."
+          },
+          {
+            "label": "Notas",
+            "value": "Estaciones de límites y demarcaciones realizadas por la División de Estudios Topográficos del Establecimiento de Vivienda Pública."
+          },
+          {
+            "label": "Homologaciones Técnicas",
+            "value": "Verificado por el Delineante Jefe, Revisado por el Jefe de Asuntos Técnicos, Aprobado por el Director del Establecimiento de Vivienda."
+          }
+        ]
       }
     },
     "category": "personal"
@@ -18680,6 +19489,76 @@
           {
             "label": "التصديق",
             "value": "مدقق وموقع من قبل المساح الفني المختص والمدير المفوض."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "نقشه شهرسازی – دمشق الجدیده (طرح جامع تایید شده)",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سربرگ و تایید:"
+          },
+          {
+            "label": "متن",
+            "value": "\"صورة طبق الأصل عن المخطط الموقع العام لمنطقة دمشق الجديدة، خاص بالعمارة رقم 7/1 منطقة /د/ وذلك لتقديمها إلى المصرف العقاري\" (نسخه معتبر تصديق شده نقشه اصلي سايت براي منطقه دمشق جديد، مخصوصاً براي ساختمان واقعي E71، براي ساختمان فرعي E71D، به شماره Sestat. بانک)."
+          },
+          {
+            "label": "جزئیات",
+            "value": "جزئیات طرح:"
+          },
+          {
+            "label": "شاخص مرجع",
+            "value": "72/51"
+          },
+          {
+            "label": "شبکه اصلی کاداستر",
+            "value": "شبکه جاده های شهری، دوربرگردان ها، بلوک های مسکونی، فضاهای باز/باغ ها (حدیقة 59)، و امکانات عمومی اطراف را نشان می دهد."
+          },
+          {
+            "label": "مهرهای رسمی",
+            "value": "الصاق تمبر رسمی درآمد و مهر نهادی مدور اداره کل / مؤسسه عمومی مسکن (المؤسسة العامة للإسكان)."
+          },
+          {
+            "label": "تصدیق",
+            "value": "تائید و امضاء نقشه بردار فنی ذیصلاح و مدیر مجاز."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Mapa de Urbanismo – Damasco Al-Jadeeda (Plan Maestro Certificado)",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Encabezado y respaldo:"
+          },
+          {
+            "label": "Texto",
+            "value": "\"صورة طبق الأصل عن المخطط الموقع العام لمنطقة دمشق الجديدة، خاص بالعمارة رقم 7/1 منطقة /د/ وذلك لتقديمها إلى المصرف العقاري\" (Copia certificada fiel del plano maestro del sitio para el área de Nuevo Damasco, específicamente para el Edificio No. 7/1, Sector 'D', para su presentación al Banco de Bienes Raíces)."
+          },
+          {
+            "label": "Detalles",
+            "value": "Detalles del plan:"
+          },
+          {
+            "label": "Índice de referencia",
+            "value": "72 / 51"
+          },
+          {
+            "label": "Cuadrícula Catastral Maestra",
+            "value": "Muestra la red de carreteras urbanas, rotondas, bloques residenciales, espacios abiertos/jardines (حديقة 59) y servicios públicos circundantes."
+          },
+          {
+            "label": "Sellos Oficiales",
+            "value": "Estampado con timbres fiscales oficiales y sello institucional circular de la Dirección General / Establecimiento Público de Vivienda (المؤسسة العامة للإسكان)."
+          },
+          {
+            "label": "Atestación",
+            "value": "Verificado y firmado por el perito técnico competente y director autorizado."
           }
         ]
       }
@@ -18804,6 +19683,84 @@
           {
             "label": "التاريخ",
             "value": "دمشق: الأحد 21.06.2009 (ممهور بختم وتوقيع المترجم المحلف)"
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "نامه وزارت امور خارجه سوریه (بخش فرهنگی).",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "جمهوری عربی سوریه - وزارت امور خارجه - بخش فرهنگی"
+          },
+          {
+            "label": "رفر.",
+            "value": "11 (7/1/7 3741)"
+          },
+          {
+            "label": "تاریخ",
+            "value": "05.03.1982"
+          },
+          {
+            "label": "به",
+            "value": "سرکنسولگری / دبی"
+          },
+          {
+            "label": "محتوا",
+            "value": "«با استناد به نامه شماره 60 شما (7/1/4) مورخ 31.12.1981، نامه وزارت اوکاف شماره 1911/4/6 مورخ 1982/07/07 جهت قدردانی وزارت اوکاف از خیریه دهنده N. TOMA برای سخاوت او و تایید درخواست او."
+          },
+          {
+            "label": "امضا کننده",
+            "value": "وزیر امور خارجه - امضا و مهر"
+          },
+          {
+            "label": "جزئیات",
+            "value": "ترجمه نسخه پیوست - مترجم قسم خورده"
+          },
+          {
+            "label": "تاریخ",
+            "value": "دمشق: یکشنبه 21.06.2009 (مهر و امضای رسمی مترجم قسم خورده الصاق شد)"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Carta del Ministerio de Asuntos Exteriores de Siria (Departamento de Cultura)",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "República Árabe Siria - Ministerio de Asuntos Exteriores - Departamento de Cultura"
+          },
+          {
+            "label": "Árbitro.",
+            "value": "11 (1/7/7 3741)"
+          },
+          {
+            "label": "Fecha",
+            "value": "05.03.1982"
+          },
+          {
+            "label": "A",
+            "value": "Consulado General / Dubái"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Con referencia a su carta N° 60 (7/1/4) de fecha 31.12.1981, adjuntamos a la presente la carta del Ministerio de Awkaf N° 1911/4/6 de fecha 07.07.1982 para notificar el agradecimiento del Ministerio de Awkaf a la donante de caridad Sra. NASRAT FATIMA SAYED MOHAMMAD AL TOMA por su generosidad y aprobar su solicitud."
+          },
+          {
+            "label": "Signatario",
+            "value": "Ministro de Estado de Asuntos Exteriores - Firma y Sello\""
+          },
+          {
+            "label": "Detalles",
+            "value": "Traducción del ejemplar adjunto - Traductor jurado"
+          },
+          {
+            "label": "Fecha",
+            "value": "Damasco: domingo 21.06.2009 (Sello Oficial y Firma del Traductor Jurado)"
           }
         ]
       }
@@ -18966,6 +19923,108 @@
             "value": "014922"
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "جمهوری عربی سوریه – وزارت دادگستری – وکالتنامه فروش املاک و مستغلات",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "دفتر اسناد رسمی در بابیلا (الکاتب بالعدل فی ببیلا)"
+          },
+          {
+            "label": "شماره ویژه (الرقم الخاص)",
+            "value": "188"
+          },
+          {
+            "label": "شماره عمومی (الرقم العام)",
+            "value": "3380"
+          },
+          {
+            "label": "ثبت نام (السجل)",
+            "value": "551"
+          },
+          {
+            "label": "عنوان",
+            "value": "وکالتنامه فروش املاک (وكالة لبيع عقار)"
+          },
+          {
+            "label": "اصلی (الموکل)",
+            "value": "اینجانب امضاء کننده زیر، علی احمد الصاف، فرزند احمد، نام مادری جمیله، متولد 1952، دارنده شناسنامه شماره 339 صادره از سازمان ثبت احوال المعادمیه در تاریخ 13/12/1999. با سمت وکالت آقای [...] با وکالتنامه شماره [...] در خصوص طبقه چهارم / آپارتمان در قطعه 797 محدوده قبر اسیت;"
+          },
+          {
+            "label": "نماینده / وکیل منصوب (الوكيل)",
+            "value": "در این روز و در این روز با کمال صلاحیت قانونی و ذهنی، خانم نصرت فاطمه نقوی، دختر سید محمد، نام مادری مریم بانو، متولد 1958، دارنده پاسپورت پاکستانی شماره 456761 صادره در دمشق در تاریخ 29/8/1998 را منصوب کردم."
+          },
+          {
+            "label": "مقامات و اختیارات اعطا شده",
+            "value": "وکالت اینجانب و اقدام از طرف اینجانب در فروش و واگذاری قانونی (فراق) و ثبت کل ملک/آپارتمان طبقه چهارم واقع در محدوده املاک قبر اسیت به هر کس که مایل باشد از جمله برای خودش در صورت تمایل به قیمتی که مقتضی بداند بدون نیاز به حضور من. او کاملاً مجاز است که از من در برابر تمام مقامات ذیصلاح و ادارات ثبت اسناد و املاک نمایندگی کند. تصدیق فروش، حمل و نقل و دریافت قیمت خرید؛ ارائه اسناد مالکیت؛ رسیدگی به کلیه تشریفات مربوط، ترخیص، تسویه حساب مالیاتی، و درخواست برای مجوزهای ساختمانی و نوسازی. اصلاح مشخصات املاک و مستغلات؛ و کلیه مراحل لازم برای اجرای کامل این وکالتنامه را با حق صریح تفویض کامل یا جزئی این اختیارات به اشخاص ثالث انجام دهد."
+          },
+          {
+            "label": "امضای مدیر و تاثیر شست",
+            "value": "علی الصاف (ضمیمه شده)"
+          },
+          {
+            "label": "تصدیق دفتر اسناد رسمی",
+            "value": "توسط سردفتر اسناد رسمی شهرستان بابیلا با پرداخت کلیه حق الزحمه قانونی و هزینه های قانونی به طور رسمی تأیید، تأیید و در دفاتر ثبت رسمی ثبت می شود."
+          },
+          {
+            "label": "شماره ثبت نام",
+            "value": "014922"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "República Árabe Siria – Ministerio de Justicia – Poder para la venta de bienes inmuebles",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Notario público en Babbila (الكاتب بالعدل في ببيلا)"
+          },
+          {
+            "label": "Número especial (الرقم الخاص)",
+            "value": "188"
+          },
+          {
+            "label": "Número general (الرقم العام)",
+            "value": "3380"
+          },
+          {
+            "label": "Registrarse (السجل)",
+            "value": "551"
+          },
+          {
+            "label": "Título",
+            "value": "Poder notarial para la venta de bienes inmuebles (وكالة لبيع عقار)"
+          },
+          {
+            "label": "Director (الموكل)",
+            "value": "Yo, el abajo firmante, Ali Ahmad As-Saaf, hijo de Ahmad, nombre de madre Jamila, nacido en 1952, titular de la Tarjeta de Identidad No. 339 expedida por el Registro Civil de Al-Mu'adamiyah el 13/12/1999; actuando en mi calidad de abogado del Sr. [...] bajo el poder notarial No. [...] con respecto al cuarto piso/apartamento en la parcela No. 797, área de Qabr Essit;"
+          },
+          {
+            "label": "Agente / Abogado designado (الوكيل)",
+            "value": "En este día y fecha, estando en plena capacidad jurídica y mental, he nombrado a la Sra. Nusrat Fatima Naqvi, hija de Syed Mohammad, nombre de la madre Maryam Bano, nacida en 1958, titular del pasaporte paquistaní nº 456761 expedido en Damasco el 29/8/1998;"
+          },
+          {
+            "label": "Autoridades y poderes otorgados",
+            "value": "Representarme y actuar en mi nombre en la venta, transferencia legal (Faragh) y registro de la totalidad de la propiedad/apartamento en el cuarto piso ubicado en la zona inmobiliaria de Qabr Essit, a quien ella desee, incluida ella misma si lo desea, por el precio que considere apropiado, sin requerir mi presencia. Está plenamente autorizada para representarme ante todas las autoridades competentes y departamentos de registro de la propiedad; acusar recibo de venta, traspaso y recibo del precio de compra; entregar títulos de propiedad; procesar todos los trámites relacionados, autorizaciones, liquidaciones de impuestos y solicitudes de permisos de construcción y renovación; rectificar especificaciones inmobiliarias; y ejecutar todos los procedimientos necesarios para dar pleno efecto a este poder, con el derecho explícito de delegar total o parcialmente estas facultades a terceros."
+          },
+          {
+            "label": "Firma del director e impresión del pulgar",
+            "value": "Ali As-Saaf (fijado)"
+          },
+          {
+            "label": "Certificación de notario público",
+            "value": "Autenticado formalmente, verificado e inscrito en los registros oficiales por el Notario Público de Babbila previo pago de todos los derechos de timbre legales y tasas legales."
+          },
+          {
+            "label": "Entrada de registro No.",
+            "value": "014922"
+          }
+        ]
       }
     },
     "category": "personal"
@@ -19076,6 +20135,76 @@
           {
             "label": "الموقع",
             "value": "الختم الرسمي والتوقيع: سفارة باكستان، طهران (موقع ومختوم)."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "سفارت پاکستان در تهران - گواهی",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سفارت پاکستان در تهران"
+          },
+          {
+            "label": "خیر",
+            "value": "EOP/CR-II/2025"
+          },
+          {
+            "label": "تاریخ دار",
+            "value": "12 نوامبر 2025"
+          },
+          {
+            "label": "خطاب شده است",
+            "value": "ممکن است مربوط به چه کسانی باشد (فقط برای مقامات ایرانی)"
+          },
+          {
+            "label": "محتوا",
+            "value": "\"گفته شده است که خانم نصرت فاطمه با غلام سرور (متأخر)، شماره پاسپورت DT8452184، CNIC شماره 91306-0764218-6 یک تبعه پاکستانی است. او در بریتانیا و اسپانیا زندگی می کند و حرفه ای یک وکیل و زن تجاری است."
+          },
+          {
+            "label": "توجه داشته باشید",
+            "value": "این به درخواست خانم نصرت فاطمه صادر شده است.»"
+          },
+          {
+            "label": "امضا کننده",
+            "value": "مهر و امضای رسمی: سفارت پاکستان، تهران (مهر و امضا)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Embajada de Pakistán en Teherán - Certificado",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Embajada de Pakistán en Teherán"
+          },
+          {
+            "label": "No.",
+            "value": "POE/CR-II/2025"
+          },
+          {
+            "label": "Anticuado",
+            "value": "12 de noviembre de 2025"
+          },
+          {
+            "label": "Dirigido",
+            "value": "A QUIEN CORRESPONDA (solo para autoridades iraníes)"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Se afirma que la Sra. Nusrat Fatima sin Ghulam Sarwar (tarde), pasaporte nº DT8452184, CNIC nº 91306-0764218-6 es ciudadana paquistaní. Reside en el Reino Unido y España, y es abogada y empresaria de profesión."
+          },
+          {
+            "label": "Nota",
+            "value": "Esto ha sido emitido a petición de la señora Nusrat Fatima.\""
+          },
+          {
+            "label": "Signatario",
+            "value": "Sello y firma oficial: Embajada de Pakistán, Teherán (Firmado y sellado)."
           }
         ]
       }
@@ -19298,6 +20427,148 @@
             "value": "(ملصق عليها طوابع مالية ورسوم السجل العقاري)."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "اداره ثبت اسناد و املاک سوریه – درخواست ثبت کاداستر",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "جمهوری عربی سوریه – اداره ثبت اسناد و املاک (ریف دیمشق)"
+          },
+          {
+            "label": "شماره برنامه",
+            "value": "23381"
+          },
+          {
+            "label": "مرجع رجیستری",
+            "value": "2827"
+          },
+          {
+            "label": "به",
+            "value": "رئیس اداره ثبت اسناد و املاک ریف دیمشق"
+          },
+          {
+            "label": "متقاضی",
+            "value": "جمیل ابوصالح، ساکن منطقه."
+          },
+          {
+            "label": "موضوع",
+            "value": "درخواست صدور سند ملکی (قید عقاری) زمین ملکی شماره 284 محدوده قبر اسیت."
+          },
+          {
+            "label": "جزئیات",
+            "value": "تفکیک سهام کاداستر و مالکان مشترک (ذکر شده در سند):"
+          },
+          {
+            "label": "1",
+            "value": "اسعد خرما / محمد خرما"
+          },
+          {
+            "label": "2",
+            "value": "محمدعلی خرما"
+          },
+          {
+            "label": "3",
+            "value": "مصطفی علی خرما"
+          },
+          {
+            "label": "4",
+            "value": "سهم تخصیص / اختصاص به نصرت فاطمه نقوی"
+          },
+          {
+            "label": "5",
+            "value": "فرزندان جمیل ابوصالح (محمد، سکنه و...)"
+          },
+          {
+            "label": "6",
+            "value": "شورای روستای قبر اسیت (سهم شهرداری)"
+          },
+          {
+            "label": "تاریخ",
+            "value": "13/1/1996 (یا 31/1/1996)"
+          },
+          {
+            "label": "اداره ثبت اسناد و املاک",
+            "value": "احمد حسین (امضا و مهر)"
+          },
+          {
+            "label": "توجه داشته باشید",
+            "value": "(الصاق تمبر درآمد رسمی و تمبر حق ثبت اسناد و املاک)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Dirección de Registro de la Propiedad Siria – Solicitud de Registro Catastral",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "República Árabe Siria – Dirección de Registro de la Propiedad (Rif Dimashq)"
+          },
+          {
+            "label": "Solicitud No.",
+            "value": "23381"
+          },
+          {
+            "label": "Referencia de registro",
+            "value": "2827"
+          },
+          {
+            "label": "A",
+            "value": "Jefe de la Oficina del Registro de la Propiedad en Rif Dimashq"
+          },
+          {
+            "label": "Solicitante",
+            "value": "Jamil Abu Saleh, residente de la zona."
+          },
+          {
+            "label": "Sujeto",
+            "value": "Solicitud de emisión de Registro de Propiedad / Registro de Título (قيد عقاري) para la parcela inmobiliaria No. 284, área de Qabr Essit."
+          },
+          {
+            "label": "Detalles",
+            "value": "Desglose de acciones catastrales y copropietarios (enumerados en el documento):"
+          },
+          {
+            "label": "1",
+            "value": "Asaad Khurma / Mohammad Khurma"
+          },
+          {
+            "label": "2",
+            "value": "Mohammad Ali Khurma"
+          },
+          {
+            "label": "3",
+            "value": "Mustafa Ali Khurma"
+          },
+          {
+            "label": "4",
+            "value": "Participación asignada / asignada a Nusrat Fatima Naqvi"
+          },
+          {
+            "label": "5",
+            "value": "Hijos de Jamil Abu Saleh (Mohammad, Sukna, etc.)"
+          },
+          {
+            "label": "6",
+            "value": "Ayuntamiento de Qabr Essit (participación municipal)"
+          },
+          {
+            "label": "Fecha",
+            "value": "13/1/1996 (o 31/1/1996)"
+          },
+          {
+            "label": "Registrador de la Propiedad",
+            "value": "Ahmad Hussein (Firmado y Sellado)"
+          },
+          {
+            "label": "Nota",
+            "value": "(Sellos oficiales de Hacienda y timbres de tasas del Registro de la Propiedad colocados)."
+          }
+        ]
       }
     },
     "category": "personal"
@@ -19444,6 +20715,100 @@
           {
             "label": "الشهود",
             "value": "علي الحسين (توقيع) | جواد حيدر (توقيع) | مرتضى [...] (توقيع)"
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "تسویه حساب مساحت و سهم (تصفیة حساب مساحات)",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "تسویه حساب مساحت و سهم (تصفیة حساب مساحات)"
+          },
+          {
+            "label": "محتوا",
+            "value": "«در این تاریخ، بین خانم نصرت فاطمه نقوی، دختر سید محمد نقوی، و آقای مرتضی فرزند حمدی العویس، در مورد حقوق هر یک از طرفین در هتل کینگ تایم واقع در منطقه سیده زینب، توافق شد. به قراردادهای منعقد شده بین آنها پس از محاسبات نهایی مساحت کل هتل، با در نظر گرفتن مبادلات و شرایط قراردادهای امضا شده، هر دو طرف توافق کردند که نسبت مالکیت و سهم کلی در هتل تکمیل شده به طور قطعی به شرح زیر تعیین می شود."
+          },
+          {
+            "label": "1",
+            "value": "42 درصد کل هتل متعلق به خانم نصرت فاطمه نقوی است."
+          },
+          {
+            "label": "2",
+            "value": "58 درصد کل هتل متعلق به آقای مرتضی العویس است."
+          },
+          {
+            "label": "توجه داشته باشید",
+            "value": "مغازه های تجاری طبق قراردادهای منعقد شده متعلق به آقای مرتضی می باشد."
+          },
+          {
+            "label": "جزئیات",
+            "value": "این درصد شامل تفاوت در مشخصات تکمیل/تناسب ذکر شده در قراردادها نمی‌شود، که تا زمانی که طرفین توافق کنند، طبق دفترچه شرایط باقی می‌ماند."
+          },
+          {
+            "label": "محتوا",
+            "value": "مابقی بدهی های مالی متقابل پس از عقد قرارداد اجاره که به موجب آن هر دو طرف هتل را به آقای علی نعمت زاده افروزی (اتباع ایرانی) اجاره داده اند، تسویه خواهد شد.»"
+          },
+          {
+            "label": "مکان و تاریخ",
+            "value": "دمشق، 15/03/2012، ساعت 3:00 بامداد"
+          },
+          {
+            "label": "امضاها",
+            "value": "نصرت فاطمه نقوی (امضا) | مرتضی العویس (امضا)"
+          },
+          {
+            "label": "شاهدان",
+            "value": "علی الحسین (امضا) | جواد حیدر (امضا) | مرتضی [...] (امضا)"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Liquidación de áreas y cálculos de participación (تصفية حساب مساحات)",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Liquidación de áreas y cálculos de participación (تصفية حساب مساحات)"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"En esta fecha, se llegó a un acuerdo entre la Sra. Nusrat Fatima Naqvi, hija de Syed Mohammad Naqvi, y el Sr. Mourtada, hijo de Hamdi Al-Oweis, respecto de los derechos de cada parte en el Hotel King Time ubicado en la zona de Sayyidah Zaynab. El hotel fue construido y terminado (equipado) por el Sr. Mourtada en el terreno inmobiliario propiedad de la Sra. Nusrat, de conformidad con los contratos firmados entre ellos. Siguiendo los cálculos finales de la superficie de todo el hotel, teniendo en cuenta los intercambios y los términos de los contratos firmados, ambas partes acordaron que las proporciones generales de propiedad y participación en el hotel terminado quedan definitivamente establecidas de la siguiente manera:\""
+          },
+          {
+            "label": "1",
+            "value": "El 42% de todo el hotel es propiedad de la señora Nusrat Fatima Naqvi."
+          },
+          {
+            "label": "2",
+            "value": "El 58% de todo el hotel es propiedad del Sr. Mourtada Al-Oweis."
+          },
+          {
+            "label": "Nota",
+            "value": "Los locales comerciales pertenecen al Sr. Mourtada según lo acordado previamente en los contratos firmados."
+          },
+          {
+            "label": "Detalles",
+            "value": "Este porcentaje no incluye las diferencias en las especificaciones de acabado/acondicionamiento mencionadas en los contratos, las cuales se regirán por el pliego de condiciones hasta que así lo acuerden ambas partes."
+          },
+          {
+            "label": "Contenido",
+            "value": "Las restantes obligaciones financieras mutuas se liquidarán una vez concluido el contrato de arrendamiento en virtud del cual ambas partes alquilaron el hotel al Sr. Ali Nemat Zadeh Afrouzi (ciudadano iraní).\""
+          },
+          {
+            "label": "Lugar y fecha",
+            "value": "Damasco, 15/03/2012, a las 03:00 horas"
+          },
+          {
+            "label": "Firmas",
+            "value": "Nusrat Fatima Naqvi (Firmado) | Mourtada Al-Oweis (Firmado)"
+          },
+          {
+            "label": "Testigos",
+            "value": "Ali Al-Hussein (Firmado) | Jawad Haider (Firmado) | Mourtada [...] (Firmado)"
           }
         ]
       }
@@ -19630,6 +20995,124 @@
             "value": "التوقيع والختم الرسمي: القنصلية العامة لباكستان، دبي (موقع ومختوم)."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "سرکنسولگری پاکستان دبی – گواهی گذرنامه",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سرکنسولگری پاکستان - P.O. جعبه 340، دبی – U.A.E."
+          },
+          {
+            "label": "تماس بگیرید",
+            "value": "تلفن: (009714) 3970412 – 3973600 | فکس: 3971975"
+          },
+          {
+            "label": "تاریخ",
+            "value": "27 ژانویه 2026"
+          },
+          {
+            "label": "خطاب شده است",
+            "value": "به کسانی که ممکن است مربوط باشد"
+          },
+          {
+            "label": "محتوا",
+            "value": "«این برای تأیید این است که پاسپورت قابل خواندن با ماشین شماره DT8452184 برای نصرت فاطمه W/o غلام سرور با مشخصات زیر صادر شده است:"
+          },
+          {
+            "label": "نام",
+            "value": "نصرت فاطمه"
+          },
+          {
+            "label": "نام شوهر",
+            "value": "غلام سرور"
+          },
+          {
+            "label": "تاریخ تولد",
+            "value": "01 ژانویه 1958"
+          },
+          {
+            "label": "محل تولد",
+            "value": "کراچی، پاکستان"
+          },
+          {
+            "label": "تاریخ صدور",
+            "value": "09 اکتبر 2023"
+          },
+          {
+            "label": "تاریخ انقضا",
+            "value": "08 اکتبر 2033"
+          },
+          {
+            "label": "جزئیات",
+            "value": "جزئیات ذکر شده در بالا طبق گزارش صحیح و درست است. این گواهی به درخواست دارنده گذرنامه بدون هیچ گونه مسئولیتی در قبال این کنسولگری صادر می شود."
+          },
+          {
+            "label": "امضا کننده",
+            "value": "امضا و مهر رسمی: سرکنسولگری پاکستان، دبی (امضا و مهر)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Consulado General de Pakistán en Dubai – Certificado de Pasaporte",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Consulado General de Pakistán - P.O. Box 340, Dubái – EAU"
+          },
+          {
+            "label": "Contacto",
+            "value": "Tel: (009714) 3970412 – 3973600 | Fax: 3971975"
+          },
+          {
+            "label": "Fecha",
+            "value": "27 de enero de 2026"
+          },
+          {
+            "label": "Dirigido",
+            "value": "A QUIEN LE INTERESE"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"La presente es para certificar que el pasaporte de lectura mecánica número DT8452184 fue emitido a nombre de Nusrat Fatima sin Ghulam Sarwar con los siguientes detalles:"
+          },
+          {
+            "label": "Nombre",
+            "value": "Nusrat Fátima"
+          },
+          {
+            "label": "Nombre del marido",
+            "value": "Ghulam Sarwar"
+          },
+          {
+            "label": "Fecha de nacimiento",
+            "value": "01 de enero de 1958"
+          },
+          {
+            "label": "Lugar de nacimiento",
+            "value": "Karachi, Pakistán"
+          },
+          {
+            "label": "Fecha de emisión",
+            "value": "9 de octubre de 2023"
+          },
+          {
+            "label": "Fecha de vencimiento",
+            "value": "8 de octubre de 2033"
+          },
+          {
+            "label": "Detalles",
+            "value": "Los detalles mencionados anteriormente son correctos y verdaderos según el registro. Este certificado se expide a solicitud del titular del pasaporte sin responsabilidad alguna para este Consulado.\""
+          },
+          {
+            "label": "Signatario",
+            "value": "Firma y sello oficial: Consulado General de Pakistán, Dubai (firmado y sellado)."
+          }
+        ]
       }
     },
     "category": "personal"
@@ -19754,6 +21237,84 @@
             "value": "توقيع الموكل، الختم الرسمي لعسلي للتجارة العامة، وأختام الكاتب بالعدل / التصديق بتاريخ 22/11/97."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "وکالت عمومی",
+        "lines": [
+          {
+            "label": "سربرگ",
+            "value": "بسم الله الرحمن الرحیم"
+          },
+          {
+            "label": "عنوان",
+            "value": "وکالت عمومی (توکیل عام)"
+          },
+          {
+            "label": "اصلی",
+            "value": "«اینجانب امضاء کننده زیر، محمود عبدالله علی، تبعه امارات متحده عربی، دارنده پاسپورت شماره [...]، به موجب این سند، خانم نصرت فاطمه دختر سید محمد نقوی، همسر غلام سرور چودری، دارنده پاسپورت شماره 754587 و اجازه اقامت به شماره 8228022104 را به عنوان حق شناسنامه خود منصوب می نمایم. وکیل"
+          },
+          {
+            "label": "اقتدار 1",
+            "value": "او کاملاً مجاز است که از طرف من عمل کند و از من در تأسیس هر شرکت یا ورود به هر تجارت تجاری به نام خودش یا با مشارکت دیگران نمایندگی کند. او دارای اختیارات کامل برای امضای قراردادهای مشارکت بر اساس شرایطی است که مناسب می‌داند، تأیید می‌کند، تأیید می‌کند و آنها را در مراجع ذیصلاح ثبت می‌کند، و تشریفات انتشار و ترخیص را انجام می‌دهد."
+          },
+          {
+            "label": "اقتدار 2",
+            "value": "به او صلاحیت کامل برای مدیریت کلیه موسسات تحت مالکیت خود از منظر فنی و اداری، نمایندگی آنها در مقابل اشخاص ثالث، امضای قرارداد، خرید و فروش کالا و خدمات، وصول پرداخت‌ها، صدور رسید و تخلیه، مطالبه و دریافت بدهی‌های معوق، ثبت و پیگیری شکایات در کلانتری و دفاتر دادسرا، انتصاب و اخراج وکلا برای دعاوی حقوقی، پرداخت جریمه، پرداخت مالیات، لوایح، پرداخت وجوه، استخدام و اخراج کارمندان و کارگران، تعیین دستمزد آنها، پردازش ویزا و اجازه اقامت برای کارکنان، بازرسی مجوزهای تجاری و وسایل نقلیه، و نمایندگی موسسات در برابر کلیه ادارات فدرال، محلی، دولتی و شبه دولتی، از جمله وزارت کار و امور اجتماعی، وزارت امور خارجه، ادارات تابعیت و اقامت، وزارت امور خارجه، وزارت امور خارجه مقامات هوانوردی، برق و آب و ادارات زمین و اقتصاد."
+          },
+          {
+            "label": "نتیجه گیری",
+            "value": "به طور خلاصه، وکیل اینجانب دارای اختیارات کامل و مطلقی است که قانون و شرع برای انجام کلیه اقدامات لازم برای تحقق اهداف فوق الذکر مجاز دانسته است. من هر آنچه را که او به طور قانونی در این زمینه اجرا می کند تأیید می کنم و درخواست تصدیق رسمی آن را می کنم.»"
+          },
+          {
+            "label": "جزئیات اصلی",
+            "value": "مدیر (الموکل): محمود عبدالله علی | مالک مواد غذایی عسلی (سابق) / بازرگانی عمومی عسلی (فعلا) | P.O. Box 9232, Dubai – U.A.E."
+          },
+          {
+            "label": "امضا و مهر",
+            "value": "امضای مدیر، مهر رسمی بازرگانی عسلی و مهرهای سردفتری/قانونی مورخ 97/11/22."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Poder General",
+        "lines": [
+          {
+            "label": "Encabezamiento",
+            "value": "En el nombre de Dios, el Compasivo, el Misericordioso"
+          },
+          {
+            "label": "Título",
+            "value": "Poder general (توكيل عام)"
+          },
+          {
+            "label": "Principal",
+            "value": "\"Yo, el abajo firmante, Mahmoud Abdullah Ali, nacional de los Emiratos Árabes Unidos, titular del Pasaporte No. [...], por la presente nombro en virtud del presente instrumento a la Sra. Nusrat Fatima, hija de Sayed Mohammad Naqvi, esposa de Ghulam Sarwar Chaudhry, titular del Pasaporte No. 754587 y permiso de residencia No. 21040828 (válido hasta 2002), como mi verdadero y legítimo abogado."
+          },
+          {
+            "label": "Autoridad 1",
+            "value": "Ella está totalmente autorizada para actuar en mi nombre y representarme al establecer cualquier empresa o iniciar cualquier negocio comercial en su propio nombre o en sociedad con otros. Tiene plena autoridad para firmar contratos de asociación en los términos que considere adecuados, visarlos, autentificarlos y registrarlos ante las autoridades competentes, y realizar los trámites de publicación y autorización."
+          },
+          {
+            "label": "Autoridad 2",
+            "value": "Se le otorga plena autoridad para administrar desde el punto de vista técnico y administrativo los establecimientos de su propiedad, representarlos ante terceros, firmar contratos, comprar y vender bienes y servicios, cobrar pagos, emitir recibos y descargos, reclamar y recibir deudas pendientes, presentar y dar seguimiento a denuncias ante comisarías y ministerios públicos, nombrar y destituir abogados para reclamaciones judiciales, pagar alquileres, impuestos, honorarios, multas y facturas de servicios públicos, desembolsar fondos, contratar y despedir empleados y trabajadores, determinar sus salarios, tramitar visas y permisos de residencia para el personal, inspeccionar licencias comerciales y de vehículos, y representar a los establecimientos ante todos los departamentos federales, locales, gubernamentales y cuasigubernamentales, incluido el Ministerio de Trabajo y Asuntos Sociales, los Departamentos de Naturalización y Residencia, los Municipios, las Cámaras de Comercio e Industria, las Autoridades de Aviación Civil, Electricidad y Agua, y los Departamentos Económicos y de Tierras."
+          },
+          {
+            "label": "Conclusión",
+            "value": "En resumen, a mi abogado se le otorgan poderes plenos y absolutos permitidos por la ley y la sharia para ejecutar todos los actos necesarios para lograr los objetivos antes mencionados. Ratifico lo que lícitamente ejecute al respecto y solicito su constancia formal.\""
+          },
+          {
+            "label": "Detalles principales",
+            "value": "Director (الموكل): Mahmoud Abdullah Ali | Propietario de Asali Foodstuff (anteriormente) / Asali General Trading (actualmente) | CORREOS. Box 9232, Dubái – EAU"
+          },
+          {
+            "label": "Firmas y sellos",
+            "value": "Firma del mandante, sello oficial de Asali General Trading y sellos de Notario/Legalización del 22/11/97."
+          }
+        ]
       }
     },
     "category": "personal"
@@ -19876,6 +21437,84 @@
           {
             "label": "المصادقة",
             "value": "المصادقة النهائية: \"تمت الموافقة على الإفراز\""
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "شهرداری قبر اسیت – گزارش بازرسی فنی محل تقسیم زمین",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "عنوان: به شورای شهرداری / به متقاضی (إلى المستدعي / المجلس)"
+          },
+          {
+            "label": "عنوان",
+            "value": "گزارش بازرسی فنی سایت (تقریر الکشف الفنی):"
+          },
+          {
+            "label": "محتوا",
+            "value": "\"با بررسی محل در زمین ملکی شماره 284 منطقه املاک قبر اسیت مشخص شد که مساحت کل قطعه مذکور 14439 متر مربع (چهارده هزار و چهارصد و سی و نه متر مربع) می باشد. تقریباً یک جاده عمومی موجود روی ملک مشخص شده است که آن را به چند قسمت عمومی تقسیم می کند. مساحت خالص باقی مانده از ملک تقریباً 6648 متر مربع است."
+          },
+          {
+            "label": "جزئیات",
+            "value": "توجه: ملک در محدوده اصلی / نظارتی (منطقة تنظیمیة / سكن حدیث) قرار می گیرد. ملک مذکور مستلزم تقسیم رسمی (افراز) است تا مالک بتواند پروانه ساختمانی اخذ کند. برای بررسی و راهنمایی شما ارسال شد."
+          },
+          {
+            "label": "امضا کننده 1",
+            "value": "رئیس دفتر فنی (رئیس المکتب الفنی): مهندس محمد هشام البابی (امضا)"
+          },
+          {
+            "label": "امضا کننده 2",
+            "value": "نقشه بردار / نماینده محله (م. ف / جرجس الحفی): امضاء شده"
+          },
+          {
+            "label": "امضا کننده 3",
+            "value": "سرپرست شهرداری قبر اسیت (رئیس بلدیة قبر الست): با امضا و مهر رسمی شهرداری"
+          },
+          {
+            "label": "تایید",
+            "value": "تایید نهایی: \"تمت الموافقة علی الإفراز\" (فرعی / ایفراز بدینوسیله تایید می شود)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Municipio de Qabr Essit - Informe técnico de inspección del sitio para la subdivisión de tierras",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Título: Al Concejo Municipal / Al Solicitante (إلى المستدعي / المجلس)"
+          },
+          {
+            "label": "Título",
+            "value": "Informe de inspección técnica del sitio (تقرير الكشف الفني):"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Al realizar la inspección del sitio en el lote inmobiliario No. 284, zona inmobiliaria de Qabr Essit, se encontró que el área total del lote antes mencionado es de 14.439 m² (catorce mil cuatrocientos treinta y nueve metros cuadrados). Existe un camino público existente señalizado en la propiedad que la divide en varias partes. El área deducida por dominio público / vía pública es de aproximadamente 7.791 m². El área neta restante de la propiedad es de aproximadamente 6.648 m².\""
+          },
+          {
+            "label": "Detalles",
+            "value": "Nota: La propiedad se encuentra dentro de la zona principal/regulatoria (منطقة تنظيمية / سكن حديث). La propiedad antes mencionada requiere una subdivisión formal (Ifraz) para que el propietario pueda obtener un permiso de construcción. Enviado para su revisión y orientación."
+          },
+          {
+            "label": "Firmante 1",
+            "value": "Jefe de Oficina Técnica (رئيس المكتب الفني): Ing. Mohammad Hisham Al-Babi (Firmado)"
+          },
+          {
+            "label": "Signatario 2",
+            "value": "Agrimensor / Representante Vecinal (م. ف / جرجس الحفي): Firmado"
+          },
+          {
+            "label": "Signatario 3",
+            "value": "Jefe del Municipio de Qabr Essit (رئيس بلدية قبر الست): Firmado y sellado con sello municipal oficial"
+          },
+          {
+            "label": "Aprobación",
+            "value": "Endoso de Aprobación Final: \"تمت الموافقة على الإفراز\" (Por la presente se aprueba la Subdivisión / Ifraz)."
           }
         ]
       }
@@ -20036,6 +21675,108 @@
           {
             "label": "توثيق الكاتب بالعدل",
             "value": "تم التوثيق والتسجيل في السجلات الرسمية من قبل الكاتب بالعدل في ببيلا بعد استيفاء الرسوم القانونية والطوابع."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "وزارت دادگستری سوریه – وکالتنامه ویژه",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "جمهوری عربی سوریه – وزارت دادگستری | دفتر اسناد رسمی در بابیلا (الکاتب بالعدل فی ببیلا)"
+          },
+          {
+            "label": "شماره ویژه",
+            "value": "22"
+          },
+          {
+            "label": "شماره عمومی",
+            "value": "2056"
+          },
+          {
+            "label": "ثبت نام کنید",
+            "value": "787"
+          },
+          {
+            "label": "عنوان",
+            "value": "وکالت ویژه (توکیل خاص)"
+          },
+          {
+            "label": "اصلی",
+            "value": "«اینجانب امضاء کننده زیر، نصرت فاطمه، دختر سید محمد نقوی، نام مادری مریم بانو، متولد 1958، تبعه پاکستان، دارنده پاسپورت شماره 628276 صادره در پاکستان در تاریخ 12/12/1996 و به عنوان وکالت در وکالت آقای محمدحسنی الدین سیفود در شماره 4000. قطعه 782/283/284 منطقه قبر اسیت و به عنوان مالک مشترک در قطعات 282 و 283 و 284 واقع در محدوده املاک قبر اسیت."
+          },
+          {
+            "label": "وکیل منصوب شد",
+            "value": "وکیل عبدالرحیم هوکار را منصوب کرده اند."
+          },
+          {
+            "label": "مقامات و اختیارات اعطا شده",
+            "value": "به نمایندگی از اینجانب در کلیه ادارات ذیربط قضایی، اداری، ثبت اسناد و املاک (المصالح العقاریة)، شهرداری ها و ادارات مالی و دارایی و مجاز به پیگیری حریم اراضی، تفکیک رسمی (افراز)، نقل و انتقالات مالکیت (فرق)، ثبت سهام املاک، اقامه و دفاع از دعوای رسمی و رسیدگی به مطالبات و تسویه مطالبات شهرداری، تسویه و تسویه دعاوی حقوقی شهرداری. هزینه های دولتی، اصلاح مشخصات و انجام کلیه مراحل قانونی لازم برای اجرای کامل این وکالتنامه با حق کامل تفویض این اختیارات به اشخاص ثالث.\""
+          },
+          {
+            "label": "تاریخ",
+            "value": "... / ... / 1997"
+          },
+          {
+            "label": "امضای مدیر و تاثیر شست",
+            "value": "نصرت فاطمه"
+          },
+          {
+            "label": "تصدیق دفتر اسناد رسمی",
+            "value": "توسط سردفتر اسناد رسمی شهرستان بابیلا با پرداخت کلیه حقوق تمبر قانونی و هزینه های قانونی به طور مقتضی تأیید، احراز هویت شده و در دفاتر رسمی ثبت شده است."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Ministerio de Justicia de Siria – Poder especial",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "República Árabe Siria – Ministerio de Justicia | Notario público en Babbila (الكاتب بالعدل في ببيلا)"
+          },
+          {
+            "label": "Especial No.",
+            "value": "22"
+          },
+          {
+            "label": "Generales no.",
+            "value": "2056"
+          },
+          {
+            "label": "Registro",
+            "value": "787"
+          },
+          {
+            "label": "Título",
+            "value": "Poder especial (توكيل خاص)"
+          },
+          {
+            "label": "Principal",
+            "value": "\"Yo, la abajo firmante, Nusrat Fatima, hija de Sayed Mohammad Naqvi, nombre de la madre Maryam Bano, nacida en 1958, nacional paquistaní, titular del Pasaporte No. 628276 expedido en Pakistán el 12/12/1996; y actuando en mi calidad de abogado del Sr. Mohammad Saifuddin Al-Hamwi bajo el poder notarial No. 2400 en el complot No. 782/283/284, zona Qabr Essit, y en mi calidad de copropietario de las parcelas N° 282, 283 y 284 ubicadas en la zona inmobiliaria Qabr Essit;\""
+          },
+          {
+            "label": "Abogado designado",
+            "value": "Han nombrado al Abogado Abdul Rahim Houkar;"
+          },
+          {
+            "label": "Autoridades y poderes otorgados",
+            "value": "\"Para representarme y actuar en mi nombre ante todos los departamentos judiciales, administrativos y de registro de tierras pertinentes (المصالح العقارية), direcciones municipales y departamentos financieros. Está autorizado para realizar el seguimiento de la demarcación de tierras, la subdivisión oficial (Ifraz), las transferencias de títulos (Faragh), el registro de acciones de propiedad, la presentación y defensa de demandas, la resolución de reclamaciones, la recepción de títulos de propiedad y compensaciones oficiales, el pago y liquidación de tasas municipales y gubernamentales, la rectificación de especificaciones y realizando todos los trámites legales necesarios para dar pleno efecto al presente poder, teniendo pleno derecho a delegar estas facultades en terceros.\""
+          },
+          {
+            "label": "Fecha",
+            "value": "... / ... / 1997"
+          },
+          {
+            "label": "Firma del director e impresión del pulgar",
+            "value": "Nusrat Fátima"
+          },
+          {
+            "label": "Certificación de notario público",
+            "value": "Debidamente verificado, autenticado y registrado en libros oficiales por el Notario Público de Babbila previo pago de todos los derechos de timbre y tasas legales."
           }
         ]
       }
@@ -20270,6 +22011,156 @@
             "value": "(الباركود الرقمي، صورة التأشيرة، والختم الرسمي لوزارة الخارجية)."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "ویزای الکترونیکی جمهوری اسلامی ایران",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "جمهوری اسلامی ایران – وزارت امور خارجه | ویزای الکترونیکی (روادید الکترونیکی)"
+          },
+          {
+            "label": "شماره ویزا",
+            "value": "IR-21810078605"
+          },
+          {
+            "label": "شماره برنامه",
+            "value": "AK37MJ4I"
+          },
+          {
+            "label": "نام کامل",
+            "value": "نصرت فاطمه"
+          },
+          {
+            "label": "تاریخ تولد",
+            "value": "1958/01/01"
+          },
+          {
+            "label": "ملیت",
+            "value": "پاکستان"
+          },
+          {
+            "label": "شماره پاسپورت",
+            "value": "DT8452184"
+          },
+          {
+            "label": "کد رهگیری",
+            "value": "ABEPF2CZNLB4396315"
+          },
+          {
+            "label": "نوع ویزا",
+            "value": "توریست (جهانگردی)"
+          },
+          {
+            "label": "مدت اقامت",
+            "value": "30 روز از تاریخ ورود"
+          },
+          {
+            "label": "تاریخ صدور",
+            "value": "2025/10/08 (1404/07/16)"
+          },
+          {
+            "label": "دوره اعتبار",
+            "value": "از 2025/10/08 تا 2025/11/21 (1404/07/16 تا 1404/08/30)"
+          },
+          {
+            "label": "تعداد ورودی ها",
+            "value": "مجرد (یکبار)"
+          },
+          {
+            "label": "بند بیمه",
+            "value": "دارنده این ویزا تحت پوشش بیمه نامه تایید شده قرار می گیرد."
+          },
+          {
+            "label": "ماموریت صدور",
+            "value": "سفارت جمهوری اسلامی ایران - لندن"
+          },
+          {
+            "label": "یادداشت رسمی",
+            "value": "لطفا این نامه را تا پایان سفر خود نگه دارید."
+          },
+          {
+            "label": "توجه داشته باشید",
+            "value": "(بارکد دیجیتال، عکس ویزا و مهر ویزای رسمی وزارت امور خارجه الصاق شده است)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Visa Electrónica – República Islámica de Irán",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "República Islámica de Irán – Ministerio de Asuntos Exteriores | Visa Electrónica (روادید الکترونیکی)"
+          },
+          {
+            "label": "Visa No.",
+            "value": "IR-21810078605"
+          },
+          {
+            "label": "Solicitud No.",
+            "value": "AK37MJ4I"
+          },
+          {
+            "label": "Nombre completo",
+            "value": "NUSRAT FÁTIMA"
+          },
+          {
+            "label": "Fecha de nacimiento",
+            "value": "1958/01/01"
+          },
+          {
+            "label": "Nacionalidad",
+            "value": "Pakistán"
+          },
+          {
+            "label": "Pasaporte No.",
+            "value": "DT8452184"
+          },
+          {
+            "label": "Código de seguimiento",
+            "value": "ABEPF2CZNLB4396315"
+          },
+          {
+            "label": "Tipo de visa",
+            "value": "Turista (جهانگردی)"
+          },
+          {
+            "label": "Duración de la estancia",
+            "value": "30 día(s) desde la fecha de llegada"
+          },
+          {
+            "label": "Fecha de emisión",
+            "value": "2025/10/08 (1404/07/16)"
+          },
+          {
+            "label": "Período de validez",
+            "value": "Del 08/10/2025 al 21/11/2025 (16/07/1404 al 30/08/1404)"
+          },
+          {
+            "label": "Número de entradas",
+            "value": "Soltero (یکبار)"
+          },
+          {
+            "label": "Cláusula de seguro",
+            "value": "El titular de esta visa está cubierto por una póliza de seguro aprobada."
+          },
+          {
+            "label": "Misión emisora",
+            "value": "Embajada de la República Islámica de Irán - Londres"
+          },
+          {
+            "label": "Nota oficial",
+            "value": "Por favor conserve esta carta hasta el final de su viaje."
+          },
+          {
+            "label": "Nota",
+            "value": "(Código de Barras Digital, Foto de Visa y Sello Oficial de Visa del Ministerio de Relaciones Exteriores adheridos)."
+          }
+        ]
       }
     },
     "category": "visas"
@@ -20416,6 +22307,100 @@
           {
             "label": "ملاحظة",
             "value": "(صورة مقدم الطلب الرقمية مرفقة)"
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "وضعیت مهاجرت انگلستان / ویزا الکترونیکی",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "GOV.UK - وضعیت مهاجرت خود را مشاهده و اثبات کنید"
+          },
+          {
+            "label": "عنوان",
+            "value": "وضعیت مهاجرت شما (eVisa)"
+          },
+          {
+            "label": "نام",
+            "value": "نصرت فاطمه"
+          },
+          {
+            "label": "تاریخ تولد",
+            "value": "1 ژانویه 1958"
+          },
+          {
+            "label": "ملیت",
+            "value": "PAK (پاکستان)"
+          },
+          {
+            "label": "وضعیت",
+            "value": "وضعیت از پیش تسویه شده، همچنین به عنوان مرخصی محدود برای اقامت شناخته می شود"
+          },
+          {
+            "label": "معتبر است تا",
+            "value": "12 اکتبر 2026"
+          },
+          {
+            "label": "جزئیات",
+            "value": "اطلاعات / راهنمایی:"
+          },
+          {
+            "label": "محتوا",
+            "value": "\"برای ماندن در بریتانیا پس از این تاریخ، باید یا وضعیت از پیش استقرار یا وضعیت مستقر تحت طرح تسویه حساب اتحادیه اروپا (یا نوع دیگری از مجوز اقامت) داشته باشید. شما می توانید به محض اینکه واجد شرایط آن شوید، برای تغییر وضعیت به اقامتگاه اقدام کنید. این معمولا زمانی است که به مدت 5 سال در بریتانیا زندگی کرده اید. نحوه تغییر وضعیت اقامت را پیدا کنید."
+          },
+          {
+            "label": "توجه داشته باشید",
+            "value": "(عکس دیجیتال متقاضی پیوست شده است)"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Estado de inmigración del Reino Unido / eVisa",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "GOV.UK: vea y compruebe su estado migratorio"
+          },
+          {
+            "label": "Título",
+            "value": "Su estatus migratorio (eVisa)"
+          },
+          {
+            "label": "Nombre",
+            "value": "NUSRAT FÁTIMA"
+          },
+          {
+            "label": "Fecha de nacimiento",
+            "value": "1 de enero de 1958"
+          },
+          {
+            "label": "Nacionalidad",
+            "value": "PAK (Pakistán)"
+          },
+          {
+            "label": "Estado",
+            "value": "Estado preestablecido, también conocido como permiso de permanencia limitado"
+          },
+          {
+            "label": "Válido hasta",
+            "value": "12 de octubre de 2026"
+          },
+          {
+            "label": "Detalles",
+            "value": "Información / Orientación:"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Para permanecer en el Reino Unido después de esta fecha, necesitará tener un estatus de asentado previo o un estatus de asentado bajo el Plan de Asentamiento de la UE (u otro tipo de permiso para permanecer). Puede solicitar el cambio al estatus de asentado tan pronto como sea elegible para ello. Esto generalmente ocurre una vez que haya vivido en el Reino Unido durante 5 años. Descubra cómo cambiar al estado de asentado\"."
+          },
+          {
+            "label": "Nota",
+            "value": "(Se adjunta fotografía digital del solicitante)"
           }
         ]
       }
@@ -20686,6 +22671,180 @@
             "value": "(الباركود، الصورة الرقمية، وختم التحقق الرسمي للإدارة العامة للإقامة وشؤون الأجانب بدبي)."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "مجوز ورود امارات متحده عربی / eVisa - دبی",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "امارات متحده عربی | اداره فدرال هویت، شهروندی، گمرک و امنیت بندر | اداره کل اقامت و امور خارجی – دبی"
+          },
+          {
+            "label": "عنوان",
+            "value": "مجوز ورود (E-Visa / إذن دخول إلكتروني)"
+          },
+          {
+            "label": "حداکثر اقامت",
+            "value": "30 روز"
+          },
+          {
+            "label": "دسته ویزا",
+            "value": "گردشگری – مجردی – 30 روزه (سیاحة - سفرة واحدة)"
+          },
+          {
+            "label": "شماره مجوز ورود",
+            "value": "210/2025/87625735"
+          },
+          {
+            "label": "تاریخ و محل صدور",
+            "value": "05-12-2025، دبی"
+          },
+          {
+            "label": "معتبر تا (برای ورود)",
+            "value": "02-02-2026"
+          },
+          {
+            "label": "U.I.D. خیر",
+            "value": "12369503"
+          },
+          {
+            "label": "جزئیات",
+            "value": "مشخصات متقاضی / بازدید کننده:"
+          },
+          {
+            "label": "نام کامل",
+            "value": "خانم نصرت فاطمه غلام سرور"
+          },
+          {
+            "label": "ملیت",
+            "value": "پاکستان"
+          },
+          {
+            "label": "محل تولد",
+            "value": "کراچی پاک"
+          },
+          {
+            "label": "تاریخ تولد",
+            "value": "1958/01/01"
+          },
+          {
+            "label": "شماره پاسپورت",
+            "value": "معمولی / DT8452184"
+          },
+          {
+            "label": "حرفه",
+            "value": "کسب و کار (تاجر)"
+          },
+          {
+            "label": "جزئیات",
+            "value": "اطلاعات میزبان (المستضیف):"
+          },
+          {
+            "label": "نام",
+            "value": "AL HADAF TRAVEL AND TOURISM L.L.C"
+          },
+          {
+            "label": "آدرس",
+            "value": "P.O. باکس: 16373، تلفن: 2522486-04، موب: 8119911-050"
+          },
+          {
+            "label": "توجه / مشاوره",
+            "value": "امارات متحده عربی به شما خوشامد می گوید و برای شما اقامت خوشی آرزو می کند. لطفاً حتماً وضعیت خود را تغییر دهید یا قبل از انقضای ویزا ترک کنید تا بتوانیم دوباره از شما استقبال کنیم.»"
+          },
+          {
+            "label": "جزئیات",
+            "value": "بارکد، عکس دیجیتال و مهر تایید رسمی GDRFA دبی الصاق شده است."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Permiso de entrada a los EAU / eVisa - Dubái",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Emiratos Árabes Unidos | Autoridad Federal de Identidad, Ciudadanía, Aduanas y Seguridad Portuaria | Dirección General de Residencia y Asuntos Extranjeros – Dubai"
+          },
+          {
+            "label": "Título",
+            "value": "Permiso de entrada (e-Visa / إذن دخول إلكتروني)"
+          },
+          {
+            "label": "Estancia Máxima",
+            "value": "30 dias"
+          },
+          {
+            "label": "Categoría de visa",
+            "value": "Turismo – Individual – 30 Días (سياحة - سفرة واحدة)"
+          },
+          {
+            "label": "Permiso de entrada No.",
+            "value": "210/2025/87625735"
+          },
+          {
+            "label": "Fecha y lugar de emisión",
+            "value": "05-12-2025, Dubái"
+          },
+          {
+            "label": "Válido hasta (para participar)",
+            "value": "02-02-2026"
+          },
+          {
+            "label": "U.I.D. No.",
+            "value": "12369503"
+          },
+          {
+            "label": "Detalles",
+            "value": "Detalles del solicitante/visitante:"
+          },
+          {
+            "label": "Nombre completo",
+            "value": "Sra. NUSRAT FATIMA GHULAM SARWAR"
+          },
+          {
+            "label": "Nacionalidad",
+            "value": "PAKISTÁN"
+          },
+          {
+            "label": "Lugar de nacimiento",
+            "value": "KARACHI PAK"
+          },
+          {
+            "label": "Fecha de nacimiento",
+            "value": "01/01/1958"
+          },
+          {
+            "label": "Pasaporte No.",
+            "value": "Normal/DT8452184"
+          },
+          {
+            "label": "Profesión",
+            "value": "NEGOCIOS (تاجر)"
+          },
+          {
+            "label": "Detalles",
+            "value": "Información del anfitrión (المستضيف):"
+          },
+          {
+            "label": "Nombre",
+            "value": "AL HADAF VIAJES Y TURISMO L.L.C"
+          },
+          {
+            "label": "DIRECCIÓN",
+            "value": "CORREOS. BOX: 16373, Tel: 04-2522486, Móvil: 050-8119911"
+          },
+          {
+            "label": "Nota / Aviso",
+            "value": "\"Los Emiratos Árabes Unidos le dan la bienvenida y le desean una feliz estancia. Asegúrese de cambiar su estatus o salir antes de que expire la visa, para que podamos darle la bienvenida nuevamente\"."
+          },
+          {
+            "label": "Detalles",
+            "value": "Código de barras, fotografía digital y sello de verificación oficial de GDRFA Dubai adheridos."
+          }
+        ]
       }
     },
     "category": "visas"
@@ -20808,6 +22967,84 @@
           {
             "label": "الموقع",
             "value": "الختم الرسمي والتوقيع: الختم الرسمي للمجمع العالمي لأهل البيت في سورية."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "مجمع جهانی اهل بیت در سوریه - نامه",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سربرگ:"
+          },
+          {
+            "label": "عنوان 1",
+            "value": "مجمع جهانی اهل بیت (ع) در سوریه (المجمع العالمی لأهل البیت فی سوریة)"
+          },
+          {
+            "label": "عنوان 2",
+            "value": "«بسمه تعالی» (بسمه تعالی)"
+          },
+          {
+            "label": "جزئیات",
+            "value": "خطاب به:"
+          },
+          {
+            "label": "نام",
+            "value": "جناب حجت الاسلام والمسلمین حاج آقا [...] فضلش ادامه داشته باشد."
+          },
+          {
+            "label": "جزئیات",
+            "value": "متن نامه (رونویسی و ترجمه فارسی):"
+          },
+          {
+            "label": "محتوا",
+            "value": "با سلام و آرزوی توفیق روزافزون الهی در خدمت به اسلام و مسلمین، خدمت شما بزرگوار و کلیه همکاران و مسئولین محترم مجلس اهل بیت علیهم السلام، احتراماً به اطلاع مجلس رسانده می شود که حامل این نامه، خواهر نصرت نقوی، مشهور و شناخته شده است و در صورت بروز هرگونه مشکل و یا نیازهای اداری، عنایت ویژه و مساعدت های اداری در ایران لازم است. سپاسگزاری.\""
+          },
+          {
+            "label": "امضا کننده",
+            "value": "مهر و امضای رسمی: مهر رسمی مجمع جهانی اهل بیت در سوریه (الصاق شده)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "La Asamblea Mundial de Ahl al-Bayt en Siria - Carta",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Encabezamiento:"
+          },
+          {
+            "label": "Título 1",
+            "value": "La Asamblea Mundial de Ahl al-Bayt (A.S.) en Siria (المجمع العالمي لأهل البيت في سورية)"
+          },
+          {
+            "label": "Título 2",
+            "value": "\"En el nombre de Dios\" (بسمه تعالی)"
+          },
+          {
+            "label": "Detalles",
+            "value": "Dirigido a:"
+          },
+          {
+            "label": "Nombre",
+            "value": "Respetado Hujjat al-Islam wal-Muslimeen Haj Aqa [...], Que continúe su generosidad."
+          },
+          {
+            "label": "Detalles",
+            "value": "Cuerpo de la carta (transcripción y traducción del persa):"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Con saludos y deseos de un creciente éxito divino en el servicio al Islam y a los musulmanes, a su noble presencia y a todos los estimados colegas y funcionarios de la Asamblea de Ahl al-Bayt. Respetuosamente, se informa que la portadora de esta carta, la hermana Nusrat Naqvi, es bien conocida por la Asamblea. En caso de cualquier problema o requerimiento administrativo en Irán, se solicita que se le brinde atención especial y asistencia total. Con oraciones y gratitud\"."
+          },
+          {
+            "label": "Signatario",
+            "value": "Sello y firma oficiales: Sello oficial de la Asamblea Mundial de Ahl al-Bayt en Siria (fijado)."
           }
         ]
       }
@@ -21042,6 +23279,156 @@
             "value": "حضر وكيلا الطرفين، وصادق المدعى عليه على الدعوى جملة وتفصيلاً."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "وزارت دادگستری سوریه – تصمیم دادگاه / دادگاه مصالحه مدنی بابیلا",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "جمهوری عربی سوریه – وزارت دادگستری | دادگاه سازش مدنی در بابیلا (محکمة صلح ببیلا)"
+          },
+          {
+            "label": "شماره پرونده",
+            "value": "974"
+          },
+          {
+            "label": "تصمیم شماره",
+            "value": "490"
+          },
+          {
+            "label": "مرجع رجیستری",
+            "value": "872 | شماره فرم: 1114/125"
+          },
+          {
+            "label": "جزئیات",
+            "value": "به نام مردم عرب سوریه:"
+          },
+          {
+            "label": "رئیس قاضی",
+            "value": "آقای احمد حداد"
+          },
+          {
+            "label": "دستیار دادگاه",
+            "value": "آقا احمد محسن"
+          },
+          {
+            "label": "جزئیات",
+            "value": "طرفین دعوی:"
+          },
+          {
+            "label": "شاکی (الجهة المدعیة)",
+            "value": "نصرت فاطمه دختر سید محمد نقوی با وکالت خلیل زریف وکیل دادگستری."
+          },
+          {
+            "label": "متهم (الجهة المدعى عليها)",
+            "value": "مرتضی العویس."
+          },
+          {
+            "label": "موضوع ادعا",
+            "value": "تایید و اعتبار فروش (تثبیت بیع)."
+          },
+          {
+            "label": "جزئیات",
+            "value": "جزئیات و حقایق ادعا:"
+          },
+          {
+            "label": "محتوا",
+            "value": "\"در تاریخ 22/10/2000، وکیل شاکی اظهارنامه‌ای مبنی بر مالکیت 1260.521 سهم از 2400 سهم زمین ملکی شماره 286 قبر اسیت، در منطقه قبر اسیت، از متهم خریداری کرده است. 275 متر مربع معادل 21 سهم از 2400 سهم با توجه به اینکه خوانده از ثبت رسمی و انتقال قانونی ملک فروخته شده به نام شاکی خودداری کرده و از آنجایی که خواهان تمام قیمت خرید را پرداخت کرده است از دادگاه تقاضا می کند:"
+          },
+          {
+            "label": "1",
+            "value": "احضار متهم برای رسیدگی؛"
+          },
+          {
+            "label": "2",
+            "value": "خرید 21 سهم از 2400 سهم قطعه 286 قبر اسیت توسط شاکی را تایید و خوانده را مجبور به ثبت و انتقال مالکیت در دفتر املاک به نام شاکی نماید."
+          },
+          {
+            "label": "3",
+            "value": "ضمیمه قضایی را در دفتر ثبت زمین وارد کنید و متهم را به تقبل کلیه هزینه ها و هزینه ها و حق الوکاله محکوم کنید."
+          },
+          {
+            "label": "توجه داشته باشید",
+            "value": "هر دو وکیل در دادگاه حاضر شدند و متهم رسماً اعتراف کرد و به طور کامل ادعای خود را پذیرفت."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Ministerio de Justicia Siria – Decisión judicial / Tribunal de Conciliación Civil Babbila",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "República Árabe Siria – Ministerio de Justicia | Tribunal de Conciliación Civil de Babbila (محكمة صلح ببيلا)"
+          },
+          {
+            "label": "Caso No.",
+            "value": "974"
+          },
+          {
+            "label": "Decisión No.",
+            "value": "490"
+          },
+          {
+            "label": "Referencia de registro",
+            "value": "872 | Formulario No.: 1114/125"
+          },
+          {
+            "label": "Detalles",
+            "value": "En nombre del pueblo árabe de Siria:"
+          },
+          {
+            "label": "Juez presidente",
+            "value": "Sr. Ahmad Haddad"
+          },
+          {
+            "label": "Asistente de la corte",
+            "value": "Sr. Ahmad Mohsen"
+          },
+          {
+            "label": "Detalles",
+            "value": "Partes Litigantes:"
+          },
+          {
+            "label": "Demandante (الجهة المدعية)",
+            "value": "Nusrat Fatima, hija de Sayed Mohammad Naqvi, representada por el abogado Khalil Zuraif."
+          },
+          {
+            "label": "Demandado (الجهة المدعى عليها)",
+            "value": "Mourtada Al-Oweis."
+          },
+          {
+            "label": "Objeto del reclamo",
+            "value": "Confirmación y Validación de Venta (تثبيت بيع)."
+          },
+          {
+            "label": "Detalles",
+            "value": "Detalles y hechos del reclamo:"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"El 22 de octubre de 2000, el abogado del demandante presentó un escrito de demanda afirmando que el demandado posee 1.260.521 acciones de un total de 2.400 acciones de la parcela inmobiliaria nº 286, zona de Qabr Essit. El demandante compró al demandado el sótano (al-Qabu) construido en la parcela nº 286, que mide 275 metros cuadrados, equivalente a 21 acciones de 2400 acciones, dado que el demandado se abstuvo de registrar formalmente y transferir legalmente (Faragh) la propiedad vendida a nombre del demandante, y dado que el demandante pagó el precio total de compra, solicitó al tribunal que: \""
+          },
+          {
+            "label": "1",
+            "value": "Citar al demandado a audiencia;"
+          },
+          {
+            "label": "2",
+            "value": "Confirmar la compra por parte del Demandante de las 21 acciones de las 2400 acciones de la parcela 286, Qabr Essit, y obligar al Demandado a ejecutar la inscripción y transferencia de título en el registro de la propiedad a nombre del Demandante;"
+          },
+          {
+            "label": "3",
+            "value": "Ingrese una nota de embargo judicial en el registro de la propiedad y ordene al demandado que se haga cargo de todos los costos, gastos y honorarios de abogados."
+          },
+          {
+            "label": "Nota",
+            "value": "Ambos abogados comparecieron ante el tribunal y el demandado confesó y admitió formalmente la demanda en su totalidad."
+          }
+        ]
       }
     },
     "category": "personal"
@@ -21188,6 +23575,100 @@
           {
             "label": "الموقع",
             "value": "الختم الرسمي والتوقيع: المجمع العالمي لأهل البيت (ع) في سورية."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "مجمع جهانی اهل بیت در سوریه - توصیه نامه",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سربرگ:"
+          },
+          {
+            "label": "عنوان",
+            "value": "مجمع جهانی اهل بیت (ع) در سوریه"
+          },
+          {
+            "label": "تاریخ",
+            "value": "27/5/14..."
+          },
+          {
+            "label": "شماره",
+            "value": "121 / ..."
+          },
+          {
+            "label": "باز شدن",
+            "value": "«بسمه تعالی» (بسمه تعالی)"
+          },
+          {
+            "label": "جزئیات",
+            "value": "خطاب به:"
+          },
+          {
+            "label": "نام",
+            "value": "جناب حجت الاسلام والمسلمین حاج آقا [...]، عزتش پایدار باد."
+          },
+          {
+            "label": "جزئیات",
+            "value": "متن نامه (رونویسی و ترجمه فارسی):"
+          },
+          {
+            "label": "محتوا",
+            "value": "با سلام و احترام، به اطلاع شما عزیزان می رساند، خواهر محترممان نصرت فاطمه نقوی و مادر محترمش که از خانواده ای مؤمن، مؤمن و متعهد در پاکستان هستند، فعالانه در امور اسلامی، اجتماعی و خیریه شرکت می کنند و به پاس ارادت به اهل بیت طهارت و عصمت (ع) چهار قطعه از اراضی صائب را وقف کرده اند. (عج) به نام مجمع جهانی اهل بیت (ع) لذا از مرجع عالیقدر تقاضا می شود که طبق ضوابط لازمه در اختیار ایشان قرار گیرد."
+          },
+          {
+            "label": "امضا کننده",
+            "value": "مهر و امضای رسمی: مجمع جهانی اهل بیت (ع) در سوریه (الصاق شده)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "La Asamblea Mundial de Ahl al-Bayt en Siria - Carta de recomendación",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Encabezamiento:"
+          },
+          {
+            "label": "Título",
+            "value": "La Asamblea Mundial de Ahl al-Bayt (A.S.) en Siria"
+          },
+          {
+            "label": "Fecha",
+            "value": "27/5/14..."
+          },
+          {
+            "label": "Número",
+            "value": "121 / ..."
+          },
+          {
+            "label": "Apertura",
+            "value": "\"En el nombre de Dios\" (بسمه تعالی)"
+          },
+          {
+            "label": "Detalles",
+            "value": "Dirigido a:"
+          },
+          {
+            "label": "Nombre",
+            "value": "Respetado Hujjat al-Islam wal-Muslimeen Haj Aqa [...], Que su honor perdure."
+          },
+          {
+            "label": "Detalles",
+            "value": "Cuerpo de la carta (transcripción y traducción del persa):"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Con saludos y respeto; respetuosamente les informamos que nuestra respetada hermana Nusrat Fatima Naqvi y su respetada madre, que provienen de una familia devota, fiel y comprometida en Pakistán, participan activamente en obras islámicas, sociales y caritativas. En devoción a la Casa de la Pureza y la Infalibilidad (A.S.), han donado cuatro terrenos ubicados en Sayyidah Zaynab (A.S.) en nombre de la Asamblea Mundial de Ahl. al-Bayt (A.S.), por lo tanto, al tiempo que les expresamos nuestro agradecimiento, se solicita que su noble autoridad emita instrucciones para que se les proporcionen las facilidades y consideraciones necesarias, de acuerdo con las normas aplicables\"."
+          },
+          {
+            "label": "Signatario",
+            "value": "Sello y firma oficial: Asamblea Mundial de Ahl al-Bayt (A.S.) en Siria (adjunto)."
           }
         ]
       }
@@ -21362,6 +23843,116 @@
             "value": "توقيع مدير / ممثل المجمع في سورية"
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "نامه مجمع جهانی اهل بیت (ع) - شعبه در سوریه",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "جزئیات سرصفحه و صادرکننده:"
+          },
+          {
+            "label": "سازمان",
+            "value": "مجمع جهانی اهل بیت (ع) - شعبه در سوریه (المجمع العالمی لأهل البیت فی سوریة)"
+          },
+          {
+            "label": "تاریخ",
+            "value": "1424 ق / 2003 م."
+          },
+          {
+            "label": "مکان و تماس",
+            "value": "دمشق – سیده زینب (س)، روبروی حوزه علمیه امام خمینی (قدس سره)، تلفن/فاکس: 429759"
+          },
+          {
+            "label": "جزئیات",
+            "value": "متن نامه:"
+          },
+          {
+            "label": "سربرگ",
+            "value": "به نام خداوند متعال"
+          },
+          {
+            "label": "احوالپرسی",
+            "value": "سلام علیکم"
+          },
+          {
+            "label": "خطاب شده است",
+            "value": "جناب حجت الاسلام والمسلمین حاج آقا [...] (ادامه برکاته)"
+          },
+          {
+            "label": "محتوا",
+            "value": "در پی سلام و آرزوی صمیمانه به اطلاع مجمع اهل بیت علیهم السلام، قطعه زمینی واقع در منطقه سیده زینب (قبر اسیت) به نام مجمع جهانی اهل بیت (علیهم السلام) در سوریه وقف شد. این مجمع ضمن آرزوی موفقیت برای شما بزرگواران و ابراز سپاس و قدردانی صمیمانه از این اقدام سخاوتمندانه و فداکارانه، مراتب تشکر و قدردانی خود را به عمل می آورد. امید است از این زمین برای ایجاد زیرساخت های مناسب و امکانات رفاهی برای دانشجویان و زائران پاکستانی استفاده شود. خداوند متعال این خدمت بزرگوار را قبول و توفیقات شما را بیفزاید."
+          },
+          {
+            "label": "جزئیات",
+            "value": "امضا و مهر:"
+          },
+          {
+            "label": "1",
+            "value": "تمبر گرد رسمی مجمع جهانی اهل بیت (ع) در سوریه"
+          },
+          {
+            "label": "2",
+            "value": "امضای مدیر / نماینده مجمع در سوریه"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Carta de la Asamblea Mundial de Ahl al-Bayt (a.s.) – Sección en Siria",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Detalles del encabezado y del emisor:"
+          },
+          {
+            "label": "Organización",
+            "value": "La Asamblea Mundial de Ahl al-Bayt (a.s.) - Rama en Siria (المجمع العالمي لأهل البيت في سورية)"
+          },
+          {
+            "label": "Fecha",
+            "value": "1424 H. / 2003 d.C."
+          },
+          {
+            "label": "Ubicación y contacto",
+            "value": "Damasco – Sayyidah Zaynab (a.s.), frente al Seminario Imam Jomeini (Quds Sirruh), Tel/Fax: 429759"
+          },
+          {
+            "label": "Detalles",
+            "value": "Texto de la carta:"
+          },
+          {
+            "label": "Encabezamiento",
+            "value": "En el nombre de Dios, el Altísimo"
+          },
+          {
+            "label": "Saludo",
+            "value": "Salam Alaykum"
+          },
+          {
+            "label": "Dirigido",
+            "value": "Respetado Hojjat al-Islam wal-Muslimeen Hajj Aqa [...] (Que sus bendiciones continúen),"
+          },
+          {
+            "label": "Contenido",
+            "value": "Tras los saludos y deseos sinceros, como se informó a la Asamblea de Ahl al-Bayt (a.s.), un terreno situado en el área de Sayyidah Zaynab (Qabr Essit) ha sido donado/dotado en nombre de la Asamblea Mundial de Ahl al-Bayt (a.s.) en Siria. Al tiempo que deseamos éxito a su distinguida personalidad y expresamos nuestra profunda gratitud y nuestro más sincero aprecio por este acto generoso y dedicado, esta Asamblea le extiende su agradecimiento. Se espera que este terreno se utilice para establecer infraestructura adecuada e instalaciones de bienestar para los estudiantes y peregrinos paquistaníes. Que Dios Todopoderoso acepte este noble servicio y aumente su éxito."
+          },
+          {
+            "label": "Detalles",
+            "value": "Firmas y Sello:"
+          },
+          {
+            "label": "1",
+            "value": "Sello redondo oficial de la Asamblea Mundial de Ahl al-Bayt (a.s.) en Siria"
+          },
+          {
+            "label": "2",
+            "value": "Firma del Director/Representante de la Asamblea en Siria"
+          }
+        ]
       }
     },
     "category": "personal"
@@ -21498,6 +24089,92 @@
             "value": "توقيع: السيد محمد / هاشمي (موقع)."
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "توصیه / معرفی نامه",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سربرگ:"
+          },
+          {
+            "label": "تماس بگیرید",
+            "value": "دمشق – سیده زینب | تلفن: 439788"
+          },
+          {
+            "label": "تاریخ",
+            "value": "8/7/1407 (یا 75)"
+          },
+          {
+            "label": "عنوان",
+            "value": "«بسم الله الرحمن الرحیم»"
+          },
+          {
+            "label": "جزئیات",
+            "value": "خطاب به:"
+          },
+          {
+            "label": "نام",
+            "value": "برادر عزیزم جناب آقای هاشمی حضور ایشان پاینده باد."
+          },
+          {
+            "label": "جزئیات",
+            "value": "متن (رونوشت و ترجمه فارسی):"
+          },
+          {
+            "label": "محتوا",
+            "value": "با سلام و درود، حامل این نامه خانم نصرت فاطمه، تبعه پاکستان، بانوی بسیار محترمی است که برای زیارت (زیارت) و مسافرت تشریف می‌آورد، خواهشمند است در مدت اقامت ایشان به ایشان محبت و میهمان نوازی و مساعدت داشته باشید."
+          },
+          {
+            "label": "امضا کننده",
+            "value": "امضای سید محمد / هاشمی (امضا)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Carta de recomendación/presentación",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Encabezamiento:"
+          },
+          {
+            "label": "Contacto",
+            "value": "Damasco – Sayyidah Zaynab | Teléfono: 439788"
+          },
+          {
+            "label": "Fecha",
+            "value": "8/7/1407 (o 75)"
+          },
+          {
+            "label": "Título",
+            "value": "\"En el nombre de Dios, el Compasivo, el Misericordioso\""
+          },
+          {
+            "label": "Detalles",
+            "value": "Dirigido a:"
+          },
+          {
+            "label": "Nombre",
+            "value": "Mi querido hermano, Sr. Hashemi, que su presencia perdure."
+          },
+          {
+            "label": "Detalles",
+            "value": "Texto (transcripción y traducción del persa):"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Con saludos y paz; la portadora de esta carta, la señora Nusrat Fatima, ciudadana paquistaní, es una dama muy respetada. Está de visita para peregrinar (Ziyarat) y viajar. Por favor, extiendan su amabilidad, hospitalidad y asistencia durante su estancia. Esto será profundamente apreciado, con oraciones y gratitud. La paz sea con ustedes y la misericordia de Dios\"."
+          },
+          {
+            "label": "Signatario",
+            "value": "Firmado por Seyed Mohammad / Hashemi (Firmado)."
+          }
+        ]
       }
     },
     "category": "personal"
@@ -21596,6 +24273,68 @@
           {
             "label": "الشاهد",
             "value": "كمال علاوي (توقيع وتصديق)"
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "سند اهدایی / هدیه بدون ملاحظه (عقد تبرع هبة بدون مقابل)",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "مطالب:"
+          },
+          {
+            "label": "محتوا",
+            "value": "«اینجانب امضاء کننده زیر، نصرت فاطمه دختر سید محمد نقوی، نام مادری مهر بانو، متولد 1958، دارنده پاسپورت پاکستانی، مالک سهم تعیین شده در زمین ملکی شماره 284 واقع در منطقه قبر اسیت؛ در تمام توان حقوقی، روحی و جسمی، بدون هیچ گونه هدایایی قانونی اعلام می‌کنم که هدیه‌ای را تقدیم می‌کنم. بخشی از این ملک به مساحت 800 مترمربع به منظور احداث مؤسسه/مجموعه خیریه در مجاورت مرز آقای ابوحمود قرار گرفته است. این قسمت موهوبه به دنبال این هبه نمی تواند به دلیل انعقاد قطعی و غیر قابل فسخ آن، باقی مانده سهام و مساحت آن در مالکیت بلامنازع و مالکیت واقف، خانم نصرت، با توافق طرفین باشد."
+          },
+          {
+            "label": "تاریخ اجرا",
+            "value": "29/5/1995"
+          },
+          {
+            "label": "اهدا کننده (الواهبة)",
+            "value": "نصرت فاطمه (امضا)"
+          },
+          {
+            "label": "گیرنده / نماینده ذینفع",
+            "value": "محمد [...] (امضا)"
+          },
+          {
+            "label": "شاهد",
+            "value": "کمال علاوی (امضا و تایید)"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Escritura de donación / donación sin contraprestación (عقد تبرع هبة بدون مقابل)",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Contenido:"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Yo, la abajo firmante, Nusrat Fatima, hija de Sayed Mohammad Naqvi, nombre de madre Mehar Bano, nacida en 1958, titular de un pasaporte paquistaní, propietaria de una participación designada en el terreno inmobiliario n.° 284 ubicado en el área de Qabr Essit; en plena capacidad legal, mental y física, por la presente declaro que he donado y donado, a modo de donación legal sin ninguna contraprestación financiera, una parte de esta propiedad que mide 800 m² (ochocientos metros cuadrados) con el fin de construir un establecimiento/complejo benéfico. Esta parcela demarcada se encuentra junto a los límites del Sr. Abu Hamoud. La donación se realiza totalmente libre de cualquier compensación monetaria o reclamación recíproca, y el destinatario/entidad del proyecto asumirá todas las especificaciones de propiedad, tarifas y obligaciones de autorización formal relacionadas con esta porción donada, ninguna parte podrá disputarla o revocarla, ya que se ha concluido de manera definitiva e irrevocable. de la parcela No. 284 permanecerá bajo la propiedad y título indiscutibles de la donante, la Sra. Nusrat Fatima. Este contrato ha sido ejecutado y confirmado por mutuo acuerdo de ambas partes."
+          },
+          {
+            "label": "Fecha de Ejecución",
+            "value": "29/5/1995"
+          },
+          {
+            "label": "Donante (الواهبة)",
+            "value": "Nusrat Fátima (Firmado)"
+          },
+          {
+            "label": "Representante del destinatario/beneficiario",
+            "value": "Mohamed [...] (Firmado)"
+          },
+          {
+            "label": "Testigo",
+            "value": "Kamal Allawi (Firmado y respaldado)"
           }
         ]
       }
@@ -21768,6 +24507,116 @@
           {
             "label": "العنوان وأوقات الدوام",
             "value": "السيدة زينب (ع)، مفرق حجيرة | الدوام: فترتان صباحية ومسائية."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "آسایشگاه خیریه الزهرا - نامه تشکر",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سربرگ:"
+          },
+          {
+            "label": "سربرگ 1",
+            "value": "او شفا دهنده است (هو الشافی)"
+          },
+          {
+            "label": "سربرگ 2",
+            "value": "آسایشگاه خیریه الزهرا (مستوصف الزهراء الخیری)"
+          },
+          {
+            "label": "خدمات",
+            "value": "داخلی – اطفال – زنان – پوست – گوش و حلق و بینی – پانسمان زخم – واکسیناسیون اطفال – کلینیک دندانپزشکی – رادیولوژی – نوار قلب"
+          },
+          {
+            "label": "تاریخ",
+            "value": "17/07/2007"
+          },
+          {
+            "label": "جزئیات",
+            "value": "خطاب به:"
+          },
+          {
+            "label": "نام",
+            "value": "وکیل محترم / وکیل سرکار خانم نصرت فاطمه نقوی"
+          },
+          {
+            "label": "جزئیات",
+            "value": "متن نامه:"
+          },
+          {
+            "label": "محتوا",
+            "value": "«بعد از سلام؛ از اهدای سخاوتمندانه شما از طریق ما به فقرا و نیازمندان لبنان و سوریه که شامل مقدار زیادی پوشاک و لوازم خانگی اعم از مستعمل و نو است، صمیمانه تشکر و سپاسگزاری می کنیم. خانواده های نیازمند به محض دریافت، خداوند متعال به شما اجر و برکت فراوان در این ماه شریف و پرفضیلت عنایت فرماید."
+          },
+          {
+            "label": "امضا کننده",
+            "value": "مدیر درمانگاه خیریه الزهرا: دکتر [...] (امضا)"
+          },
+          {
+            "label": "مهر رسمی",
+            "value": "ممهور به مهر مدور خیریه الزهرا سیده زینب ریف دمشق"
+          },
+          {
+            "label": "آدرس و ساعت کاری",
+            "value": "سیده زینب (س)، تقاطع حجیره | ساعت کاری: شیفت صبح و عصر."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Dispensario benéfico Al-Zahra - Carta de agradecimiento",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Encabezamiento:"
+          },
+          {
+            "label": "Encabezado 1",
+            "value": "Él es el Sanador (هو الشافي)"
+          },
+          {
+            "label": "Encabezado 2",
+            "value": "Dispensario benéfico Al-Zahra (مستوصف الزهراء الخيري)"
+          },
+          {
+            "label": "Servicios",
+            "value": "Medicina Interna – Pediatría – Ginecología – Dermatología – ORL – Apósitos para heridas – Vacunas pediátricas – Clínica dental – Radiología – ECG"
+          },
+          {
+            "label": "Fecha",
+            "value": "17 / 07 / 2007"
+          },
+          {
+            "label": "Detalles",
+            "value": "Dirigido a:"
+          },
+          {
+            "label": "Nombre",
+            "value": "Respetada defensora / abogada Sra. Nusrat Fatima Naqvi"
+          },
+          {
+            "label": "Detalles",
+            "value": "Cuerpo de la letra:"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Después de los saludos, expresamos nuestra más sincera gratitud y agradecimiento por su generosa donación a través de nosotros a los pobres y necesitados en el Líbano y Siria, que comprende una gran cantidad de ropa y electrodomésticos, tanto usados como nuevos. Nosotros, la administración de Al-Zahra Charitable Dispensary, estamos esperando actualmente la llegada segura de estos artículos donados para que puedan ser distribuidos adecuadamente a las personas que lo merecen y a las familias necesitadas una vez recibidos. Que Dios Todopoderoso le conceda abundantes recompensas y bendiciones en este noble y virtuoso mes.\""
+          },
+          {
+            "label": "Signatario",
+            "value": "Director del Dispensario Benéfico Al-Zahra: Dr. [...] (Firmado)"
+          },
+          {
+            "label": "Sello Oficial",
+            "value": "Colocado con el sello circular del dispensario benéfico Al-Zahra, Sayyidah Zaynab, Rif Dimashq"
+          },
+          {
+            "label": "Dirección y horario de trabajo",
+            "value": "Sayyidah Zaynab (AS), cruce de Hujeira | Horario: Turnos de mañana y tarde."
           }
         ]
       }
@@ -21978,6 +24827,140 @@
             "value": "سوريا – دمشق | هاتف: 2311149 – 2311151 | فاكس: 2311147 | ص.ب: 9351 | البريد الإلكتروني: ir-farhangi2@mail.sy"
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "مرکز فرهنگی جمهوری اسلامی ایران، دمشق - نامه",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "سربرگ:"
+          },
+          {
+            "label": "سربرگ 1",
+            "value": "سازمان فرهنگ و ارتباطات اسلامی (سازمان فرهنگ و ارتباطات اسلامی)"
+          },
+          {
+            "label": "سربرگ 2",
+            "value": "Cultural Center / Attache of the Islamic Republic of Iran – Damascus (رایزنی فرهنگی جمهوری اسلامی ایران - دمشق)"
+          },
+          {
+            "label": "شماره مرجع",
+            "value": "52/2/669"
+          },
+          {
+            "label": "تاریخ",
+            "value": "31/6/1380 (هجری شمسی)"
+          },
+          {
+            "label": "عنوان",
+            "value": "«بسمه تعالی» (بسمه تعالی)"
+          },
+          {
+            "label": "جزئیات",
+            "value": "خطاب به:"
+          },
+          {
+            "label": "نام 1",
+            "value": "جناب آقای عبدخدایی"
+          },
+          {
+            "label": "نام 2",
+            "value": "رایزن محترم فرهنگی جمهوری اسلامی ایران در مادرید (اسپانیا)"
+          },
+          {
+            "label": "جزئیات",
+            "value": "سلام و بدن (رونوشت و ترجمه فارسی):"
+          },
+          {
+            "label": "محتوا",
+            "value": "سلام علیکم، با احترام، خانم نصرت فاطمه نقوی، تبعه محترم پاکستانی به حضور جنابعالی معرفی می شود، ایشان از بانوان مؤمن، پرانرژی و فداکار فعال در ترویج فرهنگ دینی و معارف اهل بیت(ع) هستند و در حال حاضر در سوریه مقیم و یکی از مؤسسات و حامیان این مؤسسه می باشند. جامعه شیعیان مقیم اسپانیا به ویژه از طریق تأسیس مرکز/حسینیه، مدرسه آموزشی و یا سرمایه گذاری در پروژه های خیریه اجتماعی-مذهبی مشابه، طبیعتاً بهره مندی از دیدگاه ها، راهنمایی ها و مشاوره های شما عزیزان در این راستا بسیار سودمند و مفید خواهد بود."
+          },
+          {
+            "label": "امضا کننده 1",
+            "value": "دکتر محمدعلی آذرشب"
+          },
+          {
+            "label": "امضا کننده 2",
+            "value": "رایزن فرهنگی سفارت جمهوری اسلامی ایران در دمشق (امضا)"
+          },
+          {
+            "label": "جزئیات",
+            "value": "اطلاعات تماس (پاورقی):"
+          },
+          {
+            "label": "پاورقی",
+            "value": "سوریه – دمشق | تلفن: 2311149 – 2311151 | فکس: 2311147 | P.O. جعبه: 9351 | ایمیل: ir-farhangi2@mail.sy"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Centro Cultural de la República Islámica del Irán, Damasco - Carta",
+        "lines": [
+          {
+            "label": "Detalles",
+            "value": "Encabezamiento:"
+          },
+          {
+            "label": "Encabezado 1",
+            "value": "Organización de Relaciones y Cultura Islámica (سازمان فرهنگ و ارتباطات اسلامی)"
+          },
+          {
+            "label": "Encabezado 2",
+            "value": "Centro Cultural / Agregado de la República Islámica de Irán – Damasco (رایزنی فرهنگی جمهوری اسلامی ایران - دمشق)"
+          },
+          {
+            "label": "Número de referencia.",
+            "value": "52/2/669"
+          },
+          {
+            "label": "Fecha",
+            "value": "31/6/1380 (Hégira solar)"
+          },
+          {
+            "label": "Título",
+            "value": "\"En el nombre de Dios, el Exaltado\" (بسمه تعالی)"
+          },
+          {
+            "label": "Detalles",
+            "value": "Dirigido a:"
+          },
+          {
+            "label": "Nombre 1",
+            "value": "Respetado Sr. Abd-Khodayi"
+          },
+          {
+            "label": "Nombre 2",
+            "value": "Respetado Consejero Cultural de la República Islámica de Irán en Madrid (España)"
+          },
+          {
+            "label": "Detalles",
+            "value": "Saludo y cuerpo (transcripción y traducción del persa):"
+          },
+          {
+            "label": "Contenido",
+            "value": "\"Salam Alaykum, Respetuosamente, se presenta a su presencia la Sra. Nusrat Fatima Naqvi, una estimada ciudadana paquistaní. Ella se encuentra entre las damas devotas, enérgicas y dedicadas activas en la promoción de la cultura religiosa y las enseñanzas de Ahl al-Bayt (A.S.). Actualmente reside en Siria, y está ansiosa y tiene la intención de ayudar a organizar y apoyar los asuntos de la comunidad chiita que reside en España, específicamente mediante el establecimiento de un centro islámico. Husseiniya, una escuela educativa, o invertir en proyectos caritativos socio-religiosos similares. Naturalmente, beneficiarse de sus estimados puntos de vista, orientación y asesoramiento será muy beneficioso e instrumental en este sentido."
+          },
+          {
+            "label": "Firmante 1",
+            "value": "Dr. Mohammad Ali Azarshab"
+          },
+          {
+            "label": "Signatario 2",
+            "value": "Consejero Cultural, Embajada de la República Islámica del Irán, Damasco (Firmado)"
+          },
+          {
+            "label": "Detalles",
+            "value": "Detalles de contacto (pie de página):"
+          },
+          {
+            "label": "Pie de página",
+            "value": "Siria – Damasco | Tel: 2311149 – 2311151 | Fax: 2311147 | CORREOS. Caja: 9351 | Correo electrónico: ir-farhangi2@mail.sy"
+          }
+        ]
       }
     },
     "category": "personal"
@@ -21987,61 +24970,69 @@
     "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1790360768/image247.jpg",
     "translations": {
       "ur": {
-        "name": "اردو",
+        "name": "????",
         "dir": "rtl",
         "docName": "اقامہ شام بمعہ بارسلونا ٹرانسپورٹ کارڈ",
         "lines": [
           {
-            "label": "Details",
-            "value": "اوپری دستاویز: جمہوریہ عربیہ سوریہ (شام) – رہائشی اجازت نامہ (اقامہ)"
+            "label": "تفصیلات",
+            "value": "سر فہرست دستاویز: شامی عرب جمہوریہ – رہائشی اجازت نامہ"
           },
           {
-            "label": "مقامِ اجراء",
+            "label": "جاری کرنے کی جگہ",
             "value": "دمشق"
           },
           {
             "label": "پیشہ",
-            "value": "بغیر ملازمت (کوئی کام نہیں)"
+            "value": "روزگار کے بغیر (بدون عمل)"
           },
           {
-            "label": "تاریخِ اجراء",
-            "value": "7 فروری 2024ء"
+            "label": "جاری ہونے کی تاریخ",
+            "value": "07/02/2024"
           },
           {
-            "label": "تاریخِ تنسیخ (ایکسپائری)",
-            "value": "16 مئی 2025ء"
+            "label": "میعاد ختم ہونے کی تاریخ",
+            "value": "16/05/2025"
           },
           {
             "label": "پاسپورٹ نمبر",
-            "value": "DT8452184"
+            "value": "ڈی ٹی 8452184"
           },
           {
-            "label": "پاسپورٹ کی میعاد",
-            "value": "8 اکتوبر 2033ء"
+            "label": "پاسپورٹ کی میعاد ختم ہونے کی تاریخ",
+            "value": "08/10/2033"
           },
           {
-            "label": "مقامِ رہائش",
-            "value": "دمشق، الصالحیہ، محلہ زین العابدین، حوالہ نمبر 736"
+            "label": "رہائش کا پتہ",
+            "value": "دمشق، الصالحیہ، زین العابدین، حوالہ۔ نمبر 736"
           },
           {
-            "label": "رہائش کا سبب / نوعیت",
-            "value": "جائیداد کی ملکیت (مالکِ جائیداد)"
+            "label": "قیام کی وجہ",
+            "value": "جائیداد کا مالک (مالک عقار)"
           },
           {
-            "label": "سیریل نمبر",
+            "label": "پرمٹ سیریل نمبر",
             "value": "0030776"
           },
           {
-            "label": "Details",
-            "value": "نچلا کارڈ: بارسلونا پبلک ٹرانسپورٹ کارڈ (اسپین)"
+            "label": "تفصیلات",
+            "value": "باٹم کارڈ: میٹروپولیٹن ایریا آف بارسلونا (AMB) – پبلک ٹرانسپورٹ پاس"
           },
           {
-            "label": "Note 1",
-            "value": "یہ کارڈ بارسلونا میٹروپولیٹن ایریا (AMB) زون 1 میں پبلک ٹرانسپورٹ، ٹرام اور ریلوے پر سفر کی اجازت دیتا ہے۔"
+            "label": "نوٹ 1",
+            "value": "AMB نیٹ ورکس، TRAM، اور FGC پر مربوط کرایہ کے نظام زون 1 کے اندر لامحدود سفر کے لیے موزوں ہے۔"
           },
           {
-            "label": "Note 2",
-            "value": "ذاتی اور ناقابلِ انتقال کارڈ ہے، جس کے ساتھ اصل شناختی کارڈ/NIE پیش کرنا لازمی ہے۔"
+            "label": "نوٹ 2",
+            "value": "ناقابل منتقلی؛ صرف اس صورت میں درست ہے جب اصل DNI/NIE یا تصدیق شدہ کاپی کے ساتھ پیش کیا جائے۔"
+          },
+          {
+            "label": "نوٹ 3",
+            "value": "ایروبس، کیبل کار، بلیو ٹرام، یا ٹورسٹ بس پر درست نہیں ہے۔"
+          },
+          {
+            "label": "رابطہ کریں۔",
+            "value": "کسٹمر سپورٹ: 900 70 00 77۔"
           }
         ]
       },
@@ -22176,6 +25167,140 @@
           {
             "label": "الاتصال",
             "value": "دعم العملاء: 900 70 00 77."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "مجوز اقامت سوریه و کارت حمل و نقل بارسلون",
+        "lines": [
+          {
+            "label": "جزئیات",
+            "value": "مدرک بالا: جمهوری عربی سوریه – اجازه اقامت"
+          },
+          {
+            "label": "محل صدور",
+            "value": "دمشق"
+          },
+          {
+            "label": "حرفه",
+            "value": "بدون اشتغال (بدون عمل)"
+          },
+          {
+            "label": "تاریخ صدور",
+            "value": "07/02/2024"
+          },
+          {
+            "label": "تاریخ انقضا",
+            "value": "16/05/2025"
+          },
+          {
+            "label": "شماره پاسپورت",
+            "value": "DT8452184"
+          },
+          {
+            "label": "تاریخ انقضای پاسپورت",
+            "value": "08/10/2033"
+          },
+          {
+            "label": "آدرس محل سکونت",
+            "value": "دمشق، الصالحیه، زین العابدین، رفر. شماره 736"
+          },
+          {
+            "label": "دلیل اقامت",
+            "value": "مالک ملک (مالک عقار)"
+          },
+          {
+            "label": "شماره سریال مجوز",
+            "value": "0030776"
+          },
+          {
+            "label": "جزئیات",
+            "value": "کارت پایین: منطقه شهری بارسلون (AMB) – گذرنامه حمل و نقل عمومی"
+          },
+          {
+            "label": "تبصره 1",
+            "value": "برای سفرهای نامحدود در منطقه یکپارچه سیستم کرایه 1 در شبکه‌های AMB، TRAM و FGC معتبر است."
+          },
+          {
+            "label": "تبصره 2",
+            "value": "غیر قابل انتقال؛ فقط زمانی معتبر است که با DNI/NIE اصلی یا کپی تایید شده ارائه شود."
+          },
+          {
+            "label": "تبصره 3",
+            "value": "در ایروبوس، تله کابین، تراموا آبی یا اتوبوس توریستی معتبر نیست."
+          },
+          {
+            "label": "Contact",
+            "value": "Customer support: 900 70 00 77."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Syrian Residence Permit & Barcelona Transport Card",
+        "lines": [
+          {
+            "label": "Details",
+            "value": "Top Document: Syrian Arab Republic – Residence Permit"
+          },
+          {
+            "label": "Issuing Place",
+            "value": "Damascus"
+          },
+          {
+            "label": "Profession",
+            "value": "Without employment (بدون عمل)"
+          },
+          {
+            "label": "Issue Date",
+            "value": "07/02/2024"
+          },
+          {
+            "label": "Expiry Date",
+            "value": "16/05/2025"
+          },
+          {
+            "label": "Passport No.",
+            "value": "DT8452184"
+          },
+          {
+            "label": "Passport Expiry Date",
+            "value": "08/10/2033"
+          },
+          {
+            "label": "Residence Address",
+            "value": "Damascus, Al-Salihiyah, Zayn al-Abidin, Ref. No. 736"
+          },
+          {
+            "label": "Reason for Stay",
+            "value": "Property Owner (مالك عقار)"
+          },
+          {
+            "label": "Permit Serial No.",
+            "value": "0030776"
+          },
+          {
+            "label": "Details",
+            "value": "Bottom Card: Metropolitan Area of Barcelona (AMB) – Public Transport Pass"
+          },
+          {
+            "label": "Note 1",
+            "value": "Valid for unlimited travel within the integrated fare system zone 1 on AMB networks, TRAM, and FGC."
+          },
+          {
+            "label": "Note 2",
+            "value": "Non-transferable; valid only when presented with original DNI/NIE or certified copy."
+          },
+          {
+            "label": "Note 3",
+            "value": "Not valid on Aerobús, Cable Car, Blue Tram, or Tourist Bus."
+          },
+          {
+            "label": "Contact",
+            "value": "Customer support: 900 70 00 77."
           }
         ]
       }
@@ -22372,6 +25497,132 @@
           {
             "label": "التخويل",
             "value": "تخول حاملها قيادة السيارات الصغيرة الخاصة ومركبات النقل التي لا يتجاوز وزنها الإجمالي 3500 كغ، ومركبات النقل العام التي لا يتجاوز وزنها 2000 كغ."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "Former Syrian Residence Permit & Driving Licence",
+        "lines": [
+          {
+            "label": "Details",
+            "value": "Top Document: Syrian Arab Republic – Residence Permit"
+          },
+          {
+            "label": "Issuing Place",
+            "value": "Damascus"
+          },
+          {
+            "label": "Profession",
+            "value": "Without employment (بدون عمل)"
+          },
+          {
+            "label": "Issue Date",
+            "value": "04/11/2017"
+          },
+          {
+            "label": "Expiry Date",
+            "value": "03/11/2018"
+          },
+          {
+            "label": "Passport No.",
+            "value": "8452182"
+          },
+          {
+            "label": "Passport Expiry Date",
+            "value": "17/03/2021"
+          },
+          {
+            "label": "Residence Address",
+            "value": "Damascus, Hayy Al-Amin, Ref. No. 726"
+          },
+          {
+            "label": "Reason for Stay",
+            "value": "Property Owner (مالك عقار)"
+          },
+          {
+            "label": "Permit Serial No.",
+            "value": "0020330"
+          },
+          {
+            "label": "Details",
+            "value": "Bottom Document: Syrian Arab Republic – Ministry of Interior (Traffic Police Dept.)"
+          },
+          {
+            "label": "Type",
+            "value": "Private Driving Licence (Category B)"
+          },
+          {
+            "label": "Licence No.",
+            "value": "2 / 389742"
+          },
+          {
+            "label": "Entitlement",
+            "value": "Authorizes the holder to drive small private motor vehicles and transport vehicles with a gross weight not exceeding 3,500 kg, and public transport vehicles not exceeding 2,000 kg."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Former Syrian Residence Permit & Driving Licence",
+        "lines": [
+          {
+            "label": "Details",
+            "value": "Top Document: Syrian Arab Republic – Residence Permit"
+          },
+          {
+            "label": "Issuing Place",
+            "value": "Damascus"
+          },
+          {
+            "label": "Profession",
+            "value": "Without employment (بدون عمل)"
+          },
+          {
+            "label": "Issue Date",
+            "value": "04/11/2017"
+          },
+          {
+            "label": "Expiry Date",
+            "value": "03/11/2018"
+          },
+          {
+            "label": "Passport No.",
+            "value": "8452182"
+          },
+          {
+            "label": "Passport Expiry Date",
+            "value": "17/03/2021"
+          },
+          {
+            "label": "Residence Address",
+            "value": "Damascus, Hayy Al-Amin, Ref. No. 726"
+          },
+          {
+            "label": "Reason for Stay",
+            "value": "Property Owner (مالك عقار)"
+          },
+          {
+            "label": "Permit Serial No.",
+            "value": "0020330"
+          },
+          {
+            "label": "Details",
+            "value": "Bottom Document: Syrian Arab Republic – Ministry of Interior (Traffic Police Dept.)"
+          },
+          {
+            "label": "Type",
+            "value": "Private Driving Licence (Category B)"
+          },
+          {
+            "label": "Licence No.",
+            "value": "2 / 389742"
+          },
+          {
+            "label": "Entitlement",
+            "value": "Authorizes the holder to drive small private motor vehicles and transport vehicles with a gross weight not exceeding 3,500 kg, and public transport vehicles not exceeding 2,000 kg."
           }
         ]
       }
@@ -22594,6 +25845,148 @@
             "value": "X4034570W"
           }
         ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "NICOP (Back) & Spanish Residence Card",
+        "lines": [
+          {
+            "label": "Details",
+            "value": "Top Document: National Identity Card for Overseas Pakistanis (NICOP) – Back Side"
+          },
+          {
+            "label": "Name of Holder",
+            "value": "Fouad Haider"
+          },
+          {
+            "label": "ID / NICOP No.",
+            "value": "91306-0108172-3"
+          },
+          {
+            "label": "Card Tracking No.",
+            "value": "108391194069"
+          },
+          {
+            "label": "Present Address",
+            "value": "Calabria 280-1-1, Barcelona, 08029, Catalonia, Spain"
+          },
+          {
+            "label": "Permanent Address",
+            "value": "H.No. 18, Sector 2, Moh. Eden Canal Villas, Lahore City, District Lahore, Pakistan"
+          },
+          {
+            "label": "Legal Note",
+            "value": "\"The Holder is entitled visa free entry into Pakistan\""
+          },
+          {
+            "label": "Signed by",
+            "value": "Usman Y. Mokin, Registrar General of Pakistan"
+          },
+          {
+            "label": "Details",
+            "value": "Bottom Document: Kingdom of Spain – Long-Term Residence Card (TIE)"
+          },
+          {
+            "label": "Holder Name",
+            "value": "Jawad Haider"
+          },
+          {
+            "label": "Date & Place of Birth",
+            "value": "02-05-1987, Dubai - UAE"
+          },
+          {
+            "label": "Nationality",
+            "value": "Pakistan"
+          },
+          {
+            "label": "Gender",
+            "value": "Male (V-M)"
+          },
+          {
+            "label": "Type of Permit",
+            "value": "Long-Term Residence (Residencia Larga Duración)"
+          },
+          {
+            "label": "Labor Remarks",
+            "value": "Authorized to Work (Autoriza a Trabajar)"
+          },
+          {
+            "label": "Foreigner Identification Number (NIE)",
+            "value": "X4034570W"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "NICOP (Back) & Spanish Residence Card",
+        "lines": [
+          {
+            "label": "Details",
+            "value": "Top Document: National Identity Card for Overseas Pakistanis (NICOP) – Back Side"
+          },
+          {
+            "label": "Name of Holder",
+            "value": "Fouad Haider"
+          },
+          {
+            "label": "ID / NICOP No.",
+            "value": "91306-0108172-3"
+          },
+          {
+            "label": "Card Tracking No.",
+            "value": "108391194069"
+          },
+          {
+            "label": "Present Address",
+            "value": "Calabria 280-1-1, Barcelona, 08029, Catalonia, Spain"
+          },
+          {
+            "label": "Permanent Address",
+            "value": "H.No. 18, Sector 2, Moh. Eden Canal Villas, Lahore City, District Lahore, Pakistan"
+          },
+          {
+            "label": "Legal Note",
+            "value": "\"The Holder is entitled visa free entry into Pakistan\""
+          },
+          {
+            "label": "Signed by",
+            "value": "Usman Y. Mokin, Registrar General of Pakistan"
+          },
+          {
+            "label": "Details",
+            "value": "Bottom Document: Kingdom of Spain – Long-Term Residence Card (TIE)"
+          },
+          {
+            "label": "Holder Name",
+            "value": "Jawad Haider"
+          },
+          {
+            "label": "Date & Place of Birth",
+            "value": "02-05-1987, Dubai - UAE"
+          },
+          {
+            "label": "Nationality",
+            "value": "Pakistan"
+          },
+          {
+            "label": "Gender",
+            "value": "Male (V-M)"
+          },
+          {
+            "label": "Type of Permit",
+            "value": "Long-Term Residence (Residencia Larga Duración)"
+          },
+          {
+            "label": "Labor Remarks",
+            "value": "Authorized to Work (Autoriza a Trabajar)"
+          },
+          {
+            "label": "Foreigner Identification Number (NIE)",
+            "value": "X4034570W"
+          }
+        ]
       }
     },
     "category": "personal"
@@ -22692,6 +26085,68 @@
           {
             "label": "صورة الحامل",
             "value": "صورة بالأبيض والأسود مرفقة"
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "National Identity Card of Pakistan (Old Manual Format) - Front Side",
+        "lines": [
+          {
+            "label": "Issuing Authority",
+            "value": "Government of Pakistan (حکومت پاکستان)"
+          },
+          {
+            "label": "Card Serial Number",
+            "value": "BG 332492"
+          },
+          {
+            "label": "Holder’s Signature / Name Impression",
+            "value": "Nusrat Fatima (نصرت فاطمہ)"
+          },
+          {
+            "label": "District Registration Office Code",
+            "value": "DRO-LHR-96-1132"
+          },
+          {
+            "label": "Date of Issue",
+            "value": "24-03-1979"
+          },
+          {
+            "label": "Holder's Photograph",
+            "value": "Black-and-white photograph affixed"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "National Identity Card of Pakistan (Old Manual Format) - Front Side",
+        "lines": [
+          {
+            "label": "Issuing Authority",
+            "value": "Government of Pakistan (حکومت پاکستان)"
+          },
+          {
+            "label": "Card Serial Number",
+            "value": "BG 332492"
+          },
+          {
+            "label": "Holder’s Signature / Name Impression",
+            "value": "Nusrat Fatima (نصرت فاطمہ)"
+          },
+          {
+            "label": "District Registration Office Code",
+            "value": "DRO-LHR-96-1132"
+          },
+          {
+            "label": "Date of Issue",
+            "value": "24-03-1979"
+          },
+          {
+            "label": "Holder's Photograph",
+            "value": "Black-and-white photograph affixed"
           }
         ]
       }
@@ -22828,6 +26283,92 @@
           {
             "label": "التحقق الرسمي",
             "value": "توقيع وختم مسجل المنطقة."
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "National Identity Card of Pakistan (Old Manual Format) - Back Side",
+        "lines": [
+          {
+            "label": "Identity Card Number (Shanakhti No.)",
+            "value": "270-58-163462 (Barcode / Reference Margin: Old NIC: 27092479268)"
+          },
+          {
+            "label": "Full Name",
+            "value": "Nusrat Fatima (نصرت فاطمہ)"
+          },
+          {
+            "label": "Father's Name",
+            "value": "Syed Mohammad Naqvi (سید محمد نقوی)"
+          },
+          {
+            "label": "Present Address",
+            "value": "108-G, Gali No. 3, Lahore"
+          },
+          {
+            "label": "Permanent Address",
+            "value": "Mohallah [...] Jalil Pur, Tehsil Kharian, District Gujrat"
+          },
+          {
+            "label": "Identification Mark",
+            "value": "A scar mark on the hand (ہاتھ پر زخم کا نشان)"
+          },
+          {
+            "label": "Year of Birth",
+            "value": "1958"
+          },
+          {
+            "label": "Statutory Instructions",
+            "value": "\"If lost, report immediately to the nearest registration office. If found, drop into any post box.\""
+          },
+          {
+            "label": "Official Verification",
+            "value": "Signature and seal of the District Registrar."
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "National Identity Card of Pakistan (Old Manual Format) - Back Side",
+        "lines": [
+          {
+            "label": "Identity Card Number (Shanakhti No.)",
+            "value": "270-58-163462 (Barcode / Reference Margin: Old NIC: 27092479268)"
+          },
+          {
+            "label": "Full Name",
+            "value": "Nusrat Fatima (نصرت فاطمہ)"
+          },
+          {
+            "label": "Father's Name",
+            "value": "Syed Mohammad Naqvi (سید محمد نقوی)"
+          },
+          {
+            "label": "Present Address",
+            "value": "108-G, Gali No. 3, Lahore"
+          },
+          {
+            "label": "Permanent Address",
+            "value": "Mohallah [...] Jalil Pur, Tehsil Kharian, District Gujrat"
+          },
+          {
+            "label": "Identification Mark",
+            "value": "A scar mark on the hand (ہاتھ پر زخم کا نشان)"
+          },
+          {
+            "label": "Year of Birth",
+            "value": "1958"
+          },
+          {
+            "label": "Statutory Instructions",
+            "value": "\"If lost, report immediately to the nearest registration office. If found, drop into any post box.\""
+          },
+          {
+            "label": "Official Verification",
+            "value": "Signature and seal of the District Registrar."
           }
         ]
       }
@@ -22975,6 +26516,76 @@
           },
           {
             "label": "الرقم التسلسلي للبطاقة",
+            "value": "2469111"
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "Barcelona (Spain) Public Transport Card",
+        "lines": [
+          {
+            "label": "Card Name",
+            "value": "Targeta Rosa Metropolitana (Free Metropolitan Pink Card - Gratuïta)"
+          },
+          {
+            "label": "Network",
+            "value": "AMB Mobilitat (Barcelona Metro, Bus, Tram, and Local Train Network)"
+          },
+          {
+            "label": "Cardholder Name",
+            "value": "FATIMA NUSRAT"
+          },
+          {
+            "label": "City / Area",
+            "value": "BADALONA (Barcelona)"
+          },
+          {
+            "label": "Spanish Foreigner ID Number (NIE)",
+            "value": "X6850143F"
+          },
+          {
+            "label": "Expiry Date",
+            "value": "Valid until 31/05/2022"
+          },
+          {
+            "label": "Card Serial Number",
+            "value": "2469111"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Barcelona (Spain) Public Transport Card",
+        "lines": [
+          {
+            "label": "Card Name",
+            "value": "Targeta Rosa Metropolitana (Free Metropolitan Pink Card - Gratuïta)"
+          },
+          {
+            "label": "Network",
+            "value": "AMB Mobilitat (Barcelona Metro, Bus, Tram, and Local Train Network)"
+          },
+          {
+            "label": "Cardholder Name",
+            "value": "FATIMA NUSRAT"
+          },
+          {
+            "label": "City / Area",
+            "value": "BADALONA (Barcelona)"
+          },
+          {
+            "label": "Spanish Foreigner ID Number (NIE)",
+            "value": "X6850143F"
+          },
+          {
+            "label": "Expiry Date",
+            "value": "Valid until 31/05/2022"
+          },
+          {
+            "label": "Card Serial Number",
             "value": "2469111"
           }
         ]
@@ -23346,6 +26957,100 @@
           {
             "label": "قيد / شرط قانوني",
             "value": "لا يسمح بمزاولة العمل"
+          }
+        ]
+      },
+      "fa": {
+        "name": "?????",
+        "dir": "rtl",
+        "docName": "Syrian Residence Card & Spanish Transport Card",
+        "lines": [
+          {
+            "label": "Details",
+            "value": "مدرک بالا: جمهوری عربی سوریه – کارت اقامت (اقامه)"
+          },
+          {
+            "label": "Issuing Authority",
+            "value": "Ministry of Interior – Directorate of Migration and Passports (وزارة الداخلية – إدارة الهجرة والجوازات)"
+          },
+          {
+            "label": "Permit Type",
+            "value": "Ordinary Residence (إقامة عادية)"
+          },
+          {
+            "label": "Name",
+            "value": "NUSRAT (نصرت)"
+          },
+          {
+            "label": "Surname (Family Name)",
+            "value": "FATIMA (فاطمہ)"
+          },
+          {
+            "label": "Date of Birth",
+            "value": "01/01/1958"
+          },
+          {
+            "label": "Gender",
+            "value": "Female (أنثى)"
+          },
+          {
+            "label": "Nationality",
+            "value": "Pakistan (باكستان)"
+          },
+          {
+            "label": "National Registration No.",
+            "value": "10202020000819"
+          },
+          {
+            "label": "Legal Restriction / Condition",
+            "value": "Not permitted to work (لا يسمح بمزاولة العمل)"
+          }
+        ]
+      },
+      "es": {
+        "name": "Espa�ol",
+        "dir": "ltr",
+        "docName": "Syrian Residence Card & Spanish Transport Card",
+        "lines": [
+          {
+            "label": "Details",
+            "value": "Top Document: Syrian Arab Republic – Residence Card (Iqama)"
+          },
+          {
+            "label": "Issuing Authority",
+            "value": "Ministry of Interior – Directorate of Migration and Passports (وزارة الداخلية – إدارة الهجرة والجوازات)"
+          },
+          {
+            "label": "Permit Type",
+            "value": "Ordinary Residence (إقامة عادية)"
+          },
+          {
+            "label": "Name",
+            "value": "NUSRAT (نصرت)"
+          },
+          {
+            "label": "Surname (Family Name)",
+            "value": "FATIMA (فاطمہ)"
+          },
+          {
+            "label": "Date of Birth",
+            "value": "01/01/1958"
+          },
+          {
+            "label": "Gender",
+            "value": "Female (أنثى)"
+          },
+          {
+            "label": "Nationality",
+            "value": "Pakistan (باكستان)"
+          },
+          {
+            "label": "National Registration No.",
+            "value": "10202020000819"
+          },
+          {
+            "label": "Legal Restriction / Condition",
+            "value": "Not permitted to work (لا يسمح بمزاولة العمل)"
           }
         ]
       }

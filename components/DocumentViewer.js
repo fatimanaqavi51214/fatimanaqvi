@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 
@@ -27,7 +27,7 @@ export default function DocumentViewer({ doc, initialLang }) {
     }
   };
 
-  const hiddenLabels = ['details', 'content', 'مضمون', 'متن', 'تفصیلات', 'تفاصيل', 'جزئیات', 'detalles', 'details:', 'خط کا متن', 'عربی متن', 'اردو مفہوم', 'ترجمہ'];
+  const hiddenLabels = ['details', 'content', 'Ù…Ø¶Ù…ÙˆÙ†', 'Ù…ØªÙ†', 'ØªÙØµÛŒÙ„Ø§Øª', 'ØªÙØ§ØµÙŠÙ„', 'Ø¬Ø²Ø¦ÛŒØ§Øª', 'detalles', 'details:', 'Ø®Ø· Ú©Ø§ Ù…ØªÙ†', 'Ø¹Ø±Ø¨ÛŒ Ù…ØªÙ†', 'Ø§Ø±Ø¯Ùˆ Ù…ÙÛÙˆÙ…', 'ØªØ±Ø¬Ù…Û'];
 
   // Categorize lines into metadata (short properties) and body text (long content/paragraphs)
   const metadata = [];
@@ -36,7 +36,7 @@ export default function DocumentViewer({ doc, initialLang }) {
   if (activeTranslation.lines) {
     activeTranslation.lines.forEach(item => {
       const labelLower = (item.label || '').toLowerCase().trim();
-      const isBody = hiddenLabels.some(hl => labelLower.includes(hl)) || (item.value && item.value.length > 150);
+      const isBody = hiddenLabels.some(hl => labelLower.includes(hl)) || labelLower.includes('شق') || labelLower.includes('article') || labelLower.includes('بند') || labelLower.includes('شرط') || labelLower.includes('بزنس') || (item.value && item.value.length > 70);
       
       if (isBody) {
         bodyText.push(item);
@@ -122,13 +122,13 @@ export default function DocumentViewer({ doc, initialLang }) {
 
           <div className="content-body" dir={activeDir}>
             <h1 className="doc-title">
-              {activeDir === 'rtl' ? 'موضوع: ' : 'Subject: '}
+              {activeDir === 'rtl' ? 'Ù…ÙˆØ¶ÙˆØ¹: ' : 'Subject: '}
               {activeTranslation.docName || 'Pending Translation'}
             </h1>
             
             {!activeTranslation.lines || activeTranslation.lines.length === 0 ? (
               <div style={{ textAlign: 'center', padding: '40px', fontSize: '18px', color: '#64748b' }}>
-                {activeDir === 'rtl' ? 'اس زبان میں ترجمہ دستیاب نہیں ہے۔' : 'Translation is pending or not available in this language.'}
+                {activeDir === 'rtl' ? 'Ø§Ø³ Ø²Ø¨Ø§Ù† Ù…ÛŒÚº ØªØ±Ø¬Ù…Û Ø¯Ø³ØªÛŒØ§Ø¨ Ù†ÛÛŒÚº ÛÛ’Û”' : 'Translation is pending or not available in this language.'}
               </div>
             ) : (
               <>
@@ -151,7 +151,7 @@ export default function DocumentViewer({ doc, initialLang }) {
                 {bodyText.length > 0 && (
                   <div className="body-text-section">
                     <div className="body-heading">
-                      {activeDir === 'rtl' ? 'اصل متن (ترجمہ):' : 'Document Content / Translation:'}
+                      {activeDir === 'rtl' ? 'Ø§ØµÙ„ Ù…ØªÙ† (ØªØ±Ø¬Ù…Û):' : 'Document Content / Translation:'}
                     </div>
                     {bodyText.map((item, index) => (
                       <div key={index} className="body-paragraph">
@@ -177,13 +177,13 @@ export default function DocumentViewer({ doc, initialLang }) {
         </div>
       </div>
       
-      <a href={`/${initialLang}/vault`} className="floating-btn" style={{
+      <a href={`/${initialLang}/vault`} className="back-vault-btn" style={{
         position: 'fixed', bottom: '30px', right: activeDir === 'rtl' ? 'auto' : '30px', left: activeDir === 'rtl' ? '30px' : 'auto',
         background: '#10b981', color: 'white', padding: '15px 25px', borderRadius: '50px', textDecoration: 'none', fontWeight: 'bold',
         boxShadow: '0 10px 15px -3px rgba(16, 185, 129, 0.4)', display: 'flex', alignItems: 'center', gap: '10px', zIndex: 1000
       }}>
         <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clipRule="evenodd" fillRule="evenodd"></path></svg>
-        {activeDir === 'rtl' ? 'واپس جائیں' : 'Back to Vault'}
+        {activeDir === 'rtl' ? 'ÙˆØ§Ù¾Ø³ Ø¬Ø§Ø¦ÛŒÚº' : 'Back to Vault'}
       </a>
     </>
   );
