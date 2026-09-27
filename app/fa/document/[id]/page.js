@@ -1,19 +1,16 @@
-import fs from 'fs';
-import path from 'path';
-import DocumentViewer from '../../../../components/DocumentViewer';
+import documents from '@/documents_data.json';
+import DocumentViewer from '@/components/DocumentViewer';
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  return documents.map((d) => ({ id: d.id }));
+}
 
 export default function DocumentPage({ params }) {
-  const { id } = params; const lang = 'fa';
-
-  // Read documents data
-  const filePath = path.join(process.cwd(), 'documents_data.json');
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  const documents = JSON.parse(fileContents);
+  const { id } = params;
+  const lang = 'fa';
 
   // Find the document
-  const doc = documents.find(d => d.id === id);
+  const doc = documents.find((d) => d.id === id);
 
   if (!doc) {
     return <div style={{ color: 'white', textAlign: 'center', padding: '50px' }}>Document not found</div>;

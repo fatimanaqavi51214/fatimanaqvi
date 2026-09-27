@@ -1,32 +1,28 @@
-import fs from 'fs';
-import path from 'path';
+import documents from '@/documents_data.json';
 import Link from 'next/link';
 
-export const dynamic = 'force-dynamic';
+const categoryTitles = {
+  'residency': { ur: 'اقامے اور شناختی کارڈ', en: 'Residency & Iqama', ar: 'الإقامات والبطاقات', fa: 'اقامت و کارت‌ها', es: 'Residencia e Iqama' },
+  'property': { ur: 'جائیداد کے کاغذات', en: 'Property Documents', ar: 'وثائق العقارات', fa: 'اسناد ملک', es: 'Documentos de Propiedad' },
+  'business': { ur: 'بزنس اور معاہدات', en: 'Business & Contracts', ar: 'الأعمال والعقود', fa: 'کسب و کار و قراردادها', es: 'Negocios y Contratos' },
+  'embassy': { ur: 'سرکاری اور سفارتی خطوط', en: 'Official & Embassy Letters', ar: 'خطابات رسمية', fa: 'نامه‌های رسمی', es: 'Cartas Oficiales' },
+  'personal': { ur: 'ذاتی دستاویزات', en: 'Personal Documents', ar: 'وثائق شخصية', fa: 'اسناد شخصی', es: 'Documentos Personales' },
+  'visas': { ur: 'ویزا جات', en: 'Visas', ar: 'تأشيرات', fa: 'ویزاها', es: 'Visas' },
+};
+
+export function generateStaticParams() {
+  return Object.keys(categoryTitles).map((slug) => ({ slug }));
+}
 
 export default function CategoryPage({ params }) {
-  const { slug } = params; const lang = 'ur';
+  const { slug } = params;
+  const lang = 'ur';
 
-  // Read documents data
-  const filePath = path.join(process.cwd(), 'documents_data.json');
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  const documents = JSON.parse(fileContents);
-
-  // Filter documents by category
-  const categoryDocs = documents.filter(doc => doc.category === slug);
-
-  // Category titles mapping
-  const categoryTitles = {
-    'residency': { ur: 'اقامے اور شناختی کارڈ', en: 'Residency & Iqama', ar: 'الإقامات والبطاقات', fa: 'اقامت و کارت‌ها', es: 'Residencia e Iqama' },
-    'property': { ur: 'جائیداد کے کاغذات', en: 'Property Documents', ar: 'وثائق العقارات', fa: 'اسناد ملک', es: 'Documentos de Propiedad' },
-    'business': { ur: 'بزنس اور معاہدات', en: 'Business & Contracts', ar: 'الأعمال والعقود', fa: 'کسب و کار و قراردادها', es: 'Negocios y Contratos' },
-    'embassy': { ur: 'سرکاری اور سفارتی خطوط', en: 'Official & Embassy Letters', ar: 'خطابات رسمية', fa: 'نامه‌های رسمی', es: 'Cartas Oficiales' },
-    'personal': { ur: 'ذاتی دستاویزات', en: 'Personal Documents', ar: 'وثائق شخصية', fa: 'اسناد شخصی', es: 'Documentos Personales' },
-    'visas': { ur: 'ویزا جات', en: 'Visas', ar: 'تأشيرات', fa: 'ویزاها', es: 'Visas' },
-  };
+  // Filter documents by category (include official in embassy)
+  const categoryDocs = documents.filter((doc) => doc.category === slug || (slug === 'embassy' && doc.category === 'official'));
 
   const title = categoryTitles[slug]?.[lang] || slug;
-  const isRtl = lang === 'ur' || lang === 'ar' || lang === 'fa';
+  const isRtl = true;
 
   return (
     <>
@@ -58,7 +54,7 @@ export default function CategoryPage({ params }) {
         .doc-name { font-size: 1.1rem; font-weight: bold; color: #f4f4f5; line-height: 1.5; margin-bottom: 15px; }
         
         .view-btn { 
-          margin-top: auto;
+          margin-top: auto; 
           display: block; 
           text-align: center; 
           padding: 12px; 
@@ -75,18 +71,18 @@ export default function CategoryPage({ params }) {
         .cat-container[dir="rtl"] .floating-btn { left: 30px; }
         .cat-container[dir="ltr"] .floating-btn { right: 30px; }
         .floating-btn:hover { transform: translateY(-5px) scale(1.05); background: #059669; }
-      `}} />
+`}} />
 
       <div className="cat-container" dir={isRtl ? 'rtl' : 'ltr'}>
         <div className="cat-header">
           <h1 className="cat-title">{title}</h1>
           <p className="cat-subtitle">
-            {isRtl ? 'اس کیٹیگری سے متعلق تمام دستاویزات' : 'All documents related to this category'}
+            اس کیٹیگری سے متعلق تمام دستاویزات
           </p>
         </div>
         
         <div className="grid-layout">
-          {categoryDocs.length > 0 ? categoryDocs.map(doc => {
+          {categoryDocs.length > 0 ? categoryDocs.map((doc) => {
             const docName = doc.translations?.[lang]?.docName || doc.translations?.en?.docName || doc.translations?.ur?.docName || `Document ${doc.id}`;
             return (
               <Link href={`/${lang}/document/${doc.id}`} key={doc.id} style={{ textDecoration: 'none' }}>
@@ -98,22 +94,22 @@ export default function CategoryPage({ params }) {
                   <div className="doc-content">
                     <h3 className="doc-name">{docName}</h3>
                     <span className="view-btn">
-                      {isRtl ? 'دستاویز دیکھیں' : 'View Document'}
+                      دستاویز دیکھیں
                     </span>
                   </div>
                 </div>
               </Link>
-            )
+            );
           }) : (
             <div style={{ textAlign: 'center', gridColumn: '1 / -1', padding: '50px', fontSize: '1.2rem', color: '#71717a' }}>
-              {isRtl ? 'اس کیٹیگری میں کوئی دستاویز موجود نہیں ہے۔' : 'No documents found in this category.'}
+              اس کیٹیگری میں کوئی دستاویز موجود نہیں ہے۔
             </div>
           )}
         </div>
         
         <Link href={`/${lang}/vault`} className="floating-btn">
           <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z" clipRule="evenodd" fillRule="evenodd"></path></svg>
-          {isRtl ? 'مین فولڈرز' : 'Main Folders'}
+          مین فولڈرز
         </Link>
       </div>
     </>
