@@ -8,3 +8,4 @@ export default function VaultPage({ params }) {
     <VaultClient isRtl={isRtl} lang={lang} />
   );
 }
+ 

@@ -4,3 +4,4 @@ node_modules/
 *.bak
 HANDOFF.md
 server.js
+out/
