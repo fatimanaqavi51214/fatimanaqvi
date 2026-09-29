@@ -1,7 +1,7 @@
 ﻿'use client';
 import React from 'react';
 import Link from 'next/link';
-import { FaFolderOpen, FaIdCard, FaBuilding, FaBriefcase, FaPassport, FaUniversity, FaSignOutAlt } from 'react-icons/fa';
+import { FaFolderOpen, FaIdCard, FaBuilding, FaBriefcase, FaPassport, FaUniversity, FaSignOutAlt, FaEnvelope } from 'react-icons/fa';
 import './vault.css'; 
 
 export default function VaultClient({ isRtl, lang }) {
@@ -12,7 +12,7 @@ export default function VaultClient({ isRtl, lang }) {
     { slug: 'embassy', icon: FaUniversity, color: '#8b5cf6', ur: 'سرکاری خطوط', en: 'Official Letters' },
     { slug: 'personal', icon: FaFolderOpen, color: '#ec4899', ur: 'ذاتی دستاویزات', en: 'Personal Docs' },
     { slug: 'visas', icon: FaPassport, color: '#06b6d4', ur: 'ویزے', en: 'Visas' }
-  ];
+  , { slug: 'letters', icon: FaEnvelope, color: '#f43f5e', ur: 'شخصیات کے لیٹر', en: 'Letters from Personalities' }];
 
   const handleLogout = () => {
     document.cookie = "auth_token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";

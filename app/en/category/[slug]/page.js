@@ -8,6 +8,7 @@ const categoryTitles = {
   'embassy': { ur: 'سرکاری اور سفارتی خطوط', en: 'Official & Embassy Letters', ar: 'خطابات رسمية', fa: 'نامه‌های رسمی', es: 'Cartas Oficiales' },
   'personal': { ur: 'ذاتی دستاویزات', en: 'Personal Documents', ar: 'وثائق شخصية', fa: 'اسناد شخصی', es: 'Documentos Personales' },
   'visas': { ur: 'ویزا جات', en: 'Visas', ar: 'تأشيرات', fa: 'ویزاها', es: 'Visas' },
+  'letters': { ur: 'شخصیات کے لیٹر', en: 'Letters from Personalities', ar: 'رسائل الشخصيات', fa: 'نامه‌های شخصیت‌ها', es: 'Cartas de Personalidades' },
 };
 
 export function generateStaticParams() {
