@@ -20294,34 +20294,44 @@
         "docName": "شامی اقامہ کارڈ اور اسپینش ٹرانسپورٹ کارڈ",
         "lines": [
           {
-            "value": "Details: اوپری دستاویز: جمہوریہ عربیہ سوریہ – رہائشی کارڈ (اقامہ)"
+            "label": "Details",
+            "value": "اوپری دستاویز: جمہوریہ عربیہ سوریہ – رہائشی کارڈ (اقامہ)"
           },
           {
-            "value": "جاری کنندہ ادارہ: وزارتِ داخلہ – نظامت برائے ہجرت و پاسپورٹ (وزارة الداخلية – إدارة الهجرة والجوازات)"
+            "label": "جاری کنندہ ادارہ",
+            "value": "وزارتِ داخلہ – نظامت برائے ہجرت و پاسپورٹ (وزارة الداخلية – إدارة الهجرة والجوازات)"
           },
           {
-            "value": "اقامے کی قسم: عام اقامہ (إقامة عادية)"
+            "label": "اقامے کی قسم",
+            "value": "عام اقامہ (إقامة عادية)"
           },
           {
-            "value": "نام: NUSRAT (نصرت)"
+            "label": "نام",
+            "value": "NUSRAT (نصرت)"
           },
           {
-            "value": "خاندانی نام (کنیت): FATIMA (فاطمہ)"
+            "label": "خاندانی نام (کنیت)",
+            "value": "FATIMA (فاطمہ)"
           },
           {
-            "value": "تاریخِ پیدائش: 01/01/1958ء"
+            "label": "تاریخِ پیدائش",
+            "value": "01/01/1958ء"
           },
           {
-            "value": "جنس: مادہ / خاتون (أنثى)"
+            "label": "جنس",
+            "value": "مادہ / خاتون (أنثى)"
           },
           {
-            "value": "قومیت: پاکستان (باكستان)"
+            "label": "قومیت",
+            "value": "پاکستان (باكستان)"
           },
           {
-            "value": "قومی رجسٹریشن نمبر: 10202020000819"
+            "label": "قومی رجسٹریشن نمبر",
+            "value": "10202020000819"
           },
           {
-            "value": "قانونی پابندی / شرط: ملازمت یا کام کرنے کی اجازت نہیں ہے (لا يسمح بمزاولة العمل)"
+            "label": "قانونی پابندی / شرط",
+            "value": "ملازمت یا کام کرنے کی اجازت نہیں ہے (لا يسمح بمزاولة العمل)"
           }
         ]
       },
@@ -20331,133 +20341,185 @@
         "docName": "Syrian Residence Card & Spanish Transport Card",
         "lines": [
           {
-            "value": "Issuing Authority: Ministry of Interior – Directorate of Migration and Passports (وزارة الداخلية – إدارة الهجرة والجوازات)"
+            "label": "Details",
+            "value": "Top Document: Syrian Arab Republic – Residence Card (Iqama)"
           },
           {
-            "value": "Permit Type: Ordinary Residence (إقامة عادية)"
+            "label": "Issuing Authority",
+            "value": "Ministry of Interior – Directorate of Migration and Passports"
           },
           {
-            "value": "Name: NUSRAT (نصرت)"
+            "label": "Permit Type",
+            "value": "Ordinary Residence"
           },
           {
-            "value": "Surname (Family Name): FATIMA (فاطمہ)"
+            "label": "Name",
+            "value": "NUSRAT"
           },
           {
-            "value": "Date of Birth: 01/01/1958"
+            "label": "Surname (Family Name)",
+            "value": "FATIMA"
           },
           {
-            "value": "Gender: Female (أنثى)"
+            "label": "Date of Birth",
+            "value": "01/01/1958"
           },
           {
-            "value": "Nationality: Pakistan (باكستان)"
+            "label": "Gender",
+            "value": "Female"
           },
           {
-            "value": "National Registration No.: 10202020000819"
+            "label": "Nationality",
+            "value": "Pakistan"
           },
           {
-            "value": "Legal Restriction / Condition: Not permitted to work (لا يسمح بمزاولة العمل)"
+            "label": "National Registration No.",
+            "value": "10202020000819"
+          },
+          {
+            "label": "Legal Restriction / Condition",
+            "value": "Not permitted to work"
           }
         ]
       },
       "ar": {
         "name": "العربية",
         "dir": "rtl",
-        "docName": "بطاقة الإقامة السورية وبطاقة النقل الإسبانية",
+        "docName": "بطاقة إقامة سورية وبطاقة نقل إسبانية",
         "lines": [
           {
-            "value": "Issuing Authority: Ministry of Interior – Directorate of Migration and Passports (وزارة الداخلية – إدارة الهجرة والجوازات)"
+            "label": "التفاصيل",
+            "value": "المستند العلوي: الجمهورية العربية السورية – بطاقة إقامة"
           },
           {
-            "value": "Permit Type: Ordinary Residence (إقامة عادية)"
+            "label": "جهة الإصدار",
+            "value": "وزارة الداخلية – إدارة الهجرة والجوازات"
           },
           {
-            "value": "الاسم: نصرت"
+            "label": "نوع الإقامة",
+            "value": "إقامة عادية"
           },
           {
-            "value": "اللقب (اسم العائلة): فاطمة"
+            "label": "الاسم",
+            "value": "نصرت (NUSRAT)"
           },
           {
-            "value": "تاريخ الميلاد: 01/01/1958"
+            "label": "الكنية (اسم العائلة)",
+            "value": "فاطمة (FATIMA)"
           },
           {
-            "value": "Gender: Female (أنثى)"
+            "label": "تاريخ الميلاد",
+            "value": "01/01/1958"
           },
           {
-            "value": "Nationality: Pakistan (باكستان)"
+            "label": "الجنس",
+            "value": "أنثى"
           },
           {
-            "value": "رقم القيد الوطني: 10202020000819"
+            "label": "الجنسية",
+            "value": "باكستان"
           },
           {
-            "value": "Legal Restriction / Condition: Not permitted to work (لا يسمح بمزاولة العمل)"
+            "label": "الرقم الوطني",
+            "value": "10202020000819"
+          },
+          {
+            "label": "شرط قانوني",
+            "value": "لا يسمح بمزاولة العمل"
           }
         ]
       },
       "fa": {
-        "name": "?????",
+        "name": "فارسی",
         "dir": "rtl",
         "docName": "کارت اقامت سوریه و کارت حمل و نقل اسپانیا",
         "lines": [
           {
-            "value": "مرجع صدور: وزارت امور داخله – ریاست مهاجرت و پاسپورت"
+            "label": "جزئیات",
+            "value": "سند بالایی: جمهوری عربی سوریه - کارت اقامت (اقامه)"
           },
           {
-            "value": "نوع مجوز: اقامت معمولی"
+            "label": "مرجع صادرکننده",
+            "value": "وزارت کشور - اداره مهاجرت و گذرنامه"
           },
           {
-            "value": "Name: NUSRAT (نصرت)"
+            "label": "نوع اقامت",
+            "value": "اقامت عادی"
           },
           {
-            "value": "نام خانوادگی (نام خانوادگی): فاطمه"
+            "label": "نام",
+            "value": "نصرت (NUSRAT)"
           },
           {
-            "value": "تاریخ تولد: 1958/01/01"
+            "label": "نام خانوادگی",
+            "value": "فاطمه (FATIMA)"
           },
           {
-            "value": "جنسیت: مؤنث"
+            "label": "تاریخ تولد",
+            "value": "01/01/1958"
           },
           {
-            "value": "ملیت: پاکستان"
+            "label": "جنسیت",
+            "value": "زن"
           },
           {
-            "value": "شماره ثبت ملی: 10202020000819"
+            "label": "ملیت",
+            "value": "پاکستان"
           },
           {
-            "value": "محدودیت قانونی / شرایط: مجاز به کار نیست"
+            "label": "شماره ثبت ملی",
+            "value": "10202020000819"
+          },
+          {
+            "label": "محدودیت قانونی",
+            "value": "اجازه کار ندارد"
           }
         ]
       },
       "es": {
-        "name": "Espa�ol",
+        "name": "Español",
         "dir": "ltr",
-        "docName": "Tarjeta de Residencia Siria y Tarjeta de Transporte Española",
+        "docName": "Tarjeta de Residencia Siria y Tarjeta de Transporte de España",
         "lines": [
           {
-            "value": "Autoridad Emisora: Ministerio del Interior – Dirección de Migraciones y Pasaportes"
+            "label": "Detalles",
+            "value": "Documento superior: República Árabe Siria - Tarjeta de Residencia (Iqama)"
           },
           {
-            "value": "Tipo de Permiso: Residencia Ordinaria"
+            "label": "Autoridad emisora",
+            "value": "Ministerio del Interior - Dirección de Migración y Pasaportes"
           },
           {
-            "value": "Nombre: NUSRAT"
+            "label": "Tipo de permiso",
+            "value": "Residencia ordinaria"
           },
           {
-            "value": "Apellido: FÁTIMA"
+            "label": "Nombre",
+            "value": "NUSRAT"
           },
           {
-            "value": "Fecha de nacimiento: 01/01/1958"
+            "label": "Apellido",
+            "value": "FATIMA"
           },
           {
-            "value": "Género: Mujer"
+            "label": "Fecha de nacimiento",
+            "value": "01/01/1958"
           },
           {
-            "value": "Nacionalidad: Pakistán"
+            "label": "Género",
+            "value": "Femenino"
           },
           {
-            "value": "N° Registro Nacional: 10202020000819"
+            "label": "Nacionalidad",
+            "value": "Pakistán"
           },
           {
-            "value": "Restricción legal / Condición: No se permite trabajar"
+            "label": "N.º de Registro Nacional",
+            "value": "10202020000819"
+          },
+          {
+            "label": "Restricción legal",
+            "value": "No se permite trabajar"
           }
         ]
       }
@@ -21499,6 +21561,1517 @@
           },
           {
             "value": "Editor residente"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_265",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274021/CamScanner_06-10-2026_01.44-3.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "عقد بيع قطعي (فروخت کا حتمی معاہدہ)",
+        "lines": [
+          {
+            "label": "فریق اول (بیچنے والا)",
+            "value": "جناب سید مرتضیٰ الویّس بن حمدی و افکار، پیدائش دمشق 1966، قومی شناختی کارڈ نمبر 01010474199/14، جاری کردہ سینٹرل سول رجسٹری، تاریخ 31/07/2006۔ اس معاہدے کی ضروریات کے لیے ان کا رہائشی پتہ: دمشق - علاقہ الآثار - طالع الفضہ - مریمین چرچ کے سامنے۔"
+          },
+          {
+            "label": "فریق دوم (بیچنے والی)",
+            "value": "محترمہ سیدہ نصرت فاطمہ بنت سید محمد نقوی، والدہ کا نام مہربانو، پیدائش کراچی، پاکستانی شہریت کی حامل، پاکستانی پاسپورٹ نمبر DT8452184، جاری کردہ پاکستان، تاریخ 09/10/2023، کارآمد تا 08/10/2033۔ اس معاہدے کی ضروریات کے لیے ان کا رہائشی پتہ: دمشق، علاقہ الصالحیہ، محلہ زین العابدین، موبائل: 0930777051۔"
+          },
+          {
+            "label": "فریق سوم (خریدار)",
+            "value": "جناب اسامہ حاجی خلیل بن محمد سعید، والدہ کا نام فاطمہ، پیدائش 10/09/1974، قومی شناختی کارڈ نمبر 02210009171/96، جاری کردہ نبل، تاریخ 30/09/2009۔ اس معاہدے کی ضروریات کے لیے ان کا رہائشی پتہ اور دفتر: ریف دمشق - السیدہ زینب - ساحۃ العراقیین - عماد قاسم بلڈنگ - جوہرۃ المدینہ ٹریول اینڈ ٹورازم کمپنی - فون: 0933624029۔"
+          },
+          {
+            "label": "مقدمة العقد (معاہدے کی تمہید)",
+            "value": "چونکہ فریق اول اور فریق دوم ریف دمشق کی حدود میں 'قبر الست' (السیدہ زینب) کے رقبے (1006/2) پر تعمیر شدہ عمارت میں تقریباً (86%) حصص کے مالک ہیں، جس کا نام 'ضیوف الرحمن ہوٹل' ہے۔ یہ ملکیت ان کے درمیان شراکت داری اور تخصیص کے معاہدے مجریہ 29/11/2005 کی بنیاد پر ہے، جس کی توثیق شہبا کی سول کورٹ آف فرسٹ انسٹانس کے فیصلے نمبر 826/2005 (مقدمہ نمبر 1211/2005) کے تحت کی گئی۔ بعد ازاں اس کی ترمیم اور تخصیص کی توثیق ببیلا کی سول کورٹ کے فیصلے نمبر 4046/2009 کے تحت ہوئی۔ واضح رہے کہ اس جائیداد (2/2006) کی ملکیت فریق دوم کو ببیلا کی سول کورٹ آف فرسٹ انسٹانس کے فیصلے نمبر 1069 مجریہ 30/06/2002 کے تحت منتقل ہوئی تھی۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Final Sales Contract",
+        "lines": [
+          {
+            "label": "First Party (Seller)",
+            "value": "Mr. Syed Murtaza Al-Wais bin Hamdi and Afkar, born in Damascus 1966, National ID No. 01010474199/14, issued by the Central Civil Registry, dated 31/07/2006. His residential address for the purposes of this contract: Damascus - Al-Athar Area - Tala' al-Fidha - opposite Maryamin Church."
+          },
+          {
+            "label": "Second Party (Seller)",
+            "value": "Mrs. Nusrat Fatima bint Syed Mohammad Naqvi, mother's name Mehrbano, born in Karachi, holding Pakistani citizenship, Pakistani Passport No. DT8452184, issued by Pakistan, dated 09/10/2023, valid until 08/10/2033. Her residential address for the purposes of this contract: Damascus, Al-Salihiyah Area, Zain al-Abidin Neighborhood, Mobile: 0930777051."
+          },
+          {
+            "label": "Third Party (Buyer)",
+            "value": "Mr. Osama Haji Khalil bin Mohammad Saeed, mother's name Fatima, born 10/09/1974, National ID No. 02210009171/96, issued by Nubl, dated 30/09/2009. His residential address and office for the purposes of this contract: Rif Dimashq - Sayyidah Zaynab - Sahat Al-Iraqiyyin - Imad Qasim Building - Jawharat Al-Madina Travel and Tourism Company - Phone: 0933624029."
+          },
+          {
+            "label": "Contract Preamble",
+            "value": "Since the First Party and the Second Party own approximately (86%) of the shares in the building constructed on the area (1006/2) of 'Qabr Essit' (Sayyidah Zaynab) within the limits of Rif Dimashq, named 'Duyuf Al-Rahman Hotel'. This ownership is based on the partnership and allocation agreement dated 29/11/2005, which was ratified by the decision of the Shahba Civil Court of First Instance No. 826/2005 (Case No. 1211/2005). Later, its amendment and allocation were ratified by the decision of the Babbila Civil Court No. 4046/2009. It should be noted that the ownership of this property (2/2006) was transferred to the Second Party under the decision of the Babbila Civil Court of First Instance No. 1069 dated 30/06/2002."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "عقد بيع قطعي",
+        "lines": [
+          {
+            "label": "الفريق الأول (البائع)",
+            "value": "السيد سيد مرتضى الويس بن حمدي وأفكار، تولد دمشق 1966، البطاقة الشخصية رقم 01010474199/14، الصادرة عن السجل المدني المركزي، تاريخ 31/07/2006. عنوان إقامته لغايات هذا العقد: دمشق - منطقة الآثار - طالع الفضة - مقابل كنيسة مريمين."
+          },
+          {
+            "label": "الفريق الثاني (البائعة)",
+            "value": "السيدة نصرت فاطمة بنت سيد محمد نقوي، والدتها مهربانو، تولد كراتشي، تحمل الجنسية الباكستانية، جواز سفر باكستاني رقم DT8452184، صادر عن باكستان، تاريخ 09/10/2023، صالح لغاية 08/10/2033. عنوان إقامتها لغايات هذا العقد: دمشق، منطقة الصالحية، حي زين العابدين، جوال: 0930777051."
+          },
+          {
+            "label": "الفريق الثالث (المشتري)",
+            "value": "السيد أسامة حاجي خليل بن محمد سعيد، والدته فاطمة، تولد 10/09/1974، البطاقة الشخصية رقم 02210009171/96، الصادرة عن نبل، تاريخ 30/09/2009. عنوان إقامته ومكتبه لغايات هذا العقد: ريف دمشق - السيدة زينب - ساحة العراقيين - بناء عماد قاسم - شركة جوهرة المدينة للسياحة والسفر - هاتف: 0933624029."
+          },
+          {
+            "label": "مقدمة العقد",
+            "value": "لما كان الفريق الأول والفريق الثاني يملكان حوالي (86%) من أسهم البناء المشاد على العقار (1006/2) منطقة قبر الست (السيدة زينب) في ريف دمشق، والمسمى فندق 'ضيوف الرحمن'. وهذه الملكية بناءً على عقد الشراكة والتخصيص المؤرخ في 29/11/2005، والذي تم تصديقه بموجب قرار محكمة البداية المدنية في شهبا رقم 826/2005 (الدعوى رقم 1211/2005). لاحقاً تم تصديق تعديله وتخصيصه بموجب قرار محكمة ببيلا المدنية رقم 4046/2009. علماً أن ملكية هذا العقار (2/2006) قد انتقلت للفريق الثاني بموجب قرار محكمة البداية المدنية في ببيلا رقم 1069 تاريخ 30/06/2002."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "قرارداد فروش قطعی",
+        "lines": [
+          {
+            "label": "طرف اول (فروشنده)",
+            "value": "آقای سید مرتضی الویس بن حمدی و افکار، متولد دمشق 1966، شماره کارت ملی 01010474199/14، صادره از ثبت احوال مرکزی، تاریخ 31/07/2006. آدرس اقامت وی برای اهداف این قرارداد: دمشق - منطقه الآثار - طالع الفضه - روبروی کلیسای مریمین."
+          },
+          {
+            "label": "طرف دوم (فروشنده)",
+            "value": "خانم نصرت فاطمه بنت سید محمد نقوی، نام مادر مهربانو، متولد کراچی، دارای تابعیت پاکستان، پاسپورت پاکستانی به شماره DT8452184، صادره از پاکستان، تاریخ 09/10/2023، معتبر تا 08/10/2033. آدرس اقامت وی برای اهداف این قرارداد: دمشق، منطقه الصالحیه، محله زین العابدین، موبایل: 0930777051."
+          },
+          {
+            "label": "طرف سوم (خریدار)",
+            "value": "آقای اسامه حاجی خلیل بن محمد سعید، نام مادر فاطمه، متولد 10/09/1974، شماره کارت ملی 02210009171/96، صادره از نبل، تاریخ 30/09/2009. آدرس اقامت و دفتر وی برای اهداف این قرارداد: حومه دمشق - سیده زینب - میدان العراقیین - ساختمان عماد قاسم - شرکت مسافرتی و گردشگری جوهره المدینه - تلفن: 0933624029."
+          },
+          {
+            "label": "مقدمه قرارداد",
+            "value": "از آنجا که طرف اول و طرف دوم مالک حدود (86٪) از سهام ساختمان احداث شده در پلاک (1006/2) منطقه 'قبر الست' (سیده زینب) در حومه دمشق به نام هتل 'ضیوف الرحمن' هستند. این مالکیت بر اساس قرارداد مشارکت و تخصیص مورخ 29/11/2005 است که توسط رأی دادگاه بدوی مدنی شهبا به شماره 826/2005 (پرونده شماره 1211/2005) تصویب شد. بعداً اصلاح و تخصیص آن توسط رأی دادگاه مدنی ببیلا به شماره 4046/2009 به تصویب رسید. لازم به ذکر است که مالکیت این ملک (2/2006) به موجب رأی دادگاه بدوی مدنی ببیلا به شماره 1069 مورخ 30/06/2002 به طرف دوم منتقل شده است."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Contrato de Venta Definitivo",
+        "lines": [
+          {
+            "label": "Primera Parte (Vendedor)",
+            "value": "Sr. Syed Murtaza Al-Wais bin Hamdi y Afkar, nacido en Damasco en 1966, Número de Identidad Nacional 01010474199/14, emitido por el Registro Civil Central, con fecha 31/07/2006. Su dirección residencial para los fines de este contrato: Damasco - Área Al-Athar - Tala' al-Fidha - frente a la Iglesia Maryamin."
+          },
+          {
+            "label": "Segunda Parte (Vendedora)",
+            "value": "Sra. Nusrat Fatima bint Syed Mohammad Naqvi, nombre de la madre Mehrbano, nacida en Karachi, con ciudadanía pakistaní, Pasaporte Pakistaní N.º DT8452184, emitido por Pakistán, con fecha 09/10/2023, válido hasta 08/10/2033. Su dirección residencial para los fines de este contrato: Damasco, Área Al-Salihiyah, Barrio Zain al-Abidin, Móvil: 0930777051."
+          },
+          {
+            "label": "Tercera Parte (Comprador)",
+            "value": "Sr. Osama Haji Khalil bin Mohammad Saeed, nombre de la madre Fatima, nacido el 10/09/1974, Número de Identidad Nacional 02210009171/96, emitido por Nubl, con fecha 30/09/2009. Su dirección residencial y oficina para los fines de este contrato: Rif Dimashq - Sayyidah Zaynab - Sahat Al-Iraqiyyin - Edificio Imad Qasim - Empresa de Viajes y Turismo Jawharat Al-Madina - Teléfono: 0933624029."
+          },
+          {
+            "label": "Preámbulo del Contrato",
+            "value": "Dado que la Primera Parte y la Segunda Parte poseen aproximadamente el (86%) de las acciones en el edificio construido en el área (1006/2) de 'Qabr Essit' (Sayyidah Zaynab) dentro de los límites de Rif Dimashq, denominado 'Hotel Duyuf Al-Rahman'. Esta propiedad se basa en el acuerdo de asociación y asignación de fecha 29/11/2005, el cual fue ratificado por la decisión del Tribunal Civil de Primera Instancia de Shahba N.º 826/2005 (Caso N.º 1211/2005). Posteriormente, su modificación y asignación fueron ratificadas por la decisión del Tribunal Civil de Babbila N.º 4046/2009. Cabe señalar que la propiedad de este inmueble (2/2006) fue transferida a la Segunda Parte mediante la decisión del Tribunal Civil de Primera Instancia de Babbila N.º 1069 de fecha 30/06/2002."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_266",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274096/CamScanner_06-10-2026_01.44-6.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "معاہدے کا صفحہ دوم (فروخت کی تفصیلات اور قیمت کا تعین)",
+        "lines": [
+          {
+            "label": "تمہید کا بقیہ",
+            "value": "... اور یہ عمارت ایک ہوٹل کے طور پر لیس اور فرنشڈ ہے تاکہ ہوٹل کی خدمات فراہم کی جا سکیں، جو کہ ایک تہہ خانے، گراؤنڈ فلور اور پانچ منزلوں پر مشتمل ہے، اور تہہ خانے میں ایک ریسٹورنٹ بھی ہے۔ چونکہ اس عمارت کے مالکان (فریق اول اور دوم) اور تیسرے مالک (زیاد سامی جواد کمپنی) نے اس ہوٹل کی سرمایہ کاری (سرمایہ کاری کے حقوق) عراقی شہریت کے حامل جناب فراس عدنان محسن الموسوی کو 15/09/2022 کے معاہدے اور 16/02/2023 کے ملحقہ معاہدے کے تحت دے رکھی ہے۔ چونکہ فریق اول اور دوم اس عمارت اور ہوٹل میں اپنے مالکانہ حقوق، تمام قانونی و مادی عناصر اور 'فروغ' (goodwill) کے حقوق فروخت کرنا چاہتے ہیں، اور فریق سوم نے اسے خریدنے کی خواہش ظاہر کی ہے، لہٰذا انہوں نے درج ذیل شرائط پر اتفاق کیا ہے:"
+          },
+          {
+            "label": "دفعہ /1/",
+            "value": "اس معاہدے کی تمہید اس کا اٹوٹ حصہ تصور ہوگی اور اس کی شقوں کی تشریح کے لیے اس سے رجوع کیا جائے گا۔"
+          },
+          {
+            "label": "دفعہ /2/",
+            "value": "اس معاہدے، موجودہ ضمانتوں، اور قانونی و مادی عناصر کی بنیاد پر، تمام فریقین نے اس پورے ہوٹل کی مالیت /60,000,000,000/ ساٹھ ارب شامی لیرہ مقرر کی ہے۔ اس کی بنیاد پر، فریق اول نے اس عمارت اور ہوٹل میں اپنا مکمل حصہ (44%) بمع تمام قانونی و مادی عناصر، فریق سوم کو فروخت کر دیا ہے، جس کے بدلے فریق سوم نے کل مبلغ /26,400,000,000/ چھبیس ارب چار سو ملین شامی لیرہ ادا کرنے کی ہامی بھری ہے۔"
+          },
+          {
+            "label": "دفعہ /3/",
+            "value": "فریق سوم فروخت شدہ حصے کی قیمت چھ سال کی مدت میں درج ذیل تفصیل کے مطابق آٹھ اقساط میں ادا کرنے کا پابند ہے: ا) پہلی قسط: مبلغ /3,750,000,000/ تین ارب سات سو پچاس ملین شامی لیرہ، جو فریق سوم فریق اول کو ایک ہی دفعہ میں یا زیادہ سے زیادہ اتوار 11/02/2024 تک اقساط میں ادا کرے گا۔ دوسری قسط: فریق اول کے نمائندے کی جانب سے ہوٹل کے استقبالیہ کی جگہ حوالے کرنے کی تاریخ سے چھ ماہ کے اندر ادا کی جائے گی۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Second Document: Contract Page 2 (Sale Details and Pricing)",
+        "lines": [
+          {
+            "label": "Preamble Continued",
+            "value": "... and this building is equipped and furnished as a hotel to provide hotel services, consisting of a basement, ground floor, and five upper floors, with a restaurant in the basement. Since the owners of this building (First and Second Parties) and the third owner (Ziad Sami Jawad Company) have granted the investment (investment rights) of this hotel to Mr. Firas Adnan Muhsin Al-Mousawi, an Iraqi citizen, under the contract dated 15/09/2022 and the supplementary contract dated 16/02/2023. Since the First and Second Parties wish to sell their ownership rights, all legal and material elements, and 'goodwill' (farough) rights in this building and hotel, and the Third Party has expressed the desire to purchase it, they have therefore agreed to the following terms:"
+          },
+          {
+            "label": "Article /1/",
+            "value": "The preamble to this contract shall be considered an integral part of it and shall be referred to for interpreting its clauses."
+          },
+          {
+            "label": "Article /2/",
+            "value": "Based on this contract, the existing guarantees, and legal and material elements, all parties have set the value of this entire hotel at /60,000,000,000/ Sixty Billion Syrian Pounds. Based on this, the First Party has sold its full share (44%) in this building and hotel, including all legal and material elements, to the Third Party, in exchange for which the Third Party has committed to paying a total amount of /26,400,000,000/ Twenty-Six Billion Four Hundred Million Syrian Pounds."
+          },
+          {
+            "label": "Article /3/",
+            "value": "The Third Party is obligated to pay the price of the sold share over a period of six years in eight installments as detailed below: a) First Installment: The sum of /3,750,000,000/ Three Billion Seven Hundred Fifty Million Syrian Pounds, which the Third Party shall pay to the First Party in a single payment or in installments no later than Sunday 11/02/2024. Second Installment: Shall be paid within six months from the date the First Party's representative hands over the hotel reception area."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "الوثيقة الثانية: الصفحة الثانية من العقد (تفاصيل البيع)",
+        "lines": [
+          {
+            "label": "بقية المقدمة",
+            "value": "... وهذا البناء مجهز ومفروش كفندق لتقديم الخدمات الفندقية، ويتألف من قبو وطابق أرضي وخمسة طوابق، ويوجد مطعم في القبو. ولما كان مالكو هذا البناء (الفريق الأول والثاني) والمالك الثالث (شركة زياد سامي جواد) قد منحوا استثمار (حقوق استثمار) هذا الفندق للسيد فراس عدنان محسن الموسوي، عراقي الجنسية، بموجب العقد المؤرخ في 15/09/2022 والعقد الملحق المؤرخ في 16/02/2023. ولما كان الفريقان الأول والثاني يرغبان ببيع حقوق ملكيتهما، وكافة العناصر القانونية والمادية وحقوق 'الفروغ' في هذا البناء والفندق، وقد أبدى الفريق الثالث رغبته بشرائها، لذا اتفقوا على الشروط التالية:"
+          },
+          {
+            "label": "المادة /1/",
+            "value": "تعتبر مقدمة هذا العقد جزءاً لا يتجزأ منه ويرجع إليها لتفسير بنوده."
+          },
+          {
+            "label": "المادة /2/",
+            "value": "بناءً على هذا العقد والضمانات الحالية والعناصر القانونية والمادية، حدد جميع الأطراف قيمة هذا الفندق بالكامل بمبلغ /60,000,000,000/ ستين مليار ليرة سورية. وبناءً عليه، باع الفريق الأول كامل حصته (44%) في هذا البناء والفندق بما في ذلك كافة العناصر القانونية والمادية للفريق الثالث، ومقابل ذلك التزم الفريق الثالث بدفع مبلغ إجمالي قدره /26,400,000,000/ ستة وعشرين مليار وأربعمائة مليون ليرة سورية."
+          },
+          {
+            "label": "المادة /3/",
+            "value": "يلتزم الفريق الثالث بدفع ثمن الحصة المباعة على مدى ست سنوات على ثمانية أقساط كما هو مفصل أدناه: أ) القسط الأول: مبلغ /3,750,000,000/ ثلاثة مليارات وسبعمائة وخمسين مليون ليرة سورية، يدفعها الفريق الثالث للفريق الأول دفعة واحدة أو على أقساط في موعد أقصاه الأحد 11/02/2024. القسط الثاني: يدفع خلال ستة أشهر من تاريخ تسليم ممثل الفريق الأول لمكان استقبال الفندق."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "سند دوم: صفحه دوم قرارداد (جزئیات فروش)",
+        "lines": [
+          {
+            "label": "ادامه مقدمه",
+            "value": "... و این ساختمان به عنوان هتل جهت ارائه خدمات هتلداری تجهیز و مبله شده است، شامل یک زیرزمین، طبقه همکف و پنج طبقه، و همچنین دارای یک رستوران در زیرزمین می‌باشد. از آنجا که مالکان این ساختمان (طرف اول و دوم) و مالک سوم (شرکت زیاد سامی جواد) سرمایه‌گذاری (حقوق سرمایه‌گذاری) این هتل را به موجب قرارداد مورخ 15/09/2022 و قرارداد ضمیمه مورخ 16/02/2023 به آقای فراس عدنان محسن الموسوی تبعه عراق واگذار کرده‌اند. از آنجا که طرفین اول و دوم مایل به فروش حقوق مالکیت، کلیه عناصر قانونی و مادی و حقوق 'فروغ' خود در این ساختمان و هتل هستند، و طرف سوم تمایل خود را برای خرید آن ابراز کرده است، لذا بر شرایط زیر توافق نمودند:"
+          },
+          {
+            "label": "ماده /1/",
+            "value": "مقدمه این قرارداد جزء لاینفک آن تلقی شده و برای تفسیر مفاد آن مورد استناد قرار می‌گیرد."
+          },
+          {
+            "label": "ماده /2/",
+            "value": "بر اساس این قرارداد، تضمین‌های موجود و عناصر قانونی و مادی، کلیه طرفین ارزش کل این هتل را /60,000,000,000/ شصت میلیارد لیر سوریه تعیین کرده‌اند. بر این اساس، طرف اول کل سهم خود (44٪) در این ساختمان و هتل را به همراه کلیه عناصر قانونی و مادی به طرف سوم فروخت و در ازای آن طرف سوم متعهد به پرداخت مبلغ کل /26,400,000,000/ بیست و شش میلیارد و چهارصد میلیون لیر سوریه گردید."
+          },
+          {
+            "label": "ماده /3/",
+            "value": "طرف سوم موظف است بهای سهم فروخته شده را طی مدت شش سال در هشت قسط به شرح زیر پرداخت نماید: الف) قسط اول: مبلغ /3,750,000,000/ سه میلیارد و هفتصد و پنجاه میلیون لیر سوریه که طرف سوم باید به صورت یکجا یا در چند قسط حداکثر تا یکشنبه 11/02/2024 به طرف اول پرداخت کند. قسط دوم: ظرف شش ماه از تاریخ تحویل محل پذیرش هتل توسط نماینده طرف اول پرداخت می‌شود."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Segundo Documento: Página 2 del Contrato",
+        "lines": [
+          {
+            "label": "Preámbulo Continuación",
+            "value": "... y este edificio está equipado y amueblado como hotel para brindar servicios hoteleros, constando de un sótano, planta baja y cinco pisos superiores, con un restaurante en el sótano. Dado que los propietarios de este edificio (Primera y Segunda Parte) y el tercer propietario (Compañía Ziad Sami Jawad) han otorgado la inversión (derechos de inversión) de este hotel al Sr. Firas Adnan Muhsin Al-Mousawi, ciudadano iraquí, en virtud del contrato de fecha 15/09/2022 y el contrato complementario de fecha 16/02/2023. Dado que la Primera y Segunda Parte desean vender sus derechos de propiedad, todos los elementos legales y materiales, y los derechos de 'fondo de comercio' (farough) en este edificio y hotel, y la Tercera Parte ha expresado el deseo de comprarlo, han acordado por lo tanto los siguientes términos:"
+          },
+          {
+            "label": "Artículo /1/",
+            "value": "El preámbulo de este contrato se considerará parte integral del mismo y se hará referencia a él para interpretar sus cláusulas."
+          },
+          {
+            "label": "Artículo /2/",
+            "value": "Sobre la base de este contrato, las garantías existentes y los elementos legales y materiales, todas las partes han fijado el valor de todo este hotel en /60,000,000,000/ Sesenta Mil Millones de Libras Sirias. Sobre esta base, la Primera Parte ha vendido su participación total (44%) en este edificio y hotel, incluidos todos los elementos legales y materiales, a la Tercera Parte, a cambio de lo cual la Tercera Parte se ha comprometido a pagar una cantidad total de /26,400,000,000/ Veintiséis Mil Cuatrocientos Millones de Libras Sirias."
+          },
+          {
+            "label": "Artículo /3/",
+            "value": "La Tercera Parte está obligada a pagar el precio de la participación vendida durante un período de seis años en ocho cuotas como se detalla a continuación: a) Primera Cuota: La suma de /3,750,000,000/ Tres Mil Setecientos Cincuenta Millones de Libras Sirias, que la Tercera Parte pagará a la Primera Parte en un solo pago o en cuotas a más tardar el domingo 11/02/2024. Segunda Cuota: Se pagará dentro de los seis meses posteriores a la fecha en que el representante de la Primera Parte entregue el área de recepción del hotel."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_267",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274141/CamScanner_06-10-2026_01.44-5.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "معاہدے کا صفحہ سوم (اقساط کا شیڈول اور فریق دوم کی فروخت)",
+        "lines": [
+          {
+            "label": "قسطوں کی بقیہ تفصیل",
+            "value": "متوازی طور پر فریق اول مذکورہ دکانوں (استقبالیہ وغیرہ) کا قبضہ فریق سوم کے نام اس معاہدے پر دستخط کی تاریخ سے چھ ماہ کے اندر خالی کر کے دے گا۔"
+          },
+          {
+            "label": "ب) تیسری قسط سے ساتویں قسط تک",
+            "value": "ہر قسط کی رقم /3,525,000,000/ تین ارب پانچ سو پچیس ملین شامی لیرہ ہوگی، جو سال 2025 سے لے کر 2030 تک ہر سال کے پہلے ہفتے میں ادا کی جائے گی۔ فریق سوم کی طرف سے رقم کی ضمانت فراہم کرنے کی صورت میں، فریق اول فوراً بغیر کسی تاخیر کے قبضہ منتقل کرنے کا پابند ہوگا۔"
+          },
+          {
+            "label": "دفعہ /4/",
+            "value": "اس معاہدے، تمام ضمانتوں اور دفعہ /2/ میں مذکورہ شرائط کی بنیاد پر، فریق دوم نے بھی اس عمارت اور ہوٹل میں اپنا ملکیتی حصہ 3.75% بمع تمام قانونی و مادی عناصر، فریق سوم کو مبلغ /2,250,000,000/ دو ارب دو سو پچاس ملین شامی لیرہ کے عوض فروخت کر دیا ہے، اور یہ پوری رقم اس معاہدے کی مجلس میں ادا کر دی گئی ہے۔"
+          },
+          {
+            "label": "دفعہ /5/",
+            "value": "خریدار اقرار کرتا ہے کہ اس نے فروخت کی جانے والی جائیداد کو مکمل طور پر دیکھ اور پرکھ لیا ہے، اس کی حالت، رقبے اور تمام ملحقات سے آگاہ ہے، اور اسے موجودہ حالت میں قبول کرتا ہے۔ اسے فروخت کنندگان پر کسی بھی وجہ سے دعویٰ کرنے کا حق نہیں ہوگا، خاص طور پر سرمایہ کار فراس الموسوی کے ساتھ معاہدے کے خاتمے تک۔"
+          },
+          {
+            "label": "دفعہ /6/",
+            "value": "یہ فروخت قطعی اور حتمی تصور ہوگی اور اس سے پیچھے نہیں ہٹا جا سکتا۔ فریق اول اور دوم کسی بھی صورت میں اس فروخت سے مکرنے یا کسی اور کے حق میں جائیداد پر کوئی بوجھ ڈالنے کے مجاز نہیں ہوں گے۔"
+          },
+          {
+            "label": "دفعہ /7/",
+            "value": "فریق سوم (خریدار) اس معاہدے میں مقررہ تمام رقوم مقررہ تاریخوں پر ادا کرنے کا پابند ہے۔ تاخیر کی صورت میں وہ ہر تاخیر والے دن کے حساب سے بقایا رقم پر 0.001 (ایک ہزارواں حصہ) کے حساب سے جرمانہ ادا کرنے کا پابند ہوگا۔"
+          },
+          {
+            "label": "دفعہ /8/",
+            "value": "فریق اول اور دوم اس معاہدے کے تحت فریق سوم کے حق میں فروخت کا اقرار کرتے ہیں، جب بھی فریق سوم مطالبہ کرے یا کسی بھی سرکاری ادارے کے سامنے اس کی ضرورت ہو۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Contract Page 3 (Installment Schedule)",
+        "lines": [
+          {
+            "label": "Remaining Installments",
+            "value": "In parallel, the First Party shall vacate and hand over possession of the mentioned shops (reception, etc.) in the name of the Third Party within six months from the date of signing this contract."
+          },
+          {
+            "label": "b) Third to Seventh Installments",
+            "value": "The amount of each installment shall be /3,525,000,000/ Three Billion Five Hundred Twenty-Five Million Syrian Pounds, payable in the first week of each year from 2025 to 2030. In the event the Third Party provides a financial guarantee, the First Party is obligated to transfer possession immediately without delay."
+          },
+          {
+            "label": "Article /4/",
+            "value": "Based on this contract, all guarantees, and the terms mentioned in Article /2/, the Second Party has also sold its 3.75% ownership share in this building and hotel, including all legal and material elements, to the Third Party for the amount of /2,250,000,000/ Two Billion Two Hundred Fifty Million Syrian Pounds, and this entire amount was paid during the signing of this contract."
+          },
+          {
+            "label": "Article /5/",
+            "value": "The buyer acknowledges that he has thoroughly inspected and examined the sold property, is aware of its condition, area, and all annexes, and accepts it in its current state. He shall have no right to make claims against the sellers for any reason, especially until the termination of the contract with the investor Firas Al-Mousawi."
+          },
+          {
+            "label": "Article /6/",
+            "value": "This sale is considered final and conclusive and cannot be retracted. The First and Second Parties are under no circumstances authorized to renege on this sale or encumber the property in favor of anyone else."
+          },
+          {
+            "label": "Article /7/",
+            "value": "The Third Party (Buyer) is obligated to pay all amounts specified in this contract on the due dates. In case of delay, he is obligated to pay a penalty of 0.001 (one-thousandth) on the remaining amount for each day of delay."
+          },
+          {
+            "label": "Article /8/",
+            "value": "The First and Second Parties acknowledge the sale in favor of the Third Party under this contract, whenever the Third Party demands it or it is required before any official authority."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "الصفحة الثالثة من العقد (جدول الأقساط ومبيع الفريق الثاني)",
+        "lines": [
+          {
+            "label": "بقية تفاصيل الأقساط",
+            "value": "بالتوازي مع ذلك، يسلم الفريق الأول حيازة المحلات المذكورة (الاستقبال وغيرها) فارغة باسم الفريق الثالث خلال ستة أشهر من تاريخ توقيع هذا العقد."
+          },
+          {
+            "label": "ب) من القسط الثالث حتى القسط السابع",
+            "value": "تكون قيمة كل قسط /3,525,000,000/ ثلاثة مليارات وخمسمائة وخمسة وعشرون مليون ليرة سورية، تدفع في الأسبوع الأول من كل عام من سنة 2025 وحتى 2030. وفي حال تقديم الفريق الثالث ضماناً مالياً للمبلغ، يلتزم الفريق الأول بنقل الحيازة فوراً ودون أي تأخير."
+          },
+          {
+            "label": "المادة /4/",
+            "value": "بناءً على هذا العقد وكافة الضمانات والشروط المذكورة في المادة /2/، باع الفريق الثاني أيضاً حصته الملكية البالغة 3.75% في هذا البناء والفندق بكافة عناصرها القانونية والمادية للفريق الثالث مقابل مبلغ /2,250,000,000/ مليارين ومائتين وخمسين مليون ليرة سورية، وقد تم دفع هذا المبلغ بالكامل في مجلس هذا العقد."
+          },
+          {
+            "label": "المادة /5/",
+            "value": "يقر المشتري بأنه قد عاين وفحص العقار المبيع بشكل كامل، وأنه على علم بحالته ومساحته وكافة ملحقاته، ويقبله بحالته الراهنة. ولا يحق له مطالبة البائعين لأي سبب كان، خاصة حتى انتهاء العقد مع المستثمر فراس الموسوي."
+          },
+          {
+            "label": "المادة /6/",
+            "value": "يعتبر هذا البيع قطعياً ونهائياً ولا يمكن التراجع عنه. ولا يجوز للفريقين الأول والثاني بأي حال من الأحوال التراجع عن هذا البيع أو ترتيب أي أعباء على العقار لصالح أي شخص آخر."
+          },
+          {
+            "label": "المادة /7/",
+            "value": "يلتزم الفريق الثالث (المشتري) بدفع كافة المبالغ المحددة في هذا العقد في مواعيدها المقررة. وفي حال التأخير، يلتزم بدفع غرامة تأخير بواقع 0.001 (واحد بالألف) من المبلغ المتبقي عن كل يوم تأخير."
+          },
+          {
+            "label": "المادة /8/",
+            "value": "يقر الفريقان الأول والثاني بالبيع لصالح الفريق الثالث بموجب هذا العقد، متى ما طلب الفريق الثالث ذلك أو دعت الحاجة لذلك أمام أي جهة رسمية."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "صفحه سوم قرارداد (جدول اقساط و فروش طرف دوم)",
+        "lines": [
+          {
+            "label": "بقیه جزئیات اقساط",
+            "value": "به موازات آن، طرف اول متعهد است مغازه‌های مذکور (پذیرش و غیره) را ظرف شش ماه از تاریخ امضای این قرارداد تخلیه کرده و تصرف آن را به نام طرف سوم تحویل دهد."
+          },
+          {
+            "label": "ب) از قسط سوم تا قسط هفتم",
+            "value": "مبلغ هر قسط /3,525,000,000/ سه میلیارد و پانصد و بیست و پنج میلیون لیر سوریه خواهد بود که در هفته اول هر سال از سال 2025 تا 2030 پرداخت می‌شود. در صورتی که طرف سوم تضمین مالی ارائه دهد، طرف اول موظف است فوراً و بدون هیچ گونه تأخیری تصرف را منتقل کند."
+          },
+          {
+            "label": "ماده /4/",
+            "value": "بر اساس این قرارداد، تمامی تضمین‌ها و شرایط مندرج در ماده /2/، طرف دوم نیز سهم مالکیتی خود به میزان 3.75% در این ساختمان و هتل را با تمام عناصر قانونی و مادی آن، در ازای مبلغ /2,250,000,000/ دو میلیارد و دویست و پنجاه میلیون لیر سوریه به طرف سوم فروخته است و کل این مبلغ در جلسه تنظیم این قرارداد پرداخت شده است."
+          },
+          {
+            "label": "ماده /5/",
+            "value": "خریدار اقرار می‌کند که ملک مورد معامله را به طور کامل دیده و بررسی کرده است، از وضعیت، مساحت و تمامی ملحقات آن آگاه است و آن را در وضعیت فعلی می‌پذیرد. وی حق هیچ‌گونه ادعایی علیه فروشندگان به هر دلیلی نخواهد داشت، به ویژه تا زمان پایان قرارداد با سرمایه‌گذار فراس الموسوی."
+          },
+          {
+            "label": "ماده /6/",
+            "value": "این فروش قطعی و نهایی تلقی می‌شود و غیرقابل بازگشت است. طرف‌های اول و دوم تحت هیچ شرایطی مجاز به انصراف از این فروش یا ایجاد هرگونه بار مالی بر روی ملک به نفع شخص دیگری نیستند."
+          },
+          {
+            "label": "ماده /7/",
+            "value": "طرف سوم (خریدار) متعهد است تمامی مبالغ تعیین شده در این قرارداد را در تاریخ‌های مقرر پرداخت نماید. در صورت تأخیر، وی موظف است جریمه‌ای معادل 0.001 (یک هزارم) از مبلغ باقیمانده را به ازای هر روز تأخیر پرداخت کند."
+          },
+          {
+            "label": "ماده /8/",
+            "value": "طرف‌های اول و دوم فروش را به نفع طرف سوم به موجب این قرارداد اقرار می‌کنند، هر زمان که طرف سوم تقاضا کند یا در برابر هر نهاد رسمی به آن نیاز باشد."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Página 3 del Contrato (Calendario de Pagos)",
+        "lines": [
+          {
+            "label": "Detalles restantes de las cuotas",
+            "value": "En paralelo, la Primera Parte desocupará y entregará la posesión de los locales mencionados (recepción, etc.) a nombre de la Tercera Parte dentro de los seis meses posteriores a la fecha de firma de este contrato."
+          },
+          {
+            "label": "b) De la tercera a la séptima cuota",
+            "value": "El monto de cada cuota será de /3,525,000,000/ Tres mil quinientos veinticinco millones de libras sirias, pagaderas en la primera semana de cada año desde 2025 hasta 2030. En caso de que la Tercera Parte proporcione una garantía financiera, la Primera Parte está obligada a transferir la posesión inmediatamente sin demora."
+          },
+          {
+            "label": "Artículo /4/",
+            "value": "Sobre la base de este contrato, todas las garantías y los términos mencionados en el Artículo /2/, la Segunda Parte también ha vendido su participación de propiedad del 3.75% en este edificio y hotel, incluidos todos los elementos legales y materiales, a la Tercera Parte por la cantidad de /2,250,000,000/ Dos mil doscientos cincuenta millones de libras sirias, y este monto total fue pagado durante la reunión de firma de este contrato."
+          },
+          {
+            "label": "Artículo /5/",
+            "value": "El comprador reconoce que ha inspeccionado y examinado exhaustivamente la propiedad vendida, es consciente de su estado, superficie y todos los anexos, y la acepta en su estado actual. No tendrá derecho a realizar reclamos contra los vendedores por ningún motivo, especialmente hasta la terminación del contrato con el inversor Firas Al-Mousawi."
+          },
+          {
+            "label": "Artículo /6/",
+            "value": "Esta venta se considera definitiva y concluyente y no puede ser retractada. La Primera y Segunda Partes no están autorizadas bajo ninguna circunstancia a retractarse de esta venta o gravar la propiedad a favor de otra persona."
+          },
+          {
+            "label": "Artículo /7/",
+            "value": "La Tercera Parte (Comprador) está obligada a pagar todos los montos especificados en este contrato en las fechas de vencimiento. En caso de demora, está obligada a pagar una penalización de 0.001 (una milésima) sobre el monto restante por cada día de retraso."
+          },
+          {
+            "label": "Artículo /8/",
+            "value": "La Primera y Segunda Partes reconocen la venta a favor de la Tercera Parte en virtud de este contrato, siempre que la Tercera Parte lo exija o sea requerido ante cualquier autoridad oficial."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_268",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274215/CamScanner_06-10-2026_01.44-2.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "معاہدے کا صفحہ چہارم (ٹیکس، جرمانے اور جائیداد کی تخصیص)",
+        "lines": [
+          {
+            "label": "دفعہ /9/",
+            "value": "فریق سوم اس بات سے آگاہ ہے کہ سرمایہ کار فراس الموسوی کے ساتھ ایک معاہدہ موجود ہے جس نے ماضی میں ہوٹل کے تمام ٹیکس اور رسوم ادا کر دیے ہیں اور سرمایہ کاری کے معاہدے کے اختتام تک ادا کرتا رہے گا۔ تاہم، اس فروخت پر عائد ہونے والے کسی بھی قسم کے ٹیکس اور رسوم کی ذمہ داری فریق اول اور دوم پر ہوگی، جبکہ مستقبل میں لاگو ہونے والے دیگر تمام ٹیکس خریدار (فریق سوم) پر ہوں گے۔ فروخت کی موجودہ مالیت پر لاگو ہونے والے ٹیکس فریق سوم برداشت کرے گا، بشرطیکہ وہ مالیت /300,000,000/ تین سو ملین شامی لیرہ سے زیادہ نہ ہو۔"
+          },
+          {
+            "label": "دفعہ /10/",
+            "value": "فریق سوم شامی کرنسی کی قوتِ خرید کے پیشِ نظر اقتصادی توازن برقرار رکھنے کا پابند ہے اور اگر ادائیگی کے وقت کرنسی کی قدر میں نمایاں کمی آتی ہے تو وہ فریق اول کو اس کا معاوضہ دے گا۔ فریق سوم کی طرف سے معاہدے کی خلاف ورزی کی صورت میں جرمانہ اور معاوضہ واجب الادا ہوگا۔"
+          },
+          {
+            "label": "دفعہ /11/",
+            "value": "فریق اول اور دوم کے درمیان بنیادی تخصیص کے معاہدے کے مطابق، تہہ خانے میں موجود حسینیہ، گراؤنڈ فلور پر موجود ملحقہ دفتر اور ہوٹل کی چھت کا آدھا حصہ خالصتاً فریق دوم (محترمہ نصرت فاطمہ) کی ذاتی ملکیت رہے گا اور یہ حصے سابقہ معاہدوں کی کسی بھی تخصیص کی شرح کے تابع نہیں ہوں گے۔"
+          },
+          {
+            "label": "دفعہ /12/",
+            "value": "فریق اول اور دوم نے سرمایہ کار فراس الموسوی کے واجبات کے علاوہ ایک دوسرے کے تمام حقوق اور دعووں سے بری ہونے پر اتفاق کیا ہے۔"
+          },
+          {
+            "label": "دفعہ /13/",
+            "value": "فریق دوم اور سوم اس بات کے پابند ہیں کہ وہ اس ہوٹل میں اپنے حصے کو کسی تیسرے شخص کو فروخت کرنے سے پہلے ایک دوسرے کو اسی قیمت پر پیش کش کریں گے۔ اگر ایک فریق انکار کرے تو دوسرے کو فروخت کا حق ہوگا۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Contract Page 4 (Taxes)",
+        "lines": [
+          {
+            "label": "Article /9/",
+            "value": "The Third Party is aware that a contract exists with the investor Firas Al-Mousawi, who has paid all hotel taxes and fees in the past and will continue to pay them until the end of the investment contract. However, the responsibility for any taxes and fees arising from this sale shall fall upon the First and Second Parties, while all other future taxes will be borne by the Buyer (Third Party). Taxes applicable to the current sale value shall be borne by the Third Party, provided that value does not exceed /300,000,000/ Three Hundred Million Syrian Pounds."
+          },
+          {
+            "label": "Article /10/",
+            "value": "The Third Party is obligated to maintain economic balance in light of the purchasing power of the Syrian currency, and if there is a significant depreciation in the currency's value at the time of payment, he shall compensate the First Party. In the event of a breach of contract by the Third Party, a penalty and compensation shall be payable."
+          },
+          {
+            "label": "Article /11/",
+            "value": "According to the fundamental allocation agreement between the First and Second Parties, the Hussainiya in the basement, the adjacent office on the ground floor, and half of the hotel's roof shall remain exclusively the personal property of the Second Party (Mrs. Nusrat Fatima), and these parts shall not be subject to any allocation ratio of previous agreements."
+          },
+          {
+            "label": "Article /12/",
+            "value": "The First and Second Parties have agreed to mutually release each other from all rights and claims, except for the obligations of the investor Firas Al-Mousawi."
+          },
+          {
+            "label": "Article /13/",
+            "value": "The Second and Third Parties are obligated to offer their shares in this hotel to each other at the same price before selling to a third party. If one party refuses, the other shall have the right to sell."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "الصفحة الرابعة من العقد",
+        "lines": [
+          {
+            "label": "المادة /9/",
+            "value": "يدرك الفريق الثالث بوجود عقد مع المستثمر فراس الموسوي الذي قام بدفع كافة ضرائب ورسوم الفندق في الماضي وسيستمر بدفعها حتى نهاية عقد الاستثمار. ومع ذلك، فإن المسؤولية عن أي نوع من الضرائب والرسوم المترتبة على هذا البيع تقع على عاتق الفريقين الأول والثاني، في حين أن كافة الضرائب الأخرى التي ستفرض مستقبلاً تقع على عاتق المشتري (الفريق الثالث). أما الضرائب المطبقة على القيمة الحالية للبيع فيتحملها الفريق الثالث، بشرط ألا تتجاوز هذه القيمة /300,000,000/ ثلاثمائة مليون ليرة سورية."
+          },
+          {
+            "label": "المادة /10/",
+            "value": "يلتزم الفريق الثالث بالحفاظ على التوازن الاقتصادي نظراً للقوة الشرائية للعملة السورية، وإذا حدث انخفاض كبير في قيمة العملة وقت الدفع، فإنه سيعوض الفريق الأول عن ذلك. وفي حال إخلال الفريق الثالث بالعقد، يتوجب عليه دفع غرامة وتعويض."
+          },
+          {
+            "label": "المادة /11/",
+            "value": "وفقاً لعقد التخصيص الأساسي بين الفريقين الأول والثاني، تبقى الحسينية الموجودة في القبو والمكتب الملحق في الطابق الأرضي ونصف سطح الفندق ملكية شخصية خالصة للفريق الثاني (السيدة نصرت فاطمة)، ولن تخضع هذه الأجزاء لأي نسبة تخصيص من العقود السابقة."
+          },
+          {
+            "label": "المادة /12/",
+            "value": "اتفق الفريقان الأول والثاني على إبراء ذمة كل منهما تجاه الآخر من كافة الحقوق والدعاوى باستثناء الالتزامات الخاصة بالمستثمر فراس الموسوي."
+          },
+          {
+            "label": "المادة /13/",
+            "value": "يلتزم الفريقان الثاني والثالث بعرض حصتهما في هذا الفندق على بعضهما البعض بنفس السعر قبل بيعها لأي شخص ثالث. وإذا رفض أحد الطرفين، يحق للطرف الآخر البيع."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "صفحه چهارم قرارداد",
+        "lines": [
+          {
+            "label": "ماده /9/",
+            "value": "طرف سوم آگاه است که قراردادی با سرمایه‌گذار فراس الموسوی وجود دارد که وی در گذشته تمامی مالیات‌ها و عوارض هتل را پرداخت کرده و تا پایان قرارداد سرمایه‌گذاری به پرداخت آن‌ها ادامه خواهد داد. با این حال، مسئولیت هرگونه مالیات و عوارض ناشی از این فروش بر عهده طرف‌های اول و دوم خواهد بود، در حالی که تمامی مالیات‌های دیگری که در آینده اعمال شوند بر عهده خریدار (طرف سوم) خواهد بود. مالیات‌های اعمال شده بر ارزش فعلی فروش توسط طرف سوم تقبل می‌شود، مشروط بر اینکه این مبلغ از /300,000,000/ سیصد میلیون لیر سوریه بیشتر نشود."
+          },
+          {
+            "label": "ماده /10/",
+            "value": "طرف سوم موظف است با توجه به قدرت خرید پول سوریه تعادل اقتصادی را حفظ کند و چنانچه در زمان پرداخت ارزش پول کاهش چشمگیری داشته باشد، خسارت آن را به طرف اول جبران خواهد کرد. در صورت نقض قرارداد توسط طرف سوم، جریمه و غرامت قابل پرداخت خواهد بود."
+          },
+          {
+            "label": "ماده /11/",
+            "value": "بر اساس قرارداد تخصیص پایه بین طرف‌های اول و دوم، حسینیه موجود در زیرزمین، دفتر ضمیمه در طبقه همکف و نیمی از پشت‌بام هتل صرفاً در مالکیت شخصی طرف دوم (خانم نصرت فاطمه) باقی خواهد ماند و این بخش‌ها مشمول هیچ‌گونه نسبت تخصیصی از قراردادهای قبلی نخواهند بود."
+          },
+          {
+            "label": "ماده /12/",
+            "value": "طرف‌های اول و دوم توافق کردند که یکدیگر را از تمامی حقوق و دعاوی، به استثنای تعهدات سرمایه‌گذار فراس الموسوی، مبرا کنند."
+          },
+          {
+            "label": "ماده /13/",
+            "value": "طرف‌های دوم و سوم متعهد هستند که سهم خود در این هتل را پیش از فروش به شخص ثالث، با همان قیمت به یکدیگر پیشنهاد دهند. در صورتی که یک طرف امتناع کند، طرف دیگر حق فروش خواهد داشت."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Página 4 del Contrato",
+        "lines": [
+          {
+            "label": "Artículo /9/",
+            "value": "La Tercera Parte es consciente de que existe un contrato con el inversor Firas Al-Mousawi, quien ha pagado todos los impuestos y tasas del hotel en el pasado y continuará pagándolos hasta el final del contrato de inversión. Sin embargo, la responsabilidad por cualquier tipo de impuestos y tasas derivados de esta venta recaerá sobre la Primera y Segunda Parte, mientras que todos los demás impuestos aplicables en el futuro correrán a cargo del comprador (Tercera Parte). Los impuestos aplicables al valor de venta actual correrán a cargo de la Tercera Parte, siempre que dicho valor no exceda los /300,000,000/ trescientos millones de libras sirias."
+          },
+          {
+            "label": "Artículo /10/",
+            "value": "La Tercera Parte está obligada a mantener el equilibrio económico a la luz del poder adquisitivo de la moneda siria, y si hay una depreciación significativa en el valor de la moneda en el momento del pago, compensará a la Primera Parte. En caso de incumplimiento de contrato por parte de la Tercera Parte, se deberá pagar una multa y una compensación."
+          },
+          {
+            "label": "Artículo /11/",
+            "value": "Según el acuerdo de asignación fundamental entre la Primera y la Segunda Parte, la Hussainiya ubicada en el sótano, la oficina adyacente en la planta baja y la mitad del techo del hotel seguirán siendo propiedad personal exclusiva de la Segunda Parte (Sra. Nusrat Fatima), y estas partes no estarán sujetas a ninguna tasa de asignación de acuerdos anteriores."
+          },
+          {
+            "label": "Artículo /12/",
+            "value": "La Primera y Segunda Parte han acordado liberarse mutuamente de todos los derechos y reclamos, a excepción de las obligaciones del inversor Firas Al-Mousawi."
+          },
+          {
+            "label": "Artículo /13/",
+            "value": "La Segunda y Tercera Parte están obligadas a ofrecer su parte en este hotel a la otra por el mismo precio antes de venderla a una tercera persona. Si una parte se niega, la otra tendrá derecho a vender."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_269",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274271/CamScanner_06-10-2026_01.44-1.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "معاہدے کا صفحہ پنجم (فرنیچر کی ملکیت، دائرہ اختیار اور دستخط)",
+        "lines": [
+          {
+            "label": "دفعہ /14/",
+            "value": "فریق دوم اور سوم اس بات پر متفق ہیں کہ اس عمارت اور ہوٹل کی سہولیات، ساز و سامان، فرنیچر اور اشیاء پر ان دونوں کا اپنے اپنے حصے کے تناسب سے حق ہوگا۔"
+          },
+          {
+            "label": "دفعہ /15/",
+            "value": "اس معاہدے کے نفاذ یا تشریح کے حوالے سے فریقین کے درمیان پیدا ہونے والے کسی بھی تنازع کی صورت میں، ریف دمشق کی عدالتیں اس کی سماعت اور فیصلہ کرنے کی مجاز ہوں گی۔"
+          },
+          {
+            "label": "دفعہ /16/",
+            "value": "یہ معاہدہ چار اصل نقول میں تحریر کیا گیا ہے، اور باقاعدہ دستخط کے بعد ہر فریق کے پاس ایک کاپی محفوظ رہے گی۔"
+          },
+          {
+            "label": "مقام اور تاریخ",
+            "value": "السیدہ زینب، 8 / 2 / 2024"
+          },
+          {
+            "label": "دستخط",
+            "value": "نیچے فریق اول، فریق دوم، اور فریق سوم کے دستخط اور انگوٹھے کے نشانات ثبت ہیں۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Contract Page 5 (Furniture Ownership, Jurisdiction, and Signatures)",
+        "lines": [
+          {
+            "label": "Article /14/",
+            "value": "The Second and Third Parties agree that they both have a right to the facilities, equipment, furniture, and items of this building and hotel in proportion to their respective shares."
+          },
+          {
+            "label": "Article /15/",
+            "value": "In the event of any dispute arising between the parties regarding the implementation or interpretation of this contract, the courts of Rif Dimashq shall have jurisdiction to hear and decide it."
+          },
+          {
+            "label": "Article /16/",
+            "value": "This contract is written in four original copies, and after official signing, each party will keep one copy."
+          },
+          {
+            "label": "Place and Date",
+            "value": "Sayyidah Zaynab, 8 / 2 / 2024."
+          },
+          {
+            "label": "Signatures",
+            "value": "The signatures and thumbprints of the First Party, Second Party, and Third Party are affixed below."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "الصفحة الخامسة من العقد (ملكية الأثاث، الاختصاص القضائي والتواقيع)",
+        "lines": [
+          {
+            "label": "المادة /14/",
+            "value": "يتفق الفريقان الثاني والثالث على أن كلاً منهما يملك الحق في مرافق هذا البناء والفندق وتجهيزاته وأثاثه وأغراضه بنسبة تتناسب مع حصة كل منهما."
+          },
+          {
+            "label": "المادة /15/",
+            "value": "في حال نشوء أي نزاع بين الأطراف يتعلق بتنفيذ أو تفسير هذا العقد، تكون محاكم ريف دمشق هي الجهة المختصة بالنظر فيه والبت به."
+          },
+          {
+            "label": "المادة /16/",
+            "value": "حُرّر هذا العقد من أربع نسخ أصلية، وبعد التوقيع الأصولي عليها، يحتفظ كل فريق بنسخة منها."
+          },
+          {
+            "label": "المكان والتاريخ",
+            "value": "السيدة زينب، 8 / 2 / 2024."
+          },
+          {
+            "label": "التواقيع",
+            "value": "توجد أدناه تواقيع وبصمات الفريق الأول، والفريق الثاني، والفريق الثالث."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "صفحه پنجم قرارداد (مالکیت مبلمان، صلاحیت قضایی و امضاها)",
+        "lines": [
+          {
+            "label": "ماده /14/",
+            "value": "طرف‌های دوم و سوم توافق دارند که هر دو به نسبت سهم خود، در امکانات، تجهیزات، مبلمان و وسایل این ساختمان و هتل ذی‌حق خواهند بود."
+          },
+          {
+            "label": "ماده /15/",
+            "value": "در صورت بروز هرگونه اختلاف بین طرفین در خصوص اجرای این قرارداد یا تفسیر آن، دادگاه‌های حومه دمشق صلاحیت رسیدگی و صدور حکم در مورد آن را خواهند داشت."
+          },
+          {
+            "label": "ماده /16/",
+            "value": "این قرارداد در چهار نسخه اصلی تنظیم شده است و پس از امضای رسمی، هر یک از طرفین یک نسخه از آن را نزد خود نگه خواهد داشت."
+          },
+          {
+            "label": "مکان و تاریخ",
+            "value": "سیده زینب، 8 / 2 / 2024."
+          },
+          {
+            "label": "امضاها",
+            "value": "امضاها و اثر انگشت‌های طرف اول، طرف دوم و طرف سوم در زیر درج شده است."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Página 5 del Contrato (Propiedad del Mobiliario, Jurisdicción y Firmas)",
+        "lines": [
+          {
+            "label": "Artículo /14/",
+            "value": "La Segunda y Tercera Partes acuerdan que ambas tienen derecho a las instalaciones, equipos, mobiliario y artículos de este edificio y hotel en proporción a sus respectivas acciones."
+          },
+          {
+            "label": "Artículo /15/",
+            "value": "En caso de cualquier disputa que surja entre las partes con respecto a la implementación o interpretación de este contrato, los tribunales de Rif Dimashq tendrán jurisdicción para conocerla y decidirla."
+          },
+          {
+            "label": "Artículo /16/",
+            "value": "Este contrato está redactado en cuatro copias originales y, después de la firma oficial, cada parte conservará una copia."
+          },
+          {
+            "label": "Lugar y fecha",
+            "value": "Sayyidah Zaynab, 8 / 2 / 2024."
+          },
+          {
+            "label": "Firmas",
+            "value": "Las firmas y huellas dactilares de la Primera Parte, la Segunda Parte y la Tercera Parte se encuentran adjuntas a continuación."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_270",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274330/CamScanner_06-10-2026_01.44-4.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "ہاتھ سے لکھی گئی رسید (پہلی قسط کی وصولی کا اقرار نامہ)",
+        "lines": [
+          {
+            "label": "اقرار نامہ",
+            "value": "میں، جس کے دستخط نیچے موجود ہیں، مرتضیٰ حمدی الویّس۔"
+          },
+          {
+            "label": "وصولی کی تفصیل",
+            "value": "اقرار کرتا ہوں کہ میں نے اس معاہدے کی دفعہ 3 میں بیان کردہ پہلی قسط کی مکمل رقم آج اس معاہدے پر دستخط کی تاریخ کو وصول کر لی ہے۔"
+          },
+          {
+            "label": "دستخط",
+            "value": "مرتضیٰ حمدی الویّس"
+          },
+          {
+            "label": "تاریخ",
+            "value": "8 / 2 / 2024"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Handwritten Receipt (Acknowledgment of First Installment)",
+        "lines": [
+          {
+            "label": "Acknowledgment",
+            "value": "I, the undersigned, Murtaza Hamdi Al-Wais."
+          },
+          {
+            "label": "Receipt Details",
+            "value": "Acknowledge that I have received the full amount of the first installment stated in Article 3 of this contract today, on the date of signing this contract."
+          },
+          {
+            "label": "Signature",
+            "value": "Murtaza Hamdi Al-Wais"
+          },
+          {
+            "label": "Date",
+            "value": "8 / 2 / 2024"
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "إيصال مكتوب بخط اليد (إقرار باستلام القسط الأول)",
+        "lines": [
+          {
+            "label": "إقرار",
+            "value": "أنا الموقع أدناه، مرتضى حمدي الويس."
+          },
+          {
+            "label": "تفاصيل الاستلام",
+            "value": "أقر بأنني قد استلمت كامل مبلغ القسط الأول المذكور في المادة 3 من هذا العقد، وذلك اليوم في تاريخ توقيع هذا العقد."
+          },
+          {
+            "label": "التوقيع",
+            "value": "مرتضى حمدي الويس"
+          },
+          {
+            "label": "التاريخ",
+            "value": "8 / 2 / 2024"
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "رسید دست‌نویس (اقرارنامه دریافت قسط اول)",
+        "lines": [
+          {
+            "label": "اقرارنامه",
+            "value": "اینجانب، امضاکننده زیر، مرتضی حمدی الویس."
+          },
+          {
+            "label": "جزئیات دریافت",
+            "value": "اقرار می‌کنم که کل مبلغ قسط اول مندرج در ماده 3 این قرارداد را امروز در تاریخ امضای این قرارداد دریافت نموده‌ام."
+          },
+          {
+            "label": "امضا",
+            "value": "مرتضی حمدی الویس"
+          },
+          {
+            "label": "تاریخ",
+            "value": "8 / 2 / 2024"
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Recibo Manuscrito (Reconocimiento de la Primera Cuota)",
+        "lines": [
+          {
+            "label": "Reconocimiento",
+            "value": "Yo, el abajo firmante, Murtaza Hamdi Al-Wais."
+          },
+          {
+            "label": "Detalles del recibo",
+            "value": "Reconozco que he recibido el monto total de la primera cuota establecida en el Artículo 3 de este contrato hoy, en la fecha de firma de este contrato."
+          },
+          {
+            "label": "Firma",
+            "value": "Murtaza Hamdi Al-Wais"
+          },
+          {
+            "label": "Fecha",
+            "value": "8 / 2 / 2024"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_271",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274420/CamScanner_06-10-2026_01.44-11.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "متحدہ عرب امارات کا مختار نامہ خاص (پاور آف اٹارنی)",
+        "lines": [
+          {
+            "label": "دستاویز کا آغاز",
+            "value": "بسم الله الرحمن الرحيم - توكيل خاص (مختار نامہ خاص)"
+          },
+          {
+            "label": "موکل کا بیان",
+            "value": "میں، جس کے دستخط نیچے ہیں، محمود عبداللہ علی (اماراتی شہریت کا حامل، پاسپورٹ نمبر...) اس دستاویز کے ذریعے محترمہ نصرت فاطمہ بنت سید محمد نقوی (زوجہ غلام سرور چوہدری، پاسپورٹ نمبر 754587) کو اپنا وکیل/نمائندہ مقرر کرتا ہوں۔"
+          },
+          {
+            "label": "تفویض کردہ اختیارات",
+            "value": "محمود عبداللہ علی نے محترمہ نصرت فاطمہ کو یہ اختیار دیا ہے کہ وہ ان کی طرف سے کسی بھی کمپنی کے قیام، تجارتی کام یا دوسروں کے ساتھ شراکت داری کے معاہدوں پر دستخط کر سکتی ہیں۔"
+          },
+          {
+            "label": "مزید انتظامی حقوق",
+            "value": "اس کے علاوہ انہیں کمپنیوں کا انتظام سنبھالنے، ملازمین رکھنے، ان کی تنخواہیں مقرر کرنے، اور سرکاری و غیر سرکاری اداروں (جیسے وزارت محنت، بلدیہ، پانی و بجلی کے محکمے، ہوائی اڈوں وغیرہ) میں نمائندگی کرنے کے مکمل قانونی و انتظامی حقوق تفویض کیے گئے ہیں۔"
+          },
+          {
+            "label": "موکل کی تفصیل اور مہر",
+            "value": "محمود عبداللہ علی (مالک: عسلی برائے غذائی مواد - سابقہ / عسلی برائے جنرل ٹریڈنگ - موجودہ)۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Special Power of Attorney (UAE)",
+        "lines": [
+          {
+            "label": "Document Start",
+            "value": "In the Name of Allah, the Most Gracious, the Most Merciful - Special Power of Attorney (Tawkeel Khas)"
+          },
+          {
+            "label": "Principal's Statement",
+            "value": "I, the undersigned, Mahmoud Abdullah Ali (holding Emirati citizenship, Passport No....) hereby appoint Mrs. Nusrat Fatima bint Syed Mohammad Naqvi (wife of Ghulam Sarwar Chaudhry, Passport No. 754587) as my attorney/representative."
+          },
+          {
+            "label": "Delegated Powers",
+            "value": "Mahmoud Abdullah Ali has authorized Mrs. Nusrat Fatima to sign contracts for the establishment of any company, commercial work, or partnership with others on his behalf."
+          },
+          {
+            "label": "Further Administrative Rights",
+            "value": "In addition, she is granted full legal and administrative rights to manage companies, hire employees, set their salaries, and represent him before official and unofficial departments (such as the Ministry of Labor, Municipality, Water and Electricity Departments, Airports, etc.)."
+          },
+          {
+            "label": "Principal's Details and Seal",
+            "value": "Mahmoud Abdullah Ali (Owner: Asali for Foodstuffs - Formerly / Asali for General Trading - Current)."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "توكيل خاص (الإمارات)",
+        "lines": [
+          {
+            "label": "بداية المستند",
+            "value": "بسم الله الرحمن الرحيم - توكيل خاص"
+          },
+          {
+            "label": "بيان الموكل",
+            "value": "أنا الموقع أدناه، محمود عبد الله علي (أحمل الجنسية الإماراتية، جواز سفر رقم...)، بموجب هذا المستند أوكل السيدة نصرت فاطمة بنت سيد محمد نقوي (زوجة غلام سرور تشودري، جواز سفر رقم 754587) لتكون وكيلتي وممثلة لي."
+          },
+          {
+            "label": "الصلاحيات المفوضة",
+            "value": "لقد فوض محمود عبد الله علي السيدة نصرت فاطمة بصلاحية توقيع عقود تأسيس أي شركة، أو القيام بأعمال تجارية، أو الدخول في شراكات مع الآخرين نيابة عنه."
+          },
+          {
+            "label": "المزيد من الحقوق الإدارية",
+            "value": "بالإضافة إلى ذلك، تم منحها كامل الحقوق القانونية والإدارية لإدارة الشركات، وتعيين الموظفين، وتحديد رواتبهم، وتمثيله أمام الدوائر الرسمية وغير الرسمية (مثل وزارة العمل، والبلدية، ودوائر المياه والكهرباء، والمطارات، إلخ)."
+          },
+          {
+            "label": "تفاصيل الموكل وختمه",
+            "value": "محمود عبد الله علي (المالك: عسلي للمواد الغذائية - سابقاً / عسلي للتجارة العامة - حالياً)."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "وکالتنامه خاص (امارات)",
+        "lines": [
+          {
+            "label": "شروع سند",
+            "value": "بسم الله الرحمن الرحیم - وکالتنامه خاص (توکیل خاص)"
+          },
+          {
+            "label": "بیانیه موکل",
+            "value": "اینجانب، امضاکننده زیر، محمود عبدالله علی (دارای تابعیت اماراتی، گذرنامه شماره...) به موجب این سند، خانم نصرت فاطمه بنت سید محمد نقوی (همسر غلام سرور چوهدری، گذرنامه شماره 754587) را به عنوان وکیل/نماینده خود تعیین می‌کنم."
+          },
+          {
+            "label": "اختیارات تفویض شده",
+            "value": "محمود عبدالله علی به خانم نصرت فاطمه اختیار داده است تا از طرف وی قراردادهای تأسیس هرگونه شرکت، امور تجاری، یا شراکت با دیگران را امضا نماید."
+          },
+          {
+            "label": "سایر حقوق اداری",
+            "value": "علاوه بر این، به وی حقوق کامل قانونی و اداری جهت مدیریت شرکت‌ها، استخدام کارکنان، تعیین حقوق آن‌ها، و نمایندگی وی در برابر ادارات رسمی و غیررسمی (مانند وزارت کار، شهرداری، ادارات آب و برق، فرودگاه‌ها و غیره) اعطا شده است."
+          },
+          {
+            "label": "مشخصات و مهر موکل",
+            "value": "محمود عبدالله علی (مالک: مواد غذایی عسلی - سابق / تجارت عمومی عسلی - فعلی)."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Poder Notarial Especial (EAU)",
+        "lines": [
+          {
+            "label": "Inicio del documento",
+            "value": "En el Nombre de Dios, el Más Clemente, el Más Misericordioso - Poder Notarial Especial (Tawkeel Khas)"
+          },
+          {
+            "label": "Declaración del Poderdante",
+            "value": "Yo, el abajo firmante, Mahmoud Abdullah Ali (con ciudadanía emiratí, Pasaporte N.º...), por el presente documento nombro a la Sra. Nusrat Fatima bint Syed Mohammad Naqvi (esposa de Ghulam Sarwar Chaudhry, Pasaporte N.º 754587) como mi apoderada/representante."
+          },
+          {
+            "label": "Facultades Delegadas",
+            "value": "Mahmoud Abdullah Ali ha autorizado a la Sra. Nusrat Fatima a firmar contratos para el establecimiento de cualquier empresa, trabajo comercial o asociación con otros en su nombre."
+          },
+          {
+            "label": "Otros Derechos Administrativos",
+            "value": "Además, se le otorgan plenos derechos legales y administrativos para administrar empresas, contratar empleados, fijar sus salarios y representarlo ante departamentos oficiales y no oficiales (como el Ministerio de Trabajo, Municipio, Departamentos de Agua y Electricidad, Aeropuertos, etc.)."
+          },
+          {
+            "label": "Detalles y Sello del Poderdante",
+            "value": "Mahmoud Abdullah Ali (Propietario: Asali para Productos Alimenticios - Anteriormente / Asali para Comercio General - Actual)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_272",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274498/CamScanner_06-10-2026_01.44-8.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "پیدائش کا سرٹیفکیٹ (متحدہ عرب امارات)",
+        "lines": [
+          {
+            "label": "جاری کنندہ ادارہ",
+            "value": "حکومت دبئی (متحدہ عرب امارات) کی وزارت صحت کی جانب سے جاری کردہ پیدائش کا سرٹیفکیٹ (Birth Certificate / شهادة ميلاد)۔"
+          },
+          {
+            "label": "بچی کا نام اور جنس",
+            "value": "ہاجرہ خاتون (HAJRA KHATOON)۔ جنس: خاتون (FEMALE)۔"
+          },
+          {
+            "label": "والد کی تفصیل",
+            "value": "غلام سرور چوہدری (قومیت: پاکستانی، مذہب: اسلام)۔"
+          },
+          {
+            "label": "والدہ کی تفصیل",
+            "value": "نصرت فاطمہ (قومیت: پاکستانی، مذہب: اسلام)۔ (یہ وہی خاتون ہیں جنہیں مختار نامے میں وکیل مقرر کیا گیا ہے اور جو ہوٹل معاہدے میں فریق دوم تھیں)۔"
+          },
+          {
+            "label": "پیدائش کی تفصیلات",
+            "value": "تاریخ پیدائش: 08 جنوری 1985۔ مقام پیدائش: سینا پرائیویٹ ہسپتال، دبئی، متحدہ عرب امارات۔"
+          },
+          {
+            "label": "رجسٹریشن",
+            "value": "اجراء کی تاریخ: 16 جنوری 2014۔ رجسٹریشن نمبر: DU/N/851842/1985۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Birth Certificate (UAE)",
+        "lines": [
+          {
+            "label": "Issuing Authority",
+            "value": "Birth Certificate issued by the Ministry of Health, Government of Dubai (UAE)."
+          },
+          {
+            "label": "Child's Name and Gender",
+            "value": "Hajra Khatoon (HAJRA KHATOON). Gender: FEMALE."
+          },
+          {
+            "label": "Father's Details",
+            "value": "Ghulam Sarwar Chaudhry (Nationality: Pakistani, Religion: Islam)."
+          },
+          {
+            "label": "Mother's Details",
+            "value": "Nusrat Fatima (Nationality: Pakistani, Religion: Islam). (This is the same woman appointed as attorney in the Power of Attorney and the Second Party in the hotel contract)."
+          },
+          {
+            "label": "Birth Details",
+            "value": "Date of Birth: January 08, 1985. Place of Birth: Sina Private Hospital, Dubai, UAE."
+          },
+          {
+            "label": "Registration",
+            "value": "Date of Issue: January 16, 2014. Registration No: DU/N/851842/1985."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "شهادة ميلاد (الإمارات)",
+        "lines": [
+          {
+            "label": "جهة الإصدار",
+            "value": "وزارة الصحة، حكومة دبي، الإمارات العربية المتحدة."
+          },
+          {
+            "label": "اسم الطفلة والجنس",
+            "value": "هاجرة خاتون (أنثى)."
+          },
+          {
+            "label": "تفاصيل الأب",
+            "value": "غلام سرور تشودري (الجنسية: باكستاني، الديانة: الإسلام)."
+          },
+          {
+            "label": "تفاصيل الأم",
+            "value": "نصرت فاطمة (الجنسية: باكستانية، الديانة: الإسلام)."
+          },
+          {
+            "label": "تفاصيل الولادة",
+            "value": "تاريخ الولادة: 08 يناير 1985. مكان الولادة: مستشفى سينا الخاص، دبي."
+          },
+          {
+            "label": "التسجيل",
+            "value": "تاريخ الإصدار: 16 يناير 2014. رقم التسجيل: DU/N/851842/1985."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "گواهی تولد (امارات)",
+        "lines": [
+          {
+            "label": "صادرکننده",
+            "value": "وزارت بهداشت، دولت دبی (امارات)."
+          },
+          {
+            "label": "نام فرزند و جنسیت",
+            "value": "هاجره خاتون (مونث)."
+          },
+          {
+            "label": "جزئیات پدر",
+            "value": "غلام سرور چوهدری (ملیت: پاکستانی، دین: اسلام)."
+          },
+          {
+            "label": "جزئیات مادر",
+            "value": "نصرت فاطمه (ملیت: پاکستانی، دین: اسلام)."
+          },
+          {
+            "label": "جزئیات تولد",
+            "value": "تاریخ تولد: 08 ژانویه 1985. مکان: بیمارستان سینا، دبی."
+          },
+          {
+            "label": "ثبت",
+            "value": "تاریخ صدور: 16 ژانویه 2014. شماره ثبت: DU/N/851842/1985."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Certificado de Nacimiento (EAU)",
+        "lines": [
+          {
+            "label": "Emisor",
+            "value": "Ministerio de Salud, Gobierno de Dubái (EAU)."
+          },
+          {
+            "label": "Nombre y Sexo",
+            "value": "Hajra Khatoon (Femenino)."
+          },
+          {
+            "label": "Detalles del Padre",
+            "value": "Ghulam Sarwar Chaudhry (Nacionalidad: Pakistaní, Religión: Islam)."
+          },
+          {
+            "label": "Detalles de la Madre",
+            "value": "Nusrat Fatima (Nacionalidad: Pakistaní, Religión: Islam)."
+          },
+          {
+            "label": "Nacimiento",
+            "value": "08 de enero de 1985. Lugar: Hospital Privado Sina, Dubái."
+          },
+          {
+            "label": "Registro",
+            "value": "Emisión: 16 de enero de 2014. Número: DU/N/851842/1985."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_273",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274507/CamScanner_06-10-2026_01.44-7.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "پیدائش کے سرٹیفکیٹ پر سرکاری تصدیقی مہریں (اٹیسٹیشنز)",
+        "lines": [
+          {
+            "label": "دستاویز کی نوعیت",
+            "value": "یہ صفحہ دراصل اوپر والے برتھ سرٹیفکیٹ کی پشت یا اس کے ساتھ منسلک تصدیقی مہروں پر مشتمل ہے تاکہ اسے بیرونِ ملک استعمال کیا جا سکے۔"
+          },
+          {
+            "label": "پہلی تصدیق",
+            "value": "سب سے اوپر متحدہ عرب امارات کی وزارت صحت کی تصدیقی مہر ہے جس کی تاریخ 16 جنوری 2014 ہے۔"
+          },
+          {
+            "label": "دوسری تصدیق",
+            "value": "درمیان میں متحدہ عرب امارات کی وزارت خارجہ (دبئی آفس) کی مہر اور 150 درہم فیس کی رسید موجود ہے (تاریخ: 19 جنوری 2014)۔"
+          },
+          {
+            "label": "تیسری تصدیق",
+            "value": "سب سے نیچے ابوظہبی میں ہسپانوی سفارت خانے (Embajada de Espana en Abu Dhabi) کی تصدیقی مہر ہے (تاریخ: 20 جنوری 2014)۔ اس سے ظاہر ہوتا ہے کہ یہ برتھ سرٹیفکیٹ سپین (Spain) کی ایمبیسی میں کسی کام (جیسے ویزا یا اقامہ) کے لیے جمع کروایا گیا تھا۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Official Attestation Stamps on Birth Certificate",
+        "lines": [
+          {
+            "label": "Document Nature",
+            "value": "This page actually consists of the back of the above birth certificate or attached attestation stamps so it can be used abroad."
+          },
+          {
+            "label": "First Attestation",
+            "value": "At the top is the attestation stamp of the UAE Ministry of Health, dated January 16, 2014."
+          },
+          {
+            "label": "Second Attestation",
+            "value": "In the middle is the stamp of the UAE Ministry of Foreign Affairs (Dubai Office) and a receipt for a 150 Dirham fee (Date: January 19, 2014)."
+          },
+          {
+            "label": "Third Attestation",
+            "value": "At the bottom is the attestation stamp of the Spanish Embassy in Abu Dhabi (Embajada de Espana en Abu Dhabi) (Date: January 20, 2014). This indicates that the birth certificate was submitted to the Spanish Embassy for a process (such as a visa or residency)."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "تصديقات رسمية",
+        "lines": [
+          {
+            "label": "طبيعة المستند",
+            "value": "هذه الصفحة خلفية الشهادة وبها أختام التصديق."
+          },
+          {
+            "label": "التصديق الأول",
+            "value": "ختم وزارة الصحة الإماراتية بتاريخ 16 يناير 2014."
+          },
+          {
+            "label": "التصديق الثاني",
+            "value": "ختم وزارة الخارجية الإماراتية (دبي) بتاريخ 19 يناير 2014."
+          },
+          {
+            "label": "التصديق الثالث",
+            "value": "ختم السفارة الإسبانية في أبوظبي بتاريخ 20 يناير 2014."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "تأییدیه‌های رسمی",
+        "lines": [
+          {
+            "label": "ماهیت سند",
+            "value": "این صفحه شامل مهرهای تایید برای استفاده در خارج است."
+          },
+          {
+            "label": "تاییدیه اول",
+            "value": "مهر وزارت بهداشت امارات، 16 ژانویه 2014."
+          },
+          {
+            "label": "تاییدیه دوم",
+            "value": "مهر وزارت خارجه امارات (دبی)، 19 ژانویه 2014."
+          },
+          {
+            "label": "تاییدیه سوم",
+            "value": "مهر سفارت اسپانیا در ابوظبی، 20 ژانویه 2014."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Legalizaciones Oficiales",
+        "lines": [
+          {
+            "label": "Naturaleza",
+            "value": "Reverso del certificado con sellos de legalización."
+          },
+          {
+            "label": "Legalización 1",
+            "value": "Sello del Ministerio de Salud de EAU (16 Ene 2014)."
+          },
+          {
+            "label": "Legalización 2",
+            "value": "Sello del Ministerio de Asuntos Exteriores de EAU (19 Ene 2014)."
+          },
+          {
+            "label": "Legalización 3",
+            "value": "Sello de la Embajada de España en Abu Dabi (20 Ene 2014)."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_274",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274512/CamScanner_06-10-2026_01.44-9.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "ہسپانوی اقامہ / ریزیڈینس پرمٹ (فرنٹ سائیڈ)",
+        "lines": [
+          {
+            "label": "دستاویز کی نوعیت",
+            "value": "یہ ہاجرہ خاتون (Hajra Khatoon) کا سپین کا رہائشی کارڈ (PERMISO DE RESIDENCIA) ہے۔"
+          },
+          {
+            "label": "قومیت اور تاریخ پیدائش",
+            "value": "قومیت: پاکستانی (PAK)۔ تاریخ پیدائش: 08 جنوری 1985۔"
+          },
+          {
+            "label": "پرمٹ کی قسم",
+            "value": "یہ طویل مدتی رہائش اور کام کرنے کی اجازت کا کارڈ ہے (RESIDENCIA LARGA DURACION AUTORIZA A TRABAJAR)۔"
+          },
+          {
+            "label": "میعاد ختم ہونے کی تاریخ",
+            "value": "کارڈ کی میعاد ختم ہونے کی تاریخ (Expiry Date): 22 جنوری 2026۔"
+          },
+          {
+            "label": "شناختی نمبر",
+            "value": "غیر ملکی شناختی نمبر (NIE): X4034275Y۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Spanish Residence Permit (Front Side)",
+        "lines": [
+          {
+            "label": "Document Nature",
+            "value": "This is the Spanish Residence Card (PERMISO DE RESIDENCIA) of Hajra Khatoon."
+          },
+          {
+            "label": "Nationality & DOB",
+            "value": "Nationality: Pakistani (PAK). Date of Birth: January 08, 1985."
+          },
+          {
+            "label": "Permit Type",
+            "value": "This is a long-term residence and work authorization card (RESIDENCIA LARGA DURACION AUTORIZA A TRABAJAR)."
+          },
+          {
+            "label": "Expiry Date",
+            "value": "Card Expiry Date: January 22, 2026."
+          },
+          {
+            "label": "ID Number",
+            "value": "Foreigner Identity Number (NIE): X4034275Y."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "الإقامة الإسبانية (الوجه الأمامي)",
+        "lines": [
+          {
+            "label": "المستند",
+            "value": "بطاقة إقامة إسبانية (PERMISO DE RESIDENCIA) لهاجرة خاتون."
+          },
+          {
+            "label": "الجنسية",
+            "value": "الجنسية: باكستانية. تاريخ الميلاد: 08 يناير 1985."
+          },
+          {
+            "label": "النوع",
+            "value": "إقامة طويلة الأمد وتصريح عمل."
+          },
+          {
+            "label": "الانتهاء",
+            "value": "صالحة حتى 22 يناير 2026."
+          },
+          {
+            "label": "الرقم",
+            "value": "رقم هوية الأجنبي (NIE): X4034275Y."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "کارت اقامت اسپانیا (روی کارت)",
+        "lines": [
+          {
+            "label": "سند",
+            "value": "کارت اقامت اسپانیا متعلق به هاجره خاتون."
+          },
+          {
+            "label": "ملیت",
+            "value": "ملیت: پاکستانی. تولد: 08 ژانویه 1985."
+          },
+          {
+            "label": "نوع",
+            "value": "اقامت طولانی مدت و اجازه کار."
+          },
+          {
+            "label": "انقضا",
+            "value": "معتبر تا 22 ژانویه 2026."
+          },
+          {
+            "label": "شماره",
+            "value": "شماره شناسایی (NIE): X4034275Y."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Permiso de Residencia (Frente)",
+        "lines": [
+          {
+            "label": "Documento",
+            "value": "Permiso de residencia español de Hajra Khatoon."
+          },
+          {
+            "label": "Nacionalidad",
+            "value": "Nacionalidad: Pakistaní. Nacimiento: 08 de enero de 1985."
+          },
+          {
+            "label": "Tipo",
+            "value": "Residencia de larga duración autoriza a trabajar."
+          },
+          {
+            "label": "Caducidad",
+            "value": "Válido hasta el 22 de enero de 2026."
+          },
+          {
+            "label": "Número",
+            "value": "NIE: X4034275Y."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "doc_275",
+    "imageUrl": "https://res.cloudinary.com/b7xbeztp/image/upload/v1791274514/CamScanner_06-10-2026_01.44-10.jpg",
+    "translations": {
+      "ur": {
+        "name": "اردو",
+        "dir": "rtl",
+        "docName": "ہسپانوی اقامہ / ریزیڈینس پرمٹ (بیک سائیڈ)",
+        "lines": [
+          {
+            "label": "دستاویز کی نوعیت",
+            "value": "یہ اسی ہسپانوی رہائشی کارڈ کی پچھلی طرف کی تصویر ہے۔"
+          },
+          {
+            "label": "جاری ہونے کی تفصیل",
+            "value": "جاری ہونے کی تاریخ اور مقام: 27 ستمبر 2021، بارسلونا (Barcelona)۔"
+          },
+          {
+            "label": "جائے پیدائش",
+            "value": "دبئی (DUBAI - ARE)۔"
+          },
+          {
+            "label": "رہائشی پتہ",
+            "value": "C JOSEP CAMPRECIOS 34 P02, ESPLUGUES DE LLOBREGAT, BARCELONA - ESP (یہ سپین کے شہر بارسلونا کا ایک پتہ ہے)۔"
+          }
+        ]
+      },
+      "en": {
+        "name": "English",
+        "dir": "ltr",
+        "docName": "Spanish Residence Permit (Back Side)",
+        "lines": [
+          {
+            "label": "Document Nature",
+            "value": "This is an image of the back side of the same Spanish residence card."
+          },
+          {
+            "label": "Issue Details",
+            "value": "Issue Date and Place: September 27, 2021, Barcelona."
+          },
+          {
+            "label": "Place of Birth",
+            "value": "Dubai (DUBAI - ARE)."
+          },
+          {
+            "label": "Residential Address",
+            "value": "C JOSEP CAMPRECIOS 34 P02, ESPLUGUES DE LLOBREGAT, BARCELONA - ESP (This is an address in Barcelona, Spain)."
+          }
+        ]
+      },
+      "ar": {
+        "name": "العربية",
+        "dir": "rtl",
+        "docName": "الإقامة الإسبانية (الوجه الخلفي)",
+        "lines": [
+          {
+            "label": "المستند",
+            "value": "صورة الوجه الخلفي لبطاقة الإقامة الإسبانية."
+          },
+          {
+            "label": "الإصدار",
+            "value": "مكان وتاريخ الإصدار: 27 سبتمبر 2021، برشلونة."
+          },
+          {
+            "label": "مكان الولادة",
+            "value": "دبي (DUBAI - ARE)."
+          },
+          {
+            "label": "العنوان",
+            "value": "C JOSEP CAMPRECIOS 34 P02, ESPLUGUES DE LLOBREGAT, BARCELONA - ESP."
+          }
+        ]
+      },
+      "fa": {
+        "name": "فارسی",
+        "dir": "rtl",
+        "docName": "کارت اقامت اسپانیا (پشت کارت)",
+        "lines": [
+          {
+            "label": "سند",
+            "value": "تصویر پشت کارت اقامت اسپانیا."
+          },
+          {
+            "label": "صدور",
+            "value": "مکان و تاریخ صدور: 27 سپتامبر 2021، بارسلونا."
+          },
+          {
+            "label": "محل تولد",
+            "value": "دبی (DUBAI - ARE)."
+          },
+          {
+            "label": "آدرس",
+            "value": "C JOSEP CAMPRECIOS 34 P02, ESPLUGUES DE LLOBREGAT, BARCELONA - ESP."
+          }
+        ]
+      },
+      "es": {
+        "name": "Español",
+        "dir": "ltr",
+        "docName": "Permiso de Residencia (Reverso)",
+        "lines": [
+          {
+            "label": "Documento",
+            "value": "Imagen del reverso del permiso de residencia."
+          },
+          {
+            "label": "Emisión",
+            "value": "27 de septiembre de 2021, Barcelona."
+          },
+          {
+            "label": "Nacimiento",
+            "value": "Dubái (DUBAI - ARE)."
+          },
+          {
+            "label": "Dirección",
+            "value": "C JOSEP CAMPRECIOS 34 P02, ESPLUGUES DE LLOBREGAT, BARCELONA - ESP."
           }
         ]
       }
