@@ -1,7 +1,6 @@
 export default function About() {
   const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1787489928/Arabic.mp4';
   const videoHeading = '🎥 فيديو تعريفي';
-
   const content = [
     'نصرت فاطمة نقفي: سيدة مخلصة لخدمة الناس ومثبتة على طريق الخير، وشخصية مؤثرة في مجالات الأعمال والخدمة الإنسانية.',
     'الكاتب: حاجي شبير أحمد شگري',
