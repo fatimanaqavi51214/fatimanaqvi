@@ -1,5 +1,61 @@
+'use client';
+
+import { useState, useEffect } from 'react';
 import ShareWidget from '@/components/ShareWidget';
+
 export default function Diary() {
+  const [activeIdx, setActiveIdx] = useState(null);
+  const [isPaused, setIsPaused] = useState(false);
+
+  const diaryImages = [
+    { id: 1, title: 'ورق نمبر ۱', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159883/1.png' },
+    { id: 2, title: 'ورق نمبر ۲', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159879/2.png' },
+    { id: 3, title: 'ورق نمبر ۳', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159879/3.png' },
+    { id: 4, title: 'ورق نمبر ۴', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159884/4.png' },
+    { id: 5, title: 'ورق نمبر ۵', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159895/5.png' },
+    { id: 6, title: 'ورق نمبر ۶', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159909/6.png' },
+    { id: 7, title: 'ورق نمبر ۷', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159883/7.png' },
+    { id: 8, title: 'ورق نمبر ۸', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159925/8.png' },
+    { id: 9, title: 'ورق نمبر ۹', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159934/9.png' },
+    { id: 10, title: 'ورق نمبر ۱۰', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159899/10.png' },
+    { id: 11, title: 'ورق نمبر ۱۱', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159908/11.png' },
+    { id: 12, title: 'ورق نمبر ۱۲', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159885/12.png' },
+    { id: 13, title: 'ورق نمبر ۱۳', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159890/13.png' },
+    { id: 14, title: 'ورق نمبر ۱۴', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159900/14.png' },
+    { id: 15, title: 'ورق نمبر ۱۵', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159910/15.png' },
+    { id: 16, title: 'ورق نمبر ۱۶', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159908/16.png' },
+    { id: 17, title: 'ورق نمبر ۱۷', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159910/17.png' },
+    { id: 18, title: 'ورق نمبر ۱۸', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159892/18.png' },
+    { id: 19, title: 'ورق نمبر ۱۹', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159929/19.png' },
+    { id: 20, title: 'ورق نمبر ۲۰', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159890/20.png' },
+    { id: 21, title: 'ورق نمبر ۲۱', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159923/21.png' },
+    { id: 22, title: 'ورق نمبر ۲۲', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159877/22.png' },
+    { id: 23, title: 'ورق نمبر ۲۳', url: 'https://res.cloudinary.com/b7xbeztp/image/upload/v1794159878/23.png' }
+  ];
+
+  const nextImage = () => {
+    setActiveIdx((prev) => (prev + 1) % diaryImages.length);
+  };
+
+  const prevImage = () => {
+    setActiveIdx((prev) => (prev - 1 + diaryImages.length) % diaryImages.length);
+  };
+
+  const closeLightbox = () => {
+    setActiveIdx(null);
+  };
+
+  useEffect(() => {
+    if (activeIdx === null) return;
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') nextImage();
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') prevImage();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [activeIdx]);
+
   const diaryEntries = [
     {
       date: '23 ستمبر 2026',
@@ -48,40 +104,156 @@ export default function Diary() {
   return (
     <div className="home-wrapper" style={{ minHeight: '100vh', paddingTop: '40px', paddingBottom: '40px' }}>
       <section className="message-section">
-        <div className="container" style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
-          {diaryEntries.map((entry, entryIdx) => (
-            <div className="message-paper" key={entryIdx}>
-              <div className="message-header">
-                <h2 className="message-main-title">{entry.mainTitle}</h2>
-                <div className="message-divider"></div>
-              </div>
-              
-              <div className="message-content-wrapper">
-                {entry.blocks.map((msg, idx) => (
-                  <div className="message-block" key={idx}>
-                    <h3 className="message-block-title">
-                      <span className="msg-icon">{msg.icon}</span>
-                      {msg.title}
-                    </h3>
-                    {msg.text.split('\n\n').map((paragraph, pIdx) => (
-                      <p className="message-block-text" key={pIdx}>{paragraph}</p>
+        <div className="container" style={{ maxWidth: '1280px' }}>
+          <div className="diary-grid-layout">
+            {/* Main Diary Entries */}
+            <div className="diary-main-column">
+              {diaryEntries.map((entry, entryIdx) => (
+                <div className="message-paper" key={entryIdx}>
+                  <div className="message-header">
+                    <h2 className="message-main-title">{entry.mainTitle}</h2>
+                    <div className="message-divider"></div>
+                  </div>
+                  
+                  <div className="message-content-wrapper">
+                    {entry.blocks.map((msg, idx) => (
+                      <div className="message-block" key={idx}>
+                        <h3 className="message-block-title">
+                          <span className="msg-icon">{msg.icon}</span>
+                          {msg.title}
+                        </h3>
+                        {msg.text.split('\n\n').map((paragraph, pIdx) => (
+                          <p className="message-block-text" key={pIdx}>{paragraph}</p>
+                        ))}
+                      </div>
                     ))}
                   </div>
-                ))}
+
+                  <div className="message-footer">
+                    <div className="signature-box">
+                      <span className="sig-name">نصرت فاطمہ نقوی</span>
+                      <span className="sig-title">(وکیلِ انسانیت)</span>
+                      <span className="sig-date">{entry.date}</span>
+                    </div>
+                    <ShareWidget title={entry.mainTitle} text={entry.blocks[0].title} />
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Side Vertical Scrolling Slider */}
+            <aside className="diary-slider-column">
+              <div className="diary-slider-header">
+                <h3 className="diary-slider-title">
+                  <span>📜</span>
+                  <span>ڈائری کے تصویری اوراق</span>
+                </h3>
+                <p className="diary-slider-subtitle">بڑا کر کے دیکھنے کے لیے تصویر پر کلک کریں</p>
+                <div className="diary-slider-controls">
+                  <button
+                    type="button"
+                    className="diary-control-btn"
+                    onClick={() => setIsPaused(!isPaused)}
+                  >
+                    {isPaused ? '▶️ سلائیڈ جاری رکھیں' : '⏸️ سلائیڈ روکیں'}
+                  </button>
+                </div>
               </div>
 
-              <div className="message-footer">
-                <div className="signature-box">
-                  <span className="sig-name">نصرت فاطمہ نقوی</span>
-                  <span className="sig-title">(وکیلِ انسانیت)</span>
-                  <span className="sig-date">{entry.date}</span>
+              <div className="diary-ticker-viewport">
+                <div className={`diary-ticker-track ${isPaused ? 'paused' : ''}`}>
+                  {/* Duplicate list to create seamless infinite upward scroll */}
+                  {[...diaryImages, ...diaryImages].map((img, idx) => {
+                    const originalIndex = idx % diaryImages.length;
+                    return (
+                      <div
+                        key={`${img.id}-${idx}`}
+                        className="diary-img-card"
+                        onClick={() => setActiveIdx(originalIndex)}
+                        title={`${img.title} — بڑا کر کے دیکھنے کے لیے کلک کریں`}
+                      >
+                        <img
+                          src={img.url}
+                          alt={img.title}
+                          className="diary-img-thumb"
+                          loading="lazy"
+                        />
+                        <div className="diary-img-overlay">
+                          <span className="diary-img-zoom-btn">
+                            🔍 بڑا کر کے دیکھیں
+                          </span>
+                        </div>
+                        <span className="diary-img-badge">{img.title}</span>
+                      </div>
+                    );
+                  })}
                 </div>
-                <ShareWidget title={entry.mainTitle} text={entry.blocks[0].title} />
               </div>
-            </div>
-          ))}
+            </aside>
+          </div>
         </div>
       </section>
+
+      {/* Lightbox Modal */}
+      {activeIdx !== null && (
+        <div className="diary-lightbox-backdrop" onClick={closeLightbox}>
+          <button
+            type="button"
+            className="diary-lightbox-close"
+            onClick={closeLightbox}
+            aria-label="بند کریں"
+          >
+            ✕
+          </button>
+
+          {/* Navigation Arrows */}
+          <button
+            type="button"
+            className="diary-lightbox-nav diary-lightbox-prev"
+            onClick={(e) => {
+              e.stopPropagation();
+              prevImage();
+            }}
+            aria-label="پچھلی تصویر"
+          >
+            ‹
+          </button>
+
+          <button
+            type="button"
+            className="diary-lightbox-nav diary-lightbox-next"
+            onClick={(e) => {
+              e.stopPropagation();
+              nextImage();
+            }}
+            aria-label="اگلی تصویر"
+          >
+            ›
+          </button>
+
+          <div className="diary-lightbox-content" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={diaryImages[activeIdx].url}
+              alt={diaryImages[activeIdx].title}
+              className="diary-lightbox-img"
+            />
+          </div>
+
+          <div className="diary-lightbox-footer" onClick={(e) => e.stopPropagation()}>
+            <span className="diary-lightbox-counter">
+              {diaryImages[activeIdx].title} ({activeIdx + 1} از {diaryImages.length})
+            </span>
+            <a
+              href={diaryImages[activeIdx].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="diary-lightbox-open-link"
+            >
+              اصل سائز میں کھولیں ↗
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
