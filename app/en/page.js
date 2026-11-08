@@ -1,6 +1,6 @@
 import ShareWidget from '@/components/ShareWidget';
 export default function Home() {
-  const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1789978085/Nusrat_Fatima_Naqvi.webm';
+  const videoLink = 'https://res.cloudinary.com/b7xbeztp/video/upload/v1794157060/Madam_Nusrat_Fatima_Naqvi_A_Shining_Example_of_Patriotism_Philanthropy_and_Humanity.mp4';
   const videoHeading = '🎥 An Introductory Glimpse';
 
   
@@ -100,7 +100,99 @@ export default function Home() {
         <h2 className="section-title glow-text text-center">{videoHeading}</h2>
         <div className="video-container-modern">
           <video src={videoLink} controls playsInline preload="metadata" className="promo-video" />
-          <ShareWidget title="An Introductory Glimpse of Madam Nusrat Fatima Naqvi" />
+          <ShareWidget title="Madam Nusrat Fatima Naqvi — A Shining Example of Patriotism, Philanthropy, and Humanity" />
+        </div>
+
+        {/* Video Profile / Introductory Showcase */}
+        <div className="video-intro-container">
+          <div className="video-intro-header">
+            <h3 className="video-intro-title">Madam Nusrat Fatima Naqvi — A Shining Example of Patriotism, Philanthropy, and Humanity</h3>
+            <div className="video-intro-divider"></div>
+          </div>
+
+          <div className="video-intro-lead">
+            <p>
+              Madam Nusrat Fatima Naqvi is a true and genuine patriotic Pakistani, a dignified, and a great woman. Although she has spent most of her life engaged in vast business and social activities in various countries around the world, the love for her beloved homeland in her heart has never diminished. The passion and love for her country have always surged in her heart, and she has made every possible effort to illuminate Pakistan's name in every corner of the world.
+            </p>
+          </div>
+
+          <div className="video-intro-grid">
+            <div className="video-intro-card">
+              <div className="card-head">
+                <span className="card-icon">🇵🇰</span>
+                <h4>Love for the Green Passport and National Pride</h4>
+              </div>
+              <p>
+                The most magnificent and clear proof of her patriotism is that despite achieving immense global success and spending a long time abroad, she never acquired the citizenship of any other country. She is immensely proud of her country's 'Green Passport', upon which the golden principle of the founder of Pakistan, "Faith, Unity, Discipline", serves as a guiding light for her. She proudly introduces her passport to people of other countries, saying, "Look, 'Faith, Unity, Discipline' is written on our Pakistani passport." Her love and devotion for Quaid-e-Azam Muhammad Ali Jinnah and the thinker of Pakistan, Allama Muhammad Iqbal, is a prominent part of her personality. Driven by this same spirit of patriotism, despite living in foreign lands, she preferred to marry a Pakistani.
+              </p>
+            </div>
+
+            <div className="video-intro-card">
+              <div className="card-head">
+                <span className="card-icon">🤝</span>
+                <h4>Patronage of Pakistanis Abroad</h4>
+              </div>
+              <p>
+                Madam Nusrat Fatima Naqvi has rendered immense services not only to Pakistan but also to Pakistanis living abroad. When her business was at its peak in Dubai, she provided employment opportunities to countless Pakistanis through her companies named 'Rashidiya Tiles' and 'Al-Rafidain'. She economically empowered her compatriots and arranged excellent accommodation and other facilities for them. Similarly, in Syria, she has rendered numerous services to guide and assist Pakistani tourists and pilgrims (Zaireen).
+              </p>
+            </div>
+
+            <div className="video-intro-card">
+              <div className="card-head">
+                <span className="card-icon">🏢</span>
+                <h4>Business Services in Various Countries</h4>
+              </div>
+              <p>
+                Madam Nusrat Fatima Naqvi started various businesses in Dubai and Sharjah from the 1970s. Her business ownership included a block factory in Sharjah, 'Al-Rafidain General Decor' (1977), a car repair garage named 'Garage Al-Rafidain' (1980), and a partnership in 'Mat\'am Al-Ta\'ma' (restaurant) in Ajman. Furthermore, in 1997, she also managed top administrative affairs as a Sales Manager at 'Asli General Trading'. A massive part of her business exists in Syria, where she owns a magnificent hotel and various flats in a historic city like Damascus. According to the 2010 Damascus Chamber of Commerce documents, she is the owner of a huge import-export network, which includes an extensive trade of clothes, electronics, books, computers, medical and laser equipment, and construction materials. According to a Pakistani embassy document (2025), she is currently residing in the UK and, by the grace of God, is successfully running her global business and social activities from there.
+              </p>
+            </div>
+
+            <div className="video-intro-card">
+              <div className="card-head">
+                <span className="card-icon">🌧️</span>
+                <h4>Assisting Compatriots During Natural Disasters</h4>
+              </div>
+              <p>
+                Her heart always beats with sympathy for the poor, destitute, and helpless. Whenever Pakistan faced natural disasters like earthquakes or floods, Madam Nusrat Fatima Naqvi provided aid wholeheartedly. She has been regularly sending several truckloads consisting of blankets, tents, mattresses, clothes, water coolers, and children's garments every year for the deserving people in flood-affected areas to wipe the tears of her afflicted brothers and sisters.
+              </p>
+            </div>
+
+            <div className="video-intro-card">
+              <div className="card-head">
+                <span className="card-icon">🕊️</span>
+                <h4>Service to Humanity — Without Discrimination of Religion or Nation</h4>
+              </div>
+              <p>
+                Her charitable services are not limited to any specific religion, sect, or creed; her heart beats only for humanity. She has made it her motto to serve all human beings without discrimination of color and race. She generously distributed funds, blankets, shawls, and mats at the shrines of Pakistan's great Sufi saints, such as Data Darbar, Bibi Pak Daman, Bari Imam, and other places. What could be a greater example of her tolerance than the fact that, along with mosques, she has also given countless donations to the places of worship of minorities—temples and gurdwaras—in the form of rations, mats, blankets, and cash.
+              </p>
+            </div>
+
+            <div className="video-intro-card">
+              <div className="card-head">
+                <span className="card-icon">🌍</span>
+                <h4>Charitable Achievements in Syria, Lebanon, and Sudan</h4>
+              </div>
+              <p>
+                She holds a special devotion for the holy land of Syria, which is the land of prophets and saints. A major purpose of her presence there is the service of humanity. The continuous service to Pakistani pilgrims and tourists in Syria is ongoing. In addition, in collaboration with the Syrian government, she built orphanages, dispensaries, and pathways, and gave numerous donations. This is why the people of Syria hold her in very high esteem. Moreover, her philanthropic circle extends to the construction of orphanages in Lebanon and aid for earthquake victims in Sudan.
+              </p>
+            </div>
+          </div>
+
+          <div className="video-intro-message-card">
+            <div className="message-head">
+              <span className="message-icon">✨</span>
+              <h4>Aim and Message</h4>
+            </div>
+            <p>
+              Personally, Madam Nusrat Fatima Naqvi likes selfless people who are principled, just, and stand by the truth. The aim of her life and her clear message for humanity is:
+            </p>
+            <div className="video-intro-quote">
+              "People have forgotten Allah... For God's sake! People must recognize their Creator, acquire the recognition of the Prophets, Prophet Muhammad (PBUH), the Ahl al-Bayt (peace be upon them), and the Awliya Allah (saints), and sincerely act upon the teachings of these great personalities."
+            </div>
+            <p className="video-intro-conclusion">
+              This is the only path that can lead misguided humanity towards salvation, peace, and success. The life, character, and services of Syeda Nusrat Fatima Naqvi are a shining example for us all.
+            </p>
+          </div>
         </div>
       </section>
 
